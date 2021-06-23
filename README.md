@@ -10,7 +10,7 @@ Open Vision 7.6 (Old) enigma2 image feeds [![Build Status](https://travis-ci.org
 
 
 # Download
-* Test Image For Dreambox and Sh4 Receiver:
+* Test Image For Sh4 Receiver:
 * https://www.mediafire.com/folder/i54zpg6yly8ia/E2_Openvision_by_ghani#i54zpg6yly8ia
 
 
