@@ -196,8 +196,8 @@ Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0ee34a616a33bbd24c9fd1c426371e24
-Size: 63414
+MD5Sum: 339f3ca0b5b4921ccc899d7b7945652d
+Size: 63422
 Filename: bitratecalc-dbg_git10+740b342-r0_spark.ipk
 Source: bitratecalc_git.bb
 Description: bitratecalc version gitAUTOINC+740b342ae4-r0 - Debugging files
@@ -214,7 +214,7 @@ Recommends: enigma2-dev, libc6-dev, libgcc-s-dev, libstdc++-dev, python-dev
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dd76d101ef66238bba43ab3f44b8afcb
+MD5Sum: 85729a5d92c4259fb4c98277f7b988e9
 Size: 816
 Filename: bitratecalc-dev_git10+740b342-r0_spark.ipk
 Source: bitratecalc_git.bb
@@ -232,8 +232,8 @@ Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 10f1c95a44fd09d09e41a71512f78458
-Size: 6800
+MD5Sum: 509eb115a9309e4c335f55bf39713cd5
+Size: 6806
 Filename: bitratecalc_git10+740b342-r0_spark.ipk
 Source: bitratecalc_git.bb
 Description: bitratecalc version gitAUTOINC+740b342ae4-r0
@@ -345,13 +345,13 @@ License: MIT
 Priority: optional
 
 Package: enigma-module-dbg
-Version: 7.6-r314
+Version: 7.6-r315
 Section: devel
 Architecture: spark
-Maintainer: Open Vision developers
-MD5Sum: bbe87f6a39ededd72c2e75c4535ad633
-Size: 696
-Filename: enigma-module-dbg_7.6-r314_spark.ipk
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f14d2b789b72f68157b379f2ab079c9c
+Size: 726
+Filename: enigma-module-dbg_7.6-r315_spark.ipk
 Source: enigma-module.bb
 Description: Enigma kernel module for spark - Debugging files
  Enigma kernel module for spark.  This package contains ELF symbols and
@@ -362,15 +362,15 @@ License: GPLv3
 Priority: required
 
 Package: enigma-module-dev
-Version: 7.6-r314
-Depends: enigma-module (= 7.6-r314)
+Version: 7.6-r315
+Depends: enigma-module (= 7.6-r315)
 Recommends: kernel-2.6.32.81_stm24_0217-dev, kernel-module-enigma-dev
 Section: devel
 Architecture: spark
-Maintainer: Open Vision developers
-MD5Sum: 6bed75138521c4796a70a7b0fc025af6
-Size: 766
-Filename: enigma-module-dev_7.6-r314_spark.ipk
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a70260e253d3064d5e8e2aa5fc276cdd
+Size: 792
+Filename: enigma-module-dev_7.6-r315_spark.ipk
 Source: enigma-module.bb
 Description: Enigma kernel module for spark - Development files
  Enigma kernel module for spark.  This package contains symbolic links,
@@ -381,14 +381,14 @@ License: GPLv3
 Priority: required
 
 Package: enigma-module
-Version: 7.6-r314
+Version: 7.6-r315
 Depends: kernel-module-enigma
 Section: base
 Architecture: spark
-Maintainer: Open Vision developers
-MD5Sum: eefe4b2b23e4160e0cdd4cbd048fc6c8
-Size: 748
-Filename: enigma-module_7.6-r314_spark.ipk
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7052da5d54196df506771162fb3419a1
+Size: 778
+Filename: enigma-module_7.6-r315_spark.ipk
 Source: enigma-module.bb
 Description: Enigma kernel module for spark
  Enigma kernel module for spark.
@@ -403,8 +403,8 @@ Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg, libtirpc-dbg
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2c11c49860c91d7403d07131e427b557
-Size: 129606
+MD5Sum: 1a44b67deecaf40e85e157af8ebc13c8
+Size: 129604
 Filename: enigma2-c-plugins-dbg_git40+9b3898b-r0_spark.ipk
 Source: enigma2-c-plugins.bb
 Description: C plugins for Open Vision - Debugging files
@@ -421,7 +421,7 @@ Recommends: enigma2-dev, gstreamer1.0-plugins-bad-fragmented-dev, hairtunes-dev,
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 746488c9441ee596ef9cc361b7ebb1e3
+MD5Sum: 992b0355cb67227aabae73db54f4c4ea
 Size: 826
 Filename: enigma2-c-plugins-dev_git40+9b3898b-r0_spark.ipk
 Source: enigma2-c-plugins.bb
@@ -437,8 +437,8 @@ Version: git40+9b3898b-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 72a7465d91918e38089e863cd419ebe7
-Size: 1352
+MD5Sum: 72b6bce47af28ff53102071bcf756298
+Size: 1358
 Filename: enigma2-c-plugins-meta_git40+9b3898b-r0_spark.ipk
 Source: enigma2-c-plugins.bb
 Description: C plugins for Open Vision
@@ -452,7 +452,7 @@ Version: git40+9b3898b-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3437b7d951cc81aa46ce9bbd98b092ca
+MD5Sum: 3a68ce2c684234f2c2af95abaa173efe
 Size: 638
 Filename: enigma2-c-plugins_git40+9b3898b-r0_spark.ipk
 Source: enigma2-c-plugins.bb
@@ -463,14 +463,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-dbg
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Recommends: libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypto-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libgomp-dbg, libjpeg-dbg, libmmeimage-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libudfread-dbg, libxml2-dbg
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7d1330b59051e5b5bc50015fd14bc617
-Size: 11405680
-Filename: enigma2-dbg_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: d2b75647acffd1e98cb9399e461d45aa
+Size: 11411016
+Filename: enigma2-dbg_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Debugging files
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -481,15 +481,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-dev
-Version: develop+git23879+8b45918-r0
-Depends: enigma2 (= develop+git23879+8b45918-r0)
+Version: develop+git23890+c3a98a5-r0
+Depends: enigma2 (= develop+git23890+c3a98a5-r0)
 Recommends: aio-grab-dev, alsa-conf-dev, alsa-utils-amixer-conf-dev, avahi-dev, cdrkit-dev, dhrystone-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma-module-dev, enigma2-data-iso-639-3-dev, enigma2-fonts-dev, enigma2-plugin-extensions-pespeedup-dev, enigma2-remotes-dev, enigma2-timezones-dev, ethtool-dev, font-valis-enigma-dev, glibc-gconv-cp1250-dev, glibc-gconv-iso8859-15-dev, gstreamer1.0-plugins-bad-mpegtsmux-dev, gstreamer1.0-plugins-bad-videoparsersbad-dev, hotplug-e2-helper-dev, jpeg-dev, kernel-module-pktcdvd-dev, kernel-module-udf-dev, libavahi-client-dev, libavahi-common-dev, libc6-dev, libcrypto-dev, libdreamdvd-dev, libdvbsi++-dev, libfreetype-dev, libfribidi-dev, libgcc-s-dev, libgif-dev, libglib-2.0-dev, libgomp-dev, libjpeg-dev, libmad-dev, libmme-host-dev, libmmeimage-dev, libpng16-dev, libpython2-dev, libsigc-2.0-dev, libssl-dev, libstdc++-dev, libtuxtxt-dev, libtuxtxt32bpp-dev, libudfread-dev, libxml2-dev, mjpegtools-dev, ntpdate-dev, ofgwrite-dev, openssl-dev, openvision-version-info-dev, python-codecs-dev, python-core-dev, python-crypt-dev, python-fcntl-dev, python-image-dev, python-imaging-dev, python-lang-dev, python-mmap-dev, python-netclient-dev, python-netifaces-dev, python-netserver-dev, python-numbers-dev, python-pickle-dev, python-process-dev, python-pyusb-dev, python-re-dev, python-sendfile-dev, python-service-identity-dev, python-shell-dev, python-six-dev, python-threading-dev, python-twisted-core-dev, python-twisted-dev, python-twisted-web-dev, python-wifi-dev, python-xml-dev, python-zlib-dev, python-zopeinterface-dev, replex-dev, streambench-dev, virtual/enigma2-mediaservice-dev, wireless-tools-dev, wpa-supplicant-dev
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6782d19365342dfb61d72d6e4ea38744
-Size: 161472
-Filename: enigma2-dev_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 7d18c7a523fcc49217168b5871ce9845
+Size: 161452
+Filename: enigma2-dev_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Development files
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -504,8 +504,8 @@ Version: 2020.10.17-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e6101058dba7855d16d489cb7fdff50c
-Size: 1077338
+MD5Sum: 1a4f8305ddb76043d321e3e7f093c2d7
+Size: 1077336
 Filename: enigma2-fonts_2020.10.17-r0_spark.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
@@ -516,14 +516,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ar
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0a3b5dc762bccef839709847d3c3d65d
-Size: 71524
-Filename: enigma2-locale-ar_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 1f597c68ee18802e8cc6f7ea74b2f07d
+Size: 71526
+Filename: enigma2-locale-ar_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: ar
  ar
@@ -532,14 +532,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-bg
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9f66245608daf0a16f0ee6cf1971cc7c
+MD5Sum: c07a7a8566c97f3ab4528e7532bcfd0f
 Size: 112742
-Filename: enigma2-locale-bg_develop+git23879+8b45918-r0_spark.ipk
+Filename: enigma2-locale-bg_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: bg
  bg
@@ -548,14 +548,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ca
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ec1a1c966ac27e02ad167422e5fce165
-Size: 106772
-Filename: enigma2-locale-ca_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 774f4535cb55cb2f94526d127d71c108
+Size: 106778
+Filename: enigma2-locale-ca_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: ca
  ca
@@ -564,14 +564,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-cs
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e0fd55e804827cdabdf863728fb5db53
-Size: 105188
-Filename: enigma2-locale-cs_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 6fce60729d55813f017e41c87e918889
+Size: 105184
+Filename: enigma2-locale-cs_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: cs
  cs
@@ -580,14 +580,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-da
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e3417f6c32f7e6730215a7e75103afde
+MD5Sum: 0428ecf38af983ca26dbbdfe3b4cc8d0
 Size: 70480
-Filename: enigma2-locale-da_develop+git23879+8b45918-r0_spark.ipk
+Filename: enigma2-locale-da_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: da
  da
@@ -596,14 +596,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-de
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 538d7b66f831d4926f10231102733f1f
-Size: 106026
-Filename: enigma2-locale-de_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: a57a790e083c76b49a8e2890e8c28226
+Size: 106028
+Filename: enigma2-locale-de_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: de
  de
@@ -612,14 +612,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-el
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a2a323d97c588d14dc1e7679edfb0b1a
-Size: 117120
-Filename: enigma2-locale-el_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 0c706c3b5982516e347c250c620a7b15
+Size: 117122
+Filename: enigma2-locale-el_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: el
  el
@@ -628,14 +628,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-en
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8379a70f37fe9b092d4c1c599b24cafc
-Size: 51530
-Filename: enigma2-locale-en_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 2f55bae202d5470e0b4b89ba61622f32
+Size: 51540
+Filename: enigma2-locale-en_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: en
  en
@@ -644,14 +644,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-es
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 800f59075eaabc058a02f3803e21df51
+MD5Sum: 56abfeec9050af5298f5eebc1e420f5f
 Size: 129378
-Filename: enigma2-locale-es_develop+git23879+8b45918-r0_spark.ipk
+Filename: enigma2-locale-es_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: es
  es
@@ -660,14 +660,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-et
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 83f827b18214e1cda6afb7fb30be3116
-Size: 89726
-Filename: enigma2-locale-et_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 32ab168c989dd5c440376baef87f9607
+Size: 89728
+Filename: enigma2-locale-et_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: et
  et
@@ -676,14 +676,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fa
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1bd4f01f9b6180e3dc19eafd7ec305d1
-Size: 28832
-Filename: enigma2-locale-fa_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 82f83d1867b66885807c649211d7de42
+Size: 28834
+Filename: enigma2-locale-fa_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: fa
  fa
@@ -692,14 +692,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fi
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 90221c3324b14437752e906d279eca9a
+MD5Sum: 01316d20753c766ca06d04e3b0f8501b
 Size: 85254
-Filename: enigma2-locale-fi_develop+git23879+8b45918-r0_spark.ipk
+Filename: enigma2-locale-fi_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: fi
  fi
@@ -708,14 +708,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fr
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e6a8c88a5e174e3b750dcef2f517e8df
-Size: 107064
-Filename: enigma2-locale-fr_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 02249e2c709f5b47caf86b5201ab239b
+Size: 107072
+Filename: enigma2-locale-fr_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: fr
  fr
@@ -724,14 +724,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fy
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 75f39c29aa32a171be7c3b18dbbfcbea
-Size: 20010
-Filename: enigma2-locale-fy_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: ee5afa33a9669f948187ae9525c9e95e
+Size: 20008
+Filename: enigma2-locale-fy_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: fy
  fy
@@ -740,14 +740,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-gl
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8b9284588c9e56bc0a73a7afe12a14aa
-Size: 103670
-Filename: enigma2-locale-gl_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: d55342ff07f684759586f97549ca1eb2
+Size: 103666
+Filename: enigma2-locale-gl_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: gl
  gl
@@ -756,14 +756,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-he
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 337d68ba52a44b5a88d75cd419306277
-Size: 21450
-Filename: enigma2-locale-he_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 93b9bf29702b9772451f7ae9ba148742
+Size: 21452
+Filename: enigma2-locale-he_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: he
  he
@@ -772,14 +772,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-hr
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 78df8bcb6c4b717b3c3273e8a15b453b
-Size: 104902
-Filename: enigma2-locale-hr_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 9bd305a493880992c403c50f20b72c16
+Size: 104908
+Filename: enigma2-locale-hr_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: hr
  hr
@@ -788,14 +788,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-hu
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5e56eebe4db2bdd9da1531c217b4693d
+MD5Sum: 9caf585992145a8909fac73f84bf8f36
 Size: 106232
-Filename: enigma2-locale-hu_develop+git23879+8b45918-r0_spark.ipk
+Filename: enigma2-locale-hu_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: hu
  hu
@@ -804,14 +804,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-id
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bfc9147071287445fd90acbf0367fbe0
-Size: 90520
-Filename: enigma2-locale-id_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 840429ccd152f62fa61025511fbb1b35
+Size: 90524
+Filename: enigma2-locale-id_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: id
  id
@@ -820,14 +820,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-is
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4750490688ec5a690c278bb21f7e031a
-Size: 27860
-Filename: enigma2-locale-is_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 8a2aa7f78c220152766d5b946ae6d20d
+Size: 27862
+Filename: enigma2-locale-is_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: is
  is
@@ -836,14 +836,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-it
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 51c33517dcf8e6b0c3aaafd2ca4d8632
-Size: 97948
-Filename: enigma2-locale-it_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 6c08c32251e3286f849c2fcc4e05bfae
+Size: 97954
+Filename: enigma2-locale-it_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: it
  it
@@ -852,14 +852,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ku
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 666cf9e87d4eb84bd7fbcf9798efc02c
-Size: 51132
-Filename: enigma2-locale-ku_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: e902c592e3ab98da4e7bb0b96ff84cb4
+Size: 51136
+Filename: enigma2-locale-ku_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: ku
  ku
@@ -868,14 +868,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-lt
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0de94db761a6d31fd0437af69ecc079a
+MD5Sum: 70aecb394fd26afbd34f0fcb015b71ac
 Size: 107504
-Filename: enigma2-locale-lt_develop+git23879+8b45918-r0_spark.ipk
+Filename: enigma2-locale-lt_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: lt
  lt
@@ -884,14 +884,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-lv
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 74583173956f7b25f7c8b60f37ae6010
-Size: 102744
-Filename: enigma2-locale-lv_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 4a720a1e2d761b61e75a2ffcccc63de9
+Size: 102750
+Filename: enigma2-locale-lv_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: lv
  lv
@@ -904,8 +904,8 @@ Version: 1.0-r0
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1e9a6215fda9b91701848b24d7f53adb
-Size: 690
+MD5Sum: 8a1f22c09ee22a969545cc31e5e47b11
+Size: 694
 Filename: enigma2-locale-meta-dbg_1.0-r0_spark.ipk
 Source: enigma2-locale-meta.bb
 Description: meta file for enigma2 locales - Debugging files
@@ -921,7 +921,7 @@ Depends: enigma2-locale-meta (= 1.0-r0)
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c05ad59fb59fa3fe7b9233ed327b7f61
+MD5Sum: d433a0a41c29ddefbd888fab82752fd3
 Size: 722
 Filename: enigma2-locale-meta-dev_1.0-r0_spark.ipk
 Source: enigma2-locale-meta.bb
@@ -938,8 +938,8 @@ Recommends: enigma2-locale-ar, enigma2-locale-bg, enigma2-locale-ca, enigma2-loc
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c86630973fb52a47072a2974f8edaa11
-Size: 762
+MD5Sum: 20d43e683e5600d030d9633a5af0c501
+Size: 764
 Filename: enigma2-locale-meta_1.0-r0_spark.ipk
 Source: enigma2-locale-meta.bb
 Description: meta file for enigma2 locales
@@ -949,14 +949,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-locale-mk
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b758bfff77a2f0b9b86ae6406ebc6a23
-Size: 115592
-Filename: enigma2-locale-mk_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 0f39302af09b3d695ccd86036670c0b5
+Size: 115590
+Filename: enigma2-locale-mk_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: mk
  mk
@@ -965,14 +965,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-nb
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 55cb43cfd85ea8bb350856be4e477fa9
-Size: 102612
-Filename: enigma2-locale-nb_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 696a5fb96870d6f7d13cdc6551cb8630
+Size: 102614
+Filename: enigma2-locale-nb_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: nb
  nb
@@ -981,14 +981,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-nl
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 02f991fdf59535a20a75551484bbee32
-Size: 109864
-Filename: enigma2-locale-nl_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: d8f6c5d96b1a7578ecee8b0ce90fd3b6
+Size: 109868
+Filename: enigma2-locale-nl_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: nl
  nl
@@ -997,14 +997,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-nn
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 11e7e5b59d182e98ce4d16234d6fdc52
+MD5Sum: ca007c022a58057e157276fee56c8a1d
 Size: 53274
-Filename: enigma2-locale-nn_develop+git23879+8b45918-r0_spark.ipk
+Filename: enigma2-locale-nn_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: nn
  nn
@@ -1013,14 +1013,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pl
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: deebb88b0a0d9be7fd6cb3fc3cc34d4f
+MD5Sum: aa2a05cda9b7e0f220d169eaa80d928a
 Size: 100218
-Filename: enigma2-locale-pl_develop+git23879+8b45918-r0_spark.ipk
+Filename: enigma2-locale-pl_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: pl
  pl
@@ -1029,14 +1029,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pt-br
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0b89a7700b6141c89306d5a5c1c3834b
-Size: 52818
-Filename: enigma2-locale-pt-br_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: a74e639f9f04f5e15a06846a4d2f2d8b
+Size: 52814
+Filename: enigma2-locale-pt-br_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: pt-br
  pt-br
@@ -1045,14 +1045,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pt
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b11a92df904d6fb93692ea3da410a754
-Size: 50442
-Filename: enigma2-locale-pt_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: d1b3d694b57340281a1454fafc7d4de8
+Size: 50444
+Filename: enigma2-locale-pt_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: pt
  pt
@@ -1061,14 +1061,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ro
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7e2101d2b74bd0435e8e4ee829b61979
+MD5Sum: 196c4544cea6bebecb83a37344f81213
 Size: 21738
-Filename: enigma2-locale-ro_develop+git23879+8b45918-r0_spark.ipk
+Filename: enigma2-locale-ro_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: ro
  ro
@@ -1077,14 +1077,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ru
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d4fc17f2fff05d8741adadf4c6597116
-Size: 116932
-Filename: enigma2-locale-ru_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 4ee559253b921157be71508ee94374d4
+Size: 116934
+Filename: enigma2-locale-ru_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: ru
  ru
@@ -1093,14 +1093,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sk
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6c7423dad936ca637e71310893cfd756
-Size: 107294
-Filename: enigma2-locale-sk_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 86fdbc548cef18911c0392ca652233d0
+Size: 107296
+Filename: enigma2-locale-sk_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: sk
  sk
@@ -1109,14 +1109,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sl
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: af59742c66612e08914ca3c3f5c9f7a9
-Size: 60538
-Filename: enigma2-locale-sl_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 09e4cbae466671c704288b6ee286a772
+Size: 60540
+Filename: enigma2-locale-sl_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: sl
  sl
@@ -1125,14 +1125,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sr
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c3808b13bb30a70764e04ce90c2350c4
-Size: 28038
-Filename: enigma2-locale-sr_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 0ac0a5719a9078011a2344c41fd9146a
+Size: 28040
+Filename: enigma2-locale-sr_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: sr
  sr
@@ -1141,14 +1141,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sv
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4bf7ddfe9ed5d5610daf9dc9c6f7f0e6
+MD5Sum: 43489fd2fc88a697f908d03e3d242b94
 Size: 71536
-Filename: enigma2-locale-sv_develop+git23879+8b45918-r0_spark.ipk
+Filename: enigma2-locale-sv_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: sv
  sv
@@ -1157,14 +1157,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-th
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 63d8deb19e7d5f21e4fc07d22cd56902
-Size: 27132
-Filename: enigma2-locale-th_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: e1f138a8c9caf0b3396d02d2b1babbad
+Size: 27134
+Filename: enigma2-locale-th_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: th
  th
@@ -1173,14 +1173,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-tr
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 092420d5ce5efdc602ac7084ec8d82d5
-Size: 67904
-Filename: enigma2-locale-tr_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: cffc9ae403dbcbf0a6e2037e7cb9f7cd
+Size: 67906
+Filename: enigma2-locale-tr_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: tr
  tr
@@ -1189,14 +1189,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-uk
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 65c8424ad0eee67e7decaeac33169ab5
-Size: 115616
-Filename: enigma2-locale-uk_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: a87a3a0a42fa7f6c4f0100afd4076993
+Size: 115618
+Filename: enigma2-locale-uk_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: uk
  uk
@@ -1205,14 +1205,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-vi
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 73bc979efd6018733c3d703da9b59d7b
-Size: 100670
-Filename: enigma2-locale-vi_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: aa8602767581887f24d9d8ec18c9a423
+Size: 100676
+Filename: enigma2-locale-vi_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: vi
  vi
@@ -1221,14 +1221,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-zh-cn
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8ca4d56b43a438c54ccd2577cd22b829
-Size: 87758
-Filename: enigma2-locale-zh-cn_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: c82f67224dcb48fe1359ffef318a0a96
+Size: 87760
+Filename: enigma2-locale-zh-cn_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: zh-cn
  zh-cn
@@ -1237,14 +1237,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-zh-hk
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 65d2b8f7213cd338544b56b3f2ebe6f3
+MD5Sum: 57e669c88952e30a37d94bbf754f75bb
 Size: 25878
-Filename: enigma2-locale-zh-hk_develop+git23879+8b45918-r0_spark.ipk
+Filename: enigma2-locale-zh-hk_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: zh-hk
  zh-hk
@@ -1253,13 +1253,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-meta
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 651803154160e843ca96827481c41a06
-Size: 4790
-Filename: enigma2-meta_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 86255adf4bd638cd067f40cf2e3181e8
+Size: 4778
+Filename: enigma2-meta_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -2119,8 +2119,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c660e1d7b84dbfc5783fbf8a29ea104d
-Size: 4512
+MD5Sum: e2ee2c50659f64a836de34dc64f54b26
+Size: 4542
 Filename: enigma2-plugin-extensions-airplayer-po_git40+9b3898b-r0_spark.ipk
 Source: enigma2-c-plugins.bb
 Description: extensions-airplayer (translations)
@@ -2135,8 +2135,8 @@ Depends: enigma2, gstreamer1.0-plugins-bad-fragmented, hairtunes, python-ctypes,
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0ce33b8ddc4730d8e471ffff1599950b
-Size: 103002
+MD5Sum: 69cd5846dfb1b566d107bfc9592d3f7c
+Size: 103044
 Filename: enigma2-plugin-extensions-airplayer_git40+9b3898b-r0_spark.ipk
 Source: enigma2-c-plugins.bb
 Description: extensions-airplayer
@@ -2146,14 +2146,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-cutlisteditor
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: aio-grab
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b8a62818b93dd36448c27ee65dd29d83
-Size: 20408
-Filename: enigma2-plugin-extensions-cutlisteditor_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 4adb73242e40a6dafc05056f32ccf1bf
+Size: 20410
+Filename: enigma2-plugin-extensions-cutlisteditor_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor
  extensions-cutlisteditorenables you to cut your movies.
@@ -2162,14 +2162,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdburn
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: cdrkit, dvd+rw-tools, dvdauthor, gstreamer1.0-plugins-bad-mpegtsmux, kernel-module-pktcdvd, mjpegtools, python-imaging, replex
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 82e57afa2bf6197dd9f65cac4d6e08c7
-Size: 853436
-Filename: enigma2-plugin-extensions-dvdburn_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 8cf7d47a4e277ccfa4efe53c9a7d5973
+Size: 853460
+Filename: enigma2-plugin-extensions-dvdburn_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-dvdburn
  extensions-dvdburn
@@ -2178,14 +2178,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdplayer
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: gstreamer1.0-plugins-bad-videoparsersbad, kernel-module-udf
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f2b767b2734efcda9629a98f9a7ef6bb
-Size: 3844
-Filename: enigma2-plugin-extensions-dvdplayer_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: af39a15ec86341442b5b2978937b630f
+Size: 3850
+Filename: enigma2-plugin-extensions-dvdplayer_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-dvdplayer
  extensions-dvdplayer
@@ -2194,13 +2194,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-graphmultiepg
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b17f2f0ecf0de49b9afbba464298f905
-Size: 42856
-Filename: enigma2-plugin-extensions-graphmultiepg_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 20f3ccb9b3252d8ef74f68bc0af75eac
+Size: 42870
+Filename: enigma2-plugin-extensions-graphmultiepg_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-graphmultiepg
  extensions-graphmultiepgshows a graphical timeline EPG.
@@ -2209,13 +2209,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-iptvplayer-dbg
-Version: git3710+9470d63-r0
+Version: git3714+d026667-r0
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 44652667e175806c392a73b38a8ca27d
+MD5Sum: 9de7d6af12ba6152d17c70963b1a227b
 Size: 710
-Filename: enigma2-plugin-extensions-iptvplayer-dbg_git3710+9470d63-r0_spark.ipk
+Filename: enigma2-plugin-extensions-iptvplayer-dbg_git3714+d026667-r0_spark.ipk
 Source: enigma2-plugin-extensions-iptvplayer.bb
 Description: E2i Player for E2 - Debugging files
  E2i Player for E2  This package contains ELF symbols and related sources
@@ -2225,15 +2225,15 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-iptvplayer-dev
-Version: git3710+9470d63-r0
-Depends: enigma2-plugin-extensions-iptvplayer (= git3710+9470d63-r0)
+Version: git3714+d026667-r0
+Depends: enigma2-plugin-extensions-iptvplayer (= git3714+d026667-r0)
 Recommends: cmdwrapper-dev, duktape-dev, enigma2-dev, exteplayer3-dev, f4mdump-dev, ffmpeg-dev, gst-ifdsrc-dev, gstplayer-dev, hlsdl-dev, iptvsubparser-dev, lsdir-dev, python-compression-dev, python-core-dev, python-dev, python-e2icjson-dev, python-html-dev, python-json-dev, python-pycurl-dev, python-shell-dev, python-subprocess-dev, python-textutils-dev, rtmpdump-dev, uchardet-dev, wget-dev
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: af0b069995b539fc94c155a80093c18a
+MD5Sum: a8c07fc8a59bc4a6a9470ccdeebc1d00
 Size: 892
-Filename: enigma2-plugin-extensions-iptvplayer-dev_git3710+9470d63-r0_spark.ipk
+Filename: enigma2-plugin-extensions-iptvplayer-dev_git3714+d026667-r0_spark.ipk
 Source: enigma2-plugin-extensions-iptvplayer.bb
 Description: E2i Player for E2 - Development files
  E2i Player for E2  This package contains symbolic links, header files,
@@ -2243,14 +2243,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-iptvplayer-po
-Version: git3710+9470d63-r0
+Version: git3714+d026667-r0
 Depends: enigma2-plugin-extensions-iptvplayer
 Section: multimedia
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 145e13b40a68c89814059099a486c2bf
-Size: 441724
-Filename: enigma2-plugin-extensions-iptvplayer-po_git3710+9470d63-r0_spark.ipk
+MD5Sum: 2342b714712999b12fb1f1b0e212d302
+Size: 441726
+Filename: enigma2-plugin-extensions-iptvplayer-po_git3714+d026667-r0_spark.ipk
 Source: enigma2-plugin-extensions-iptvplayer.bb
 Description: extensions-iptvplayer (translations)
  extensions-iptvplayer (translations)
@@ -2259,14 +2259,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-iptvplayer
-Version: git3710+9470d63-r0
+Version: git3714+d026667-r0
 Depends: cmdwrapper, duktape, enigma2, exteplayer3, f4mdump, ffmpeg, gst-ifdsrc, gstplayer, hlsdl, iptvsubparser, lsdir, python-compression, python-core, python-e2icjson, python-html, python-json, python-pycurl, python-shell, python-subprocess, python-textutils, rtmpdump, uchardet, wget
 Section: multimedia
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fdf1b5a2a18b7f90f2d30b557bfdb299
-Size: 8345298
-Filename: enigma2-plugin-extensions-iptvplayer_git3710+9470d63-r0_spark.ipk
+MD5Sum: a4c978492ad58c237b329b7aa1a56979
+Size: 8345478
+Filename: enigma2-plugin-extensions-iptvplayer_git3714+d026667-r0_spark.ipk
 Source: enigma2-plugin-extensions-iptvplayer.bb
 Description: extensions-iptvplayer
  extensions-iptvplayer
@@ -2275,13 +2275,13 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediaplayer
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 43cdc391b8e58b1e45278bd1634297de
-Size: 36084
-Filename: enigma2-plugin-extensions-mediaplayer_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 3b3a778754e6e0185c22a334ed9ea9c6
+Size: 36078
+Filename: enigma2-plugin-extensions-mediaplayer_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-mediaplayer
  extensions-mediaplayer
@@ -2290,13 +2290,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediascanner
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5f52e23eb7263bee4c9b58f4712c41ae
-Size: 6870
-Filename: enigma2-plugin-extensions-mediascanner_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 10479e505a517a26b19d9324d7d31ffb
+Size: 6874
+Filename: enigma2-plugin-extensions-mediascanner_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-mediascanner
  extensions-mediascanner
@@ -2310,8 +2310,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9f277ea360dbe9b01d24ef88504eaf91
-Size: 10092
+MD5Sum: 5b5664427b3bbc75d3a1bd05f58d454c
+Size: 10112
 Filename: enigma2-plugin-extensions-moviecut-po_git40+9b3898b-r0_spark.ipk
 Source: enigma2-c-plugins.bb
 Description: extensions-moviecut (translations)
@@ -2326,8 +2326,8 @@ Depends: enigma2, libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7be873e22b1d68378f76948b2bc8a87c
-Size: 32010
+MD5Sum: 37d1fdb39d35baaba94919d125c5cf44
+Size: 32028
 Filename: enigma2-plugin-extensions-moviecut_git40+9b3898b-r0_spark.ipk
 Source: enigma2-c-plugins.bb
 Description: extensions-moviecut
@@ -2407,7 +2407,7 @@ Version: git4402+23d64b0-r0
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 21aa32bcd0120ef95f15c61b061b5ade
+MD5Sum: 10341cba50781aa255e61bdbc1873790
 Size: 744
 Filename: enigma2-plugin-extensions-openwebif-dbg_git4402+23d64b0-r0_spark.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -2425,7 +2425,7 @@ Recommends: aio-grab-dev, enigma2-dev, openwebif-remotes-dev, python-cheetah-dev
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c08e5e48986f16c7cdab2bbd37d2293b
+MD5Sum: 7b1fb719e7613903a16d2067139f22e6
 Size: 874
 Filename: enigma2-plugin-extensions-openwebif-dev_git4402+23d64b0-r0_spark.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -2443,8 +2443,8 @@ Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: df0dd32dcbfa5afc0365bae142022dc1
-Size: 243952
+MD5Sum: 83eb37d896b45204b6de39a6789c9a5a
+Size: 243868
 Filename: enigma2-plugin-extensions-openwebif-themes_git4402+23d64b0-r0_spark.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+23d64b0c3b-r0
@@ -2459,8 +2459,8 @@ Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0cfe0618ed002e9967907d12ae27bb70
-Size: 1440128
+MD5Sum: 78a4bb0fd9daadfd8f308855bf5d0c2d
+Size: 1440010
 Filename: enigma2-plugin-extensions-openwebif-vxg_git4402+23d64b0-r0_spark.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+23d64b0c3b-r0
@@ -2475,8 +2475,8 @@ Depends: aio-grab, enigma2, openwebif-remotes, python-cheetah, python-compressio
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ee93e4461ab65a58973db76472d4562e
-Size: 2351368
+MD5Sum: 3cddc17090f708cc24a4d1887581e38f
+Size: 2352510
 Filename: enigma2-plugin-extensions-openwebif_git4402+23d64b0-r0_spark.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: extensions-openwebif
@@ -2486,13 +2486,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-pictureplayer
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 699b059bf9717986272cc515e5d9b2e6
-Size: 21448
-Filename: enigma2-plugin-extensions-pictureplayer_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 1190c60093ad223e9e8d5741e321ebfb
+Size: 21456
+Filename: enigma2-plugin-extensions-pictureplayer_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-pictureplayer
  extensions-pictureplayerdisplays photos on the TV.
@@ -2501,13 +2501,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi-staticdev
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 632498b43b5de4742a943f77bf0fac5d
-Size: 89980
-Filename: enigma2-plugin-extensions-socketmmi-staticdev_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 794f484f1ddbf74fa4fe6ce168b5b989
+Size: 89958
+Filename: enigma2-plugin-extensions-socketmmi-staticdev_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (static development)
  extensions-socketmmi (static development)
@@ -2516,14 +2516,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4), libudfread0 (>= 1.1.1+git107+b8ada65), libxml2 (>= 2.9.4)
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 07b6548e13e7bf434073284dc432613c
-Size: 14226
-Filename: enigma2-plugin-extensions-socketmmi_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 038f1b0ef54e080841e2a310f03a250e
+Size: 14234
+Filename: enigma2-plugin-extensions-socketmmi_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi
  extensions-socketmmi
@@ -2532,13 +2532,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-fonts-wqy-microhei
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2d09d2f25bd4bbe04c60256642809ae0
-Size: 2331874
-Filename: enigma2-plugin-fonts-wqy-microhei_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 04f65ea65821ee5daf4fae3f2665ef57
+Size: 2331880
+Filename: enigma2-plugin-fonts-wqy-microhei_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
  wqy-microhei font supports Chinese EPG
@@ -2547,13 +2547,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-cablescan
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 93932b867e39bca924ce295f0dcf8413
-Size: 8966
-Filename: enigma2-plugin-systemplugins-cablescan_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 421c943f5b500263d0a67994ef2f74a6
+Size: 8972
+Filename: enigma2-plugin-systemplugins-cablescan_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-cablescan
  systemplugins-cablescan
@@ -2562,13 +2562,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-commoninterfaceassignment
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8283d9d9bccc38393dd358a3ddce149a
+MD5Sum: 010db9543cce3d39b88651f20c1bc4d6
 Size: 16354
-Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_develop+git23879+8b45918-r0_spark.ipk
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-commoninterfaceassignment
  systemplugins-commoninterfaceassignment
@@ -2582,7 +2582,7 @@ Recommends: libc6-dbg, libcurl-dbg, libxml2-dbg, libz-dbg
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2c183952d3364bdc6e7caf1cca0a73fb
+MD5Sum: 8c906c9055ea3b7589fb0799065448e0
 Size: 842
 Filename: enigma2-plugin-systemplugins-crossepg-dbg_0.8.7+gitr534+13944d2-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
@@ -2602,8 +2602,8 @@ Recommends: curl-dev, enigma2-dev, libc6-dev, libcurl-dev, libxml2-dev, libz-dev
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c5e11caf31f12f8568546a1577b760c3
-Size: 906
+MD5Sum: d1779f4f7ee6856dd67423bde31c7b31
+Size: 910
 Filename: enigma2-plugin-systemplugins-crossepg-dev_0.8.7+gitr534+13944d2-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: enigma2-plugin-systemplugins-crossepg version 0.8.7+gitrAUTOINC+13944d2e2c-r0 - Development files
@@ -2621,8 +2621,8 @@ Depends: enigma2, libc6 (>= 2.25), libcurl4 (>= 7.73.0), libxml2 (>= 2.9.4), lib
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8699ac0e22be0fd694116269f4e20ae8
-Size: 629442
+MD5Sum: 22421b2f97f9dcc9234443a792a26cd0
+Size: 629444
 Filename: enigma2-plugin-systemplugins-crossepg_0.8.7+gitr534+13944d2-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: systemplugins-crossepg
@@ -2633,13 +2633,13 @@ License: LGPLv2.1
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-defaultservicesscanner
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b7fe18a98435d16bf3c4490146c64c7e
-Size: 4750
-Filename: enigma2-plugin-systemplugins-defaultservicesscanner_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 034ac4a2f2d82dd9bcc32becdd34bdd5
+Size: 4752
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-defaultservicesscanner
  systemplugins-defaultservicesscanner
@@ -2648,13 +2648,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-diseqctester
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2ef2ad245004ff3779ec48a03c2ebf9d
-Size: 14814
-Filename: enigma2-plugin-systemplugins-diseqctester_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 3cb299ee84257c7fad68b63056fc4034
+Size: 14816
+Filename: enigma2-plugin-systemplugins-diseqctester_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-diseqctester
  systemplugins-diseqctester
@@ -2663,13 +2663,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastscan
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1bf9df18fb9b8fb68c3999bb1b0fa0e9
+MD5Sum: aa1bffc9fa7d08b2f5838652b93ac8d8
 Size: 12004
-Filename: enigma2-plugin-systemplugins-fastscan_develop+git23879+8b45918-r0_spark.ipk
+Filename: enigma2-plugin-systemplugins-fastscan_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-fastscan
  systemplugins-fastscan
@@ -2678,13 +2678,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hdmicec
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 774cbfa5d0444276798d9b736954aa69
-Size: 6352
-Filename: enigma2-plugin-systemplugins-hdmicec_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: c3c7e68f154a6070d5065fa0fafbbfc6
+Size: 6356
+Filename: enigma2-plugin-systemplugins-hdmicec_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-hdmicec
  systemplugins-hdmicec
@@ -2693,14 +2693,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hotplug
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: hotplug-e2-helper
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5a164c82205dd73761ffd94ae8450417
-Size: 3896
-Filename: enigma2-plugin-systemplugins-hotplug_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 9a2ca8ff179363bb9e4e99044fe16c89
+Size: 3898
+Filename: enigma2-plugin-systemplugins-hotplug_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-hotplug
  systemplugins-hotplug
@@ -2714,8 +2714,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c5e5b8a08a07b6e42f76a893a20bc218
-Size: 7536
+MD5Sum: d60928efcf967ec56033446db7667af2
+Size: 7534
 Filename: enigma2-plugin-systemplugins-misplslcnscan-po_git40+9b3898b-r0_spark.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-misplslcnscan (translations)
@@ -2730,8 +2730,8 @@ Depends: enigma2, libc6 (>= 2.25), libtirpc3 (>= 1.0.2)
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b4b2fe9e9ba8d5edcf36e6699e2da57f
-Size: 41162
+MD5Sum: 2c44f29662d54e57c87950f5c610309b
+Size: 41172
 Filename: enigma2-plugin-systemplugins-misplslcnscan_git40+9b3898b-r0_spark.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-misplslcnscan
@@ -2746,8 +2746,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6139ca0dad49291f0b01c0740da0e1b4
-Size: 36428
+MD5Sum: ac1b11f057d85dad4044e4cf3bd9fad4
+Size: 36436
 Filename: enigma2-plugin-systemplugins-networkbrowser-po_git40+9b3898b-r0_spark.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-networkbrowser (translations)
@@ -2762,8 +2762,8 @@ Depends: enigma2, libc6 (>= 2.25), libtirpc3 (>= 1.0.2)
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5633dac637ab4728e779688f260aa583
-Size: 143412
+MD5Sum: 85c8911087f502c58a7224aaff41dfc9
+Size: 143474
 Filename: enigma2-plugin-systemplugins-networkbrowser_git40+9b3898b-r0_spark.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-networkbrowser
@@ -2773,13 +2773,13 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-networkwizard
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cb7da216073405107d787dfa4a282d81
-Size: 11372
-Filename: enigma2-plugin-systemplugins-networkwizard_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 547b622997e4b9c6156addaacec260a3
+Size: 11366
+Filename: enigma2-plugin-systemplugins-networkwizard_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-networkwizard
  systemplugins-networkwizardprovides easy step by step network
@@ -2789,13 +2789,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osd3dsetup
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: aac098e73d268f31b99c3f08f1f2a5fc
-Size: 5268
-Filename: enigma2-plugin-systemplugins-osd3dsetup_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 23dd170d69090c6099998009ca41b51d
+Size: 5270
+Filename: enigma2-plugin-systemplugins-osd3dsetup_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-osd3dsetup
  systemplugins-osd3dsetup
@@ -2804,13 +2804,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osdpositionsetup
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a7aa930ecbc314d2fed8bd88e14b0359
-Size: 8098
-Filename: enigma2-plugin-systemplugins-osdpositionsetup_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 156e90ce61cfe14e3d9d062a23890499
+Size: 8100
+Filename: enigma2-plugin-systemplugins-osdpositionsetup_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-osdpositionsetup
  systemplugins-osdpositionsetup
@@ -2819,13 +2819,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-positionersetup
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9a3f52a9bb6c7a73dc553d1d5f1c62fd
-Size: 42978
-Filename: enigma2-plugin-systemplugins-positionersetup_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 5fb771ea11356fc62da787db1ba876fa
+Size: 42972
+Filename: enigma2-plugin-systemplugins-positionersetup_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-positionersetup
  systemplugins-positionersetuphelps you installing a motorized dish.
@@ -2834,13 +2834,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d25c34bc9a36243836e56ae79e0b0606
-Size: 4072
-Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 7ec546880474770a76c1dabe37ea0898
+Size: 4070
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-satelliteequipmentcontrol
  systemplugins-satelliteequipmentcontrolallows you to fine-tune DiSEqC-
@@ -2850,13 +2850,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satfinder
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9ac465aaee24e6a225072df43c25b524
-Size: 22700
-Filename: enigma2-plugin-systemplugins-satfinder_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: f13c772dad68c976374d5d0fbe8dd0d3
+Size: 22704
+Filename: enigma2-plugin-systemplugins-satfinder_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-satfinder
  systemplugins-satfinderhelps you to align your dish.
@@ -2871,8 +2871,8 @@ Recommends: libc6-dbg, libcrypto-dbg, libgcc-s-dbg, libssl-dbg, libstdc++-dbg, u
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2e80549e31e2d0a01cc9a3056a8f9632
-Size: 899578
+MD5Sum: 12e8d9f7d9edfeabcce4d37ef1057a3a
+Size: 899582
 Filename: enigma2-plugin-systemplugins-serviceapp-dbg_git179+a3afb0f-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: enigma2-plugin-systemplugins-serviceapp version gitAUTOINC+a3afb0fd69-r0 - Debugging files
@@ -2889,7 +2889,7 @@ Recommends: enigma2-dev, libc6-dev, libcrypto-dev, libgcc-s-dev, libssl-dev, lib
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 662e7e21ea711846b69ddee08e89cf7e
+MD5Sum: 6a71aacea03d0de81f85dfa8e488ccdb
 Size: 822
 Filename: enigma2-plugin-systemplugins-serviceapp-dev_git179+a3afb0f-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
@@ -2907,8 +2907,8 @@ Recommends: exteplayer3, gstplayer
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c12317d3bdb8773f3c2c327545d219c1
-Size: 134788
+MD5Sum: aa1d15a4b0382ef74c83ffc4550fd206
+Size: 134792
 Filename: enigma2-plugin-systemplugins-serviceapp_git179+a3afb0f-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: systemplugins-serviceapp
@@ -2924,8 +2924,8 @@ Recommends: gstreamer1.0-dbg, libc6-dbg, libgcc-s-dbg, libglib-2.0-dbg, libgstau
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fbb80bdeb93dd322471c42dde9640cb5
-Size: 345416
+MD5Sum: cabdc17fa99e820743f15a00ac54ef69
+Size: 345414
 Filename: enigma2-plugin-systemplugins-servicemp3-dbg_git51+676cbc9-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
 Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+676cbc90ee-r0 - Debugging files
@@ -2942,7 +2942,7 @@ Recommends: enigma2-dev, glib-networking-dev, gstreamer1.0-dev, gstreamer1.0-plu
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 94617f73466911f9abf2fb1a6a88c3da
+MD5Sum: d3f5be1978100a3b41cbe7c23d90be44
 Size: 1158
 Filename: enigma2-plugin-systemplugins-servicemp3-dev_git51+676cbc9-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
@@ -2960,8 +2960,8 @@ Provides: virtual/enigma2-mediaservice
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d74f1781c6d9ca3560679b6eed7d6f0d
-Size: 60730
+MD5Sum: a3ffc43017b2a7e5962cb769668b9706
+Size: 60734
 Filename: enigma2-plugin-systemplugins-servicemp3_git51+676cbc9-r0_spark.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
 Description: systemplugins-servicemp3
@@ -2971,13 +2971,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-sh4boostercontrol
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2de00d10fa640effd7e1fc4004e8e124
-Size: 5334
-Filename: enigma2-plugin-systemplugins-sh4boostercontrol_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: a8add057499271d691bee29ebaea31c0
+Size: 5338
+Filename: enigma2-plugin-systemplugins-sh4boostercontrol_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-sh4boostercontrol
  systemplugins-sh4boostercontrol
@@ -2986,13 +2986,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-sh4osdadjustment
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f1aa18217eeba8cee574621bdce8fef1
-Size: 8178
-Filename: enigma2-plugin-systemplugins-sh4osdadjustment_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: f732545363cb0920358722e78f47348e
+Size: 8184
+Filename: enigma2-plugin-systemplugins-sh4osdadjustment_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-sh4osdadjustment
  systemplugins-sh4osdadjustment
@@ -3001,14 +3001,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-softwaremanager
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: python-twisted-web
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 691575c9091e272a5ac7e13e3c576efb
-Size: 69860
-Filename: enigma2-plugin-systemplugins-softwaremanager_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 5d9546e2b5b13ac6fdb55ebd89854e70
+Size: 69878
+Filename: enigma2-plugin-systemplugins-softwaremanager_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-softwaremanager
  systemplugins-softwaremanager
@@ -3017,13 +3017,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-systemoptions
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 47c499ed41bd8770f2876c7fce466230
+MD5Sum: 7880d9ad2257e730f06a83ec2ecc04c5
 Size: 8194
-Filename: enigma2-plugin-systemplugins-systemoptions_develop+git23879+8b45918-r0_spark.ipk
+Filename: enigma2-plugin-systemplugins-systemoptions_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-systemoptions
  systemplugins-systemoptions
@@ -3037,8 +3037,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 66e1eb11addaeec876fa347c0a192cfd
-Size: 13136
+MD5Sum: 9e12bd245071034dcdf6a232a9c5ff8e
+Size: 13158
 Filename: enigma2-plugin-systemplugins-terrestrialscan-po_git40+9b3898b-r0_spark.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-terrestrialscan (translations)
@@ -3053,8 +3053,8 @@ Depends: enigma2, libc6 (>= 2.25), libtirpc3 (>= 1.0.2)
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5de01da9fa888150cab1750250bda5c0
-Size: 60900
+MD5Sum: 09fdb298094cad4e26dd01f9249368ed
+Size: 60914
 Filename: enigma2-plugin-systemplugins-terrestrialscan_git40+9b3898b-r0_spark.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-terrestrialscan
@@ -3065,13 +3065,13 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoclippingsetup
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 23bf086b883baf7ab5a18f36b84943ea
-Size: 4568
-Filename: enigma2-plugin-systemplugins-videoclippingsetup_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 9950059b948b30f4634b766f0861c2a6
+Size: 4574
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-videoclippingsetup
  systemplugins-videoclippingsetup
@@ -3080,13 +3080,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoenhancement
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 372b2fd71a30b1daa14da5e0fbe95003
+MD5Sum: 16bd87c947bb8e28dcda534e1484b335
 Size: 14708
-Filename: enigma2-plugin-systemplugins-videoenhancement_develop+git23879+8b45918-r0_spark.ipk
+Filename: enigma2-plugin-systemplugins-videoenhancement_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-videoenhancement
  systemplugins-videoenhancement
@@ -3095,13 +3095,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videomode
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f0ae5e690f74a95c2ed3a18f246cc27c
-Size: 68884
-Filename: enigma2-plugin-systemplugins-videomode_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 32fa5ff176441347a06dc45192827864
+Size: 68880
+Filename: enigma2-plugin-systemplugins-videomode_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-videomode
  systemplugins-videomodeselects advanced video modes
@@ -3110,13 +3110,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videotune
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4b0cf4da12e3871166fc96e04fb23429
-Size: 69986
-Filename: enigma2-plugin-systemplugins-videotune_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 1793641d32497915aa92b45b5bf52059
+Size: 69988
+Filename: enigma2-plugin-systemplugins-videotune_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-videotune
  systemplugins-videotune
@@ -3130,8 +3130,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5a8354d1dd237150d733ba2367ebaa1c
-Size: 14050
+MD5Sum: ae89321dbd9df013f4548a0b17ea4e84
+Size: 14058
 Filename: enigma2-plugin-systemplugins-vps-po_git40+9b3898b-r0_spark.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-vps (translations)
@@ -3146,8 +3146,8 @@ Depends: enigma2, libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a7b5fa8c616bbde326b865d75e4ddc58
-Size: 58674
+MD5Sum: 78cdd454721591b7e1b55e2ff45c7cbc
+Size: 58672
 Filename: enigma2-plugin-systemplugins-vps_git40+9b3898b-r0_spark.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-vps
@@ -3157,14 +3157,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-wirelesslan
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: python-wifi, wireless-tools, wpa-supplicant
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8056e0f22055fd211b40e4a83b258fa1
-Size: 19044
-Filename: enigma2-plugin-systemplugins-wirelesslan_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 568a53cf990c6bea2effab372cd8f20c
+Size: 19048
+Filename: enigma2-plugin-systemplugins-wirelesslan_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: systemplugins-wirelesslan
  systemplugins-wirelesslanhelps you configuring your wireless lan
@@ -3173,13 +3173,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-remotes-dbg
-Version: git8+1257762-r0
+Version: git9+1e12c70-r0
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f0456b4ddb47408bbba0777b1c159bf1
-Size: 694
-Filename: enigma2-remotes-dbg_git8+1257762-r0_spark.ipk
+MD5Sum: c209dab067c99c30a587cd64768f3cfd
+Size: 692
+Filename: enigma2-remotes-dbg_git9+1e12c70-r0_spark.ipk
 Source: enigma2-remotes.bb
 Description: RC files for Enigma2 - Debugging files
  RC files for Enigma2.  This package contains ELF symbols and related
@@ -3189,14 +3189,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-remotes-dev
-Version: git8+1257762-r0
-Depends: enigma2-remotes (= git8+1257762-r0)
+Version: git9+1e12c70-r0
+Depends: enigma2-remotes (= git9+1e12c70-r0)
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 98d86876b334655cdf0f6304d2ffd1fd
-Size: 724
-Filename: enigma2-remotes-dev_git8+1257762-r0_spark.ipk
+MD5Sum: 90176d8d6b05fc1e3ad641d78ceb28fc
+Size: 722
+Filename: enigma2-remotes-dev_git9+1e12c70-r0_spark.ipk
 Source: enigma2-remotes.bb
 Description: RC files for Enigma2 - Development files
  RC files for Enigma2.  This package contains symbolic links, header
@@ -3206,13 +3206,13 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-remotes-extra
-Version: git8+1257762-r0
+Version: git9+1e12c70-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bd51b15ba59e7e2f3e2f59ae5750bfd8
-Size: 8303428
-Filename: enigma2-remotes-extra_git8+1257762-r0_spark.ipk
+MD5Sum: bcb7c5780446dc6cbd52d81b06d42952
+Size: 8303436
+Filename: enigma2-remotes-extra_git9+1e12c70-r0_spark.ipk
 Source: enigma2-remotes.bb
 Description: RC files for Enigma2
  RC files for Enigma2.
@@ -3221,13 +3221,13 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-remotes
-Version: git8+1257762-r0
+Version: git9+1e12c70-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 14ed9a06db6e13b0ea4561e117733771
-Size: 86614
-Filename: enigma2-remotes_git8+1257762-r0_spark.ipk
+MD5Sum: c78f5510e2fba06cfebe0cc6fec3f346
+Size: 86618
+Filename: enigma2-remotes_git9+1e12c70-r0_spark.ipk
 Source: enigma2-remotes.bb
 Description: RC files for Enigma2
  RC files for Enigma2.
@@ -3236,14 +3236,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-staticdev
-Version: develop+git23879+8b45918-r0
-Depends: enigma2-dev (= develop+git23879+8b45918-r0)
+Version: develop+git23890+c3a98a5-r0
+Depends: enigma2-dev (= develop+git23890+c3a98a5-r0)
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3de8ec50a7d528e7cbb57e76331472e8
-Size: 7874
-Filename: enigma2-staticdev_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: 18be5745b830301ad0a5458aff27b0b8
+Size: 7888
+Filename: enigma2-staticdev_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Development files (Static Libraries)
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -3253,15 +3253,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2
-Version: develop+git23879+8b45918-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: alsa-conf, alsa-utils-amixer-conf, dhrystone, enigma-module, enigma2-data-iso-639-3, enigma2-fonts, enigma2-plugin-extensions-pespeedup, enigma2-remotes, enigma2-timezones, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, hotplug-e2-helper, libavahi-client3 (>= 0.6.32), libavahi-common3 (>= 0.6.32), libc6 (>= 2.25), libcrypto1.1 (>= 1.1.1k), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.9+git130+f3c40ea), libfreetype6 (>= 2.7.1), libfribidi0 (>= 1.0.10), libgcc1 (>= 4.9.4), libgif7 (>= 5.1.4), libglib-2.0-0 (>= 2.50.3), libgomp1 (>= 4.9.4), libjpeg62 (>= 1.5.1), libmme-host0, libmmeimage0 (>= git728+64ff751), libpng16-16 (>= 1.6.37), libpython2.7-1.0 (>= 2.7.18), libsigc-2.0-0 (>= 2.10.3), libssl1.1 (>= 1.1.1k), libstdc++6 (>= 4.9.4), libtuxtxt0 (>= 2.0.1+git84+ed8d3cb), libtuxtxt32bpp0 (>= 2.0.1+git84+ed8d3cb), libudfread0 (>= 1.1.1+git107+b8ada65), libxml2 (>= 2.9.4), ntpdate, ofgwrite, openvision-version-info, python-codecs, python-core, python-crypt, python-fcntl, python-image, python-imaging, python-lang, python-mmap, python-netclient, python-netifaces, python-netserver, python-numbers, python-pickle, python-process, python-pyusb, python-re, python-sendfile, python-service-identity, python-shell, python-six, python-threading, python-twisted-core, python-twisted-web, python-xml, python-zlib, python-zopeinterface, streambench, virtual/enigma2-mediaservice
 Recommends: libdvdcss2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bcc45ff3e5151b1e2e97f34ddf5feaee
-Size: 4477932
-Filename: enigma2_develop+git23879+8b45918-r0_spark.ipk
+MD5Sum: af8820a2a9db1cc16a5e67fad0b10fc3
+Size: 4478572
+Filename: enigma2_develop+git23890+c3a98a5-r0_spark.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -3596,15 +3596,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-aotom
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-e2-proc
 Provides: kernel-module-aotom
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a04d26add4f67e56d2524416051201c8
+MD5Sum: 6ea2dff54761addb2299a3606e72ed6a
 Size: 28336
-Filename: kernel-module-aotom_git1531+91743bd-openvision_spark.ipk
+Filename: kernel-module-aotom_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: aotom kernel module
  aotom kernel module; VFD module for Fulan receivers
@@ -3698,15 +3698,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-avs
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-avs
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cdf4bae01c06ce81522e834d21c72a05
-Size: 29738
-Filename: kernel-module-avs_git1531+91743bd-openvision_spark.ipk
+MD5Sum: 09c9396bbc812fc0f03cb5bbe91142a4
+Size: 29742
+Filename: kernel-module-avs_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: avs kernel module
  avs kernel module; Multiplatform A/V SCART switch driver
@@ -3749,15 +3749,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-boxtype
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-boxtype
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7b5db1b89b13c92938b818cf8a5931c6
-Size: 2154
-Filename: kernel-module-boxtype_git1531+91743bd-openvision_spark.ipk
+MD5Sum: 6ddf220841c2d8a801a55599de8f2a48
+Size: 2160
+Filename: kernel-module-boxtype_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: boxtype kernel module
  boxtype kernel module; Provides the type of an STB based on STb710x
@@ -3766,15 +3766,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-bpamem
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-bpamem
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 81a74a8a3446777307cc7374b1f5f6ae
-Size: 4020
-Filename: kernel-module-bpamem_git1531+91743bd-openvision_spark.ipk
+MD5Sum: 5c26868fbd63ba5921a2e45e134ba6cd
+Size: 4022
+Filename: kernel-module-bpamem_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: bpamem kernel module
  bpamem kernel module; Alloc BPA2 memory from user space
@@ -3854,15 +3854,15 @@ License: GPLv2+
 Priority: optional
 
 Package: kernel-module-cec
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-e2-proc, kernel-module-stmcore-display-sti7111
 Provides: kernel-module-cec
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4c8df8bde440cdffda33b2cb3a8e737f
-Size: 16088
-Filename: kernel-module-cec_git1531+91743bd-openvision_spark.ipk
+MD5Sum: d9439edba8926fcaf87d5a358edd07c1
+Size: 16092
+Filename: kernel-module-cec_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: cec kernel module
  cec kernel module; CEC Driver
@@ -3923,15 +3923,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-cpu-frequ
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-cpu-frequ
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ffa619272432e7fb4b9337f83398b59b
+MD5Sum: c008e9437f69a1cd06ff32e5cf92206a
 Size: 3906
-Filename: kernel-module-cpu-frequ_git1531+91743bd-openvision_spark.ipk
+Filename: kernel-module-cpu-frequ_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: cpu-frequ kernel module
  cpu-frequ kernel module; Set CPU clock frequency on STb710x
@@ -3957,15 +3957,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-e2-proc
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-e2-proc
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f26c297c9c613deec903d7c365657cb5
+MD5Sum: 3a75434b3238fa2badac5a1568a54053
 Size: 7882
-Filename: kernel-module-e2-proc_git1531+91743bd-openvision_spark.ipk
+Filename: kernel-module-e2-proc_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: e2-proc kernel module
  e2-proc kernel module; procfs module with enigma2 support
@@ -4008,15 +4008,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-embxmailbox
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-embxshell
 Provides: kernel-module-embxmailbox
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e66f4a103987012e7005b9b6f4db3096
-Size: 6856
-Filename: kernel-module-embxmailbox_git1531+91743bd-openvision_spark.ipk
+MD5Sum: f8fa8b32fb6997aefccaebb742cffdd4
+Size: 6862
+Filename: kernel-module-embxmailbox_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: embxmailbox kernel module
  embxmailbox kernel module; EMBX Utility Library to manage the hardware
@@ -4026,15 +4026,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-embxshell
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-embxshell
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fd4ae793b314882fc255cf50b8aefd5a
-Size: 14006
-Filename: kernel-module-embxshell_git1531+91743bd-openvision_spark.ipk
+MD5Sum: 2ae00be2e7a546f36ff2ef593b8985a2
+Size: 14008
+Filename: kernel-module-embxshell_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: embxshell kernel module
  embxshell kernel module; Extended EMBX Shell
@@ -4043,15 +4043,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-embxshm
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-embxmailbox, kernel-module-embxshell
 Provides: kernel-module-embxshm
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f37abbc6e536c8435addb2eb01523397
+MD5Sum: dbbf53e708ba91306ee538ad2791f39a
 Size: 17700
-Filename: kernel-module-embxshm_git1531+91743bd-openvision_spark.ipk
+Filename: kernel-module-embxshm_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: embxshm kernel module
  embxshm kernel module; Extended EMBX Shared Memory Transport
@@ -4060,15 +4060,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-enigma
-Version: 7.6-r314
+Version: 7.6-r315
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-enigma
 Section: base
 Architecture: spark
-Maintainer: Open Vision developers
-MD5Sum: bc0aaed88f1d8c5f6c24f418b0cd2de4
-Size: 6266
-Filename: kernel-module-enigma_7.6-r314_spark.ipk
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cd4b917a7a4adc3992b907d152eb90ac
+Size: 6294
+Filename: kernel-module-enigma_7.6-r315_spark.ipk
 Source: enigma-module.bb
 Description: enigma kernel module
  enigma kernel module; Open Vision information module
@@ -4690,15 +4690,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-kreplay-fdma
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-ksound
 Provides: kernel-module-kreplay-fdma
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 324719da6b646ad35bc8b66cbdef3138
+MD5Sum: 1f1496856f3702ed6b2e23396b9f3215
 Size: 4996
-Filename: kernel-module-kreplay-fdma_git1531+91743bd-openvision_spark.ipk
+Filename: kernel-module-kreplay-fdma_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: kreplay-fdma kernel module
  kreplay-fdma kernel module
@@ -4707,15 +4707,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-kreplay
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-ksound
 Provides: kernel-module-kreplay
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 14374963dab89d80230fce8b220ca332
+MD5Sum: badae3daca3006da6d82105a3bc6c528
 Size: 3740
-Filename: kernel-module-kreplay_git1531+91743bd-openvision_spark.ipk
+Filename: kernel-module-kreplay_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: kreplay kernel module
  kreplay kernel module
@@ -4724,15 +4724,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-ksound
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-ksound
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 563883e0f4b514b63d1e05b6df8240bd
+MD5Sum: 816cf16936b33cf7d13f84e9dfe89285
 Size: 9064
-Filename: kernel-module-ksound_git1531+91743bd-openvision_spark.ipk
+Filename: kernel-module-ksound_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: ksound kernel module
  ksound kernel module
@@ -4741,15 +4741,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-ktone
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-ksound
 Provides: kernel-module-ktone
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2b3addef0427ef086f299cc9949f256d
+MD5Sum: 7565fea01604adf933416bcf48b305d7
 Size: 3704
-Filename: kernel-module-ktone_git1531+91743bd-openvision_spark.ipk
+Filename: kernel-module-ktone_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: ktone kernel module
  ktone kernel module
@@ -4792,15 +4792,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-mme-host
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-embxshell
 Provides: kernel-module-mme-host
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8cf591c94ebc5e656ec655b07629e1ff
-Size: 20232
-Filename: kernel-module-mme-host_git1531+91743bd-openvision_spark.ipk
+MD5Sum: c59802d1e92ad570aff624992989d948
+Size: 20234
+Filename: kernel-module-mme-host_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: mme-host kernel module
  mme-host kernel module; MME Module
@@ -4809,15 +4809,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-mmelog
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host
 Provides: kernel-module-mmelog
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4db728e2668030c187572cd2ddc30ceb
-Size: 3310
-Filename: kernel-module-mmelog_git1531+91743bd-openvision_spark.ipk
+MD5Sum: 650fab81d5ab8007a094254f10a7cc66
+Size: 3312
+Filename: kernel-module-mmelog_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: mmelog kernel module
  mmelog kernel module
@@ -4843,15 +4843,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-mpeg2hw
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host
 Provides: kernel-module-mpeg2hw
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9a163a83391f8c8139733696e88cc7fd
-Size: 6058
-Filename: kernel-module-mpeg2hw_git1531+91743bd-openvision_spark.ipk
+MD5Sum: b37fb91207ccad7d926a4d2506fd15ef
+Size: 6060
+Filename: kernel-module-mpeg2hw_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: mpeg2hw kernel module
  mpeg2hw kernel module; Host transformer driver for STB71XX MPEG2 hardware
@@ -5594,15 +5594,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-p2div64
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-p2div64
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b2a40f96b0607f83010bdad1ff832dea
-Size: 2368
-Filename: kernel-module-p2div64_git1531+91743bd-openvision_spark.ipk
+MD5Sum: e507927a2339d0f9f7b80a62eb4a2ff9
+Size: 2366
+Filename: kernel-module-p2div64_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: p2div64 kernel module
  p2div64 kernel module; Player2 64Bit Divide Driver
@@ -5645,15 +5645,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-pcm-transcoder
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host
 Provides: kernel-module-pcm-transcoder
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ba16f84901cda37b481a60e12ac15956
-Size: 3920
-Filename: kernel-module-pcm-transcoder_git1531+91743bd-openvision_spark.ipk
+MD5Sum: 84d90db83a5564cdf495fec5341667c3
+Size: 3922
+Filename: kernel-module-pcm-transcoder_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: pcm-transcoder kernel module
  pcm-transcoder kernel module; Pcm transcoding MME transformer.
@@ -5696,15 +5696,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-platform
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-platform
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5a16e6ee357ad2272bab5194525074d1
-Size: 1968
-Filename: kernel-module-platform_git1531+91743bd-openvision_spark.ipk
+MD5Sum: fc28b377bf273ea425678df6d8d36df7
+Size: 1964
+Filename: kernel-module-platform_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: platform kernel module
  platform kernel module; Player2 Platform Driver
@@ -5713,15 +5713,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-player2-unified
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-player2-unified
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 34fa80fc9153931f552e684d7dc651df
+MD5Sum: 61f8f43c578d4d38a0557c595499fca0
 Size: 2116
-Filename: kernel-module-player2-unified_git1531+91743bd-openvision_spark.ipk
+Filename: kernel-module-player2-unified_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: player2-unified kernel module
  player2-unified kernel module; Player2 Unified Driver
@@ -5730,15 +5730,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-player2
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-e2-proc, kernel-module-ksound, kernel-module-mme-host, kernel-module-p2div64, kernel-module-pseudocard, kernel-module-stm-monitor, kernel-module-stmcore-display-sti7111, kernel-module-stmdvb, kernel-module-stmsysfs
 Provides: kernel-module-player2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5a8584f0a75d55789899d2592242386a
+MD5Sum: c950c4583d69cdc491c7e6979ddfbdd8
 Size: 538410
-Filename: kernel-module-player2_git1531+91743bd-openvision_spark.ipk
+Filename: kernel-module-player2_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: player2 kernel module
  player2 kernel module; Player2 backend implementation for STM streaming
@@ -5885,15 +5885,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-pseudocard
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-stmcore-display-sti7111
 Provides: kernel-module-pseudocard
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6455501436011df4173d835afa976474
+MD5Sum: ce4ab15f6905483fdc2980c9cb1034da
 Size: 12656
-Filename: kernel-module-pseudocard_git1531+91743bd-openvision_spark.ipk
+Filename: kernel-module-pseudocard_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: pseudocard kernel module
  pseudocard kernel module; Pseudo soundcard
@@ -5902,15 +5902,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-pti
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-pti
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8ff35268fe6947a3383804927789a568
+MD5Sum: bb061dfac9cb34875fd9dc2d90179a80
 Size: 26370
-Filename: kernel-module-pti_git1531+91743bd-openvision_spark.ipk
+Filename: kernel-module-pti_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: pti kernel module
  pti kernel module; PTI driver
@@ -6023,15 +6023,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-silencegen
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host
 Provides: kernel-module-silencegen
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8c00ca73aacd637777437c05382dd9de
-Size: 2640
-Filename: kernel-module-silencegen_git1531+91743bd-openvision_spark.ipk
+MD5Sum: e47c74d59561329fb9ffc959104a812d
+Size: 2642
+Filename: kernel-module-silencegen_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: silencegen kernel module
  silencegen kernel module; Trivial silence generating MME transformer.
@@ -6040,15 +6040,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-simu-button
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-simu-button
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4f550726b6bc22668a3f8f84eb0e03ca
+MD5Sum: 6edf9f275cd03c29110456d9875e0791
 Size: 2486
-Filename: kernel-module-simu-button_git1531+91743bd-openvision_spark.ipk
+Filename: kernel-module-simu-button_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: simu-button kernel module
  simu-button kernel module; SH4 RC event driver
@@ -6074,15 +6074,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-smartcard
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-smartcard
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 199d03c59f7754b9e06b890ae9cff6ba
-Size: 20554
-Filename: kernel-module-smartcard_git1531+91743bd-openvision_spark.ipk
+MD5Sum: c0a86b7f8ed2325f384a5f0ef4d963dd
+Size: 20556
+Filename: kernel-module-smartcard_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: smartcard kernel module
  smartcard kernel module; SmartCard Interface driver
@@ -6091,15 +6091,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-spark-fe
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-p2div64
 Provides: kernel-module-spark-fe
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a3d9998db478e46b7c3515f5da9b4eef
-Size: 55022
-Filename: kernel-module-spark-fe_git1531+91743bd-openvision_spark.ipk
+MD5Sum: 4f47df2e440b01a1243c80e7df7489e1
+Size: 55030
+Filename: kernel-module-spark-fe_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: spark-fe kernel module
  spark-fe kernel module; Tunerdriver
@@ -6108,15 +6108,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-sth264pp
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-player2
 Provides: kernel-module-sth264pp
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 396e12236a605990d322e45f8aaacf3d
+MD5Sum: 348fe430b760c82354e1943c5709fe43
 Size: 6634
-Filename: kernel-module-sth264pp_git1531+91743bd-openvision_spark.ipk
+Filename: kernel-module-sth264pp_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: sth264pp kernel module
  sth264pp kernel module
@@ -6125,15 +6125,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stm-monitor
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host, kernel-module-p2div64
 Provides: kernel-module-stm-monitor
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6307a0197fbc89719d0470fba478048c
-Size: 8344
-Filename: kernel-module-stm-monitor_git1531+91743bd-openvision_spark.ipk
+MD5Sum: c738839a5d5f2b004290eb36aa2c1283
+Size: 8342
+Filename: kernel-module-stm-monitor_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: stm-monitor kernel module
  stm-monitor kernel module; STM monitor.
@@ -6142,15 +6142,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stm-v4l2
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-stm-v4l2
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c4320fc806cf176113c56691df62a39c
-Size: 5742
-Filename: kernel-module-stm-v4l2_git1531+91743bd-openvision_spark.ipk
+MD5Sum: 98faa75c4555f4252bc32cb64f58bf5d
+Size: 5746
+Filename: kernel-module-stm-v4l2_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: stm-v4l2 kernel module
  stm-v4l2 kernel module
@@ -6159,15 +6159,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmalloc
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-player2
 Provides: kernel-module-stmalloc
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8c497dc5543137ebc8f35934513dfc06
-Size: 3764
-Filename: kernel-module-stmalloc_git1531+91743bd-openvision_spark.ipk
+MD5Sum: 6aab9f515e40e95fd6d2456fd6380683
+Size: 3766
+Filename: kernel-module-stmalloc_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: stmalloc kernel module
  stmalloc kernel module
@@ -6176,15 +6176,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmcore-display-sti7111
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-stmcore-display-sti7111
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4673c273804a6ae13d4c4490223cbecc
-Size: 128546
-Filename: kernel-module-stmcore-display-sti7111_git1531+91743bd-openvision_spark.ipk
+MD5Sum: 1ad33a7979c6829f88bfe5c859a3158e
+Size: 128542
+Filename: kernel-module-stmcore-display-sti7111_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: stmcore-display-sti7111 kernel module
  stmcore-display-sti7111 kernel module
@@ -6193,15 +6193,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmdvb
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-avs, kernel-module-e2-proc, kernel-module-pseudocard, kernel-module-pti, kernel-module-spark-fe, kernel-module-stm-v4l2, kernel-module-stmcore-display-sti7111, kernel-module-stmfb
 Provides: kernel-module-stmdvb
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1bd58d1be6730da0efa7da5b72509c52
+MD5Sum: 9aa84ed1accedc9d35ef9a71da7eaf46
 Size: 55418
-Filename: kernel-module-stmdvb_git1531+91743bd-openvision_spark.ipk
+Filename: kernel-module-stmdvb_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: stmdvb kernel module
  stmdvb kernel module; Linux DVB video and audio driver for STM streaming
@@ -6211,15 +6211,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmfb
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-stmfb
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3e80d59aa0147381f2085fd6189c42a2
+MD5Sum: 4a3a616f4ace9d7e1c9504eaaeb1c9d1
 Size: 23474
-Filename: kernel-module-stmfb_git1531+91743bd-openvision_spark.ipk
+Filename: kernel-module-stmfb_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: stmfb kernel module
  stmfb kernel module
@@ -6228,15 +6228,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmsysfs
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-stmsysfs
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a7bcead593364f97a9e1220c78138e3d
+MD5Sum: ca0ac462ef12164fb76b8f9538b0ec7b
 Size: 7234
-Filename: kernel-module-stmsysfs_git1531+91743bd-openvision_spark.ipk
+Filename: kernel-module-stmsysfs_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: stmsysfs kernel module
  stmsysfs kernel module; Sysfs driver for accessing STM streaming
@@ -6246,15 +6246,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmvbi
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-stm-v4l2, kernel-module-stmcore-display-sti7111
 Provides: kernel-module-stmvbi
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c34b4135dc119a9b28d31347fa526ed3
-Size: 5590
-Filename: kernel-module-stmvbi_git1531+91743bd-openvision_spark.ipk
+MD5Sum: d547b57e2efc286749b0368dd1759f07
+Size: 5592
+Filename: kernel-module-stmvbi_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: stmvbi kernel module
  stmvbi kernel module
@@ -6263,15 +6263,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmvout
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-stm-v4l2, kernel-module-stmcore-display-sti7111
 Provides: kernel-module-stmvout
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f8af24bb4feaefec7bd7701db864b9b9
-Size: 22772
-Filename: kernel-module-stmvout_git1531+91743bd-openvision_spark.ipk
+MD5Sum: 417d4635f8d6b6d63c36924a98670742
+Size: 22778
+Filename: kernel-module-stmvout_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: stmvout kernel module
  stmvout kernel module
@@ -6434,15 +6434,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-zram
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-zram
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9e0ece66f60430f583b62362453a0cb0
-Size: 10462
-Filename: kernel-module-zram_git1531+91743bd-openvision_spark.ipk
+MD5Sum: 7adbd3b31ef123768143c9ea89fcf5a8
+Size: 10464
+Filename: kernel-module-zram_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: zram kernel module
  zram kernel module; Compressed RAM Block Device
@@ -6794,16 +6794,16 @@ License: GPLv2
 Priority: optional
 
 Package: openvision-branding-dbg
-Version: 7.6-r314
+Version: 7.6-r315
 Recommends: libc6-dbg
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c4458af37376df7446b380d0ad059c2e
-Size: 18166
-Filename: openvision-branding-dbg_7.6-r314_spark.ipk
+MD5Sum: acadf9d548b7d277d07e4e243d291247
+Size: 18182
+Filename: openvision-branding-dbg_7.6-r315_spark.ipk
 Source: openvision-branding.bb
-Description: openvision-branding version 7.6-r314 - Debugging files
+Description: openvision-branding version 7.6-r315 - Debugging files
  Open Vision branding lib  This package contains ELF symbols and related
  sources for debugging purposes.
 OE: openvision-branding
@@ -6811,17 +6811,17 @@ License: GPLv2+
 Priority: optional
 
 Package: openvision-branding-dev
-Version: 7.6-r314
-Depends: openvision-branding (= 7.6-r314)
+Version: 7.6-r315
+Depends: openvision-branding (= 7.6-r315)
 Recommends: libc6-dev, python-dev
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7506d099be351754ec1ea1f5a8ebeb1e
+MD5Sum: e88cadc83ed4a7f3fb6160567a6f90a9
 Size: 748
-Filename: openvision-branding-dev_7.6-r314_spark.ipk
+Filename: openvision-branding-dev_7.6-r315_spark.ipk
 Source: openvision-branding.bb
-Description: openvision-branding version 7.6-r314 - Development files
+Description: openvision-branding version 7.6-r315 - Development files
  Open Vision branding lib  This package contains symbolic links, header
  files, and related items necessary for software development.
 OE: openvision-branding
@@ -6829,44 +6829,44 @@ License: GPLv2+
 Priority: optional
 
 Package: openvision-branding
-Version: 7.6-r314
+Version: 7.6-r315
 Depends: libc6 (>= 2.25)
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6d816472680562e8d1de949498fc4a81
-Size: 8492
-Filename: openvision-branding_7.6-r314_spark.ipk
+MD5Sum: 79170c7724a475f8d4b7fd766d1f9bd3
+Size: 8498
+Filename: openvision-branding_7.6-r315_spark.ipk
 Source: openvision-branding.bb
-Description: openvision-branding version 7.6-r314
+Description: openvision-branding version 7.6-r315
  Open Vision branding lib
 OE: openvision-branding
 License: GPLv2+
 Priority: optional
 
 Package: openvision-version-info
-Version: 7.6-r314
+Version: 7.6-r315
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2799a21891d7a9b02919049ebdb6cc40
+MD5Sum: 5461c1bb40882a1473a381a574243e5b
 Size: 2236
-Filename: openvision-version-info_7.6-r314_spark.ipk
+Filename: openvision-version-info_7.6-r315_spark.ipk
 Source: openvision-version-info.bb
-Description: openvision-version-info version 7.6-r314
+Description: openvision-version-info version 7.6-r315
  Open Vision version info
 OE: openvision-version-info
 License: GPLv2+
 Priority: required
 
 Package: openwebif-remotes-dbg
-Version: git8+1257762-r0
+Version: git9+1e12c70-r0
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5e01332a3940050cff69a8208b9c8327
-Size: 714
-Filename: openwebif-remotes-dbg_git8+1257762-r0_spark.ipk
+MD5Sum: ec345826e88aa638f94fc3ba28674759
+Size: 708
+Filename: openwebif-remotes-dbg_git9+1e12c70-r0_spark.ipk
 Source: openwebif-remotes.bb
 Description: RC files and STB pictures for Open WebIF - Debugging files
  RC files and STB pictures for Open WebIF.  This package contains ELF
@@ -6876,14 +6876,14 @@ License: GPLv2+
 Priority: optional
 
 Package: openwebif-remotes-dev
-Version: git8+1257762-r0
-Depends: openwebif-remotes (= git8+1257762-r0)
+Version: git9+1e12c70-r0
+Depends: openwebif-remotes (= git9+1e12c70-r0)
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 122ed7094cb7b1e03326183cb9a69d91
-Size: 744
-Filename: openwebif-remotes-dev_git8+1257762-r0_spark.ipk
+MD5Sum: f0151d9de7f4baaa3e77e6417e5afe49
+Size: 742
+Filename: openwebif-remotes-dev_git9+1e12c70-r0_spark.ipk
 Source: openwebif-remotes.bb
 Description: RC files and STB pictures for Open WebIF - Development files
  RC files and STB pictures for Open WebIF.  This package contains symbolic
@@ -6894,13 +6894,13 @@ License: GPLv2+
 Priority: optional
 
 Package: openwebif-remotes-extra
-Version: git8+1257762-r0
+Version: git9+1e12c70-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e5ad629229fe12d8916da858539595ee
-Size: 70066
-Filename: openwebif-remotes-extra_git8+1257762-r0_spark.ipk
+MD5Sum: 0e1a1b0de96f858b9ebeed57244e7a49
+Size: 70062
+Filename: openwebif-remotes-extra_git9+1e12c70-r0_spark.ipk
 Source: openwebif-remotes.bb
 Description: RC files and STB pictures for Open WebIF
  RC files and STB pictures for Open WebIF.
@@ -6909,13 +6909,13 @@ License: GPLv2+
 Priority: optional
 
 Package: openwebif-remotes
-Version: git8+1257762-r0
+Version: git9+1e12c70-r0
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bd377e22d37eac9ad81e71b244760428
-Size: 1660
-Filename: openwebif-remotes_git8+1257762-r0_spark.ipk
+MD5Sum: 14c3785787223bcb5038ea43a71c249f
+Size: 1656
+Filename: openwebif-remotes_git9+1e12c70-r0_spark.ipk
 Source: openwebif-remotes.bb
 Description: RC files and STB pictures for Open WebIF
  RC files and STB pictures for Open WebIF.
@@ -7518,8 +7518,8 @@ Recommends: base-files-dbg, base-passwd-dbg, busybox-dbg, devinit-dbg, eudev-dbg
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f1096250deea1d9ee70ec6daa2f894fc
-Size: 940
+MD5Sum: 868798d5cdcb0c5fce367a40f1885bd9
+Size: 944
 Filename: packagegroup-core-boot-dbg_1.0-r17_spark.ipk
 Source: packagegroup-core-boot.bb
 Description: Minimal boot requirements - Debugging files
@@ -7536,8 +7536,8 @@ Recommends: base-files-dev, base-passwd-dev, busybox-dev, devinit-dev, eudev-dev
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 821ce177967f435c0dd7896832a22953
-Size: 966
+MD5Sum: 8273f6f522778756acb42b43c95e5239
+Size: 968
 Filename: packagegroup-core-boot-dev_1.0-r17_spark.ipk
 Source: packagegroup-core-boot.bb
 Description: Minimal boot requirements - Development files
@@ -7555,7 +7555,7 @@ Recommends: firmware-mt7601u, firmware-mt7650, firmware-rt2870, firmware-rt73, f
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0c0c22e7770cc41ec3bc04f7663930c4
+MD5Sum: 4407c9f50de3917208ba71bce1b40ef9
 Size: 958
 Filename: packagegroup-core-boot_1.0-r17_spark.ipk
 Source: packagegroup-core-boot.bb
@@ -7708,15 +7708,15 @@ License: GPLv2
 Priority: optional
 
 Package: sh4-dvb-modules-dev
-Version: git1531+91743bd-openvision
-Depends: sh4-dvb-modules (= git1531+91743bd-openvision)
+Version: git1531+fd68071-openvision
+Depends: sh4-dvb-modules (= git1531+fd68071-openvision)
 Recommends: kernel-2.6.32.81_stm24_0217-dev, kernel-module-aotom-dev, kernel-module-avs-dev, kernel-module-boxtype-dev, kernel-module-bpamem-dev, kernel-module-cec-dev, kernel-module-cpu-frequ-dev, kernel-module-e2-proc-dev, kernel-module-embxmailbox-dev, kernel-module-embxshell-dev, kernel-module-embxshm-dev, kernel-module-kreplay-dev, kernel-module-kreplay-fdma-dev, kernel-module-ksound-dev, kernel-module-ktone-dev, kernel-module-mme-host-dev, kernel-module-mmelog-dev, kernel-module-mpeg2hw-dev, kernel-module-p2div64-dev, kernel-module-pcm-transcoder-dev, kernel-module-platform-dev, kernel-module-player2-dev, kernel-module-player2-unified-dev, kernel-module-pseudocard-dev, kernel-module-pti-dev, kernel-module-silencegen-dev, kernel-module-simu-button-dev, kernel-module-smartcard-dev, kernel-module-spark-fe-dev, kernel-module-sth264pp-dev, kernel-module-stm-monitor-dev, kernel-module-stm-v4l2-dev, kernel-module-stmalloc-dev, kernel-module-stmcore-display-sti7111-dev, kernel-module-stmdvb-dev, kernel-module-stmfb-dev, kernel-module-stmsysfs-dev, kernel-module-stmvbi-dev, kernel-module-stmvout-dev, kernel-module-zram-dev
 Section: devel
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0a40966ccd00f97c29ac65488025ef9b
-Size: 15664
-Filename: sh4-dvb-modules-dev_git1531+91743bd-openvision_spark.ipk
+MD5Sum: 9fb26d2f8eb7345366bbdd630f04bed4
+Size: 15666
+Filename: sh4-dvb-modules-dev_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: SH4 driver modules - Development files
  SH4 driver modules  This package contains symbolic links, header files,
@@ -7726,7 +7726,7 @@ License: GPLv2+
 Priority: required
 
 Package: sh4-dvb-modules
-Version: git1531+91743bd-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-module-aotom, kernel-module-avs, kernel-module-boxtype, kernel-module-bpamem, kernel-module-cec, kernel-module-cpu-frequ, kernel-module-e2-proc, kernel-module-embxmailbox, kernel-module-embxshell, kernel-module-embxshm, kernel-module-kreplay, kernel-module-kreplay-fdma, kernel-module-ksound, kernel-module-ktone, kernel-module-mme-host, kernel-module-mmelog, kernel-module-mpeg2hw, kernel-module-p2div64, kernel-module-pcm-transcoder, kernel-module-platform, kernel-module-player2, kernel-module-player2-unified, kernel-module-pseudocard, kernel-module-pti, kernel-module-silencegen, kernel-module-simu-button, kernel-module-smartcard, kernel-module-spark-fe, kernel-module-sth264pp, kernel-module-stm-monitor, kernel-module-stm-v4l2, kernel-module-stmalloc, kernel-module-stmcore-display-sti7111, kernel-module-stmdvb, kernel-module-stmfb, kernel-module-stmsysfs, kernel-module-stmvbi, kernel-module-stmvout, kernel-module-zram
 Provides: sh4-dvb-modules
 Replaces: sh4-dvb-modules
@@ -7734,9 +7734,9 @@ Conflicts: sh4-dvb-modules
 Section: base
 Architecture: spark
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 71f97ec48fd66cc58a270dcac36e0098
-Size: 2934
-Filename: sh4-dvb-modules_git1531+91743bd-openvision_spark.ipk
+MD5Sum: 1fa03cb4880488185eb61c7aad9f5240
+Size: 2936
+Filename: sh4-dvb-modules_git1531+fd68071-openvision_spark.ipk
 Source: sh4-dvb-modules.bb
 Description: SH4 driver modules
  SH4 driver modules

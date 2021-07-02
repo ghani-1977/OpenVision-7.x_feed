@@ -196,8 +196,8 @@ Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 855824914ac8bf09043b271d967392a7
-Size: 63424
+MD5Sum: f1ece4dbcbe9c011b8a6779ddfccbf4b
+Size: 63416
 Filename: bitratecalc-dbg_git10+740b342-r0_ufs912.ipk
 Source: bitratecalc_git.bb
 Description: bitratecalc version gitAUTOINC+740b342ae4-r0 - Debugging files
@@ -214,7 +214,7 @@ Recommends: enigma2-dev, libc6-dev, libgcc-s-dev, libstdc++-dev, python-dev
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f742f338e6ad57f427a25d1d70b92b76
+MD5Sum: e46038e2588e67150b2b966c02cf76e4
 Size: 816
 Filename: bitratecalc-dev_git10+740b342-r0_ufs912.ipk
 Source: bitratecalc_git.bb
@@ -232,8 +232,8 @@ Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 42f995bf744de0061313ddcb2e2ad5db
-Size: 6806
+MD5Sum: 47e9c634aa91a7fc4db86a0af16cb817
+Size: 6804
 Filename: bitratecalc_git10+740b342-r0_ufs912.ipk
 Source: bitratecalc_git.bb
 Description: bitratecalc version gitAUTOINC+740b342ae4-r0
@@ -344,15 +344,68 @@ OE: distro-feed-configs
 License: MIT
 Priority: optional
 
+Package: enigma-module-dbg
+Version: 7.6-r315
+Section: devel
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 370110afc08709cec1f4211c6215350f
+Size: 728
+Filename: enigma-module-dbg_7.6-r315_ufs912.ipk
+Source: enigma-module.bb
+Description: Enigma kernel module for ufs912 - Debugging files
+ Enigma kernel module for ufs912.  This package contains ELF symbols and
+ related sources for debugging purposes.
+OE: enigma-module
+HomePage: https://github.com/OpenVisionE2/enigma-module
+License: GPLv3
+Priority: required
+
+Package: enigma-module-dev
+Version: 7.6-r315
+Depends: enigma-module (= 7.6-r315)
+Recommends: kernel-2.6.32.81_stm24_0217-dev, kernel-module-enigma-dev
+Section: devel
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 46d26048e101b42e072608a1038f79b3
+Size: 796
+Filename: enigma-module-dev_7.6-r315_ufs912.ipk
+Source: enigma-module.bb
+Description: Enigma kernel module for ufs912 - Development files
+ Enigma kernel module for ufs912.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+OE: enigma-module
+HomePage: https://github.com/OpenVisionE2/enigma-module
+License: GPLv3
+Priority: required
+
+Package: enigma-module
+Version: 7.6-r315
+Depends: kernel-module-enigma
+Section: base
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 88a02bb9c6dedf722bbcb38dcc46aa60
+Size: 774
+Filename: enigma-module_7.6-r315_ufs912.ipk
+Source: enigma-module.bb
+Description: Enigma kernel module for ufs912
+ Enigma kernel module for ufs912.
+OE: enigma-module
+HomePage: https://github.com/OpenVisionE2/enigma-module
+License: GPLv3
+Priority: required
+
 Package: enigma2-c-plugins-dbg
-Version: git39+33c4338-r0
+Version: git40+9b3898b-r0
 Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg, libtirpc-dbg
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9312c9236f6942a55c2d7027c06ef8a4
-Size: 129550
-Filename: enigma2-c-plugins-dbg_git39+33c4338-r0_ufs912.ipk
+MD5Sum: 0206d44c4fa416f0e548a33b0ccf516d
+Size: 129594
+Filename: enigma2-c-plugins-dbg_git40+9b3898b-r0_ufs912.ipk
 Source: enigma2-c-plugins.bb
 Description: C plugins for Open Vision - Debugging files
  C plugins for Open Vision.  This package contains ELF symbols and related
@@ -362,15 +415,15 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-c-plugins-dev
-Version: git39+33c4338-r0
-Depends: enigma2-c-plugins (= git39+33c4338-r0)
+Version: git40+9b3898b-r0
+Depends: enigma2-c-plugins (= git40+9b3898b-r0)
 Recommends: enigma2-dev, gstreamer1.0-plugins-bad-fragmented-dev, hairtunes-dev, libc6-dev, libgcc-s-dev, libstdc++-dev, libtirpc-dev, python-ctypes-dev, python-misc-dev, python-shell-dev, python-subprocess32-dev
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: aded64f700af5317c7ee04e23933e519
-Size: 830
-Filename: enigma2-c-plugins-dev_git39+33c4338-r0_ufs912.ipk
+MD5Sum: e02a83042308d2253dea7268a5dd28f2
+Size: 826
+Filename: enigma2-c-plugins-dev_git40+9b3898b-r0_ufs912.ipk
 Source: enigma2-c-plugins.bb
 Description: C plugins for Open Vision - Development files
  C plugins for Open Vision.  This package contains symbolic links, header
@@ -380,13 +433,13 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-c-plugins-meta
-Version: git39+33c4338-r0
+Version: git40+9b3898b-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 81fdf963e5b87dca4635951a4d2324a7
-Size: 1354
-Filename: enigma2-c-plugins-meta_git39+33c4338-r0_ufs912.ipk
+MD5Sum: 43a9fbff8ee6efce50c95b57115e836d
+Size: 1360
+Filename: enigma2-c-plugins-meta_git40+9b3898b-r0_ufs912.ipk
 Source: enigma2-c-plugins.bb
 Description: C plugins for Open Vision
  C plugins for Open Vision.
@@ -395,13 +448,13 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-c-plugins
-Version: git39+33c4338-r0
+Version: git40+9b3898b-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bed39781e3326ca3cd1caf204bdd48b3
+MD5Sum: 38b097d92af7093ee2b7f70f6501f940
 Size: 636
-Filename: enigma2-c-plugins_git39+33c4338-r0_ufs912.ipk
+Filename: enigma2-c-plugins_git40+9b3898b-r0_ufs912.ipk
 Source: enigma2-c-plugins.bb
 Description: C plugins for Open Vision
  C plugins for Open Vision.
@@ -410,14 +463,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-dbg
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Recommends: libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypto-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libgomp-dbg, libjpeg-dbg, libmmeimage-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libudfread-dbg, libxml2-dbg
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 64889688017183357df0cc463ac4675e
-Size: 11414396
-Filename: enigma2-dbg_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: f091e369bc8adb867100784ad32b7f23
+Size: 11409870
+Filename: enigma2-dbg_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Debugging files
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -428,15 +481,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-dev
-Version: develop+git23848+4cc5e52-r0
-Depends: enigma2 (= develop+git23848+4cc5e52-r0)
-Recommends: aio-grab-dev, alsa-conf-dev, alsa-utils-amixer-conf-dev, avahi-dev, cdrkit-dev, dhrystone-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma2-data-iso-639-3-dev, enigma2-fonts-dev, enigma2-plugin-extensions-pespeedup-dev, enigma2-remotes-dev, enigma2-timezones-dev, ethtool-dev, font-valis-enigma-dev, glibc-gconv-cp1250-dev, glibc-gconv-iso8859-15-dev, gstreamer1.0-plugins-bad-mpegtsmux-dev, gstreamer1.0-plugins-bad-videoparsersbad-dev, hotplug-e2-helper-dev, jpeg-dev, kernel-module-pktcdvd-dev, kernel-module-udf-dev, libavahi-client-dev, libavahi-common-dev, libc6-dev, libcrypto-dev, libdreamdvd-dev, libdvbsi++-dev, libfreetype-dev, libfribidi-dev, libgcc-s-dev, libgif-dev, libglib-2.0-dev, libgomp-dev, libjpeg-dev, libmad-dev, libmme-host-dev, libmmeimage-dev, libpng16-dev, libpython2-dev, libsigc-2.0-dev, libssl-dev, libstdc++-dev, libtuxtxt-dev, libtuxtxt32bpp-dev, libudfread-dev, libxml2-dev, mjpegtools-dev, ntpdate-dev, ofgwrite-dev, openssl-dev, openvision-module-dev, openvision-version-info-dev, python-codecs-dev, python-core-dev, python-crypt-dev, python-fcntl-dev, python-image-dev, python-imaging-dev, python-lang-dev, python-mmap-dev, python-netclient-dev, python-netifaces-dev, python-netserver-dev, python-numbers-dev, python-pickle-dev, python-process-dev, python-pyusb-dev, python-re-dev, python-sendfile-dev, python-service-identity-dev, python-shell-dev, python-six-dev, python-threading-dev, python-twisted-core-dev, python-twisted-dev, python-twisted-web-dev, python-wifi-dev, python-xml-dev, python-zlib-dev, python-zopeinterface-dev, replex-dev, streambench-dev, virtual/enigma2-mediaservice-dev, wireless-tools-dev, wpa-supplicant-dev
+Version: develop+git23890+c3a98a5-r0
+Depends: enigma2 (= develop+git23890+c3a98a5-r0)
+Recommends: aio-grab-dev, alsa-conf-dev, alsa-utils-amixer-conf-dev, avahi-dev, cdrkit-dev, dhrystone-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma-module-dev, enigma2-data-iso-639-3-dev, enigma2-fonts-dev, enigma2-plugin-extensions-pespeedup-dev, enigma2-remotes-dev, enigma2-timezones-dev, ethtool-dev, font-valis-enigma-dev, glibc-gconv-cp1250-dev, glibc-gconv-iso8859-15-dev, gstreamer1.0-plugins-bad-mpegtsmux-dev, gstreamer1.0-plugins-bad-videoparsersbad-dev, hotplug-e2-helper-dev, jpeg-dev, kernel-module-pktcdvd-dev, kernel-module-udf-dev, libavahi-client-dev, libavahi-common-dev, libc6-dev, libcrypto-dev, libdreamdvd-dev, libdvbsi++-dev, libfreetype-dev, libfribidi-dev, libgcc-s-dev, libgif-dev, libglib-2.0-dev, libgomp-dev, libjpeg-dev, libmad-dev, libmme-host-dev, libmmeimage-dev, libpng16-dev, libpython2-dev, libsigc-2.0-dev, libssl-dev, libstdc++-dev, libtuxtxt-dev, libtuxtxt32bpp-dev, libudfread-dev, libxml2-dev, mjpegtools-dev, ntpdate-dev, ofgwrite-dev, openssl-dev, openvision-version-info-dev, python-codecs-dev, python-core-dev, python-crypt-dev, python-fcntl-dev, python-image-dev, python-imaging-dev, python-lang-dev, python-mmap-dev, python-netclient-dev, python-netifaces-dev, python-netserver-dev, python-numbers-dev, python-pickle-dev, python-process-dev, python-pyusb-dev, python-re-dev, python-sendfile-dev, python-service-identity-dev, python-shell-dev, python-six-dev, python-threading-dev, python-twisted-core-dev, python-twisted-dev, python-twisted-web-dev, python-wifi-dev, python-xml-dev, python-zlib-dev, python-zopeinterface-dev, replex-dev, streambench-dev, virtual/enigma2-mediaservice-dev, wireless-tools-dev, wpa-supplicant-dev
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a9044f2f8c18d148984e384905c6ddfe
-Size: 161288
-Filename: enigma2-dev_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 9de0970354823cf71586f691f2ab3321
+Size: 161436
+Filename: enigma2-dev_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Development files
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -451,8 +504,8 @@ Version: 2020.10.17-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f4581e74e5fe460b913d08bfd1c30147
-Size: 1077318
+MD5Sum: 543f22c05c214a24b881766a72bc4e6c
+Size: 1077330
 Filename: enigma2-fonts_2020.10.17-r0_ufs912.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
@@ -463,14 +516,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ar
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b2166685a39b0e0d2a0eb29815f54e4f
-Size: 71644
-Filename: enigma2-locale-ar_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: a5a29a730b88b1938e9170f675a49e0d
+Size: 71528
+Filename: enigma2-locale-ar_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: ar
  ar
@@ -479,14 +532,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-bg
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d62fd410e267adddde718ba6d7111c0b
-Size: 112864
-Filename: enigma2-locale-bg_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 378ce48aa3183b27e79c35cecb42aee1
+Size: 112742
+Filename: enigma2-locale-bg_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: bg
  bg
@@ -495,14 +548,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ca
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 821fe2972b27324c168a487c36682848
-Size: 106888
-Filename: enigma2-locale-ca_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 364f01f9c75049f1779479fb85f8b809
+Size: 106774
+Filename: enigma2-locale-ca_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: ca
  ca
@@ -511,14 +564,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-cs
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 152ccb29b8b4b2e9e887fe19f911aa68
-Size: 105304
-Filename: enigma2-locale-cs_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: b6ec44ca6650ccdcc738ae685df50117
+Size: 105184
+Filename: enigma2-locale-cs_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: cs
  cs
@@ -527,14 +580,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-da
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: aa90bded485fec7c9f3181c8c086c3ec
-Size: 70568
-Filename: enigma2-locale-da_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 20bded90cbbd1c0f4e4d4ce6e8d201a2
+Size: 70482
+Filename: enigma2-locale-da_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: da
  da
@@ -543,14 +596,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-de
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ea91a1b9746ed0d4094a005ca8ee8273
-Size: 106234
-Filename: enigma2-locale-de_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: fcecdce1499d9297032176a694c2c4e8
+Size: 106024
+Filename: enigma2-locale-de_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: de
  de
@@ -559,14 +612,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-el
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 59a45a0ec5573a897d94b11d6a5087ef
-Size: 117278
-Filename: enigma2-locale-el_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 631f752fd2d13b6cad266528f097eddd
+Size: 117120
+Filename: enigma2-locale-el_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: el
  el
@@ -575,14 +628,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-en
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 03cae5fec17a19f93e6c367b9ac4712d
-Size: 51510
-Filename: enigma2-locale-en_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 257f6934b0854e81f71c33bedac9975d
+Size: 51540
+Filename: enigma2-locale-en_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: en
  en
@@ -591,14 +644,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-es
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8325f262619ea72f5512e04f40a8f1ae
-Size: 128754
-Filename: enigma2-locale-es_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 65cdb8c4fca1d716e26b4e18c1c9af81
+Size: 129378
+Filename: enigma2-locale-es_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: es
  es
@@ -607,14 +660,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-et
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c6c5b147524df62c0a90bbd8d468e614
-Size: 89882
-Filename: enigma2-locale-et_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: d0f50a0b838c3bf5a46602bbc103edea
+Size: 89732
+Filename: enigma2-locale-et_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: et
  et
@@ -623,14 +676,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fa
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6561a23ca2d77aaf3d80a28ef8643529
-Size: 28822
-Filename: enigma2-locale-fa_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: c440650d661e62ab477f2ee4c63de285
+Size: 28836
+Filename: enigma2-locale-fa_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: fa
  fa
@@ -639,14 +692,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fi
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0200803353106dcb1b3714f9ffe2bc9e
-Size: 85432
-Filename: enigma2-locale-fi_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: dc6cb733fd1042d54e57f33f013e72a9
+Size: 85256
+Filename: enigma2-locale-fi_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: fi
  fi
@@ -655,14 +708,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fr
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c474351f2eec5c949150c8220ce64623
-Size: 107190
-Filename: enigma2-locale-fr_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 94279bd75ffa58dff68cbe40c1525550
+Size: 107070
+Filename: enigma2-locale-fr_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: fr
  fr
@@ -671,14 +724,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fy
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2c97dca82ce733707e95a05c0aa4b1b3
-Size: 20038
-Filename: enigma2-locale-fy_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: f0faf7ac2cfbc43b645064ba649c236f
+Size: 20006
+Filename: enigma2-locale-fy_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: fy
  fy
@@ -687,14 +740,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-gl
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3a8abfd79c32ec12af4e71c849b189f7
-Size: 103908
-Filename: enigma2-locale-gl_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 4a319282fffd430fcdd816c364d94ee1
+Size: 103668
+Filename: enigma2-locale-gl_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: gl
  gl
@@ -703,14 +756,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-he
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 43b995f0e6bfb329feb3d4161de3f63b
-Size: 21458
-Filename: enigma2-locale-he_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 4921ad09abdd67c2f7dfa5e027b0e93e
+Size: 21448
+Filename: enigma2-locale-he_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: he
  he
@@ -719,14 +772,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-hr
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4dc3d38c94edb1ddb71d513c7e1293d2
-Size: 105126
-Filename: enigma2-locale-hr_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: d59a57443aa09530d40cf218a0f59b00
+Size: 104908
+Filename: enigma2-locale-hr_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: hr
  hr
@@ -735,14 +788,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-hu
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ac5212afc33fb351e02ff3f8eddc7dba
-Size: 106378
-Filename: enigma2-locale-hu_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: a3f91ee037035f24ed413afeb14a3920
+Size: 106234
+Filename: enigma2-locale-hu_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: hu
  hu
@@ -751,14 +804,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-id
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e9ff5c114d6d231c7ddb0dae7a0d969f
-Size: 90644
-Filename: enigma2-locale-id_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 06911a50bf308f9c3f66628159ab7618
+Size: 90520
+Filename: enigma2-locale-id_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: id
  id
@@ -767,14 +820,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-is
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: da0469c8f12fca2e611938736e78d82c
-Size: 27888
-Filename: enigma2-locale-is_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 68c2a857181ea4046e7fe51d9305bb61
+Size: 27864
+Filename: enigma2-locale-is_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: is
  is
@@ -783,14 +836,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-it
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4d0629263392f6d99387c37aa7c7ab72
-Size: 98112
-Filename: enigma2-locale-it_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 9684424ba3d8080afb9c347062fbe096
+Size: 97950
+Filename: enigma2-locale-it_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: it
  it
@@ -799,14 +852,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ku
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4b1ef59bd2fd79b2dc3cd0c9426b370c
-Size: 51174
-Filename: enigma2-locale-ku_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: f5f99bab9629ce63a3120799a35da83b
+Size: 51132
+Filename: enigma2-locale-ku_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: ku
  ku
@@ -815,14 +868,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-lt
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f668e9560143ad89ae987064e7592d51
-Size: 107646
-Filename: enigma2-locale-lt_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: f4926c164da8d9a6c64df22752ec70c4
+Size: 107508
+Filename: enigma2-locale-lt_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: lt
  lt
@@ -831,14 +884,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-lv
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d4738283c444c29cc35185811449c408
-Size: 102934
-Filename: enigma2-locale-lv_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 71a6f3692b17637ce2472eb11a266c8d
+Size: 102746
+Filename: enigma2-locale-lv_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: lv
  lv
@@ -851,8 +904,8 @@ Version: 1.0-r0
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d0ccbabe8b026ca93ec94a172beb4824
-Size: 696
+MD5Sum: dd869139071193a1079459188501c9d0
+Size: 692
 Filename: enigma2-locale-meta-dbg_1.0-r0_ufs912.ipk
 Source: enigma2-locale-meta.bb
 Description: meta file for enigma2 locales - Debugging files
@@ -868,7 +921,7 @@ Depends: enigma2-locale-meta (= 1.0-r0)
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0054b0413609ac7090e1edc633996c97
+MD5Sum: d558a67a49ea47607645f44bd1e1f0bf
 Size: 724
 Filename: enigma2-locale-meta-dev_1.0-r0_ufs912.ipk
 Source: enigma2-locale-meta.bb
@@ -885,7 +938,7 @@ Recommends: enigma2-locale-ar, enigma2-locale-bg, enigma2-locale-ca, enigma2-loc
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 84d5cc005b7ae132213f06aaec3f7e4f
+MD5Sum: 67440960798bdc29765daca4e0c74bcc
 Size: 764
 Filename: enigma2-locale-meta_1.0-r0_ufs912.ipk
 Source: enigma2-locale-meta.bb
@@ -896,14 +949,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-locale-mk
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e7dd9d2c5e1cebbaed345c7a73cc5cdc
-Size: 115824
-Filename: enigma2-locale-mk_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 9c03947729b6780cde44b1f26fbd5db5
+Size: 115592
+Filename: enigma2-locale-mk_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: mk
  mk
@@ -912,14 +965,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-nb
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 51c607240f5acc73d792b19a581fb4d2
-Size: 101942
-Filename: enigma2-locale-nb_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: e5fd6876a07459082b2db78da884deff
+Size: 102618
+Filename: enigma2-locale-nb_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: nb
  nb
@@ -928,14 +981,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-nl
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5bd782b5612f931e7de563e0ef430e12
-Size: 110030
-Filename: enigma2-locale-nl_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: b6a1d0107e86d58bf664aa605780a2d4
+Size: 109870
+Filename: enigma2-locale-nl_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: nl
  nl
@@ -944,14 +997,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-nn
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6ad2246da797d97d12e9333abe833606
-Size: 53300
-Filename: enigma2-locale-nn_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 68dfe28bbdb2fcfb1a6d069e406b23a0
+Size: 53276
+Filename: enigma2-locale-nn_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: nn
  nn
@@ -960,14 +1013,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pl
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d63d8f185ab695e737bd3c846cb12461
-Size: 100362
-Filename: enigma2-locale-pl_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 4b9c57e8c9ee356295d45bd1dc9acb3e
+Size: 100218
+Filename: enigma2-locale-pl_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: pl
  pl
@@ -976,14 +1029,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pt-br
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c55eb6fb05bb2afeab920043f0dc57d7
-Size: 52836
-Filename: enigma2-locale-pt-br_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 0ec99212621b0cc9cb549f8b925800de
+Size: 52818
+Filename: enigma2-locale-pt-br_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: pt-br
  pt-br
@@ -992,14 +1045,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pt
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0fd5c994dfe3d46f7a4b32994c8e9e03
-Size: 50530
-Filename: enigma2-locale-pt_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 653543aef3f662a9b365e6179acaf1bc
+Size: 50448
+Filename: enigma2-locale-pt_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: pt
  pt
@@ -1008,14 +1061,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ro
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3b830b7ce27fe8cb24cb36124476570f
-Size: 21744
-Filename: enigma2-locale-ro_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: e37449a0f45e9ec04bc08769685ec3da
+Size: 21736
+Filename: enigma2-locale-ro_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: ro
  ro
@@ -1024,14 +1077,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ru
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 672998a6a3495eb185f18b47d00d0624
-Size: 117070
-Filename: enigma2-locale-ru_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 74ba84de135f9040650a49856d4e1983
+Size: 116936
+Filename: enigma2-locale-ru_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: ru
  ru
@@ -1040,14 +1093,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sk
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 82019f2de5e3190e524b76d3852773a8
-Size: 107472
-Filename: enigma2-locale-sk_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 4b1b5a568af8537f9f2b61d7a1c69ed4
+Size: 107298
+Filename: enigma2-locale-sk_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: sk
  sk
@@ -1056,14 +1109,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sl
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9b988c5506c704e53e021df0c4a6f4f8
-Size: 60566
-Filename: enigma2-locale-sl_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 59e4a1fe7ea34147882b7742f083b7fd
+Size: 60538
+Filename: enigma2-locale-sl_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: sl
  sl
@@ -1072,14 +1125,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sr
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ac75677a41623c0a743f1e922e48b85b
-Size: 28034
-Filename: enigma2-locale-sr_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: e8b597c710e45299d146e3b02949aee1
+Size: 28044
+Filename: enigma2-locale-sr_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: sr
  sr
@@ -1088,14 +1141,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sv
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 44dda10fad8409b86c0c3d45a2423057
-Size: 71638
-Filename: enigma2-locale-sv_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 404b2e047b10ed33ca28040230572469
+Size: 71536
+Filename: enigma2-locale-sv_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: sv
  sv
@@ -1104,14 +1157,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-th
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dfcf12b1d98be285482239e1fe21d38e
-Size: 27176
-Filename: enigma2-locale-th_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 86a9ae9319310f97dbe90f9a5f975a6b
+Size: 27132
+Filename: enigma2-locale-th_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: th
  th
@@ -1120,14 +1173,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-tr
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3c2e0a34cb41b00a17995c4d0685f3b2
-Size: 68030
-Filename: enigma2-locale-tr_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 3c7cf4ba054dce17d6866e684ae5d768
+Size: 67906
+Filename: enigma2-locale-tr_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: tr
  tr
@@ -1136,14 +1189,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-uk
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3b283efd94c08ab90de221f3e96a1b36
-Size: 115788
-Filename: enigma2-locale-uk_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 7e77bad2446d0ff913c9f70a21c0e994
+Size: 115616
+Filename: enigma2-locale-uk_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: uk
  uk
@@ -1152,14 +1205,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-vi
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2af40793e46b17689be24f1822b65fc1
-Size: 100880
-Filename: enigma2-locale-vi_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 54cc92feecd040f3f27e02d840a61086
+Size: 100670
+Filename: enigma2-locale-vi_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: vi
  vi
@@ -1168,14 +1221,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-zh-cn
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 81cd08b41785896917b677a4070f72c2
-Size: 87938
-Filename: enigma2-locale-zh-cn_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: dfde2dc00caf904e3f955dfdacd8a0ee
+Size: 87754
+Filename: enigma2-locale-zh-cn_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: zh-cn
  zh-cn
@@ -1184,14 +1237,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-zh-hk
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9a4be2760488da966e22cda7b14a3970
-Size: 25902
-Filename: enigma2-locale-zh-hk_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 62f090dfc32c85c5a19a2a58eab364a3
+Size: 25878
+Filename: enigma2-locale-zh-hk_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: zh-hk
  zh-hk
@@ -1200,13 +1253,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-meta
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6cc593a371af8780a1681e894ca01587
-Size: 5072
-Filename: enigma2-meta_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 2febd2ca13734538a5fef1e4b9a32fd0
+Size: 4768
+Filename: enigma2-meta_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -2061,14 +2114,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-plugin-extensions-airplayer-po
-Version: git39+33c4338-r0
+Version: git40+9b3898b-r0
 Depends: enigma2-c-plugins
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e6f699c9e7b5e754fb8012787df5e886
-Size: 4518
-Filename: enigma2-plugin-extensions-airplayer-po_git39+33c4338-r0_ufs912.ipk
+MD5Sum: dab14ed49c674118e6307f5827bdcb32
+Size: 4514
+Filename: enigma2-plugin-extensions-airplayer-po_git40+9b3898b-r0_ufs912.ipk
 Source: enigma2-c-plugins.bb
 Description: extensions-airplayer (translations)
  extensions-airplayer (translations)
@@ -2077,14 +2130,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-airplayer
-Version: git39+33c4338-r0
+Version: git40+9b3898b-r0
 Depends: enigma2, gstreamer1.0-plugins-bad-fragmented, hairtunes, python-ctypes, python-misc, python-shell, python-subprocess32
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dc159f99fc2c68ffe901c417d3a98454
-Size: 102994
-Filename: enigma2-plugin-extensions-airplayer_git39+33c4338-r0_ufs912.ipk
+MD5Sum: bc600147d1db79b0149569cab93211c4
+Size: 103044
+Filename: enigma2-plugin-extensions-airplayer_git40+9b3898b-r0_ufs912.ipk
 Source: enigma2-c-plugins.bb
 Description: extensions-airplayer
  extensions-airplayer
@@ -2093,14 +2146,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-cutlisteditor
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: aio-grab
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 31bdea3fd0a1ad504f3cda0d82c2c980
+MD5Sum: 8a0b9c2ce4f112ac1284a26877560c78
 Size: 20410
-Filename: enigma2-plugin-extensions-cutlisteditor_develop+git23848+4cc5e52-r0_ufs912.ipk
+Filename: enigma2-plugin-extensions-cutlisteditor_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor
  extensions-cutlisteditorenables you to cut your movies.
@@ -2109,14 +2162,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdburn
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: cdrkit, dvd+rw-tools, dvdauthor, gstreamer1.0-plugins-bad-mpegtsmux, kernel-module-pktcdvd, mjpegtools, python-imaging, replex
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b33ce697a894315bd4bdb4cd8d5aecf3
-Size: 853452
-Filename: enigma2-plugin-extensions-dvdburn_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: d22c7f228e60225ec0d813207b4d00c8
+Size: 853456
+Filename: enigma2-plugin-extensions-dvdburn_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: extensions-dvdburn
  extensions-dvdburn
@@ -2125,14 +2178,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdplayer
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: gstreamer1.0-plugins-bad-videoparsersbad, kernel-module-udf
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 925ae846186cd877a3ec83cbca1284b9
-Size: 3850
-Filename: enigma2-plugin-extensions-dvdplayer_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: f9b3a376ba9df477af57372ccda2e59c
+Size: 3846
+Filename: enigma2-plugin-extensions-dvdplayer_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: extensions-dvdplayer
  extensions-dvdplayer
@@ -2141,13 +2194,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-graphmultiepg
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d4b78daaffeeb5f5146a2c322111efa5
-Size: 42868
-Filename: enigma2-plugin-extensions-graphmultiepg_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 695771f0d36f99fd47e6778a30859ce6
+Size: 42864
+Filename: enigma2-plugin-extensions-graphmultiepg_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: extensions-graphmultiepg
  extensions-graphmultiepgshows a graphical timeline EPG.
@@ -2156,13 +2209,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-iptvplayer-dbg
-Version: git3707+c330bb9-r0
+Version: git3714+d026667-r0
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6191f1e17a61c7db5102045532bc3a7a
-Size: 714
-Filename: enigma2-plugin-extensions-iptvplayer-dbg_git3707+c330bb9-r0_ufs912.ipk
+MD5Sum: 176b7e376b9c2bcd46cd5b478225fa8d
+Size: 710
+Filename: enigma2-plugin-extensions-iptvplayer-dbg_git3714+d026667-r0_ufs912.ipk
 Source: enigma2-plugin-extensions-iptvplayer.bb
 Description: E2i Player for E2 - Debugging files
  E2i Player for E2  This package contains ELF symbols and related sources
@@ -2172,15 +2225,15 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-iptvplayer-dev
-Version: git3707+c330bb9-r0
-Depends: enigma2-plugin-extensions-iptvplayer (= git3707+c330bb9-r0)
+Version: git3714+d026667-r0
+Depends: enigma2-plugin-extensions-iptvplayer (= git3714+d026667-r0)
 Recommends: cmdwrapper-dev, duktape-dev, enigma2-dev, exteplayer3-dev, f4mdump-dev, ffmpeg-dev, gst-ifdsrc-dev, gstplayer-dev, hlsdl-dev, iptvsubparser-dev, lsdir-dev, python-compression-dev, python-core-dev, python-dev, python-e2icjson-dev, python-html-dev, python-json-dev, python-pycurl-dev, python-shell-dev, python-subprocess-dev, python-textutils-dev, rtmpdump-dev, uchardet-dev, wget-dev
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2e755f17292fc65dac83bc5769ac9059
-Size: 898
-Filename: enigma2-plugin-extensions-iptvplayer-dev_git3707+c330bb9-r0_ufs912.ipk
+MD5Sum: ec0f8240fcd20029f13da154dff9318e
+Size: 896
+Filename: enigma2-plugin-extensions-iptvplayer-dev_git3714+d026667-r0_ufs912.ipk
 Source: enigma2-plugin-extensions-iptvplayer.bb
 Description: E2i Player for E2 - Development files
  E2i Player for E2  This package contains symbolic links, header files,
@@ -2190,14 +2243,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-iptvplayer-po
-Version: git3707+c330bb9-r0
+Version: git3714+d026667-r0
 Depends: enigma2-plugin-extensions-iptvplayer
 Section: multimedia
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7f9ad25d0952decc4e0d05cfcf6da918
-Size: 441734
-Filename: enigma2-plugin-extensions-iptvplayer-po_git3707+c330bb9-r0_ufs912.ipk
+MD5Sum: c29ff298233ce44e63294faa8b86f715
+Size: 441726
+Filename: enigma2-plugin-extensions-iptvplayer-po_git3714+d026667-r0_ufs912.ipk
 Source: enigma2-plugin-extensions-iptvplayer.bb
 Description: extensions-iptvplayer (translations)
  extensions-iptvplayer (translations)
@@ -2206,14 +2259,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-iptvplayer
-Version: git3707+c330bb9-r0
+Version: git3714+d026667-r0
 Depends: cmdwrapper, duktape, enigma2, exteplayer3, f4mdump, ffmpeg, gst-ifdsrc, gstplayer, hlsdl, iptvsubparser, lsdir, python-compression, python-core, python-e2icjson, python-html, python-json, python-pycurl, python-shell, python-subprocess, python-textutils, rtmpdump, uchardet, wget
 Section: multimedia
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c750432bd7e8cceb5c493156fce1c4a3
-Size: 8346844
-Filename: enigma2-plugin-extensions-iptvplayer_git3707+c330bb9-r0_ufs912.ipk
+MD5Sum: 771a964aec550f1e7c6d05a48c315821
+Size: 8344632
+Filename: enigma2-plugin-extensions-iptvplayer_git3714+d026667-r0_ufs912.ipk
 Source: enigma2-plugin-extensions-iptvplayer.bb
 Description: extensions-iptvplayer
  extensions-iptvplayer
@@ -2222,13 +2275,13 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediaplayer
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4810b297c0b879b56f1e4f5c44e2c152
-Size: 36080
-Filename: enigma2-plugin-extensions-mediaplayer_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 3dcb58b854ac959b4927d9ef04c083d7
+Size: 36082
+Filename: enigma2-plugin-extensions-mediaplayer_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: extensions-mediaplayer
  extensions-mediaplayer
@@ -2237,13 +2290,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediascanner
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7da0c6393063cb2771c50e6b7225e62e
+MD5Sum: 1716a52cfbf90b743fa7061d5209fb85
 Size: 6876
-Filename: enigma2-plugin-extensions-mediascanner_develop+git23848+4cc5e52-r0_ufs912.ipk
+Filename: enigma2-plugin-extensions-mediascanner_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: extensions-mediascanner
  extensions-mediascanner
@@ -2252,14 +2305,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-moviecut-po
-Version: git39+33c4338-r0
+Version: git40+9b3898b-r0
 Depends: enigma2-c-plugins
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7243c82ffcad0ffa82f6b8059119abff
-Size: 10106
-Filename: enigma2-plugin-extensions-moviecut-po_git39+33c4338-r0_ufs912.ipk
+MD5Sum: 38d038d485d273c7fdcbb845f7b1a87a
+Size: 10096
+Filename: enigma2-plugin-extensions-moviecut-po_git40+9b3898b-r0_ufs912.ipk
 Source: enigma2-c-plugins.bb
 Description: extensions-moviecut (translations)
  extensions-moviecut (translations)
@@ -2268,14 +2321,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-moviecut
-Version: git39+33c4338-r0
+Version: git40+9b3898b-r0
 Depends: enigma2, libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f3ca7ef2604111f5792ef82675ae92a1
-Size: 32060
-Filename: enigma2-plugin-extensions-moviecut_git39+33c4338-r0_ufs912.ipk
+MD5Sum: 6baedde3fd39b9e99889835b2d4f267e
+Size: 32012
+Filename: enigma2-plugin-extensions-moviecut_git40+9b3898b-r0_ufs912.ipk
 Source: enigma2-c-plugins.bb
 Description: extensions-moviecut
  extensions-moviecut
@@ -2284,13 +2337,13 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-openmultiboot-dbg
-Version: git203+f5ded93-r0
+Version: git204+b9f2e14-r0
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3ee5e499cd3fc8478f2cbeabcc24e0b6
+MD5Sum: 0ec0dcc3ea3227b0b5f1c3dff1367a00
 Size: 718
-Filename: enigma2-plugin-extensions-openmultiboot-dbg_git203+f5ded93-r0_ufs912.ipk
+Filename: enigma2-plugin-extensions-openmultiboot-dbg_git204+b9f2e14-r0_ufs912.ipk
 Source: enigma2-plugin-extensions-openmultiboot.bb
 Description: Multi boot loader for enigma2 - Debugging files
  Multi boot loader for enigma2.  This package contains ELF symbols and
@@ -2300,15 +2353,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openmultiboot-dev
-Version: git203+f5ded93-r0
-Depends: enigma2-plugin-extensions-openmultiboot (= git203+f5ded93-r0)
+Version: git204+b9f2e14-r0
+Depends: enigma2-plugin-extensions-openmultiboot (= git204+b9f2e14-r0)
 Recommends: enigma2-dev, liblzo2-dev, openmultiboot-dev, python-dev, unjffs2-dev
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bd18faaae0e76032e2da0af057218e8e
+MD5Sum: c1ccf04102a7742ecd1fe1f49d34a27a
 Size: 784
-Filename: enigma2-plugin-extensions-openmultiboot-dev_git203+f5ded93-r0_ufs912.ipk
+Filename: enigma2-plugin-extensions-openmultiboot-dev_git204+b9f2e14-r0_ufs912.ipk
 Source: enigma2-plugin-extensions-openmultiboot.bb
 Description: Multi boot loader for enigma2 - Development files
  Multi boot loader for enigma2.  This package contains symbolic links,
@@ -2318,14 +2371,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openmultiboot-po
-Version: git203+f5ded93-r0
+Version: git204+b9f2e14-r0
 Depends: enigma2-plugin-extensions-openmultiboot
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a0f386513af0607cff427960e6ec2406
-Size: 12280
-Filename: enigma2-plugin-extensions-openmultiboot-po_git203+f5ded93-r0_ufs912.ipk
+MD5Sum: 2c43d4d4f129a7358de1f67188ca13b7
+Size: 12288
+Filename: enigma2-plugin-extensions-openmultiboot-po_git204+b9f2e14-r0_ufs912.ipk
 Source: enigma2-plugin-extensions-openmultiboot.bb
 Description: extensions-openmultiboot (translations)
  extensions-openmultiboot (translations)
@@ -2334,14 +2387,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openmultiboot
-Version: git203+f5ded93-r0
+Version: git204+b9f2e14-r0
 Depends: enigma2, liblzo2-2, openmultiboot, unjffs2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: be87e973d737ed4800c600151a783583
-Size: 89426
-Filename: enigma2-plugin-extensions-openmultiboot_git203+f5ded93-r0_ufs912.ipk
+MD5Sum: 9f660ab387872b1f284635d0b2c5d6ad
+Size: 89440
+Filename: enigma2-plugin-extensions-openmultiboot_git204+b9f2e14-r0_ufs912.ipk
 Source: enigma2-plugin-extensions-openmultiboot.bb
 Description: extensions-openmultiboot
  extensions-openmultiboot
@@ -2350,15 +2403,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-dbg
-Version: git4394+804ecc5-r0
+Version: git4402+23d64b0-r0
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e0ff0f830aef06176dc786de419fff77
+MD5Sum: 119a289868eaa9e305af950b1d00502f
 Size: 746
-Filename: enigma2-plugin-extensions-openwebif-dbg_git4394+804ecc5-r0_ufs912.ipk
+Filename: enigma2-plugin-extensions-openwebif-dbg_git4402+23d64b0-r0_ufs912.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+804ecc569f-r0 - Debugging files
+Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+23d64b0c3b-r0 - Debugging files
  Control your receiver with a browser  This package contains ELF symbols
  and related sources for debugging purposes.
 OE: enigma2-plugin-extensions-openwebif
@@ -2366,17 +2419,17 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-dev
-Version: git4394+804ecc5-r0
-Depends: enigma2-plugin-extensions-openwebif (= git4394+804ecc5-r0)
+Version: git4402+23d64b0-r0
+Depends: enigma2-plugin-extensions-openwebif (= git4402+23d64b0-r0)
 Recommends: aio-grab-dev, enigma2-dev, openwebif-remotes-dev, python-cheetah-dev, python-compression-dev, python-core-dev, python-dev, python-ipaddress-dev, python-json-dev, python-misc-dev, python-numbers-dev, python-pyopenssl-dev, python-shell-dev, python-six-dev, python-unixadmin-dev
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f1cf5fefa13e9330e9cb32731628e232
+MD5Sum: a956e11dd3ed9e2d7377188446e0dfa2
 Size: 878
-Filename: enigma2-plugin-extensions-openwebif-dev_git4394+804ecc5-r0_ufs912.ipk
+Filename: enigma2-plugin-extensions-openwebif-dev_git4402+23d64b0-r0_ufs912.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+804ecc569f-r0 - Development files
+Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+23d64b0c3b-r0 - Development files
  Control your receiver with a browser  This package contains symbolic
  links, header files, and related items necessary for software
  development.
@@ -2385,46 +2438,46 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-themes
-Version: git4394+804ecc5-r0
+Version: git4402+23d64b0-r0
 Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 301c4cd367a0d3badafd789ab974a0c7
+MD5Sum: 384636f0a9bf6e4c4878c32fd439ab0b
 Size: 243948
-Filename: enigma2-plugin-extensions-openwebif-themes_git4394+804ecc5-r0_ufs912.ipk
+Filename: enigma2-plugin-extensions-openwebif-themes_git4402+23d64b0-r0_ufs912.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+804ecc569f-r0
+Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+23d64b0c3b-r0
  Control your receiver with a browser
 OE: enigma2-plugin-extensions-openwebif
 License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-vxg
-Version: git4394+804ecc5-r0
+Version: git4402+23d64b0-r0
 Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4827e6b838cc268630d78603dc3ad761
-Size: 1440132
-Filename: enigma2-plugin-extensions-openwebif-vxg_git4394+804ecc5-r0_ufs912.ipk
+MD5Sum: 990fa4b14bbcfdf823a9dca8b7e9230b
+Size: 1440130
+Filename: enigma2-plugin-extensions-openwebif-vxg_git4402+23d64b0-r0_ufs912.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+804ecc569f-r0
+Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+23d64b0c3b-r0
  Control your receiver with a browser
 OE: enigma2-plugin-extensions-openwebif
 License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif
-Version: git4394+804ecc5-r0
+Version: git4402+23d64b0-r0
 Depends: aio-grab, enigma2, openwebif-remotes, python-cheetah, python-compression, python-core, python-ipaddress, python-json, python-misc, python-numbers, python-pyopenssl, python-shell, python-six, python-unixadmin
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d11d7fb8c7b2e73934c517565cf537a0
-Size: 2350762
-Filename: enigma2-plugin-extensions-openwebif_git4394+804ecc5-r0_ufs912.ipk
+MD5Sum: 880962fc902fe44f09c632434d157f43
+Size: 2350736
+Filename: enigma2-plugin-extensions-openwebif_git4402+23d64b0-r0_ufs912.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: extensions-openwebif
  extensions-openwebif
@@ -2433,13 +2486,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-pictureplayer
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9bd5bafcda3c846fd9d7713dd7a54598
-Size: 21448
-Filename: enigma2-plugin-extensions-pictureplayer_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 06815821100bd3872ac19580fa63d3ec
+Size: 21450
+Filename: enigma2-plugin-extensions-pictureplayer_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: extensions-pictureplayer
  extensions-pictureplayerdisplays photos on the TV.
@@ -2448,13 +2501,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi-staticdev
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 95e1edc534e99d741db8c4ba831a6524
-Size: 90004
-Filename: enigma2-plugin-extensions-socketmmi-staticdev_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: b1e9a6dfcbefae122c44e9255cefbab7
+Size: 89984
+Filename: enigma2-plugin-extensions-socketmmi-staticdev_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (static development)
  extensions-socketmmi (static development)
@@ -2463,14 +2516,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4), libudfread0 (>= 1.1.1+git107+b8ada65), libxml2 (>= 2.9.4)
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1f1534f049ed6d6623a40798b26f953f
+MD5Sum: 6801dcb1ceacaffb3c55bbcdcfe57c00
 Size: 14232
-Filename: enigma2-plugin-extensions-socketmmi_develop+git23848+4cc5e52-r0_ufs912.ipk
+Filename: enigma2-plugin-extensions-socketmmi_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi
  extensions-socketmmi
@@ -2479,13 +2532,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-fonts-wqy-microhei
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4a75a0466ef73d6a46d110d9727f4fac
+MD5Sum: c8bd9bde448051463975f0a23b973cb7
 Size: 2331876
-Filename: enigma2-plugin-fonts-wqy-microhei_develop+git23848+4cc5e52-r0_ufs912.ipk
+Filename: enigma2-plugin-fonts-wqy-microhei_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
  wqy-microhei font supports Chinese EPG
@@ -2494,13 +2547,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-cablescan
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 16f0c16aa211afa4abee1ce5461b18ca
-Size: 8970
-Filename: enigma2-plugin-systemplugins-cablescan_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 88dd85e3ed6e06eaeaf447ad09550238
+Size: 8972
+Filename: enigma2-plugin-systemplugins-cablescan_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-cablescan
  systemplugins-cablescan
@@ -2509,13 +2562,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-commoninterfaceassignment
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 41283687785790268aa25b1639c98fcc
-Size: 16358
-Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: b17c6859c53cccc837e09b208ca1b61e
+Size: 16360
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-commoninterfaceassignment
  systemplugins-commoninterfaceassignment
@@ -2524,16 +2577,16 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-crossepg-dbg
-Version: 0.8.7+gitr533+e8c6180-r0
+Version: 0.8.7+gitr534+13944d2-r0
 Recommends: libc6-dbg, libcurl-dbg, libxml2-dbg, libz-dbg
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0d8f4f560e2736f6563bf1c74e76ed6a
+MD5Sum: 19d0df4dd958562f50f309135b93be0d
 Size: 842
-Filename: enigma2-plugin-systemplugins-crossepg-dbg_0.8.7+gitr533+e8c6180-r0_ufs912.ipk
+Filename: enigma2-plugin-systemplugins-crossepg-dbg_0.8.7+gitr534+13944d2-r0_ufs912.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
-Description: enigma2-plugin-systemplugins-crossepg version 0.8.7+gitrAUTOINC+e8c6180fed-r0 - Debugging files
+Description: enigma2-plugin-systemplugins-crossepg version 0.8.7+gitrAUTOINC+13944d2e2c-r0 - Debugging files
  Handle your EPG on enigma2 from various sources (opentv, xmltv, custom
  sources)  This package contains ELF symbols and related sources for
  debugging purposes.
@@ -2543,17 +2596,17 @@ License: LGPLv2.1
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-crossepg-dev
-Version: 0.8.7+gitr533+e8c6180-r0
-Depends: enigma2-plugin-systemplugins-crossepg (= 0.8.7+gitr533+e8c6180-r0)
+Version: 0.8.7+gitr534+13944d2-r0
+Depends: enigma2-plugin-systemplugins-crossepg (= 0.8.7+gitr534+13944d2-r0)
 Recommends: curl-dev, enigma2-dev, libc6-dev, libcurl-dev, libxml2-dev, libz-dev, python-compression-dev, python-core-dev, python-dev, python-lzma-dev, xz-dev
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 34a9fbe0f84bc55e4597203d5bf66388
-Size: 906
-Filename: enigma2-plugin-systemplugins-crossepg-dev_0.8.7+gitr533+e8c6180-r0_ufs912.ipk
+MD5Sum: ee7b6be3e550dced886ef2234abdb512
+Size: 904
+Filename: enigma2-plugin-systemplugins-crossepg-dev_0.8.7+gitr534+13944d2-r0_ufs912.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
-Description: enigma2-plugin-systemplugins-crossepg version 0.8.7+gitrAUTOINC+e8c6180fed-r0 - Development files
+Description: enigma2-plugin-systemplugins-crossepg version 0.8.7+gitrAUTOINC+13944d2e2c-r0 - Development files
  Handle your EPG on enigma2 from various sources (opentv, xmltv, custom
  sources)  This package contains symbolic links, header files, and related
  items necessary for software development.
@@ -2563,14 +2616,14 @@ License: LGPLv2.1
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-crossepg
-Version: 0.8.7+gitr533+e8c6180-r0
+Version: 0.8.7+gitr534+13944d2-r0
 Depends: enigma2, libc6 (>= 2.25), libcurl4 (>= 7.73.0), libxml2 (>= 2.9.4), libz1 (>= 1.2.11), python-compression, python-core, python-lzma, xz
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 95e767d1b1aa781466d55e32b8672c0b
-Size: 627304
-Filename: enigma2-plugin-systemplugins-crossepg_0.8.7+gitr533+e8c6180-r0_ufs912.ipk
+MD5Sum: de25176304f4fd98b7bd9b35247b7d4e
+Size: 627330
+Filename: enigma2-plugin-systemplugins-crossepg_0.8.7+gitr534+13944d2-r0_ufs912.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: systemplugins-crossepg
  systemplugins-crossepg
@@ -2580,13 +2633,13 @@ License: LGPLv2.1
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-defaultservicesscanner
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0868dfc4c849d40e4c4ce27bbf950baa
-Size: 4746
-Filename: enigma2-plugin-systemplugins-defaultservicesscanner_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: cad10b770f12ed14873db3ad173058ba
+Size: 4748
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-defaultservicesscanner
  systemplugins-defaultservicesscanner
@@ -2595,13 +2648,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-diseqctester
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7da7f6fea5a9b6607862e75e1c95de7b
+MD5Sum: 7db7acbf9b5a6029745abce495551bbd
 Size: 14816
-Filename: enigma2-plugin-systemplugins-diseqctester_develop+git23848+4cc5e52-r0_ufs912.ipk
+Filename: enigma2-plugin-systemplugins-diseqctester_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-diseqctester
  systemplugins-diseqctester
@@ -2610,13 +2663,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastscan
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bffcd900778ce66520d86d471ea143ae
-Size: 12002
-Filename: enigma2-plugin-systemplugins-fastscan_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 868b1bcb2fd50bf57f45955b15ba2f70
+Size: 12006
+Filename: enigma2-plugin-systemplugins-fastscan_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-fastscan
  systemplugins-fastscan
@@ -2625,13 +2678,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hdmicec
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ef27ce10eaf64c2995063c32a5f90368
-Size: 6344
-Filename: enigma2-plugin-systemplugins-hdmicec_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 6b8347cc82eed3a233b718a2b2a8482b
+Size: 6348
+Filename: enigma2-plugin-systemplugins-hdmicec_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-hdmicec
  systemplugins-hdmicec
@@ -2640,14 +2693,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hotplug
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: hotplug-e2-helper
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1cae54dbc09b05b6b9a170707d71176c
-Size: 3898
-Filename: enigma2-plugin-systemplugins-hotplug_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 259430ede8835896f13b707f5b7a8e5c
+Size: 3896
+Filename: enigma2-plugin-systemplugins-hotplug_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-hotplug
  systemplugins-hotplug
@@ -2656,14 +2709,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-misplslcnscan-po
-Version: git39+33c4338-r0
+Version: git40+9b3898b-r0
 Depends: enigma2-c-plugins
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7a75ac523757034f162813f98ed97ae7
-Size: 7516
-Filename: enigma2-plugin-systemplugins-misplslcnscan-po_git39+33c4338-r0_ufs912.ipk
+MD5Sum: bcbdeee4390b3ac6b261164cf7a0b0df
+Size: 7532
+Filename: enigma2-plugin-systemplugins-misplslcnscan-po_git40+9b3898b-r0_ufs912.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-misplslcnscan (translations)
  systemplugins-misplslcnscan (translations)
@@ -2672,14 +2725,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-misplslcnscan
-Version: git39+33c4338-r0
+Version: git40+9b3898b-r0
 Depends: enigma2, libc6 (>= 2.25), libtirpc3 (>= 1.0.2)
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4a53161ba7be63b1c08a1e0ffddca68e
+MD5Sum: 1200714768df15badbbb90641bbc4671
 Size: 41170
-Filename: enigma2-plugin-systemplugins-misplslcnscan_git39+33c4338-r0_ufs912.ipk
+Filename: enigma2-plugin-systemplugins-misplslcnscan_git40+9b3898b-r0_ufs912.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-misplslcnscan
  systemplugins-misplslcnscan
@@ -2688,14 +2741,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-networkbrowser-po
-Version: git39+33c4338-r0
+Version: git40+9b3898b-r0
 Depends: enigma2-c-plugins
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 65c56f841449451324bd07e82ef832f3
-Size: 36438
-Filename: enigma2-plugin-systemplugins-networkbrowser-po_git39+33c4338-r0_ufs912.ipk
+MD5Sum: ef6514a978d3eb76f257165b2af4ad00
+Size: 36404
+Filename: enigma2-plugin-systemplugins-networkbrowser-po_git40+9b3898b-r0_ufs912.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-networkbrowser (translations)
  systemplugins-networkbrowser (translations)
@@ -2704,14 +2757,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-networkbrowser
-Version: git39+33c4338-r0
+Version: git40+9b3898b-r0
 Depends: enigma2, libc6 (>= 2.25), libtirpc3 (>= 1.0.2)
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ce37ed35ea5b972b4d514c50de385c68
-Size: 143428
-Filename: enigma2-plugin-systemplugins-networkbrowser_git39+33c4338-r0_ufs912.ipk
+MD5Sum: d53f0d14b39093e21cc4fa25fe8edab9
+Size: 143434
+Filename: enigma2-plugin-systemplugins-networkbrowser_git40+9b3898b-r0_ufs912.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-networkbrowser
  systemplugins-networkbrowser
@@ -2720,13 +2773,13 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-networkwizard
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 24490c34dcf8009f26c7eced373fe4cf
-Size: 11370
-Filename: enigma2-plugin-systemplugins-networkwizard_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: db120a8b72f6c4a3b26bff971b63aea5
+Size: 11372
+Filename: enigma2-plugin-systemplugins-networkwizard_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-networkwizard
  systemplugins-networkwizardprovides easy step by step network
@@ -2736,13 +2789,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osd3dsetup
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ce4786710743ce6798531f4705879632
-Size: 5272
-Filename: enigma2-plugin-systemplugins-osd3dsetup_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 1f99d4d461cdad982da3f38f2b752360
+Size: 5268
+Filename: enigma2-plugin-systemplugins-osd3dsetup_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-osd3dsetup
  systemplugins-osd3dsetup
@@ -2751,13 +2804,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osdpositionsetup
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 100704260c6f22f1d27f0da005bdd275
-Size: 8084
-Filename: enigma2-plugin-systemplugins-osdpositionsetup_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: e60936dca5857dfc21e13cdc494041e8
+Size: 8098
+Filename: enigma2-plugin-systemplugins-osdpositionsetup_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-osdpositionsetup
  systemplugins-osdpositionsetup
@@ -2766,13 +2819,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-positionersetup
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f0f380acad8c0302558a7142474c1d5a
-Size: 42980
-Filename: enigma2-plugin-systemplugins-positionersetup_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 076e771b63b1dc5c2cea7542320d130c
+Size: 42976
+Filename: enigma2-plugin-systemplugins-positionersetup_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-positionersetup
  systemplugins-positionersetuphelps you installing a motorized dish.
@@ -2781,13 +2834,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d797d18b00dcede7c68158601e03d48a
-Size: 4072
-Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 75b73c782d336c4942b4edf600f210f7
+Size: 4070
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-satelliteequipmentcontrol
  systemplugins-satelliteequipmentcontrolallows you to fine-tune DiSEqC-
@@ -2797,13 +2850,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satfinder
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ac2254a633c85a92daea9e75eceb8d39
-Size: 22700
-Filename: enigma2-plugin-systemplugins-satfinder_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: f5263d21c99a6c5c46bb3909c05cbf47
+Size: 22704
+Filename: enigma2-plugin-systemplugins-satfinder_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-satfinder
  systemplugins-satfinderhelps you to align your dish.
@@ -2812,17 +2865,17 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-serviceapp-dbg
-Version: git178+3e63554-r0
+Version: git179+a3afb0f-r0
 Depends: enigma2-plugin-systemplugins-serviceapp
 Recommends: libc6-dbg, libcrypto-dbg, libgcc-s-dbg, libssl-dbg, libstdc++-dbg, uchardet-dbg
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 97277874bad494f42035de405c629a68
-Size: 899600
-Filename: enigma2-plugin-systemplugins-serviceapp-dbg_git178+3e63554-r0_ufs912.ipk
+MD5Sum: ed123c79af4d136322dbab72631fdb75
+Size: 899444
+Filename: enigma2-plugin-systemplugins-serviceapp-dbg_git179+a3afb0f-r0_ufs912.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
-Description: enigma2-plugin-systemplugins-serviceapp version gitAUTOINC+3e63554ced-r0 - Debugging files
+Description: enigma2-plugin-systemplugins-serviceapp version gitAUTOINC+a3afb0fd69-r0 - Debugging files
  serviceapp service for enigma2  This package contains ELF symbols and
  related sources for debugging purposes.
 OE: enigma2-plugin-systemplugins-serviceapp
@@ -2830,17 +2883,17 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-serviceapp-dev
-Version: git178+3e63554-r0
-Depends: enigma2-plugin-systemplugins-serviceapp (= git178+3e63554-r0)
+Version: git179+a3afb0f-r0
+Depends: enigma2-plugin-systemplugins-serviceapp (= git179+a3afb0f-r0)
 Recommends: enigma2-dev, libc6-dev, libcrypto-dev, libgcc-s-dev, libssl-dev, libstdc++-dev, openssl-dev, python-dev, python-json-dev, uchardet-dev
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 423b26e5bd151f138241217342923d4c
-Size: 824
-Filename: enigma2-plugin-systemplugins-serviceapp-dev_git178+3e63554-r0_ufs912.ipk
+MD5Sum: a247244bf3a0244f3d1a071cd3cd69b5
+Size: 820
+Filename: enigma2-plugin-systemplugins-serviceapp-dev_git179+a3afb0f-r0_ufs912.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
-Description: enigma2-plugin-systemplugins-serviceapp version gitAUTOINC+3e63554ced-r0 - Development files
+Description: enigma2-plugin-systemplugins-serviceapp version gitAUTOINC+a3afb0fd69-r0 - Development files
  serviceapp service for enigma2  This package contains symbolic links,
  header files, and related items necessary for software development.
 OE: enigma2-plugin-systemplugins-serviceapp
@@ -2848,15 +2901,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-serviceapp
-Version: git178+3e63554-r0
+Version: git179+a3afb0f-r0
 Depends: enigma2, libc6 (>= 2.25), libcrypto1.1 (>= 1.1.1k), libgcc1 (>= 4.9.4), libssl1.1 (>= 1.1.1k), libstdc++6 (>= 4.9.4), python-json, uchardet (>= 0.0.7)
 Recommends: exteplayer3, gstplayer
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 073e70f1930e3f7d9cd9c9f52f825ec6
-Size: 134786
-Filename: enigma2-plugin-systemplugins-serviceapp_git178+3e63554-r0_ufs912.ipk
+MD5Sum: 0631ed21bfc02b81fa3c5b0f5d294116
+Size: 134792
+Filename: enigma2-plugin-systemplugins-serviceapp_git179+a3afb0f-r0_ufs912.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: systemplugins-serviceapp
  systemplugins-serviceapp
@@ -2865,17 +2918,17 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-servicemp3-dbg
-Version: git50+1ecfcd7-r0
+Version: git51+676cbc9-r0
 Depends: enigma2-plugin-systemplugins-servicemp3
 Recommends: gstreamer1.0-dbg, libc6-dbg, libgcc-s-dbg, libglib-2.0-dbg, libgstaudio-1.0-dbg, libgstpbutils-1.0-dbg, libgsttag-1.0-dbg, libgstvideo-1.0-dbg, libstdc++-dbg
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d8f43475de943f6bf6adadffdb5f1c85
-Size: 345360
-Filename: enigma2-plugin-systemplugins-servicemp3-dbg_git50+1ecfcd7-r0_ufs912.ipk
+MD5Sum: 874e814c283bcf7e0c37dc2a0b4edaf2
+Size: 345394
+Filename: enigma2-plugin-systemplugins-servicemp3-dbg_git51+676cbc9-r0_ufs912.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
-Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+1ecfcd754a-r0 - Debugging files
+Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+676cbc90ee-r0 - Debugging files
  servicemp3 for enigma2  This package contains ELF symbols and related
  sources for debugging purposes.
 OE: enigma2-plugin-systemplugins-servicemp3
@@ -2883,17 +2936,17 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-servicemp3-dev
-Version: git50+1ecfcd7-r0
-Depends: enigma2-plugin-systemplugins-servicemp3 (= git50+1ecfcd7-r0)
+Version: git51+676cbc9-r0
+Depends: enigma2-plugin-systemplugins-servicemp3 (= git51+676cbc9-r0)
 Recommends: enigma2-dev, glib-networking-dev, gstreamer1.0-dev, gstreamer1.0-plugin-subsink-dev, gstreamer1.0-plugins-bad-autoconvert-dev, gstreamer1.0-plugins-bad-dash-dev, gstreamer1.0-plugins-bad-faad-dev, gstreamer1.0-plugins-bad-hls-dev, gstreamer1.0-plugins-bad-mms-dev, gstreamer1.0-plugins-bad-mpegpsdemux-dev, gstreamer1.0-plugins-bad-mpegtsdemux-dev, gstreamer1.0-plugins-bad-opusparse-dev, gstreamer1.0-plugins-bad-rtmp-dev, gstreamer1.0-plugins-bad-rtmp2-dev, gstreamer1.0-plugins-bad-smoothstreaming-dev, gstreamer1.0-plugins-bad-videoparsersbad-dev, gstreamer1.0-plugins-base-alsa-dev, gstreamer1.0-plugins-base-app-dev, gstreamer1.0-plugins-base-audioconvert-dev, gstreamer1.0-plugins-base-audiorate-dev, gstreamer1.0-plugins-base-audioresample-dev, gstreamer1.0-plugins-base-dev, gstreamer1.0-plugins-base-ogg-dev, gstreamer1.0-plugins-base-opus-dev, gstreamer1.0-plugins-base-playback-dev, gstreamer1.0-plugins-base-rawparse-dev, gstreamer1.0-plugins-base-subparse-dev, gstreamer1.0-plugins-base-typefindfunctions-dev, gstreamer1.0-plugins-base-videoconvert-dev, gstreamer1.0-plugins-base-vorbis-dev, gstreamer1.0-plugins-good-apetag-dev, gstreamer1.0-plugins-good-audioparsers-dev, gstreamer1.0-plugins-good-autodetect-dev, gstreamer1.0-plugins-good-avi-dev, gstreamer1.0-plugins-good-flac-dev, gstreamer1.0-plugins-good-flv-dev, gstreamer1.0-plugins-good-icydemux-dev, gstreamer1.0-plugins-good-id3demux-dev, gstreamer1.0-plugins-good-isomp4-dev, gstreamer1.0-plugins-good-matroska-dev, gstreamer1.0-plugins-good-mpg123-dev, gstreamer1.0-plugins-good-rtp-dev, gstreamer1.0-plugins-good-rtpmanager-dev, gstreamer1.0-plugins-good-rtsp-dev, gstreamer1.0-plugins-good-soup-dev, gstreamer1.0-plugins-good-udp-dev, gstreamer1.0-plugins-good-wavpack-dev, gstreamer1.0-plugins-good-wavparse-dev, gstreamer1.0-plugins-ugly-amrnb-dev, gstreamer1.0-plugins-ugly-amrwbdec-dev, gstreamer1.0-plugins-ugly-asf-dev, gstreamer1.0-plugins-ugly-cdio-dev, gstreamer1.0-plugins-ugly-dvdsub-dev, libc6-dev, libgcc-s-dev, libglib-2.0-dev, libgstaudio-1.0-dev, libgstpbutils-1.0-dev, libgsttag-1.0-dev, libgstvideo-1.0-dev, libstdc++-dev, python-dev, virtual/gstreamer1.0-dvbmediasink-dev
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 64e33515ec1837b619a589d934530607
-Size: 1158
-Filename: enigma2-plugin-systemplugins-servicemp3-dev_git50+1ecfcd7-r0_ufs912.ipk
+MD5Sum: 7d62d79cc40c0ff1a7ffa006eeb4e213
+Size: 1156
+Filename: enigma2-plugin-systemplugins-servicemp3-dev_git51+676cbc9-r0_ufs912.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
-Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+1ecfcd754a-r0 - Development files
+Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+676cbc90ee-r0 - Development files
  servicemp3 for enigma2  This package contains symbolic links, header
  files, and related items necessary for software development.
 OE: enigma2-plugin-systemplugins-servicemp3
@@ -2901,15 +2954,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-servicemp3
-Version: git50+1ecfcd7-r0
+Version: git51+676cbc9-r0
 Depends: enigma2, glib-networking, gstreamer1.0 (>= 1.18.4), gstreamer1.0-plugin-subsink, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mms, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-opusparse, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-rtmp2, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-opus, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvert, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-mpg123, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-amrnb, gstreamer1.0-plugins-ugly-amrwbdec, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, libc6 (>= 2.25), libgcc1 (>= 4.9.4), libglib-2.0-0 (>= 2.50.3), libgstaudio-1.0-0 (>= 1.18.4), libgstpbutils-1.0-0 (>= 1.18.4), libgsttag-1.0-0 (>= 1.18.4), libgstvideo-1.0-0 (>= 1.18.4), libstdc++6 (>= 4.9.4), virtual/gstreamer1.0-dvbmediasink
 Provides: virtual/enigma2-mediaservice
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c5867dcb6108b2c9fe8cbbcdd586db71
+MD5Sum: 68cbf193e30e03dc6a0983399cd98893
 Size: 60732
-Filename: enigma2-plugin-systemplugins-servicemp3_git50+1ecfcd7-r0_ufs912.ipk
+Filename: enigma2-plugin-systemplugins-servicemp3_git51+676cbc9-r0_ufs912.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
 Description: systemplugins-servicemp3
  systemplugins-servicemp3
@@ -2918,13 +2971,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-sh4boostercontrol
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dfd59d25cc5e840e0fa6a07a57017b59
+MD5Sum: c96b77836466e4ac321c722f77334a9c
 Size: 5342
-Filename: enigma2-plugin-systemplugins-sh4boostercontrol_develop+git23848+4cc5e52-r0_ufs912.ipk
+Filename: enigma2-plugin-systemplugins-sh4boostercontrol_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-sh4boostercontrol
  systemplugins-sh4boostercontrol
@@ -2933,13 +2986,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-sh4osdadjustment
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 04acf0b26a8254f73c838b3348170eeb
-Size: 8186
-Filename: enigma2-plugin-systemplugins-sh4osdadjustment_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: b295afd461e94fa5104821229dcdc58b
+Size: 8182
+Filename: enigma2-plugin-systemplugins-sh4osdadjustment_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-sh4osdadjustment
  systemplugins-sh4osdadjustment
@@ -2948,14 +3001,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-softwaremanager
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: python-twisted-web
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 51fbac036ae43257d96a10ab529fc5ab
+MD5Sum: f10ace88c03d7c543462cbeefbcf86e1
 Size: 69864
-Filename: enigma2-plugin-systemplugins-softwaremanager_develop+git23848+4cc5e52-r0_ufs912.ipk
+Filename: enigma2-plugin-systemplugins-softwaremanager_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-softwaremanager
  systemplugins-softwaremanager
@@ -2964,13 +3017,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-systemoptions
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7fb8715963171c28270ed5bc900105f0
-Size: 8202
-Filename: enigma2-plugin-systemplugins-systemoptions_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 29efce0020d7908a9deaee9b578868a9
+Size: 8194
+Filename: enigma2-plugin-systemplugins-systemoptions_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-systemoptions
  systemplugins-systemoptions
@@ -2979,14 +3032,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-terrestrialscan-po
-Version: git39+33c4338-r0
+Version: git40+9b3898b-r0
 Depends: enigma2-c-plugins
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 16ec8cc5839a7af2c6c4c58768a1a103
-Size: 13146
-Filename: enigma2-plugin-systemplugins-terrestrialscan-po_git39+33c4338-r0_ufs912.ipk
+MD5Sum: 216a5a36578496205d0d3a28d91aa4ac
+Size: 13116
+Filename: enigma2-plugin-systemplugins-terrestrialscan-po_git40+9b3898b-r0_ufs912.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-terrestrialscan (translations)
  systemplugins-terrestrialscan (translations)
@@ -2995,14 +3048,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-terrestrialscan
-Version: git39+33c4338-r0
+Version: git40+9b3898b-r0
 Depends: enigma2, libc6 (>= 2.25), libtirpc3 (>= 1.0.2)
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9b4688114d59ff7d5591a79ff99626f1
-Size: 60912
-Filename: enigma2-plugin-systemplugins-terrestrialscan_git39+33c4338-r0_ufs912.ipk
+MD5Sum: d4f8ea57221045fef28ee70e83ec8a3c
+Size: 60902
+Filename: enigma2-plugin-systemplugins-terrestrialscan_git40+9b3898b-r0_ufs912.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-terrestrialscan
  Selects the strongest transponders where there are duplicates and allows
@@ -3012,13 +3065,13 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoclippingsetup
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 83e0fb64a86f9091c0b00cd420c35266
-Size: 4570
-Filename: enigma2-plugin-systemplugins-videoclippingsetup_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 761853ba1cf18ee6e52fc811c5bd831a
+Size: 4574
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-videoclippingsetup
  systemplugins-videoclippingsetup
@@ -3027,13 +3080,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoenhancement
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 703d4a8916d0cee66d20fd9e3bdf00d5
-Size: 14708
-Filename: enigma2-plugin-systemplugins-videoenhancement_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 432ead7d9bc47054c5126a6b7a804f7b
+Size: 14706
+Filename: enigma2-plugin-systemplugins-videoenhancement_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-videoenhancement
  systemplugins-videoenhancement
@@ -3042,13 +3095,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videomode
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ee0eae841b3db494b5e9f8ba11e90934
-Size: 68888
-Filename: enigma2-plugin-systemplugins-videomode_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 7590a9e3b9b3d32b655ba1ea1e0f3fc3
+Size: 68900
+Filename: enigma2-plugin-systemplugins-videomode_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-videomode
  systemplugins-videomodeselects advanced video modes
@@ -3057,13 +3110,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videotune
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2001d159c7a1eed532a755bd1c5d523d
-Size: 69988
-Filename: enigma2-plugin-systemplugins-videotune_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 02762488cf2d9e418d0d79f2934b06f6
+Size: 69992
+Filename: enigma2-plugin-systemplugins-videotune_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-videotune
  systemplugins-videotune
@@ -3072,14 +3125,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-vps-po
-Version: git39+33c4338-r0
+Version: git40+9b3898b-r0
 Depends: enigma2-c-plugins
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: abf641773ec253ca716a3cc5d9042d58
-Size: 14064
-Filename: enigma2-plugin-systemplugins-vps-po_git39+33c4338-r0_ufs912.ipk
+MD5Sum: d016dba2f407a93a60e300d816a43154
+Size: 14056
+Filename: enigma2-plugin-systemplugins-vps-po_git40+9b3898b-r0_ufs912.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-vps (translations)
  systemplugins-vps (translations)
@@ -3088,14 +3141,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-vps
-Version: git39+33c4338-r0
+Version: git40+9b3898b-r0
 Depends: enigma2, libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c2b9d2f5945ca26945b00d37b0ae908f
-Size: 58670
-Filename: enigma2-plugin-systemplugins-vps_git39+33c4338-r0_ufs912.ipk
+MD5Sum: faa23755c1954d8584a038f87b00e20a
+Size: 58678
+Filename: enigma2-plugin-systemplugins-vps_git40+9b3898b-r0_ufs912.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-vps
  systemplugins-vps
@@ -3104,14 +3157,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-wirelesslan
-Version: develop+git23848+4cc5e52-r0
+Version: develop+git23890+c3a98a5-r0
 Depends: python-wifi, wireless-tools, wpa-supplicant
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2c77583c4c26f27351fb61c1c0f90326
-Size: 19042
-Filename: enigma2-plugin-systemplugins-wirelesslan_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: b6688fbbc4be1c568238f46d438f6c88
+Size: 19044
+Filename: enigma2-plugin-systemplugins-wirelesslan_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: systemplugins-wirelesslan
  systemplugins-wirelesslanhelps you configuring your wireless lan
@@ -3120,13 +3173,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-remotes-dbg
-Version: git6+0af6d28-r0
+Version: git9+1e12c70-r0
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cdcb15f5f29afc639e307df1e2235d1d
-Size: 698
-Filename: enigma2-remotes-dbg_git6+0af6d28-r0_ufs912.ipk
+MD5Sum: c5ff3906c43544f96d44a42ca21efe1f
+Size: 696
+Filename: enigma2-remotes-dbg_git9+1e12c70-r0_ufs912.ipk
 Source: enigma2-remotes.bb
 Description: RC files for Enigma2 - Debugging files
  RC files for Enigma2.  This package contains ELF symbols and related
@@ -3136,14 +3189,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-remotes-dev
-Version: git6+0af6d28-r0
-Depends: enigma2-remotes (= git6+0af6d28-r0)
+Version: git9+1e12c70-r0
+Depends: enigma2-remotes (= git9+1e12c70-r0)
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9875b9bfbd5e15cfbb939f13cc948d06
+MD5Sum: fc149caec85b708cb216409b0a1c3a4c
 Size: 726
-Filename: enigma2-remotes-dev_git6+0af6d28-r0_ufs912.ipk
+Filename: enigma2-remotes-dev_git9+1e12c70-r0_ufs912.ipk
 Source: enigma2-remotes.bb
 Description: RC files for Enigma2 - Development files
  RC files for Enigma2.  This package contains symbolic links, header
@@ -3153,13 +3206,13 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-remotes-extra
-Version: git6+0af6d28-r0
+Version: git9+1e12c70-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 66472d367fac8c2b93d2d574ba6f64fd
-Size: 8219434
-Filename: enigma2-remotes-extra_git6+0af6d28-r0_ufs912.ipk
+MD5Sum: 72000a7764d077f099fa84e7a1d3aac3
+Size: 8219586
+Filename: enigma2-remotes-extra_git9+1e12c70-r0_ufs912.ipk
 Source: enigma2-remotes.bb
 Description: RC files for Enigma2
  RC files for Enigma2.
@@ -3168,13 +3221,13 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-remotes
-Version: git6+0af6d28-r0
+Version: git9+1e12c70-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a4516d6f5c02e03a4a109a82336aea3d
-Size: 129090
-Filename: enigma2-remotes_git6+0af6d28-r0_ufs912.ipk
+MD5Sum: 13bcceb1e9b1ef7e5e48c8b173f52bb3
+Size: 129098
+Filename: enigma2-remotes_git9+1e12c70-r0_ufs912.ipk
 Source: enigma2-remotes.bb
 Description: RC files for Enigma2
  RC files for Enigma2.
@@ -3183,14 +3236,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-staticdev
-Version: develop+git23848+4cc5e52-r0
-Depends: enigma2-dev (= develop+git23848+4cc5e52-r0)
+Version: develop+git23890+c3a98a5-r0
+Depends: enigma2-dev (= develop+git23890+c3a98a5-r0)
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a51cec06c6f2be6c34363fe0ebedf0de
-Size: 7880
-Filename: enigma2-staticdev_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: 5228bd4c0af105bed2a699c977310b45
+Size: 7898
+Filename: enigma2-staticdev_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Development files (Static Libraries)
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -3200,15 +3253,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2
-Version: develop+git23848+4cc5e52-r0
-Depends: alsa-conf, alsa-utils-amixer-conf, dhrystone, enigma2-data-iso-639-3, enigma2-fonts, enigma2-plugin-extensions-pespeedup, enigma2-remotes, enigma2-timezones, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, hotplug-e2-helper, libavahi-client3 (>= 0.6.32), libavahi-common3 (>= 0.6.32), libc6 (>= 2.25), libcrypto1.1 (>= 1.1.1k), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.9), libfreetype6 (>= 2.7.1), libfribidi0 (>= 1.0.10), libgcc1 (>= 4.9.4), libgif7 (>= 5.1.4), libglib-2.0-0 (>= 2.50.3), libgomp1 (>= 4.9.4), libjpeg62 (>= 1.5.1), libmme-host0, libmmeimage0 (>= git727+0400585), libpng16-16 (>= 1.6.37), libpython2.7-1.0 (>= 2.7.18), libsigc-2.0-0 (>= 2.10.3), libssl1.1 (>= 1.1.1k), libstdc++6 (>= 4.9.4), libtuxtxt0 (>= 2.0.1+git83+3a48441), libtuxtxt32bpp0 (>= 2.0.1+git83+3a48441), libudfread0 (>= 1.1.1+git107+b8ada65), libxml2 (>= 2.9.4), ntpdate, ofgwrite, openvision-module, openvision-version-info, python-codecs, python-core, python-crypt, python-fcntl, python-image, python-imaging, python-lang, python-mmap, python-netclient, python-netifaces, python-netserver, python-numbers, python-pickle, python-process, python-pyusb, python-re, python-sendfile, python-service-identity, python-shell, python-six, python-threading, python-twisted-core, python-twisted-web, python-xml, python-zlib, python-zopeinterface, streambench, virtual/enigma2-mediaservice
+Version: develop+git23890+c3a98a5-r0
+Depends: alsa-conf, alsa-utils-amixer-conf, dhrystone, enigma-module, enigma2-data-iso-639-3, enigma2-fonts, enigma2-plugin-extensions-pespeedup, enigma2-remotes, enigma2-timezones, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, hotplug-e2-helper, libavahi-client3 (>= 0.6.32), libavahi-common3 (>= 0.6.32), libc6 (>= 2.25), libcrypto1.1 (>= 1.1.1k), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.9+git130+f3c40ea), libfreetype6 (>= 2.7.1), libfribidi0 (>= 1.0.10), libgcc1 (>= 4.9.4), libgif7 (>= 5.1.4), libglib-2.0-0 (>= 2.50.3), libgomp1 (>= 4.9.4), libjpeg62 (>= 1.5.1), libmme-host0, libmmeimage0 (>= git728+64ff751), libpng16-16 (>= 1.6.37), libpython2.7-1.0 (>= 2.7.18), libsigc-2.0-0 (>= 2.10.3), libssl1.1 (>= 1.1.1k), libstdc++6 (>= 4.9.4), libtuxtxt0 (>= 2.0.1+git84+ed8d3cb), libtuxtxt32bpp0 (>= 2.0.1+git84+ed8d3cb), libudfread0 (>= 1.1.1+git107+b8ada65), libxml2 (>= 2.9.4), ntpdate, ofgwrite, openvision-version-info, python-codecs, python-core, python-crypt, python-fcntl, python-image, python-imaging, python-lang, python-mmap, python-netclient, python-netifaces, python-netserver, python-numbers, python-pickle, python-process, python-pyusb, python-re, python-sendfile, python-service-identity, python-shell, python-six, python-threading, python-twisted-core, python-twisted-web, python-xml, python-zlib, python-zopeinterface, streambench, virtual/enigma2-mediaservice
 Recommends: libdvdcss2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ab0b011c928e1d421b7805d180eb7b19
-Size: 4475362
-Filename: enigma2_develop+git23848+4cc5e52-r0_ufs912.ipk
+MD5Sum: cabba7eae25af383c74716ccfa9da9dd
+Size: 4478436
+Filename: enigma2_develop+git23890+c3a98a5-r0_ufs912.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -3270,16 +3323,16 @@ License: GPLv2+
 Priority: optional
 
 Package: gstreamer1.0-plugin-dvbmediasink-dbg
-Version: 1.0+git244+b7f2378-r0
+Version: 1.0+git245+8935116-r0
 Recommends: gstreamer1.0-dbg, libc6-dbg, libdca-dbg, libglib-2.0-dbg, libgstaudio-1.0-dbg
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0ddcd4449613f62ad596c5b72b9889fd
-Size: 121270
-Filename: gstreamer1.0-plugin-dvbmediasink-dbg_1.0+git244+b7f2378-r0_ufs912.ipk
+MD5Sum: 3eed640146a2b8644e644ed419d3ed14
+Size: 121268
+Filename: gstreamer1.0-plugin-dvbmediasink-dbg_1.0+git245+8935116-r0_ufs912.ipk
 Source: gstreamer1.0-plugin-dvbmediasink.bb
-Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+b7f2378a15-r0 - Debugging files
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+8935116ac0-r0 - Debugging files
  gstreamer dvbmediasink plugin  This package contains ELF symbols and
  related sources for debugging purposes.
 OE: gstreamer1.0-plugin-dvbmediasink
@@ -3287,17 +3340,17 @@ License: GPLv2
 Priority: optional
 
 Package: gstreamer1.0-plugin-dvbmediasink-dev
-Version: 1.0+git244+b7f2378-r0
-Depends: gstreamer1.0-plugin-dvbmediasink (= 1.0+git244+b7f2378-r0)
+Version: 1.0+git245+8935116-r0
+Depends: gstreamer1.0-plugin-dvbmediasink (= 1.0+git245+8935116-r0)
 Recommends: gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, libc6-dev, libdca-dev, libglib-2.0-dev, libgstaudio-1.0-dev
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 178d95fcc5bcf5ac9cfbe9e85ac315f9
+MD5Sum: db4fb5255b85ea81f3118e5a223517df
 Size: 806
-Filename: gstreamer1.0-plugin-dvbmediasink-dev_1.0+git244+b7f2378-r0_ufs912.ipk
+Filename: gstreamer1.0-plugin-dvbmediasink-dev_1.0+git245+8935116-r0_ufs912.ipk
 Source: gstreamer1.0-plugin-dvbmediasink.bb
-Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+b7f2378a15-r0 - Development files
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+8935116ac0-r0 - Development files
  gstreamer dvbmediasink plugin  This package contains symbolic links,
  header files, and related items necessary for software development.
 OE: gstreamer1.0-plugin-dvbmediasink
@@ -3305,16 +3358,16 @@ License: GPLv2
 Priority: optional
 
 Package: gstreamer1.0-plugin-dvbmediasink-staticdev
-Version: 1.0+git244+b7f2378-r0
-Depends: gstreamer1.0-plugin-dvbmediasink-dev (= 1.0+git244+b7f2378-r0)
+Version: 1.0+git245+8935116-r0
+Depends: gstreamer1.0-plugin-dvbmediasink-dev (= 1.0+git245+8935116-r0)
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e847aff78ba97e6088c8210f18961a59
-Size: 165036
-Filename: gstreamer1.0-plugin-dvbmediasink-staticdev_1.0+git244+b7f2378-r0_ufs912.ipk
+MD5Sum: 2144407eec376a9c61bcc8e4841f8216
+Size: 164874
+Filename: gstreamer1.0-plugin-dvbmediasink-staticdev_1.0+git245+8935116-r0_ufs912.ipk
 Source: gstreamer1.0-plugin-dvbmediasink.bb
-Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+b7f2378a15-r0 - Development files (Static Libraries)
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+8935116ac0-r0 - Development files (Static Libraries)
  gstreamer dvbmediasink plugin  This package contains static libraries for
  software development.
 OE: gstreamer1.0-plugin-dvbmediasink
@@ -3322,7 +3375,7 @@ License: GPLv2
 Priority: optional
 
 Package: gstreamer1.0-plugin-dvbmediasink
-Version: 1.0+git244+b7f2378-r0
+Version: 1.0+git245+8935116-r0
 Depends: gstreamer1.0 (>= 1.18.4), libc6 (>= 2.25), libdca (>= 0.0.7+git111+95c4bd8), libglib-2.0-0 (>= 2.50.3), libgstaudio-1.0-0 (>= 1.18.4)
 Provides: gst-plugin-dvbmediasink, virtual/gstreamer1.0-dvbmediasink
 Replaces: gst-plugin-dvbmediasink
@@ -3330,11 +3383,11 @@ Conflicts: gst-plugin-dvbmediasink
 Section: multimedia
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c30628185ddcbca9a55d70c7c81b0625
+MD5Sum: ea62c36c3da7d6db3eec416bcdc3b62e
 Size: 35660
-Filename: gstreamer1.0-plugin-dvbmediasink_1.0+git244+b7f2378-r0_ufs912.ipk
+Filename: gstreamer1.0-plugin-dvbmediasink_1.0+git245+8935116-r0_ufs912.ipk
 Source: gstreamer1.0-plugin-dvbmediasink.bb
-Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+b7f2378a15-r0
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+8935116ac0-r0
  gstreamer dvbmediasink plugin
 OE: gstreamer1.0-plugin-dvbmediasink
 License: GPLv2
@@ -3489,6 +3542,42 @@ OE: linux-sh4-ufs912
 License: GPLv2
 Priority: optional
 
+Package: kernel-module-8188eu
+Version: 1.0-openvision
+Depends: kernel-2.6.32.81_stm24_0217
+Provides: kernel-module-8188eu
+Section: kernel/modules
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e2596bf663a039bc71b1fc6a2cf4dbaf
+Size: 343436
+Filename: kernel-module-8188eu_1.0-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-rtl8188eu.bb
+Description: 8188eu kernel module
+ 8188eu kernel module; Realtek Wireless Lan Driver
+OE: kernel-module-extrawlan-rtl8188eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-8192eu
+Version: 1.0-openvision
+Depends: kernel-2.6.32.81_stm24_0217
+Provides: kernel-module-8192eu
+Section: base
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4fefd4cb94ebc26cc9c7ad12571afa6c
+Size: 624532
+Filename: kernel-module-8192eu_1.0-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-rtl8192eu.bb
+Description: 8192eu kernel module
+ 8192eu kernel module; Realtek Wireless Lan Driver
+OE: kernel-module-extrawlan-rtl8192eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
 Package: kernel-module-aes-generic
 Version: 2.6.32.81-stm24-0217-openvision
 Depends: kernel-2.6.32.81_stm24_0217
@@ -3558,15 +3647,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-avs
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-avs
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e0f702a3cde2d302f68a2d69ea6b81ce
-Size: 28418
-Filename: kernel-module-avs_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: eae05b4a7bfc0b180e135b1a9e528788
+Size: 28420
+Filename: kernel-module-avs_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: avs kernel module
  avs kernel module; Multiplatform A/V SCART switch driver
@@ -3609,15 +3698,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-boxtype
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-boxtype
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bc1c21babee3bd5ca9142674227e7d4b
-Size: 2164
-Filename: kernel-module-boxtype_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 0219705a291bfd9a312ff45cb5c74919
+Size: 2168
+Filename: kernel-module-boxtype_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: boxtype kernel module
  boxtype kernel module; Provides the type of an STB based on STb710x
@@ -3626,15 +3715,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-bpamem
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-bpamem
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 01bc2dbb3f63fc4bafe8765760cf6e64
-Size: 3962
-Filename: kernel-module-bpamem_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 6596216ae9906a949c0a5338cb96ee43
+Size: 3960
+Filename: kernel-module-bpamem_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: bpamem kernel module
  bpamem kernel module; Alloc BPA2 memory from user space
@@ -3661,15 +3750,15 @@ License: GPLv2+
 Priority: optional
 
 Package: kernel-module-cec
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-e2-proc, kernel-module-stmcore-display-sti7111
 Provides: kernel-module-cec
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2c87e762ac53afd2bafd2d0c393044f3
-Size: 15384
-Filename: kernel-module-cec_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 055481a7a633d6220752d69954ef62f5
+Size: 15386
+Filename: kernel-module-cec_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: cec kernel module
  cec kernel module; CEC Driver
@@ -3730,15 +3819,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-cpu-frequ
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-cpu-frequ
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 72d038c8ecd19611dd4cb77367e91aeb
-Size: 3904
-Filename: kernel-module-cpu-frequ_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 54563dfce0c839e9bffafdd73802e038
+Size: 3906
+Filename: kernel-module-cpu-frequ_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: cpu-frequ kernel module
  cpu-frequ kernel module; Set CPU clock frequency on STb710x
@@ -3747,15 +3836,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-e2-proc
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-e2-proc
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 48b47c282f4c76316f844354f533c81d
-Size: 7624
-Filename: kernel-module-e2-proc_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 2b40a4e28a5c36c7e24f52911a9eb336
+Size: 7628
+Filename: kernel-module-e2-proc_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: e2-proc kernel module
  e2-proc kernel module; procfs module with enigma2 support
@@ -3781,15 +3870,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-embxmailbox
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-embxshell
 Provides: kernel-module-embxmailbox
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 99082c1696c4c1049e40b8b4d061c0eb
-Size: 6860
-Filename: kernel-module-embxmailbox_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 5dcfc65d22d8da80100131cb9808d779
+Size: 6862
+Filename: kernel-module-embxmailbox_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: embxmailbox kernel module
  embxmailbox kernel module; EMBX Utility Library to manage the hardware
@@ -3799,15 +3888,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-embxshell
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-embxshell
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 20fda247b51f8f5ebad9ffffca51460d
-Size: 14008
-Filename: kernel-module-embxshell_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 0765a91cdeefc44eb00e799d6ca8b4ec
+Size: 14012
+Filename: kernel-module-embxshell_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: embxshell kernel module
  embxshell kernel module; Extended EMBX Shell
@@ -3816,15 +3905,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-embxshm
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-embxmailbox, kernel-module-embxshell
 Provides: kernel-module-embxshm
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1876b1f27cfbff7f75afbdffa4ebac02
-Size: 17704
-Filename: kernel-module-embxshm_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 1d3a34e999b6dd0315bc97ef3e841dd3
+Size: 17706
+Filename: kernel-module-embxshm_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: embxshm kernel module
  embxshm kernel module; Extended EMBX Shared Memory Transport
@@ -3833,19 +3922,20 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-enigma
-Version: 7.6-r313
+Version: 7.6-r315
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-enigma
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 93a537560429a6087465aae335369dee
-Size: 6184
-Filename: kernel-module-enigma_7.6-r313_ufs912.ipk
-Source: openvision-module.bb
+MD5Sum: 188f6cdf947468d83e2470b915cbdbf2
+Size: 6210
+Filename: kernel-module-enigma_7.6-r315_ufs912.ipk
+Source: enigma-module.bb
 Description: enigma kernel module
  enigma kernel module; Open Vision information module
-OE: openvision-module
+OE: enigma-module
+HomePage: https://github.com/OpenVisionE2/enigma-module
 License: GPLv3
 Priority: required
 
@@ -3897,6 +3987,329 @@ Source: linux-sh4-ufs912_2.6.32.bb
 Description: ext3 kernel module
  ext3 kernel module; Second Extended Filesystem with journaling extensions
 OE: linux-sh4-ufs912
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-mt7601u-dbg
+Version: 3.0.0.4-openvision
+Section: devel
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b38a36e5c862c6f3ade918a4ac20ea63
+Size: 730
+Filename: kernel-module-extrawlan-mt7601u-dbg_3.0.0.4-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-mt7601u_3.0.0.4.bb
+Description: mediatek 7601 v3.0.0.4 - Debugging files
+ mediatek 7601 v3.0.0.4.  This package contains ELF symbols and related
+ sources for debugging purposes.
+OE: kernel-module-extrawlan-mt7601u
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-mt7601u-dev
+Version: 3.0.0.4-openvision
+Depends: kernel-module-extrawlan-mt7601u (= 3.0.0.4-openvision)
+Recommends: kernel-2.6.32.81_stm24_0217-dev, kernel-module-mt7601usta-dev
+Section: devel
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c84a1463844db03b78ac041da1ad7eed
+Size: 794
+Filename: kernel-module-extrawlan-mt7601u-dev_3.0.0.4-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-mt7601u_3.0.0.4.bb
+Description: mediatek 7601 v3.0.0.4 - Development files
+ mediatek 7601 v3.0.0.4.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+OE: kernel-module-extrawlan-mt7601u
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-mt7601u
+Version: 3.0.0.4-openvision
+Depends: kernel-module-mt7601usta
+Section: kernel/modules
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bc2d6c9b173654775b4aa423c29f5166
+Size: 1662
+Filename: kernel-module-extrawlan-mt7601u_3.0.0.4-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-mt7601u_3.0.0.4.bb
+Description: mediatek 7601 v3.0.0.4
+ mediatek 7601 v3.0.0.4.
+OE: kernel-module-extrawlan-mt7601u
+HomePage: www.mediatek.com
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-rt3070-dbg
+Version: 2.5.0.4-openvision
+Section: devel
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 46a3f7c52be03f3ef72cb88cc7e1958e
+Size: 752
+Filename: kernel-module-extrawlan-rt3070-dbg_2.5.0.4-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-rt3070_2.5.0.4.bb
+Description: Driver for Ralink RT8070/3070/3370/5370/5372 USB 802.11abgn WiFi sticks - Debugging files
+ Driver for Ralink RT8070/3070/3370/5370/5372 USB 802.11abgn WiFi sticks.
+ This package contains ELF symbols and related sources for debugging
+ purposes.
+OE: kernel-module-extrawlan-rt3070
+License: GPLv2+
+Priority: optional
+
+Package: kernel-module-extrawlan-rt3070-dev
+Version: 2.5.0.4-openvision
+Depends: kernel-module-extrawlan-rt3070 (= 2.5.0.4-openvision)
+Recommends: kernel-2.6.32.81_stm24_0217-dev, kernel-module-rt5370sta-dev
+Section: devel
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f8891e14cdb797f3a569e5ca8dc82cb6
+Size: 818
+Filename: kernel-module-extrawlan-rt3070-dev_2.5.0.4-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-rt3070_2.5.0.4.bb
+Description: Driver for Ralink RT8070/3070/3370/5370/5372 USB 802.11abgn WiFi sticks - Development files
+ Driver for Ralink RT8070/3070/3370/5370/5372 USB 802.11abgn WiFi sticks.
+ This package contains symbolic links, header files, and related items
+ necessary for software development.
+OE: kernel-module-extrawlan-rt3070
+License: GPLv2+
+Priority: optional
+
+Package: kernel-module-extrawlan-rt3070
+Version: 2.5.0.4-openvision
+Depends: kernel-module-rt5370sta
+Section: kernel/modules
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3227af6cc2c50b17ea7aed2ef3fe21b8
+Size: 1452
+Filename: kernel-module-extrawlan-rt3070_2.5.0.4-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-rt3070_2.5.0.4.bb
+Description: Driver for Ralink RT8070/3070/3370/5370/5372 USB 802.11abgn WiFi sticks
+ Driver for Ralink RT8070/3070/3370/5370/5372 USB 802.11abgn WiFi sticks.
+OE: kernel-module-extrawlan-rt3070
+License: GPLv2+
+Priority: optional
+
+Package: kernel-module-extrawlan-rt73-dbg
+Version: 1.1.0.5-openvision
+Section: devel
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f171217fa4ab4d836366b460283d0735
+Size: 760
+Filename: kernel-module-extrawlan-rt73-dbg_1.1.0.5-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-rt73_1.1.0.5.bb
+Description: Driver for Ralink rt73 USB 802.11g WiFi sticks - Debugging files
+ Driver for Ralink rt73 USB 802.11g WiFi sticks.  This package contains
+ ELF symbols and related sources for debugging purposes.
+OE: kernel-module-extrawlan-rt73
+HomePage: http://www.ralinktech.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-rt73-dev
+Version: 1.1.0.5-openvision
+Depends: kernel-module-extrawlan-rt73 (= 1.1.0.5-openvision)
+Recommends: kernel-2.6.32.81_stm24_0217-dev, kernel-module-rt73-dev
+Section: devel
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6371e8e44645261a8a731bb42c79035f
+Size: 822
+Filename: kernel-module-extrawlan-rt73-dev_1.1.0.5-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-rt73_1.1.0.5.bb
+Description: Driver for Ralink rt73 USB 802.11g WiFi sticks - Development files
+ Driver for Ralink rt73 USB 802.11g WiFi sticks.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+OE: kernel-module-extrawlan-rt73
+HomePage: http://www.ralinktech.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-rt73
+Version: 1.1.0.5-openvision
+Depends: kernel-module-rt73
+Replaces: rt73-k2wrlz
+Conflicts: rt73-k2wrlz
+Section: kernel/modules
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f489f10a49cc26c10d6cdb08ca820cd4
+Size: 732
+Filename: kernel-module-extrawlan-rt73_1.1.0.5-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-rt73_1.1.0.5.bb
+Description: Driver for Ralink rt73 USB 802.11g WiFi sticks
+ Driver for Ralink rt73 USB 802.11g WiFi sticks.
+OE: kernel-module-extrawlan-rt73
+HomePage: http://www.ralinktech.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-rtl8188eu-dbg
+Version: 1.0-openvision
+Section: devel
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 51a821f597dd05870cafb846e470e202
+Size: 752
+Filename: kernel-module-extrawlan-rtl8188eu-dbg_1.0-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-rtl8188eu.bb
+Description: kernel-module-extrawlan-rtl8188eu version 1.0-openvision - Debugging files
+ Driver for Realtek USB wireless devices  This package contains ELF
+ symbols and related sources for debugging purposes.
+OE: kernel-module-extrawlan-rtl8188eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-rtl8188eu-dev
+Version: 1.0-openvision
+Depends: kernel-module-extrawlan-rtl8188eu (= 1.0-openvision)
+Recommends: kernel-2.6.32.81_stm24_0217-dev, kernel-module-8188eu-dev
+Section: devel
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b93dea6a3b9a5df04b6282c5e4bf6d7e
+Size: 812
+Filename: kernel-module-extrawlan-rtl8188eu-dev_1.0-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-rtl8188eu.bb
+Description: kernel-module-extrawlan-rtl8188eu version 1.0-openvision - Development files
+ Driver for Realtek USB wireless devices  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: kernel-module-extrawlan-rtl8188eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-rtl8188eu
+Version: 1.0-openvision
+Depends: kernel-module-8188eu
+Section: kernel/modules
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2889082f2137452cc67908d0a313b4e2
+Size: 696
+Filename: kernel-module-extrawlan-rtl8188eu_1.0-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-rtl8188eu.bb
+Description: kernel-module-extrawlan-rtl8188eu version 1.0-openvision
+ Driver for Realtek USB wireless devices
+OE: kernel-module-extrawlan-rtl8188eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-rtl8192cu-dbg
+Version: 4.0.2-openvision
+Section: devel
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 36d1aa72f011305e6a51eaa25b2b4191
+Size: 756
+Filename: kernel-module-extrawlan-rtl8192cu-dbg_4.0.2-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-rtl8192cu_4.0.2_9000.bb
+Description: Driver for Realtek USB wireless devices - Debugging files
+ Driver for Realtek USB wireless devices.  This package contains ELF
+ symbols and related sources for debugging purposes.
+OE: kernel-module-extrawlan-rtl8192cu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-rtl8192cu-dev
+Version: 4.0.2-openvision
+Depends: kernel-module-extrawlan-rtl8192cu (= 4.0.2-openvision)
+Recommends: kernel-2.6.32.81_stm24_0217-dev, kernel-module-rtl8192cu-dev
+Section: devel
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3709216292662efeca41ebba7ef34356
+Size: 820
+Filename: kernel-module-extrawlan-rtl8192cu-dev_4.0.2-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-rtl8192cu_4.0.2_9000.bb
+Description: Driver for Realtek USB wireless devices - Development files
+ Driver for Realtek USB wireless devices.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: kernel-module-extrawlan-rtl8192cu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-rtl8192cu
+Version: 4.0.2-openvision
+Depends: kernel-module-rtl8192cu
+Section: base
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dde6633f0721a1de8ed543eac90a28cd
+Size: 704
+Filename: kernel-module-extrawlan-rtl8192cu_4.0.2-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-rtl8192cu_4.0.2_9000.bb
+Description: Driver for Realtek USB wireless devices
+ Driver for Realtek USB wireless devices.
+OE: kernel-module-extrawlan-rtl8192cu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-rtl8192eu-dbg
+Version: 1.0-openvision
+Section: devel
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 349a5c1325178a581cbe1ee3e1911b12
+Size: 748
+Filename: kernel-module-extrawlan-rtl8192eu-dbg_1.0-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-rtl8192eu.bb
+Description: Driver for Realtek USB wireless device 8192eu - Debugging files
+ Driver for Realtek USB wireless device 8192eu.  This package contains ELF
+ symbols and related sources for debugging purposes.
+OE: kernel-module-extrawlan-rtl8192eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-rtl8192eu-dev
+Version: 1.0-openvision
+Depends: kernel-module-extrawlan-rtl8192eu (= 1.0-openvision)
+Recommends: kernel-2.6.32.81_stm24_0217-dev, kernel-module-8192eu-dev
+Section: devel
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8351b3f870fa1f8a30338227232bbfb2
+Size: 812
+Filename: kernel-module-extrawlan-rtl8192eu-dev_1.0-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-rtl8192eu.bb
+Description: Driver for Realtek USB wireless device 8192eu - Development files
+ Driver for Realtek USB wireless device 8192eu.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+OE: kernel-module-extrawlan-rtl8192eu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-extrawlan-rtl8192eu
+Version: 1.0-openvision
+Depends: kernel-module-8192eu
+Section: base
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 826539debb38cc6da91b9d3e2c176ae4
+Size: 692
+Filename: kernel-module-extrawlan-rtl8192eu_1.0-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-rtl8192eu.bb
+Description: Driver for Realtek USB wireless device 8192eu
+ Driver for Realtek USB wireless device 8192eu.
+OE: kernel-module-extrawlan-rtl8192eu
+HomePage: http://www.realtek.com/
 License: GPLv2
 Priority: optional
 
@@ -4122,18 +4535,19 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-kathrein-micom
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-e2-proc
 Provides: kernel-module-kathrein-micom
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f1cb93ca576b4f7effd14a2e3fdca002
-Size: 15056
-Filename: kernel-module-kathrein-micom_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 0ea506dd6b260561a9f1c028c6ef6c27
+Size: 15768
+Filename: kernel-module-kathrein-micom_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: kathrein-micom kernel module
- kathrein-micom kernel module; MICOM frontcontroller module
+ kathrein-micom kernel module; MICOM frontcontroller module, Kathrein
+ version
 OE: sh4-dvb-modules
 License: GPLv2+
 Priority: required
@@ -4156,15 +4570,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-kreplay-fdma
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-ksound
 Provides: kernel-module-kreplay-fdma
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d2084f4e341aa74d2b50ac91bc88c064
+MD5Sum: fb277e8b971298ebf63f263aed566635
 Size: 4950
-Filename: kernel-module-kreplay-fdma_git1531+8b21c06-openvision_ufs912.ipk
+Filename: kernel-module-kreplay-fdma_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: kreplay-fdma kernel module
  kreplay-fdma kernel module
@@ -4173,15 +4587,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-kreplay
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-ksound
 Provides: kernel-module-kreplay
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 66e44ac29bef2a12c3790d936b12d226
-Size: 3724
-Filename: kernel-module-kreplay_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 688acf9ffb941246b176aa99b4dfdbe0
+Size: 3728
+Filename: kernel-module-kreplay_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: kreplay kernel module
  kreplay kernel module
@@ -4190,15 +4604,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-ksound
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-ksound
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c6c2afc93a745bdb72d99325da86e174
-Size: 8556
-Filename: kernel-module-ksound_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: fb7828791a78907c42c675aa1d401571
+Size: 8560
+Filename: kernel-module-ksound_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: ksound kernel module
  ksound kernel module
@@ -4207,15 +4621,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-ktone
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-ksound
 Provides: kernel-module-ktone
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 72ca44ceaf2b01fa82d5265143081b31
-Size: 3628
-Filename: kernel-module-ktone_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 42826c56d3713824819cfd8ad146ff20
+Size: 3634
+Filename: kernel-module-ktone_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: ktone kernel module
  ktone kernel module
@@ -4241,15 +4655,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-mme-host
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-embxshell
 Provides: kernel-module-mme-host
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 92335b51b9a434af61069e0f6c1215fb
-Size: 20238
-Filename: kernel-module-mme-host_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: d92be57271b4c674f3a13ab0c39dcad2
+Size: 20240
+Filename: kernel-module-mme-host_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: mme-host kernel module
  mme-host kernel module; MME Module
@@ -4258,15 +4672,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-mmelog
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host
 Provides: kernel-module-mmelog
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6c3382bb90880f26b91e4dfcf376c5e2
-Size: 3298
-Filename: kernel-module-mmelog_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 312cc20a47e740a79efa5a32708856c5
+Size: 3296
+Filename: kernel-module-mmelog_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: mmelog kernel module
  mmelog kernel module
@@ -4292,15 +4706,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-mpeg2hw
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host
 Provides: kernel-module-mpeg2hw
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: da59b9e439813ee92745840fca1b0d98
-Size: 5962
-Filename: kernel-module-mpeg2hw_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: b5eaf76390f36c38fdc57c080dc2ed68
+Size: 5966
+Filename: kernel-module-mpeg2hw_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: mpeg2hw kernel module
  mpeg2hw kernel module; Host transformer driver for STB71XX MPEG2 hardware
@@ -4323,6 +4737,24 @@ Source: linux-sh4-ufs912_2.6.32.bb
 Description: msdos kernel module
  msdos kernel module; MS-DOS filesystem support
 OE: linux-sh4-ufs912
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-mt7601usta
+Version: 3.0.0.4-openvision
+Depends: kernel-2.6.32.81_stm24_0217
+Provides: kernel-module-mt7601usta
+Section: kernel/modules
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 555d25334084ae1d8b68cf692dddf08b
+Size: 397758
+Filename: kernel-module-mt7601usta_3.0.0.4-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-mt7601u_3.0.0.4.bb
+Description: mt7601usta kernel module
+ mt7601usta kernel module; RT2870 Wireless Lan Linux Driver
+OE: kernel-module-extrawlan-mt7601u
+HomePage: www.mediatek.com
 License: GPLv2
 Priority: optional
 
@@ -5025,15 +5457,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-p2div64
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-p2div64
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 68b1f219cdcae1aded7f47025a74c72b
-Size: 2326
-Filename: kernel-module-p2div64_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 41710f515dbc6fffbfbb07cc09977633
+Size: 2324
+Filename: kernel-module-p2div64_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: p2div64 kernel module
  p2div64 kernel module; Player2 64Bit Divide Driver
@@ -5042,15 +5474,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-pcm-transcoder
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host
 Provides: kernel-module-pcm-transcoder
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c76d12c50af4d981d656cd9a8aa6f003
-Size: 3784
-Filename: kernel-module-pcm-transcoder_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 94eef75d7e758c05d1cec60d7bc253b2
+Size: 3786
+Filename: kernel-module-pcm-transcoder_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: pcm-transcoder kernel module
  pcm-transcoder kernel module; Pcm transcoding MME transformer.
@@ -5093,15 +5525,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-platform
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-platform
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bebdbca77ec8872c2d8570e38eb04fda
+MD5Sum: e2bff084a03236a8f10889eb63190775
 Size: 1968
-Filename: kernel-module-platform_git1531+8b21c06-openvision_ufs912.ipk
+Filename: kernel-module-platform_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: platform kernel module
  platform kernel module; Player2 Platform Driver
@@ -5110,15 +5542,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-player2-unified
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-player2-unified
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d0b3cec5a0a7087109597523ec14990a
-Size: 2120
-Filename: kernel-module-player2-unified_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: db051719ae9f0f00410f1c38b8eb0383
+Size: 2122
+Filename: kernel-module-player2-unified_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: player2-unified kernel module
  player2-unified kernel module; Player2 Unified Driver
@@ -5127,15 +5559,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-player2
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-e2-proc, kernel-module-ksound, kernel-module-mme-host, kernel-module-p2div64, kernel-module-pseudocard, kernel-module-stm-monitor, kernel-module-stmcore-display-sti7111, kernel-module-stmdvb, kernel-module-stmsysfs
 Provides: kernel-module-player2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a49af13e98014177247d2ff009ccfbf5
-Size: 355734
-Filename: kernel-module-player2_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 2529b75a0c0420a67a6fc82841b6bded
+Size: 355736
+Filename: kernel-module-player2_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: player2 kernel module
  player2 kernel module; Player2 backend implementation for STM streaming
@@ -5145,15 +5577,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-pseudocard
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-stmcore-display-sti7111
 Provides: kernel-module-pseudocard
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c7519ce686a58b6f788e87f2c13398c7
-Size: 12400
-Filename: kernel-module-pseudocard_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: cb6734629d097f667ef38705f553a7f4
+Size: 12406
+Filename: kernel-module-pseudocard_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: pseudocard kernel module
  pseudocard kernel module; Pseudo soundcard
@@ -5162,21 +5594,74 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-pti
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-pti
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 378786b05af07baead4eeeb8450e8b67
-Size: 26372
-Filename: kernel-module-pti_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 00a75486ce75b404bf4ed1a091c1bb78
+Size: 26370
+Filename: kernel-module-pti_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: pti kernel module
  pti kernel module; PTI driver
 OE: sh4-dvb-modules
 License: GPLv2+
 Priority: required
+
+Package: kernel-module-rt5370sta
+Version: 2.5.0.4-openvision
+Depends: kernel-2.6.32.81_stm24_0217
+Provides: kernel-module-rt5370sta
+Section: kernel/modules
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c67b0b6c582e7a9e0fa58f3a541a0d55
+Size: 370544
+Filename: kernel-module-rt5370sta_2.5.0.4-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-rt3070_2.5.0.4.bb
+Description: rt5370sta kernel module
+ rt5370sta kernel module; RT2870 Wireless Lan Linux Driver
+OE: kernel-module-extrawlan-rt3070
+License: GPLv2+
+Priority: optional
+
+Package: kernel-module-rt73
+Version: 1.1.0.5-openvision
+Depends: kernel-2.6.32.81_stm24_0217
+Provides: kernel-module-rt73
+Section: kernel/modules
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5268412fe694f9f73a150d491094ce04
+Size: 178100
+Filename: kernel-module-rt73_1.1.0.5-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-rt73_1.1.0.5.bb
+Description: rt73 kernel module
+ rt73 kernel module; RT73 Wireless Lan Linux Driver
+OE: kernel-module-extrawlan-rt73
+HomePage: http://www.ralinktech.com.tw
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-rtl8192cu
+Version: 4.0.2-openvision
+Depends: kernel-2.6.32.81_stm24_0217
+Provides: kernel-module-rtl8192cu
+Section: base
+Architecture: ufs912
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9ff6c4c9bb80e7dd35ad72d8565afc58
+Size: 244116
+Filename: kernel-module-rtl8192cu_4.0.2-openvision_ufs912.ipk
+Source: kernel-module-extrawlan-rtl8192cu_4.0.2_9000.bb
+Description: rtl8192cu kernel module
+ rtl8192cu kernel module; Realtek Wireless Lan Driver
+OE: kernel-module-extrawlan-rtl8192cu
+HomePage: http://www.realtek.com/
+License: GPLv2
+Priority: optional
 
 Package: kernel-module-scsi-wait-scan
 Version: 2.6.32.81-stm24-0217-openvision
@@ -5196,15 +5681,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-silencegen
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host
 Provides: kernel-module-silencegen
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8388f55a2403beb2f5550d5a837b7038
-Size: 2632
-Filename: kernel-module-silencegen_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: be488701ed03d00c90f841dafdb13b86
+Size: 2634
+Filename: kernel-module-silencegen_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: silencegen kernel module
  silencegen kernel module; Trivial silence generating MME transformer.
@@ -5213,15 +5698,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-simu-button
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-simu-button
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b147481e82a86b1a373690bcc344a5c0
-Size: 2460
-Filename: kernel-module-simu-button_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: f8266f0525e0a6283f07c8aafbd4eb47
+Size: 2458
+Filename: kernel-module-simu-button_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: simu-button kernel module
  simu-button kernel module; SH4 RC event driver
@@ -5230,15 +5715,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-sth264pp
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-player2
 Provides: kernel-module-sth264pp
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 54a32afc07aecfb95a5767e668d2bff7
+MD5Sum: e775f99ff51c5d780d3f333a93853103
 Size: 6382
-Filename: kernel-module-sth264pp_git1531+8b21c06-openvision_ufs912.ipk
+Filename: kernel-module-sth264pp_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: sth264pp kernel module
  sth264pp kernel module
@@ -5247,15 +5732,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stm-monitor
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host, kernel-module-p2div64
 Provides: kernel-module-stm-monitor
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 45b126833624e264167f7e5fbc1678e8
-Size: 8132
-Filename: kernel-module-stm-monitor_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: aee8a9f1874de8db6e3d747b0776c591
+Size: 8130
+Filename: kernel-module-stm-monitor_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: stm-monitor kernel module
  stm-monitor kernel module; STM monitor.
@@ -5264,15 +5749,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stm-v4l2
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-stm-v4l2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2a2c214791db6df9b8be3973d87cdda0
-Size: 5490
-Filename: kernel-module-stm-v4l2_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 0e401addac85eca32dac86f61fefea88
+Size: 5486
+Filename: kernel-module-stm-v4l2_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: stm-v4l2 kernel module
  stm-v4l2 kernel module
@@ -5281,15 +5766,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmalloc
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-player2
 Provides: kernel-module-stmalloc
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 62e2e69efc03aac3122598f3afb36974
+MD5Sum: 0beeb2c409a51305d8d1bf8f8967aaea
 Size: 3730
-Filename: kernel-module-stmalloc_git1531+8b21c06-openvision_ufs912.ipk
+Filename: kernel-module-stmalloc_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: stmalloc kernel module
  stmalloc kernel module
@@ -5298,15 +5783,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmcore-display-sti7111
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-stmcore-display-sti7111
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e1b38bf73724dfc76ea82dc8bfc361f2
-Size: 122012
-Filename: kernel-module-stmcore-display-sti7111_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 63e117ec0a4c8249270b52ce6386c51e
+Size: 122004
+Filename: kernel-module-stmcore-display-sti7111_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: stmcore-display-sti7111 kernel module
  stmcore-display-sti7111 kernel module
@@ -5315,15 +5800,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmdvb
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-avs, kernel-module-e2-proc, kernel-module-pseudocard, kernel-module-pti, kernel-module-stm-v4l2, kernel-module-stmcore-display-sti7111, kernel-module-stmfb, kernel-module-stv090x, kernel-module-ufs912-cic
 Provides: kernel-module-stmdvb
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c9af3094f6287d0fdb8776cf039b8a11
+MD5Sum: 91f82bc97ae39104354e39188795adb6
 Size: 52962
-Filename: kernel-module-stmdvb_git1531+8b21c06-openvision_ufs912.ipk
+Filename: kernel-module-stmdvb_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: stmdvb kernel module
  stmdvb kernel module; Linux DVB video and audio driver for STM streaming
@@ -5333,15 +5818,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmfb
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-stmfb
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f411f9f68bc8322f2c3324c7979e7b25
-Size: 21966
-Filename: kernel-module-stmfb_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 794966f2e90c7c32d720d418edcf6578
+Size: 21960
+Filename: kernel-module-stmfb_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: stmfb kernel module
  stmfb kernel module
@@ -5350,15 +5835,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmsysfs
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-stmsysfs
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f037705949fdddbff9573aa06252da7b
-Size: 6752
-Filename: kernel-module-stmsysfs_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 414a4224a9a5dbdad5d0b858f439d346
+Size: 6754
+Filename: kernel-module-stmsysfs_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: stmsysfs kernel module
  stmsysfs kernel module; Sysfs driver for accessing STM streaming
@@ -5368,15 +5853,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmvbi
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-stm-v4l2, kernel-module-stmcore-display-sti7111
 Provides: kernel-module-stmvbi
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3afa09cd10f7cdabc40989d0afae9abe
-Size: 5392
-Filename: kernel-module-stmvbi_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 9931d07b513b89a92546e54841426063
+Size: 5390
+Filename: kernel-module-stmvbi_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: stmvbi kernel module
  stmvbi kernel module
@@ -5385,15 +5870,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmvout
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-stm-v4l2, kernel-module-stmcore-display-sti7111
 Provides: kernel-module-stmvout
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 319bb452fcf7ae231d7292ddb0736445
+MD5Sum: 3e10731fd1f0268e94193612def867b4
 Size: 21606
-Filename: kernel-module-stmvout_git1531+8b21c06-openvision_ufs912.ipk
+Filename: kernel-module-stmvout_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: stmvout kernel module
  stmvout kernel module
@@ -5402,15 +5887,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stv090x
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-p2div64
 Provides: kernel-module-stv090x
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 976f1f1c988e384918fbe0051971b2d3
-Size: 36858
-Filename: kernel-module-stv090x_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: b5696670d16d52e7cc206509ec11f8e6
+Size: 36862
+Filename: kernel-module-stv090x_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: stv090x kernel module
  stv090x kernel module; Tunerdriver
@@ -5470,15 +5955,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-ufs912-cic
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-ufs912-cic
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c83c683593d63af40615c15b21e2cd41
-Size: 5062
-Filename: kernel-module-ufs912-cic_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 83162f4bbb8cd017650a6d73557032d0
+Size: 5064
+Filename: kernel-module-ufs912-cic_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: ufs912-cic kernel module
  ufs912-cic kernel module; CI Controller
@@ -5556,15 +6041,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-zram
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-zram
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5a8a1bd258a248800aaa61f4fa5b31a0
+MD5Sum: 3e250ce8ad21c5d7f444473d981e1d1c
 Size: 9760
-Filename: kernel-module-zram_git1531+8b21c06-openvision_ufs912.ipk
+Filename: kernel-module-zram_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: zram kernel module
  zram kernel module; Compressed RAM Block Device
@@ -5673,14 +6158,14 @@ License: PD
 Priority: optional
 
 Package: libtuxtxt-dbg
-Version: 2.0.1+git83+3a48441-r0
+Version: 2.0.1+git84+ed8d3cb-r0
 Recommends: libc6-dbg, libfreetype-dbg, libz-dbg
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: eb91e107d921f33bd1b955ea251465b2
-Size: 55538
-Filename: libtuxtxt-dbg_2.0.1+git83+3a48441-r0_ufs912.ipk
+MD5Sum: 83bce002095f67956c90809a38a951d7
+Size: 55548
+Filename: libtuxtxt-dbg_2.0.1+git84+ed8d3cb-r0_ufs912.ipk
 Source: libtuxtxt.bb
 Description: tuxbox libtuxtxt - Debugging files
  tuxbox libtuxtxt.  This package contains ELF symbols and related sources
@@ -5690,15 +6175,15 @@ License: LGPLv2.1
 Priority: optional
 
 Package: libtuxtxt-dev
-Version: 2.0.1+git83+3a48441-r0
-Depends: libtuxtxt0 (= 2.0.1+git83+3a48441-r0)
+Version: 2.0.1+git84+ed8d3cb-r0
+Depends: libtuxtxt0 (= 2.0.1+git84+ed8d3cb-r0)
 Recommends: libc6-dev, libfreetype-dev, libpng16-dev, libz-dev
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c0025b1a46c9069d73c621a832aa8987
-Size: 48386
-Filename: libtuxtxt-dev_2.0.1+git83+3a48441-r0_ufs912.ipk
+MD5Sum: 460e02373e76616c6302b691dba184a2
+Size: 48390
+Filename: libtuxtxt-dev_2.0.1+git84+ed8d3cb-r0_ufs912.ipk
 Source: libtuxtxt.bb
 Description: tuxbox libtuxtxt - Development files
  tuxbox libtuxtxt.  This package contains symbolic links, header files,
@@ -5708,15 +6193,15 @@ License: LGPLv2.1
 Priority: optional
 
 Package: libtuxtxt0
-Version: 2.0.1+git83+3a48441-r0
+Version: 2.0.1+git84+ed8d3cb-r0
 Depends: libc6 (>= 2.25), libfreetype6 (>= 2.7.1), libz1 (>= 1.2.11)
 Provides: libtuxtxt
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1d1e039ab6b9b610950caab487300386
-Size: 44614
-Filename: libtuxtxt0_2.0.1+git83+3a48441-r0_ufs912.ipk
+MD5Sum: 75c4132c92f3c4195d3eaaca2ffb7075
+Size: 44616
+Filename: libtuxtxt0_2.0.1+git84+ed8d3cb-r0_ufs912.ipk
 Source: libtuxtxt.bb
 Description: tuxbox libtuxtxt
  tuxbox libtuxtxt.
@@ -5725,15 +6210,15 @@ License: LGPLv2.1
 Priority: optional
 
 Package: libtuxtxt32bpp-dbg
-Version: 2.0.1+git83+3a48441-r0
+Version: 2.0.1+git84+ed8d3cb-r0
 Provides: tuxtxt-enigma2-dbg
 Recommends: libc6-dbg, libfreetype-dbg, libtuxtxt-dbg
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4a7a17b648fb712f78b7800786093060
-Size: 26282
-Filename: libtuxtxt32bpp-dbg_2.0.1+git83+3a48441-r0_ufs912.ipk
+MD5Sum: ccfb84ccfccf2839f4512c25b9390bc8
+Size: 26332
+Filename: libtuxtxt32bpp-dbg_2.0.1+git84+ed8d3cb-r0_ufs912.ipk
 Source: tuxtxt-enigma2.bb
 Description: tuxbox tuxtxt for framebuffer - Debugging files
  tuxbox tuxtxt for enigma2  This package contains ELF symbols and related
@@ -5743,16 +6228,16 @@ License: LGPLv2.1
 Priority: optional
 
 Package: libtuxtxt32bpp-dev
-Version: 2.0.1+git83+3a48441-r0
-Depends: libtuxtxt32bpp0 (= 2.0.1+git83+3a48441-r0)
+Version: 2.0.1+git84+ed8d3cb-r0
+Depends: libtuxtxt32bpp0 (= 2.0.1+git84+ed8d3cb-r0)
 Provides: tuxtxt-enigma2-dev
 Recommends: libc6-dev, libfreetype-dev, libtuxtxt-dev
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 896218d2b1f3a0323e1613d24cf933d5
-Size: 864
-Filename: libtuxtxt32bpp-dev_2.0.1+git83+3a48441-r0_ufs912.ipk
+MD5Sum: e74e19977c0b1b25b843e8ef194813cc
+Size: 870
+Filename: libtuxtxt32bpp-dev_2.0.1+git84+ed8d3cb-r0_ufs912.ipk
 Source: tuxtxt-enigma2.bb
 Description: tuxbox tuxtxt for framebuffer - Development files
  tuxbox tuxtxt for enigma2  This package contains symbolic links, header
@@ -5762,14 +6247,14 @@ License: LGPLv2.1
 Priority: optional
 
 Package: libtuxtxt32bpp-src
-Version: 2.0.1+git83+3a48441-r0
+Version: 2.0.1+git84+ed8d3cb-r0
 Provides: tuxtxt-enigma2-src
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5485cbe494eaf7107b6fad201feb9779
-Size: 2304
-Filename: libtuxtxt32bpp-src_2.0.1+git83+3a48441-r0_ufs912.ipk
+MD5Sum: 981144c55529a0c473f33bede38dff46
+Size: 2310
+Filename: libtuxtxt32bpp-src_2.0.1+git84+ed8d3cb-r0_ufs912.ipk
 Source: tuxtxt-enigma2.bb
 Description: tuxbox tuxtxt for framebuffer
  tuxbox tuxtxt for enigma2
@@ -5778,15 +6263,15 @@ License: LGPLv2.1
 Priority: optional
 
 Package: libtuxtxt32bpp0
-Version: 2.0.1+git83+3a48441-r0
-Depends: libc6 (>= 2.25), libfreetype6 (>= 2.7.1), libtuxtxt0 (>= 2.0.1+git83+3a48441)
+Version: 2.0.1+git84+ed8d3cb-r0
+Depends: libc6 (>= 2.25), libfreetype6 (>= 2.7.1), libtuxtxt0 (>= 2.0.1+git84+ed8d3cb)
 Provides: tuxtxt-enigma2
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 603d087cc63b2585e66342df49d9e6b1
-Size: 129198
-Filename: libtuxtxt32bpp0_2.0.1+git83+3a48441-r0_ufs912.ipk
+MD5Sum: baeefa5765bec2fef0311943a87bf4c3
+Size: 129582
+Filename: libtuxtxt32bpp0_2.0.1+git84+ed8d3cb-r0_ufs912.ipk
 Source: tuxtxt-enigma2.bb
 Description: tuxbox tuxtxt for framebuffer
  tuxbox tuxtxt for enigma2
@@ -5865,14 +6350,14 @@ License: GPLv2+
 Priority: optional
 
 Package: openmultiboot-dbg
-Version: git112+e2771bb-r0
+Version: git113+553dbed-r0
 Recommends: libc6-dbg, libfreetype-dbg
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 28288d059da2244752073a633272b123
-Size: 40060
-Filename: openmultiboot-dbg_git112+e2771bb-r0_ufs912.ipk
+MD5Sum: 9f6f48310a7edd03ddcbdfe0b5a605a8
+Size: 40058
+Filename: openmultiboot-dbg_git113+553dbed-r0_ufs912.ipk
 Source: openmultiboot.bb
 Description: Multi boot loader for enigma2 - Debugging files
  Multi boot loader for enigma2.  This package contains ELF symbols and
@@ -5882,15 +6367,15 @@ License: GPLv2
 Priority: optional
 
 Package: openmultiboot-dev
-Version: git112+e2771bb-r0
-Depends: openmultiboot (= git112+e2771bb-r0)
+Version: git113+553dbed-r0
+Depends: openmultiboot (= git113+553dbed-r0)
 Recommends: libc6-dev, libfreetype-dev
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b753480e568ef398650d4d41b3dcef36
+MD5Sum: 3f96c67aa2d6dc344215cb59bf91404e
 Size: 754
-Filename: openmultiboot-dev_git112+e2771bb-r0_ufs912.ipk
+Filename: openmultiboot-dev_git113+553dbed-r0_ufs912.ipk
 Source: openmultiboot.bb
 Description: Multi boot loader for enigma2 - Development files
  Multi boot loader for enigma2.  This package contains symbolic links,
@@ -5900,14 +6385,14 @@ License: GPLv2
 Priority: optional
 
 Package: openmultiboot
-Version: git112+e2771bb-r0
+Version: git113+553dbed-r0
 Depends: libc6 (>= 2.25), libfreetype6 (>= 2.7.1)
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d6a4648c8cd8699ac165a7b3de4c96dc
+MD5Sum: 6642ff914349c2f59e278cd61a19538f
 Size: 46372
-Filename: openmultiboot_git112+e2771bb-r0_ufs912.ipk
+Filename: openmultiboot_git113+553dbed-r0_ufs912.ipk
 Source: openmultiboot.bb
 Description: Multi boot loader for enigma2
  Multi boot loader for enigma2.
@@ -5916,16 +6401,16 @@ License: GPLv2
 Priority: optional
 
 Package: openvision-branding-dbg
-Version: 7.6-r313
+Version: 7.6-r315
 Recommends: libc6-dbg
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 841e324ba0ef01a21a1c8df23f00aed2
-Size: 18090
-Filename: openvision-branding-dbg_7.6-r313_ufs912.ipk
+MD5Sum: 7f2c90172c4606c604ba8b816576b053
+Size: 18080
+Filename: openvision-branding-dbg_7.6-r315_ufs912.ipk
 Source: openvision-branding.bb
-Description: openvision-branding version 7.6-r313 - Debugging files
+Description: openvision-branding version 7.6-r315 - Debugging files
  Open Vision branding lib  This package contains ELF symbols and related
  sources for debugging purposes.
 OE: openvision-branding
@@ -5933,17 +6418,17 @@ License: GPLv2+
 Priority: optional
 
 Package: openvision-branding-dev
-Version: 7.6-r313
-Depends: openvision-branding (= 7.6-r313)
+Version: 7.6-r315
+Depends: openvision-branding (= 7.6-r315)
 Recommends: libc6-dev, python-dev
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d4d03e31f7cc33ce5e330e772a42ee43
+MD5Sum: 14d3d07a354a8a9eafa497dc52c4715d
 Size: 750
-Filename: openvision-branding-dev_7.6-r313_ufs912.ipk
+Filename: openvision-branding-dev_7.6-r315_ufs912.ipk
 Source: openvision-branding.bb
-Description: openvision-branding version 7.6-r313 - Development files
+Description: openvision-branding version 7.6-r315 - Development files
  Open Vision branding lib  This package contains symbolic links, header
  files, and related items necessary for software development.
 OE: openvision-branding
@@ -5951,95 +6436,44 @@ License: GPLv2+
 Priority: optional
 
 Package: openvision-branding
-Version: 7.6-r313
+Version: 7.6-r315
 Depends: libc6 (>= 2.25)
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b71cd01b2468e1ac50e992532b42818d
-Size: 8460
-Filename: openvision-branding_7.6-r313_ufs912.ipk
+MD5Sum: 924d72b53da7d973922bed23f8303bf4
+Size: 8458
+Filename: openvision-branding_7.6-r315_ufs912.ipk
 Source: openvision-branding.bb
-Description: openvision-branding version 7.6-r313
+Description: openvision-branding version 7.6-r315
  Open Vision branding lib
 OE: openvision-branding
 License: GPLv2+
 Priority: optional
 
-Package: openvision-module-dbg
-Version: 7.6-r313
-Section: devel
-Architecture: ufs912
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 938a9c6a158df0c3ff55f5872db16f93
-Size: 704
-Filename: openvision-module-dbg_7.6-r313_ufs912.ipk
-Source: openvision-module.bb
-Description: Open Vision information module for ufs912 - Debugging files
- Open Vision information module for ufs912.  This package contains ELF
- symbols and related sources for debugging purposes.
-OE: openvision-module
-License: GPLv3
-Priority: required
-
-Package: openvision-module-dev
-Version: 7.6-r313
-Depends: openvision-module (= 7.6-r313)
-Recommends: kernel-2.6.32.81_stm24_0217-dev, kernel-module-enigma-dev
-Section: devel
-Architecture: ufs912
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 69eaec942baf09ab6b924743ecb6a634
-Size: 774
-Filename: openvision-module-dev_7.6-r313_ufs912.ipk
-Source: openvision-module.bb
-Description: Open Vision information module for ufs912 - Development files
- Open Vision information module for ufs912.  This package contains
- symbolic links, header files, and related items necessary for software
- development.
-OE: openvision-module
-License: GPLv3
-Priority: required
-
-Package: openvision-module
-Version: 7.6-r313
-Depends: kernel-module-enigma
-Section: base
-Architecture: ufs912
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 56890d0fd28fb27f62169e0642bb8191
-Size: 756
-Filename: openvision-module_7.6-r313_ufs912.ipk
-Source: openvision-module.bb
-Description: Open Vision information module for ufs912
- Open Vision information module for ufs912.
-OE: openvision-module
-License: GPLv3
-Priority: required
-
 Package: openvision-version-info
-Version: 7.6-r313
+Version: 7.6-r315
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3d85eacd494f0dda8fe2480aca03c35a
-Size: 2208
-Filename: openvision-version-info_7.6-r313_ufs912.ipk
+MD5Sum: 198aa280c2bcf055cf03bf37e886fd73
+Size: 2210
+Filename: openvision-version-info_7.6-r315_ufs912.ipk
 Source: openvision-version-info.bb
-Description: openvision-version-info version 7.6-r313
+Description: openvision-version-info version 7.6-r315
  Open Vision version info
 OE: openvision-version-info
 License: GPLv2+
 Priority: required
 
 Package: openwebif-remotes-dbg
-Version: git6+0af6d28-r0
+Version: git9+1e12c70-r0
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ef839a621c0c2e188b197b7683f7885b
-Size: 714
-Filename: openwebif-remotes-dbg_git6+0af6d28-r0_ufs912.ipk
+MD5Sum: 05d0a1642af2309150488781d4a80dc2
+Size: 712
+Filename: openwebif-remotes-dbg_git9+1e12c70-r0_ufs912.ipk
 Source: openwebif-remotes.bb
 Description: RC files and STB pictures for Open WebIF - Debugging files
  RC files and STB pictures for Open WebIF.  This package contains ELF
@@ -6049,14 +6483,14 @@ License: GPLv2+
 Priority: optional
 
 Package: openwebif-remotes-dev
-Version: git6+0af6d28-r0
-Depends: openwebif-remotes (= git6+0af6d28-r0)
+Version: git9+1e12c70-r0
+Depends: openwebif-remotes (= git9+1e12c70-r0)
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d31380e5f63892d96be368b4885e66d6
+MD5Sum: dc608f54a1525774876417b02f47c04f
 Size: 746
-Filename: openwebif-remotes-dev_git6+0af6d28-r0_ufs912.ipk
+Filename: openwebif-remotes-dev_git9+1e12c70-r0_ufs912.ipk
 Source: openwebif-remotes.bb
 Description: RC files and STB pictures for Open WebIF - Development files
  RC files and STB pictures for Open WebIF.  This package contains symbolic
@@ -6067,13 +6501,13 @@ License: GPLv2+
 Priority: optional
 
 Package: openwebif-remotes-extra
-Version: git6+0af6d28-r0
+Version: git9+1e12c70-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 526bc1ecd465174232704f5bdb858e33
-Size: 70064
-Filename: openwebif-remotes-extra_git6+0af6d28-r0_ufs912.ipk
+MD5Sum: b160eaeb57be48d789459390f246c8bb
+Size: 70072
+Filename: openwebif-remotes-extra_git9+1e12c70-r0_ufs912.ipk
 Source: openwebif-remotes.bb
 Description: RC files and STB pictures for Open WebIF
  RC files and STB pictures for Open WebIF.
@@ -6082,13 +6516,13 @@ License: GPLv2+
 Priority: optional
 
 Package: openwebif-remotes
-Version: git6+0af6d28-r0
+Version: git9+1e12c70-r0
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cc8d46b27071004e01a75aeccb80396f
-Size: 1658
-Filename: openwebif-remotes_git6+0af6d28-r0_ufs912.ipk
+MD5Sum: d1a31d1f5d6f9a727901ea5b9ec881df
+Size: 1656
+Filename: openwebif-remotes_git9+1e12c70-r0_ufs912.ipk
 Source: openwebif-remotes.bb
 Description: RC files and STB pictures for Open WebIF
  RC files and STB pictures for Open WebIF.
@@ -6691,7 +7125,7 @@ Recommends: base-files-dbg, base-passwd-dbg, busybox-dbg, devinit-dbg, eudev-dbg
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e6f0c7843c3d177743a6ca8081c1d2b3
+MD5Sum: f472f08817f55ddf47c1c1422a0f9f86
 Size: 934
 Filename: packagegroup-core-boot-dbg_1.0-r17_ufs912.ipk
 Source: packagegroup-core-boot.bb
@@ -6709,8 +7143,8 @@ Recommends: base-files-dev, base-passwd-dev, busybox-dev, devinit-dev, eudev-dev
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d5e5f827602e475b30d54230f5624085
-Size: 958
+MD5Sum: d568ca71e69c7cdc1410d2a2638fd86c
+Size: 954
 Filename: packagegroup-core-boot-dev_1.0-r17_ufs912.ipk
 Source: packagegroup-core-boot.bb
 Description: Minimal boot requirements - Development files
@@ -6724,11 +7158,12 @@ Priority: optional
 Package: packagegroup-core-boot
 Version: 1.0-r17
 Depends: base-files, base-passwd, busybox, devinit, eudev, evremote2, fp-control, init-ifupdown, initscripts, kernel-module-zram, libpcre1, modutils-initscripts, mtd-utils-jffs2, netbase, sh4-dvb-modules, stfbcontrol, stlinux24-sh4-stmfb-firmware-stx7111, stlinux24-sh4-stx7111-fdma-firmware, stslave-fw, sysvinit, update-alternatives-opkg, ustslave, vfdctl, wait4button
+Recommends: firmware-mt7601u, firmware-mt7650, firmware-rt2870, firmware-rt73, firmware-rtl8188eu, firmware-rtl8192cu, firmware-rtl8192eu, kernel-module-extrawlan-mt7601u, kernel-module-extrawlan-mt7650, kernel-module-extrawlan-rt3070, kernel-module-extrawlan-rt73, kernel-module-extrawlan-rtl8188eu, kernel-module-extrawlan-rtl8192cu, kernel-module-extrawlan-rtl8192eu
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ffe21a2078f9214f6e7c86ec0aa11ebe
-Size: 860
+MD5Sum: a1a9f7ade8dfbdbeaa5be4c52df9bb5a
+Size: 942
 Filename: packagegroup-core-boot_1.0-r17_ufs912.ipk
 Source: packagegroup-core-boot.bb
 Description: Minimal boot requirements
@@ -6833,7 +7268,7 @@ Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 77d330e0ea0903c83e5219bdfadeb467
+MD5Sum: c2475e9e00cbd981dd1125085b4cbacc
 Size: 158528
 Filename: satipclient-dbg_1.0+git74+53a831a-r0_ufs912.ipk
 Source: satipclient.bb
@@ -6851,7 +7286,7 @@ Recommends: initscripts-dev, libc6-dev, libgcc-s-dev, libstdc++-dev, update-rc.d
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4e4ba36164f679d70ef163dad5992fdf
+MD5Sum: 2025e76abbd64fdacd5175b9cb93753c
 Size: 774
 Filename: satipclient-dev_1.0+git74+53a831a-r0_ufs912.ipk
 Source: satipclient.bb
@@ -6869,8 +7304,8 @@ Recommends: update-rc.d
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c93a53f9a8ebc4a314cb5d35eb1fee3c
-Size: 31826
+MD5Sum: fc9be9a0f53ea72ca427ea0091ddc557
+Size: 31830
 Filename: satipclient_1.0+git74+53a831a-r0_ufs912.ipk
 Source: satipclient.bb
 Description: satip client using vtuner
@@ -6880,15 +7315,15 @@ License: GPLv2
 Priority: optional
 
 Package: sh4-dvb-modules-dev
-Version: git1531+8b21c06-openvision
-Depends: sh4-dvb-modules (= git1531+8b21c06-openvision)
+Version: git1531+fd68071-openvision
+Depends: sh4-dvb-modules (= git1531+fd68071-openvision)
 Recommends: kernel-2.6.32.81_stm24_0217-dev, kernel-module-avs-dev, kernel-module-boxtype-dev, kernel-module-bpamem-dev, kernel-module-cec-dev, kernel-module-cpu-frequ-dev, kernel-module-e2-proc-dev, kernel-module-embxmailbox-dev, kernel-module-embxshell-dev, kernel-module-embxshm-dev, kernel-module-kathrein-micom-dev, kernel-module-kreplay-dev, kernel-module-kreplay-fdma-dev, kernel-module-ksound-dev, kernel-module-ktone-dev, kernel-module-mme-host-dev, kernel-module-mmelog-dev, kernel-module-mpeg2hw-dev, kernel-module-p2div64-dev, kernel-module-pcm-transcoder-dev, kernel-module-platform-dev, kernel-module-player2-dev, kernel-module-player2-unified-dev, kernel-module-pseudocard-dev, kernel-module-pti-dev, kernel-module-silencegen-dev, kernel-module-simu-button-dev, kernel-module-sth264pp-dev, kernel-module-stm-monitor-dev, kernel-module-stm-v4l2-dev, kernel-module-stmalloc-dev, kernel-module-stmcore-display-sti7111-dev, kernel-module-stmdvb-dev, kernel-module-stmfb-dev, kernel-module-stmsysfs-dev, kernel-module-stmvbi-dev, kernel-module-stmvout-dev, kernel-module-stv090x-dev, kernel-module-ufs912-cic-dev, kernel-module-zram-dev
 Section: devel
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e1a51e07271dfe5e582ef2ff66f79788
-Size: 15674
-Filename: sh4-dvb-modules-dev_git1531+8b21c06-openvision_ufs912.ipk
+MD5Sum: 3e34da6544a56690f4d5f62c4f286f3b
+Size: 15672
+Filename: sh4-dvb-modules-dev_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: SH4 driver modules - Development files
  SH4 driver modules  This package contains symbolic links, header files,
@@ -6898,7 +7333,7 @@ License: GPLv2+
 Priority: required
 
 Package: sh4-dvb-modules
-Version: git1531+8b21c06-openvision
+Version: git1531+fd68071-openvision
 Depends: kernel-module-avs, kernel-module-boxtype, kernel-module-bpamem, kernel-module-cec, kernel-module-cpu-frequ, kernel-module-e2-proc, kernel-module-embxmailbox, kernel-module-embxshell, kernel-module-embxshm, kernel-module-kathrein-micom, kernel-module-kreplay, kernel-module-kreplay-fdma, kernel-module-ksound, kernel-module-ktone, kernel-module-mme-host, kernel-module-mmelog, kernel-module-mpeg2hw, kernel-module-p2div64, kernel-module-pcm-transcoder, kernel-module-platform, kernel-module-player2, kernel-module-player2-unified, kernel-module-pseudocard, kernel-module-pti, kernel-module-silencegen, kernel-module-simu-button, kernel-module-sth264pp, kernel-module-stm-monitor, kernel-module-stm-v4l2, kernel-module-stmalloc, kernel-module-stmcore-display-sti7111, kernel-module-stmdvb, kernel-module-stmfb, kernel-module-stmsysfs, kernel-module-stmvbi, kernel-module-stmvout, kernel-module-stv090x, kernel-module-ufs912-cic, kernel-module-zram
 Provides: sh4-dvb-modules
 Replaces: sh4-dvb-modules
@@ -6906,9 +7341,9 @@ Conflicts: sh4-dvb-modules
 Section: base
 Architecture: ufs912
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b9c804ac7d4f4da1577469dc6d954e96
+MD5Sum: a85789200beb8f230dea76d5110caddf
 Size: 2946
-Filename: sh4-dvb-modules_git1531+8b21c06-openvision_ufs912.ipk
+Filename: sh4-dvb-modules_git1531+fd68071-openvision_ufs912.ipk
 Source: sh4-dvb-modules.bb
 Description: SH4 driver modules
  SH4 driver modules
