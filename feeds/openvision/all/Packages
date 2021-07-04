@@ -4470,13 +4470,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.dual.feeds-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dadf7de7e6fe02719aba420d374e9397
-Size: 728
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds-dbg_git5088+c2e6895-r0_all.ipk
+MD5Sum: 3bbf007ec48d1fb0962bb88f4cd86e6d
+Size: 726
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.dual.feeds.bb
 Description: Vhannibal Dual Feeds E2 Settings File - Debugging files
  Vhannibal Dual Feeds E2 Settings File.  This package contains ELF symbols
@@ -4486,14 +4486,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.dual.feeds-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.dual.feeds (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.dual.feeds (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d9abac71d88759df20f7597f6be380f6
+MD5Sum: 43a81e738450603bf8f6d748bf236f4b
 Size: 758
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds-dev_git5088+c2e6895-r0_all.ipk
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.dual.feeds.bb
 Description: Vhannibal Dual Feeds E2 Settings File - Development files
  Vhannibal Dual Feeds E2 Settings File.  This package contains symbolic
@@ -4504,13 +4504,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.italia-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 10402f7cc6f5968f329a1caf09275976
-Size: 738
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.italia-dbg_git5088+c2e6895-r0_all.ipk
+MD5Sum: 2297ddfd1b2f3e3e7a93a5fd6cf84cad
+Size: 734
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.italia-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.italia.bb
 Description: Vhannibal Dual Feeds E2 Settings File - Debugging files
  Vhannibal Dual Feeds E2 Settings File.  This package contains ELF symbols
@@ -4520,14 +4520,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.italia-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.italia (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.italia (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9bccd819da78d53bebc682a524a531fa
-Size: 770
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.italia-dev_git5088+c2e6895-r0_all.ipk
+MD5Sum: b3dfa748fbdfa9de8fd33ad66f92faa2
+Size: 766
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.italia-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.italia.bb
 Description: Vhannibal Dual Feeds E2 Settings File - Development files
  Vhannibal Dual Feeds E2 Settings File.  This package contains symbolic
@@ -4538,13 +4538,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.italia
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 143dbe602624a5e7549dca952d0ad456
-Size: 175374
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.italia_git5088+c2e6895-r0_all.ipk
+MD5Sum: de2fa0e74368cefe697d072695358582
+Size: 175466
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.italia_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.italia.bb
 Description: Vhannibal Dual Feeds E2 Settings File
  Vhannibal Dual Feeds E2 Settings File.
@@ -4553,13 +4553,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6d47570490ef2dc3be80345ada3b0a25
-Size: 736
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano-dbg_git5088+c2e6895-r0_all.ipk
+MD5Sum: 04f3a484509ded73c6eabb87898bccf5
+Size: 734
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano.bb
 Description: Vhannibal Dual Feeds E2 Settings File - Debugging files
  Vhannibal Dual Feeds E2 Settings File.  This package contains ELF symbols
@@ -4569,14 +4569,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c8d77732c6862ace6fa964f916f4f9d4
+MD5Sum: 760ddd17a950dfe1a8ea1cd10b5277a3
 Size: 768
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano-dev_git5088+c2e6895-r0_all.ipk
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano.bb
 Description: Vhannibal Dual Feeds E2 Settings File - Development files
  Vhannibal Dual Feeds E2 Settings File.  This package contains symbolic
@@ -4587,13 +4587,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cc3cd0773b6ed883680ca5688dc5ec21
-Size: 185262
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano_git5088+c2e6895-r0_all.ipk
+MD5Sum: 82b35b85db2592baffeba8ebb89db9ff
+Size: 185400
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.milano.bb
 Description: Vhannibal Dual Feeds E2 Settings File
  Vhannibal Dual Feeds E2 Settings File.
@@ -4602,13 +4602,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.napoli-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7c761a1e8dad5575f9a010076ef0d5aa
+MD5Sum: e1f1efe0f332d92424ccc2c8fa5b84dd
 Size: 736
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.napoli-dbg_git5088+c2e6895-r0_all.ipk
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.napoli-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.napoli.bb
 Description: Vhannibal Dual Feeds E2 Settings File - Debugging files
  Vhannibal Dual Feeds E2 Settings File.  This package contains ELF symbols
@@ -4618,14 +4618,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.napoli-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.napoli (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.napoli (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 56773de0fa20a87d4b20e3ba46ec9791
+MD5Sum: 5ea1c101cb6dece23adea333adf7ce75
 Size: 768
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.napoli-dev_git5088+c2e6895-r0_all.ipk
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.napoli-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.napoli.bb
 Description: Vhannibal Dual Feeds E2 Settings File - Development files
  Vhannibal Dual Feeds E2 Settings File.  This package contains symbolic
@@ -4636,13 +4636,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.napoli
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f69bd66ff57c81be10b0d20b868b9e78
-Size: 111848
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.napoli_git5088+c2e6895-r0_all.ipk
+MD5Sum: 507d601437a2dc605bfff56b2285bb79
+Size: 111796
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.napoli_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.napoli.bb
 Description: Vhannibal Dual Feeds E2 Settings File
  Vhannibal Dual Feeds E2 Settings File.
@@ -4651,13 +4651,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2c80146895d3cb83b804eede4c093055
-Size: 736
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma-dbg_git5088+c2e6895-r0_all.ipk
+MD5Sum: d3cceccaf419f4ce57e5a400aef9ba1a
+Size: 734
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma.bb
 Description: Vhannibal Dual Feeds E2 Settings File - Debugging files
  Vhannibal Dual Feeds E2 Settings File.  This package contains ELF symbols
@@ -4667,14 +4667,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d499740ec403ded071bd55de7ad32632
-Size: 768
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma-dev_git5088+c2e6895-r0_all.ipk
+MD5Sum: f8e1c660e36bf79ca70fcc8a5642f456
+Size: 766
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma.bb
 Description: Vhannibal Dual Feeds E2 Settings File - Development files
  Vhannibal Dual Feeds E2 Settings File.  This package contains symbolic
@@ -4685,13 +4685,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d4a675f5a7568739b6c89e6ef7464f99
-Size: 109892
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma_git5088+c2e6895-r0_all.ipk
+MD5Sum: a9345f9395b1f31c56f6f94050935b46
+Size: 110050
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.roma.bb
 Description: Vhannibal Dual Feeds E2 Settings File
  Vhannibal Dual Feeds E2 Settings File.
@@ -4700,13 +4700,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a78305cfb772351330cdc7d68c82e054
-Size: 738
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino-dbg_git5088+c2e6895-r0_all.ipk
+MD5Sum: 051abdd609eea7850d7bc374342122d3
+Size: 734
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino.bb
 Description: Vhannibal Dual Feeds E2 Settings File - Debugging files
  Vhannibal Dual Feeds E2 Settings File.  This package contains ELF symbols
@@ -4716,14 +4716,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2fc8ffbfcdb7228d76cccfee68bb150f
-Size: 770
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino-dev_git5088+c2e6895-r0_all.ipk
+MD5Sum: ff36f556d586657e14b99fb5283403c0
+Size: 768
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino.bb
 Description: Vhannibal Dual Feeds E2 Settings File - Development files
  Vhannibal Dual Feeds E2 Settings File.  This package contains symbolic
@@ -4734,13 +4734,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9aaf835413a42c2041f6698c6b790a56
-Size: 180218
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino_git5088+c2e6895-r0_all.ipk
+MD5Sum: 69b0cf15db878ba6f7255721fb21eee0
+Size: 180196
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.dual.feeds.and.dtt.torino.bb
 Description: Vhannibal Dual Feeds E2 Settings File
  Vhannibal Dual Feeds E2 Settings File.
@@ -4749,13 +4749,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.dual.feeds
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4ab72d111661a274a7766f0ef15bfa9c
-Size: 168786
-Filename: enigma2-plugin-settings-vhannibal.dual.feeds_git5088+c2e6895-r0_all.ipk
+MD5Sum: bf362af9da2e375bf7d59cd2a96e84c7
+Size: 168856
+Filename: enigma2-plugin-settings-vhannibal.dual.feeds_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.dual.feeds.bb
 Description: Vhannibal Dual Feeds E2 Settings File
  Vhannibal Dual Feeds E2 Settings File.
@@ -4764,13 +4764,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.hotbird-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 33c5954173e376dbd17fecb7fba5189b
+MD5Sum: a8c4e49140d178e8b867d65ebf4516d8
 Size: 730
-Filename: enigma2-plugin-settings-vhannibal.hotbird-dbg_git5088+c2e6895-r0_all.ipk
+Filename: enigma2-plugin-settings-vhannibal.hotbird-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.hotbird.bb
 Description: Vhannibal E2 Settings File For HotBird - Debugging files
  Vhannibal E2 Settings File For HotBird.  This package contains ELF
@@ -4780,14 +4780,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.hotbird-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.hotbird (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.hotbird (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 391cce75a33cfba0216e7002189e1ef7
+MD5Sum: 7b5f6752176930788f7f6bc9d4dd418e
 Size: 760
-Filename: enigma2-plugin-settings-vhannibal.hotbird-dev_git5088+c2e6895-r0_all.ipk
+Filename: enigma2-plugin-settings-vhannibal.hotbird-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.hotbird.bb
 Description: Vhannibal E2 Settings File For HotBird - Development files
  Vhannibal E2 Settings File For HotBird.  This package contains symbolic
@@ -4798,13 +4798,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.italia-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4c59030ea48a7a62f70547f6a022bcbb
-Size: 738
-Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.italia-dbg_git5088+c2e6895-r0_all.ipk
+MD5Sum: 3fa5f6495ce1c5b9fbd9832bd73cfcdc
+Size: 734
+Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.italia-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.italia.bb
 Description: Vhannibal E2 Settings File For HotBird - Debugging files
  Vhannibal E2 Settings File For HotBird.  This package contains ELF
@@ -4814,14 +4814,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.italia-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.italia (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.italia (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2fbb38f04c458dd63fdcbd055bf9e368
-Size: 772
-Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.italia-dev_git5088+c2e6895-r0_all.ipk
+MD5Sum: 714a91bde621575743ddb0df7315cd25
+Size: 768
+Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.italia-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.italia.bb
 Description: Vhannibal E2 Settings File For HotBird - Development files
  Vhannibal E2 Settings File For HotBird.  This package contains symbolic
@@ -4832,13 +4832,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.italia
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b13bc24a8dd09c8204a70185caf76f39
-Size: 141070
-Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.italia_git5088+c2e6895-r0_all.ipk
+MD5Sum: 5cb5ce8c1f786db6785ac2b41c826ae7
+Size: 141102
+Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.italia_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.italia.bb
 Description: Vhannibal E2 Settings File For HotBird
  Vhannibal E2 Settings File For HotBird.
@@ -4847,13 +4847,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.milano-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 631afed8b4f674fd6870831be77d57da
-Size: 738
-Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.milano-dbg_git5088+c2e6895-r0_all.ipk
+MD5Sum: 7f79cbb6999b5aaa53805750257088ca
+Size: 736
+Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.milano-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.milano.bb
 Description: Vhannibal E2 Settings File For HotBird - Debugging files
  Vhannibal E2 Settings File For HotBird.  This package contains ELF
@@ -4863,14 +4863,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.milano-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.milano (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.milano (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 75f29ac1ff0bfe4df2b87ebb5ec5ca75
-Size: 770
-Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.milano-dev_git5088+c2e6895-r0_all.ipk
+MD5Sum: a7a7d43825bfe14f6b4f6f8748f3066c
+Size: 768
+Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.milano-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.milano.bb
 Description: Vhannibal E2 Settings File For HotBird - Development files
  Vhannibal E2 Settings File For HotBird.  This package contains symbolic
@@ -4881,13 +4881,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.milano
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8fe9bd4c5080a53e6de7c64640e318aa
-Size: 145850
-Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.milano_git5088+c2e6895-r0_all.ipk
+MD5Sum: a6d856799d920bb0df9debc0408742d9
+Size: 145972
+Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.milano_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.milano.bb
 Description: Vhannibal E2 Settings File For HotBird
  Vhannibal E2 Settings File For HotBird.
@@ -4896,13 +4896,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.napoli-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d8550e9601f5fd544ff54f6119397583
-Size: 738
-Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.napoli-dbg_git5088+c2e6895-r0_all.ipk
+MD5Sum: 876d1f815f64c2552370c1cc396bda62
+Size: 734
+Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.napoli-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.napoli.bb
 Description: Vhannibal E2 Settings File For HotBird - Debugging files
  Vhannibal E2 Settings File For HotBird.  This package contains ELF
@@ -4912,14 +4912,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.napoli-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.napoli (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.napoli (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b1bcbc73fa9b101256287cd1697248c0
-Size: 770
-Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.napoli-dev_git5088+c2e6895-r0_all.ipk
+MD5Sum: 3c274df43dbf3f23bc634824d51d2ad3
+Size: 768
+Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.napoli-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.napoli.bb
 Description: Vhannibal E2 Settings File For HotBird - Development files
  Vhannibal E2 Settings File For HotBird.  This package contains symbolic
@@ -4930,13 +4930,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.napoli
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0b530952a61726753ed9f8c2bf62427c
+MD5Sum: c292e4d1f0631a89eafcf75072b9461e
 Size: 68526
-Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.napoli_git5088+c2e6895-r0_all.ipk
+Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.napoli_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.napoli.bb
 Description: Vhannibal E2 Settings File For HotBird
  Vhannibal E2 Settings File For HotBird.
@@ -4945,13 +4945,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3b33845e1d3ae47b255bb781a0921018
-Size: 738
-Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma-dbg_git5088+c2e6895-r0_all.ipk
+MD5Sum: ed15a40cd3b1b5db69bb1fc8c344431e
+Size: 736
+Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma.bb
 Description: Vhannibal E2 Settings File For HotBird - Debugging files
  Vhannibal E2 Settings File For HotBird.  This package contains ELF
@@ -4961,14 +4961,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 466ed5f0ad4a7bd548a9bfb29069f5e6
-Size: 768
-Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma-dev_git5088+c2e6895-r0_all.ipk
+MD5Sum: 51630de56791b72a10686b636a7ec94d
+Size: 766
+Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma.bb
 Description: Vhannibal E2 Settings File For HotBird - Development files
  Vhannibal E2 Settings File For HotBird.  This package contains symbolic
@@ -4979,13 +4979,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e071310c7ca1298fd5c6298ff7e1bfaa
-Size: 66870
-Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma_git5088+c2e6895-r0_all.ipk
+MD5Sum: 08626157490ee5d13a90709298404886
+Size: 66964
+Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.roma.bb
 Description: Vhannibal E2 Settings File For HotBird
  Vhannibal E2 Settings File For HotBird.
@@ -4994,13 +4994,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.torino-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f7ce876e1f1da99911cd41cb83a86068
-Size: 736
-Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.torino-dbg_git5088+c2e6895-r0_all.ipk
+MD5Sum: d4e862036581e017d09b524d69987112
+Size: 738
+Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.torino-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.torino.bb
 Description: Vhannibal E2 Settings File For HotBird - Debugging files
  Vhannibal E2 Settings File For HotBird.  This package contains ELF
@@ -5010,14 +5010,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.torino-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.torino (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.torino (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f20115ebf82d865ee1c419619ac990fc
+MD5Sum: 3011e026af4068e7a8954daf78787e8c
 Size: 770
-Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.torino-dev_git5088+c2e6895-r0_all.ipk
+Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.torino-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.torino.bb
 Description: Vhannibal E2 Settings File For HotBird - Development files
  Vhannibal E2 Settings File For HotBird.  This package contains symbolic
@@ -5028,13 +5028,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.torino
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0b59372cf15e957d1a3a298d204e495c
+MD5Sum: 42fbe414af8de788887bc524dbc60007
 Size: 172446
-Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.torino_git5088+c2e6895-r0_all.ipk
+Filename: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.torino_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.hotbird.and.dtt.torino.bb
 Description: Vhannibal E2 Settings File For HotBird
  Vhannibal E2 Settings File For HotBird.
@@ -5043,13 +5043,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.hotbird
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bdcf256131394c51a84ca7726252305b
-Size: 142058
-Filename: enigma2-plugin-settings-vhannibal.hotbird_git5088+c2e6895-r0_all.ipk
+MD5Sum: ae9ed1f7008163ac3dec76d811500f05
+Size: 142130
+Filename: enigma2-plugin-settings-vhannibal.hotbird_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.hotbird.bb
 Description: Vhannibal E2 Settings File For HotBird
  Vhannibal E2 Settings File For HotBird.
@@ -5058,13 +5058,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ad19f4047b746cdcc40a6f90607eda9c
-Size: 722
-Filename: enigma2-plugin-settings-vhannibal.motor-dbg_git5088+c2e6895-r0_all.ipk
+MD5Sum: 3059116dc4d45218edd534238e944c77
+Size: 720
+Filename: enigma2-plugin-settings-vhannibal.motor-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.bb
 Description: Vhannibal Motor E2 Settings File - Debugging files
  Vhannibal Motor E2 Settings File.  This package contains ELF symbols and
@@ -5074,14 +5074,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.motor (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.motor (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5f30090ebaef62f9cbaf2c91904044e4
-Size: 752
-Filename: enigma2-plugin-settings-vhannibal.motor-dev_git5088+c2e6895-r0_all.ipk
+MD5Sum: 11d4bed639573c2443b5191485caaa77
+Size: 750
+Filename: enigma2-plugin-settings-vhannibal.motor-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.bb
 Description: Vhannibal Motor E2 Settings File - Development files
  Vhannibal Motor E2 Settings File.  This package contains symbolic links,
@@ -5091,13 +5091,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 73daa506c03c90ac3fea76d07ac6e6e4
-Size: 730
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli-dbg_git5088+c2e6895-r0_all.ipk
+MD5Sum: bb3d9e393374e8e440ec0ed3fb0d603f
+Size: 728
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli.bb
 Description: Vhannibal Motor E2 Settings File - Debugging files
  Vhannibal Motor E2 Settings File.  This package contains ELF symbols and
@@ -5107,14 +5107,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4cae467782a23bed1499d3570e843ddb
+MD5Sum: 2e15a0cee69c3fd349bee74063d6c4d3
 Size: 760
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli-dev_git5088+c2e6895-r0_all.ipk
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli.bb
 Description: Vhannibal Motor E2 Settings File - Development files
  Vhannibal Motor E2 Settings File.  This package contains symbolic links,
@@ -5124,13 +5124,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1e9db60ef15914a35df741dd07f92692
-Size: 416592
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli_git5088+c2e6895-r0_all.ipk
+MD5Sum: 41dad1849f0abe0cc681a774518e6021
+Size: 418200
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.and.dtt.forli.bb
 Description: Vhannibal Motor E2 Settings File
  Vhannibal Motor E2 Settings File.
@@ -5139,13 +5139,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9b62b17321b62af7aff511f8c70bf8fd
-Size: 726
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia-dbg_git5088+c2e6895-r0_all.ipk
+MD5Sum: d94bcb4f2ece04ae0ee38682ac36942c
+Size: 732
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia.bb
 Description: Vhannibal Motor E2 Settings File - Debugging files
  Vhannibal Motor E2 Settings File.  This package contains ELF symbols and
@@ -5155,14 +5155,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 71e9ff08425ba1768a61403f7aba7d94
-Size: 758
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia-dev_git5088+c2e6895-r0_all.ipk
+MD5Sum: 705fe7187fc2c94b807ca1eeb8394d69
+Size: 762
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia.bb
 Description: Vhannibal Motor E2 Settings File - Development files
  Vhannibal Motor E2 Settings File.  This package contains symbolic links,
@@ -5172,13 +5172,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 327e7012e7b7deb09a5bebfd7960a9fa
-Size: 411252
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia_git5088+c2e6895-r0_all.ipk
+MD5Sum: c98634ecd4ebbde805928d046024cdad
+Size: 411950
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.and.dtt.italia.bb
 Description: Vhannibal Motor E2 Settings File
  Vhannibal Motor E2 Settings File.
@@ -5187,13 +5187,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.milano-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 842daef21253939d07945b81cc923de9
+MD5Sum: 7936dd006e03fbfb9048ed911300e159
 Size: 730
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.milano-dbg_git5088+c2e6895-r0_all.ipk
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.milano-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.and.dtt.milano.bb
 Description: Vhannibal Motor E2 Settings File - Debugging files
  Vhannibal Motor E2 Settings File.  This package contains ELF symbols and
@@ -5203,14 +5203,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.milano-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.motor.and.dtt.milano (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.motor.and.dtt.milano (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 962b567e7aa55c23a88e15d0d21d0386
+MD5Sum: 9029938c357ce26cb347ddfea0aded39
 Size: 760
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.milano-dev_git5088+c2e6895-r0_all.ipk
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.milano-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.and.dtt.milano.bb
 Description: Vhannibal Motor E2 Settings File - Development files
  Vhannibal Motor E2 Settings File.  This package contains symbolic links,
@@ -5220,13 +5220,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.milano
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c4adfb326e17701d31f61b2b8463e54d
-Size: 418026
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.milano_git5088+c2e6895-r0_all.ipk
+MD5Sum: 1a9dcc0c8346014a6cfd05380145d360
+Size: 418790
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.milano_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.and.dtt.milano.bb
 Description: Vhannibal Motor E2 Settings File
  Vhannibal Motor E2 Settings File.
@@ -5235,13 +5235,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.napoli-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 90ae1e2ec47ac6deffa33157a6876fe1
-Size: 730
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.napoli-dbg_git5088+c2e6895-r0_all.ipk
+MD5Sum: 10e8cf3f222e559cd2945df8e997705d
+Size: 726
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.napoli-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.and.dtt.napoli.bb
 Description: Vhannibal Motor E2 Settings File - Debugging files
  Vhannibal Motor E2 Settings File.  This package contains ELF symbols and
@@ -5251,14 +5251,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.napoli-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.motor.and.dtt.napoli (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.motor.and.dtt.napoli (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2d6ac30c5c6f499fd527d4e99617a78a
-Size: 764
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.napoli-dev_git5088+c2e6895-r0_all.ipk
+MD5Sum: 584a545f35adfa9bcfd99ba5ebbf4e5b
+Size: 758
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.napoli-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.and.dtt.napoli.bb
 Description: Vhannibal Motor E2 Settings File - Development files
  Vhannibal Motor E2 Settings File.  This package contains symbolic links,
@@ -5268,13 +5268,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.napoli
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7b5de7a2749b11daf5909c963c4ac2ca
-Size: 414998
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.napoli_git5088+c2e6895-r0_all.ipk
+MD5Sum: 19d67b57d7b924250abcf8c19cd63921
+Size: 415134
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.napoli_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.and.dtt.napoli.bb
 Description: Vhannibal Motor E2 Settings File
  Vhannibal Motor E2 Settings File.
@@ -5283,13 +5283,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1f7b94e2711aacd868b321f56717ed58
-Size: 730
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma-dbg_git5088+c2e6895-r0_all.ipk
+MD5Sum: 234c3a1b7a0330c6d9720c48ceb97df8
+Size: 728
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma.bb
 Description: Vhannibal Motor E2 Settings File - Debugging files
  Vhannibal Motor E2 Settings File.  This package contains ELF symbols and
@@ -5299,14 +5299,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bc14341b1ef470681051d119d77397c6
+MD5Sum: 78b93a8edb046df691630fec821b0dce
 Size: 760
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma-dev_git5088+c2e6895-r0_all.ipk
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma.bb
 Description: Vhannibal Motor E2 Settings File - Development files
  Vhannibal Motor E2 Settings File.  This package contains symbolic links,
@@ -5316,13 +5316,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dfb538d0e864775b0d5ed412685b25f8
-Size: 412344
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma_git5088+c2e6895-r0_all.ipk
+MD5Sum: 12d961d001b77b761b2aa2b4e3d8ac88
+Size: 414232
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.and.dtt.roma.bb
 Description: Vhannibal Motor E2 Settings File
  Vhannibal Motor E2 Settings File.
@@ -5331,13 +5331,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c6f26cf57b916f455261c12006393d8e
-Size: 732
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino-dbg_git5088+c2e6895-r0_all.ipk
+MD5Sum: 77320c414a4bf2ba0275561c41fef877
+Size: 728
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino.bb
 Description: Vhannibal Motor E2 Settings File - Debugging files
  Vhannibal Motor E2 Settings File.  This package contains ELF symbols and
@@ -5347,14 +5347,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 150357490c5a96014e79a216146d41e0
-Size: 766
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino-dev_git5088+c2e6895-r0_all.ipk
+MD5Sum: 499b10fcf43f488825c2bb0486c7ad12
+Size: 760
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino.bb
 Description: Vhannibal Motor E2 Settings File - Development files
  Vhannibal Motor E2 Settings File.  This package contains symbolic links,
@@ -5364,13 +5364,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 486bcbf9789af22609ebcf153de95aab
-Size: 419846
-Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino_git5088+c2e6895-r0_all.ipk
+MD5Sum: 75c44cb61ebbb737f340462814976e20
+Size: 419898
+Filename: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.and.dtt.torino.bb
 Description: Vhannibal Motor E2 Settings File
  Vhannibal Motor E2 Settings File.
@@ -5379,13 +5379,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.motor
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 202b14b0187e8f1ad7b4c149a6658261
-Size: 407402
-Filename: enigma2-plugin-settings-vhannibal.motor_git5088+c2e6895-r0_all.ipk
+MD5Sum: 9c2cf495f24c9a92642014c469538180
+Size: 408766
+Filename: enigma2-plugin-settings-vhannibal.motor_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.motor.bb
 Description: Vhannibal Motor E2 Settings File
  Vhannibal Motor E2 Settings File.
@@ -5394,13 +5394,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 465a77b8ad86bd7ce4e0b60582a5531d
-Size: 744
-Filename: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e-dbg_git5088+c2e6895-r0_all.ipk
+MD5Sum: 68e46e8e3f02a7596655cc251a5462e5
+Size: 742
+Filename: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e.bb
 Description: Vhannibal E2 Settings File For 13e,19e, 23e & 28e - Debugging files
  Vhannibal E2 Settings File For 13e,19e, 23e & 28e.  This package contains
@@ -5410,14 +5410,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b9433515a6e0b7aa1b4c8c6ca2efa8ea
-Size: 776
-Filename: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e-dev_git5088+c2e6895-r0_all.ipk
+MD5Sum: d159ee56338aa5b62dc9325cee82a3fe
+Size: 774
+Filename: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e.bb
 Description: Vhannibal E2 Settings File For 13e,19e, 23e & 28e - Development files
  Vhannibal E2 Settings File For 13e,19e, 23e & 28e.  This package contains
@@ -5428,13 +5428,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 950bc41264371d3c15a3d448b7521dba
-Size: 243444
-Filename: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e_git5088+c2e6895-r0_all.ipk
+MD5Sum: 8d41a5076a2406d5fd8d8988a4529503
+Size: 243532
+Filename: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.quad.13e.19e.23e.28e.bb
 Description: Vhannibal E2 Settings File For 13e,19e, 23e & 28e
  Vhannibal E2 Settings File For 13e,19e, 23e & 28e.
@@ -5443,13 +5443,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 23e21b61dff74c550529da07a2bd1e44
+MD5Sum: 6d3ac632534d9a8351244305d72254ea
 Size: 744
-Filename: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e-dbg_git5088+c2e6895-r0_all.ipk
+Filename: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e.bb
 Description: Vhannibal E2 Settings File For 7e, 13e, 19e & 42e - Debugging files
  Vhannibal E2 Settings File For 7e, 13e, 19e & 42e.  This package contains
@@ -5459,14 +5459,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e16af79e332d09e95d1dd941092b4e87
+MD5Sum: 69d15bce11ed9c2e8c53f2eac0169f83
 Size: 776
-Filename: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e-dev_git5088+c2e6895-r0_all.ipk
+Filename: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e.bb
 Description: Vhannibal E2 Settings File For 7e, 13e, 19e & 42e - Development files
  Vhannibal E2 Settings File For 7e, 13e, 19e & 42e.  This package contains
@@ -5477,13 +5477,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 065844c894d4b6187548b5ffd77a7219
-Size: 137788
-Filename: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e_git5088+c2e6895-r0_all.ipk
+MD5Sum: 849a26ffa9a39b4bf3cf81ab82d9b5f6
+Size: 137874
+Filename: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.quad.7e.13e.19e.42e.bb
 Description: Vhannibal E2 Settings File For 7e, 13e, 19e & 42e
  Vhannibal E2 Settings File For 7e, 13e, 19e & 42e.
@@ -5492,13 +5492,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.quad.9e.13e.16e.19e-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5ee2ae9fd44b4d3c0b00a4e8658d5d39
-Size: 744
-Filename: enigma2-plugin-settings-vhannibal.quad.9e.13e.16e.19e-dbg_git5088+c2e6895-r0_all.ipk
+MD5Sum: 60d8b71a0a4735ec0ea497d77c8c1736
+Size: 742
+Filename: enigma2-plugin-settings-vhannibal.quad.9e.13e.16e.19e-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.quad.9e.13e.16e.19e.bb
 Description: Vhannibal E2 Settings File For 9e, 13e, 16e & 19e - Debugging files
  Vhannibal E2 Settings File For 9e, 13e, 16e & 19e.  This package contains
@@ -5508,14 +5508,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.quad.9e.13e.16e.19e-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.quad.9e.13e.16e.19e (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.quad.9e.13e.16e.19e (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 24a7ef1b92d17b4c84cbeb00668622ca
-Size: 776
-Filename: enigma2-plugin-settings-vhannibal.quad.9e.13e.16e.19e-dev_git5088+c2e6895-r0_all.ipk
+MD5Sum: 3d8b5cbe9842ecc661dabf2081e33dca
+Size: 774
+Filename: enigma2-plugin-settings-vhannibal.quad.9e.13e.16e.19e-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.quad.9e.13e.16e.19e.bb
 Description: Vhannibal E2 Settings File For 9e, 13e, 16e & 19e - Development files
  Vhannibal E2 Settings File For 9e, 13e, 16e & 19e.  This package contains
@@ -5526,13 +5526,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.quad.9e.13e.16e.19e
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 818625e00c588bfc764bbd688fbc1701
-Size: 201084
-Filename: enigma2-plugin-settings-vhannibal.quad.9e.13e.16e.19e_git5088+c2e6895-r0_all.ipk
+MD5Sum: 65108e204033bc3dad309ae9ca1af64a
+Size: 201076
+Filename: enigma2-plugin-settings-vhannibal.quad.9e.13e.16e.19e_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.quad.9e.13e.16e.19e.bb
 Description: Vhannibal E2 Settings File For 9e, 13e, 16e & 19e
  Vhannibal E2 Settings File For 9e, 13e, 16e & 19e.
@@ -5541,13 +5541,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.quad.nordic-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2510210003d492e06d09d8816119a463
-Size: 730
-Filename: enigma2-plugin-settings-vhannibal.quad.nordic-dbg_git5088+c2e6895-r0_all.ipk
+MD5Sum: 0e1f3fce10c57e20096ce7fde3e03c2b
+Size: 728
+Filename: enigma2-plugin-settings-vhannibal.quad.nordic-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.quad.nordic.bb
 Description: Vhannibal E2 Settings File Quad Nordic - Debugging files
  Vhannibal E2 Settings File Quad Nordic.  This package contains ELF
@@ -5557,14 +5557,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.quad.nordic-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.quad.nordic (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.quad.nordic (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 366ac33adcdf77bdfe18e6dd6451702d
-Size: 760
-Filename: enigma2-plugin-settings-vhannibal.quad.nordic-dev_git5088+c2e6895-r0_all.ipk
+MD5Sum: 393a7a810fd1c58810ac1fb9c22fe7e5
+Size: 758
+Filename: enigma2-plugin-settings-vhannibal.quad.nordic-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.quad.nordic.bb
 Description: Vhannibal E2 Settings File Quad Nordic - Development files
  Vhannibal E2 Settings File Quad Nordic.  This package contains symbolic
@@ -5575,13 +5575,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.quad.nordic
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7257951a81e763cee8ca067795e82a1d
+MD5Sum: 0433edfdb3cebe2211a5e09257dce1f1
 Size: 152334
-Filename: enigma2-plugin-settings-vhannibal.quad.nordic_git5088+c2e6895-r0_all.ipk
+Filename: enigma2-plugin-settings-vhannibal.quad.nordic_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.quad.nordic.bb
 Description: Vhannibal E2 Settings File Quad Nordic
  Vhannibal E2 Settings File Quad Nordic.
@@ -5590,13 +5590,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.trial-dbg
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7c4396205971891d5dc7428eb240dbb0
-Size: 720
-Filename: enigma2-plugin-settings-vhannibal.trial-dbg_git5088+c2e6895-r0_all.ipk
+MD5Sum: 4e458b68153932500c6ba621c6c82a0d
+Size: 718
+Filename: enigma2-plugin-settings-vhannibal.trial-dbg_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.trial.bb
 Description: Vhannibal E2 Settings File trial - Debugging files
  Vhannibal E2 Settings File trial.  This package contains ELF symbols and
@@ -5606,14 +5606,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.trial-dev
-Version: git5088+c2e6895-r0
-Depends: enigma2-plugin-settings-vhannibal.trial (= git5088+c2e6895-r0)
+Version: git5104+de015ec-r0
+Depends: enigma2-plugin-settings-vhannibal.trial (= git5104+de015ec-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 44d6947979a62c599f3f19428290dda7
-Size: 752
-Filename: enigma2-plugin-settings-vhannibal.trial-dev_git5088+c2e6895-r0_all.ipk
+MD5Sum: bf346f26e98bf50eaa76a48899984721
+Size: 748
+Filename: enigma2-plugin-settings-vhannibal.trial-dev_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.trial.bb
 Description: Vhannibal E2 Settings File trial - Development files
  Vhannibal E2 Settings File trial.  This package contains symbolic links,
@@ -5623,13 +5623,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-vhannibal.trial
-Version: git5088+c2e6895-r0
+Version: git5104+de015ec-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 869ac556ef74c0be8a1151387d8f3ecc
-Size: 180712
-Filename: enigma2-plugin-settings-vhannibal.trial_git5088+c2e6895-r0_all.ipk
+MD5Sum: b4994bc41ffbe2b17eb7a4e86e6a01d0
+Size: 180696
+Filename: enigma2-plugin-settings-vhannibal.trial_git5104+de015ec-r0_all.ipk
 Source: enigma2-plugin-settings-vhannibal.trial.bb
 Description: Vhannibal E2 Settings File trial
  Vhannibal E2 Settings File trial.
@@ -5717,8 +5717,8 @@ Version: git70+0c18306-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8fbdb28630f5a9c4153bdd2c5926860c
-Size: 744
+MD5Sum: f5acdc1b096be5d4332b67eb200372d1
+Size: 746
 Filename: enigma2-plugin-skins-arctic-raed-dbg_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-arctic-raed.bb
 Description: Enigma2 Skin Arctic by RAED (fairbird) for Open Vision - Debugging files
@@ -5735,8 +5735,8 @@ Recommends: enigma2-plugin-extensions-openvisionskintools-dev, enigma2-plugin-ex
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ef04cfac4a2be076ec6e58c0db0d3868
-Size: 844
+MD5Sum: 746b0b771d2c3273aad30cf4e451a93f
+Size: 846
 Filename: enigma2-plugin-skins-arctic-raed-dev_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-arctic-raed.bb
 Description: Enigma2 Skin Arctic by RAED (fairbird) for Open Vision - Development files
@@ -5753,8 +5753,8 @@ Depends: enigma2-plugin-extensions-openvisionskintools, enigma2-plugin-extension
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1505147f4cad417b0a98ef1c38ff76c7
-Size: 5011338
+MD5Sum: ffba63e06052a6e8f68ed6fa54491a50
+Size: 5011340
 Filename: enigma2-plugin-skins-arctic-raed_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-arctic-raed.bb
 Description: Enigma2 Skin Arctic by RAED (fairbird) for Open Vision
@@ -5768,8 +5768,8 @@ Version: git70+0c18306-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5652315056e494dce0e0fa1c83e867f4
-Size: 760
+MD5Sum: c8ce105b6a727250af9f5b49656068b2
+Size: 762
 Filename: enigma2-plugin-skins-blacktransfhd-raed-dbg_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-blacktransfhd-raed.bb
 Description: Enigma2 Skin BlackTransFULLHD by RAED (fairbird) for Open Vision - Debugging files
@@ -5786,7 +5786,7 @@ Recommends: enigma2-plugin-extensions-openvisionskintools-dev, enigma2-plugin-ex
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bf66eed4c02ab400c525beeeaddb0257
+MD5Sum: 010c7d945650bf3c0697257a678d9ced
 Size: 860
 Filename: enigma2-plugin-skins-blacktransfhd-raed-dev_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-blacktransfhd-raed.bb
@@ -5804,7 +5804,7 @@ Depends: enigma2-plugin-extensions-openvisionskintools, enigma2-plugin-extension
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c68e20e5efb3d73cc33251c4d694a443
+MD5Sum: 91e13f54ce761b38faac45b218e2305d
 Size: 3738830
 Filename: enigma2-plugin-skins-blacktransfhd-raed_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-blacktransfhd-raed.bb
@@ -5930,63 +5930,12 @@ OE: enigma2-plugin-skins-mx-hq9w
 License: CLOSED
 Priority: optional
 
-Package: enigma2-plugin-skins-mxblack-raed-dbg
-Version: git70+0c18306-r0
-Section: devel
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 63c3e134a57b654780783e173f16cce9
-Size: 752
-Filename: enigma2-plugin-skins-mxblack-raed-dbg_git70+0c18306-r0_all.ipk
-Source: enigma2-plugin-skins-mxblack-raed.bb
-Description: Enigma2 Skin MX_black by RAED (fairbird) for Open Vision - Debugging files
- Modified enigma2 skin for Open Vision by RAED  This package contains ELF
- symbols and related sources for debugging purposes.
-OE: enigma2-plugin-skins-mxblack-raed
-License: GPLv2+
-Priority: required
-
-Package: enigma2-plugin-skins-mxblack-raed-dev
-Version: git70+0c18306-r0
-Depends: enigma2-plugin-skins-mxblack-raed (= git70+0c18306-r0)
-Recommends: enigma2-plugin-extensions-openvisionskintools-dev, enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-skincomponents-weathercomponent-dev, enigma2-plugin-systemplugins-weathercomponenthandler-dev
-Section: devel
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4034dc0bcf2fede5b70611c6a8e9e8c5
-Size: 850
-Filename: enigma2-plugin-skins-mxblack-raed-dev_git70+0c18306-r0_all.ipk
-Source: enigma2-plugin-skins-mxblack-raed.bb
-Description: Enigma2 Skin MX_black by RAED (fairbird) for Open Vision - Development files
- Modified enigma2 skin for Open Vision by RAED  This package contains
- symbolic links, header files, and related items necessary for software
- development.
-OE: enigma2-plugin-skins-mxblack-raed
-License: GPLv2+
-Priority: required
-
-Package: enigma2-plugin-skins-mxblack-raed
-Version: git70+0c18306-r0
-Depends: enigma2-plugin-extensions-openvisionskintools, enigma2-plugin-extensions-weatherplugin, enigma2-plugin-skincomponents-weathercomponent, enigma2-plugin-systemplugins-weathercomponenthandler
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 12115109d7aa39291e64c082256ebdef
-Size: 1475292
-Filename: enigma2-plugin-skins-mxblack-raed_git70+0c18306-r0_all.ipk
-Source: enigma2-plugin-skins-mxblack-raed.bb
-Description: Enigma2 Skin MX_black by RAED (fairbird) for Open Vision
- Modified enigma2 skin for Open Vision by RAED
-OE: enigma2-plugin-skins-mxblack-raed
-License: GPLv2+
-Priority: required
-
 Package: enigma2-plugin-skins-mxhq9b-raed-dbg
 Version: git70+0c18306-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f93ab76a8534da7d495a2de1702bb5b3
+MD5Sum: b1000936374ec0c40695c87b38757a4b
 Size: 756
 Filename: enigma2-plugin-skins-mxhq9b-raed-dbg_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-mxhq9b-raed.bb
@@ -6004,7 +5953,7 @@ Recommends: enigma2-plugin-extensions-openvisionskintools-dev, enigma2-plugin-ex
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7f3520ba10b693a9580418648d1a2904
+MD5Sum: b4ccd2a21ac5daec6122e86bd0d7d18b
 Size: 854
 Filename: enigma2-plugin-skins-mxhq9b-raed-dev_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-mxhq9b-raed.bb
@@ -6022,7 +5971,7 @@ Depends: enigma2-plugin-extensions-openvisionskintools, enigma2-plugin-extension
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 76132683d231b94d9a4952e7f9522e91
+MD5Sum: ce25fd018024f69d1e2021934183cf3e
 Size: 1613534
 Filename: enigma2-plugin-skins-mxhq9b-raed_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-mxhq9b-raed.bb
@@ -6033,13 +5982,13 @@ License: GPLv2+
 Priority: required
 
 Package: enigma2-plugin-skins-octetfhd-dbg
-Version: git479+041dc4b-r0
+Version: git481+ed67ca3-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7f98e5fd5952f5bc790d139eb4ecf786
-Size: 712
-Filename: enigma2-plugin-skins-octetfhd-dbg_git479+041dc4b-r0_all.ipk
+MD5Sum: c2ae087a495f9ea48b852cdc65e9649e
+Size: 710
+Filename: enigma2-plugin-skins-octetfhd-dbg_git481+ed67ca3-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb
 Description: Enigma2 Skin OctEtFHD - Debugging files
  Enigma2 Skin OctEtFHD.  This package contains ELF symbols and related
@@ -6049,15 +5998,15 @@ License: GPLv2+
 Priority: required
 
 Package: enigma2-plugin-skins-octetfhd-dev
-Version: git479+041dc4b-r0
-Depends: enigma2-plugin-skins-octetfhd (= git479+041dc4b-r0)
+Version: git481+ed67ca3-r0
+Depends: enigma2-plugin-skins-octetfhd (= git481+ed67ca3-r0)
 Recommends: enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-extensions-xtraevent-dev, enigma2-plugin-fonts-dejavusanscondensedbold-dev, enigma2-plugin-fonts-opensans-dev, enigma2-plugin-skincomponents-weathercomponent-dev, enigma2-plugin-systemplugins-weathercomponenthandler-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 361140bd1a51229fa05af32cc8c0d962
-Size: 838
-Filename: enigma2-plugin-skins-octetfhd-dev_git479+041dc4b-r0_all.ipk
+MD5Sum: 44e9681c54dc7abeaa78564772957993
+Size: 834
+Filename: enigma2-plugin-skins-octetfhd-dev_git481+ed67ca3-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb
 Description: Enigma2 Skin OctEtFHD - Development files
  Enigma2 Skin OctEtFHD.  This package contains symbolic links, header
@@ -6067,20 +6016,53 @@ License: GPLv2+
 Priority: required
 
 Package: enigma2-plugin-skins-octetfhd
-Version: git479+041dc4b-r0
+Version: git481+ed67ca3-r0
 Depends: enigma2-plugin-extensions-weatherplugin, enigma2-plugin-extensions-xtraevent, enigma2-plugin-fonts-dejavusanscondensedbold, enigma2-plugin-fonts-opensans, enigma2-plugin-skincomponents-weathercomponent, enigma2-plugin-systemplugins-weathercomponenthandler
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 73b3e7ada2a6d3b3e251fbd339419928
-Size: 1431524
-Filename: enigma2-plugin-skins-octetfhd_git479+041dc4b-r0_all.ipk
+MD5Sum: 70bb76bc408692a96ff864079750fc7a
+Size: 1431456
+Filename: enigma2-plugin-skins-octetfhd_git481+ed67ca3-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb
 Description: Enigma2 Skin OctEtFHD
  Enigma2 Skin OctEtFHD.
 OE: enigma2-plugin-skins-octetfhd
 License: GPLv2+
 Priority: required
+
+Package: enigma2-plugin-skins-pli-hd-dbg
+Version: 0.1+git2151+cd487db-r0
+Section: devel
+Architecture: all
+Maintainer: littlesat
+MD5Sum: 7308132b14ba3758b0d45dcf8f07475d
+Size: 698
+Filename: enigma2-plugin-skins-pli-hd-dbg_0.1+git2151+cd487db-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd.bb
+Description: enigma2-plugin-skins-pli-hd version 0.1+gitAUTOINC+cd487db361-r0 - Debugging files
+ PLi HD skin  This package contains ELF symbols and related sources for
+ debugging purposes.
+OE: enigma2-plugin-skins-pli-hd
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-hd-dev
+Version: 0.1+git2151+cd487db-r0
+Depends: enigma2-plugin-skins-pli-hd (= 0.1+git2151+cd487db-r0)
+Section: devel
+Architecture: all
+Maintainer: littlesat
+MD5Sum: a119ce66afe11b6b29cc19ca3603d5dc
+Size: 730
+Filename: enigma2-plugin-skins-pli-hd-dev_0.1+git2151+cd487db-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd.bb
+Description: enigma2-plugin-skins-pli-hd version 0.1+gitAUTOINC+cd487db361-r0 - Development files
+ PLi HD skin  This package contains symbolic links, header files, and
+ related items necessary for software development.
+OE: enigma2-plugin-skins-pli-hd
+License: Proprietary
+Priority: optional
 
 Package: enigma2-plugin-skins-pli-hd-fullnight-dbg
 Version: 0.1+git107+3c271e8-r0
@@ -6130,13 +6112,28 @@ OE: enigma2-plugin-skins-pli-hd-fullnight
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-skins-pli-hd
+Version: 0.1+git2151+cd487db-r0
+Section: base
+Architecture: all
+Maintainer: littlesat
+MD5Sum: eb33194d251b335bde14f9c83e295e9c
+Size: 739782
+Filename: enigma2-plugin-skins-pli-hd_0.1+git2151+cd487db-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd.bb
+Description: enigma2-plugin-skins-pli-hd version 0.1+gitAUTOINC+cd487db361-r0
+ PLi HD skin
+OE: enigma2-plugin-skins-pli-hd
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-skins-turbo-raed-dbg
 Version: git70+0c18306-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 179318c081e529f756678b566c20dced
-Size: 746
+MD5Sum: 9dba8ca36db99b6c3f713d5598e6495e
+Size: 744
 Filename: enigma2-plugin-skins-turbo-raed-dbg_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-turbo-raed.bb
 Description: Enigma2 Skin Turbo by RAED (fairbird) for Open Vision - Debugging files
@@ -6153,8 +6150,8 @@ Recommends: enigma2-plugin-extensions-openvisionskintools-dev, enigma2-plugin-ex
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c9ad5c178d0b00dd1b796076157b40f9
-Size: 846
+MD5Sum: 395d0266065dcc2f70ad5ad59d57721a
+Size: 844
 Filename: enigma2-plugin-skins-turbo-raed-dev_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-turbo-raed.bb
 Description: Enigma2 Skin Turbo by RAED (fairbird) for Open Vision - Development files
@@ -6171,7 +6168,7 @@ Depends: enigma2-plugin-extensions-openvisionskintools, enigma2-plugin-extension
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b52fe3aba1b88a3f554fed56804ce5ff
+MD5Sum: 844bef8631b0c3d7c92d6f46ec1bf1ad
 Size: 1723308
 Filename: enigma2-plugin-skins-turbo-raed_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-turbo-raed.bb
@@ -6186,7 +6183,7 @@ Version: git70+0c18306-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e034dd37279ab190424fe0e4e6d26cd0
+MD5Sum: baf472adc9d5e1a466514dd44ea69bbd
 Size: 762
 Filename: enigma2-plugin-skins-whitetransfhd-raed-dbg_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-whitetransfhd-raed.bb
@@ -6204,7 +6201,7 @@ Recommends: enigma2-plugin-extensions-openvisionskintools-dev, enigma2-plugin-ex
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 405e4d39f07b4bdfec95f100ecf8a946
+MD5Sum: 0d1b9972d9be0c5582812134798e20f3
 Size: 860
 Filename: enigma2-plugin-skins-whitetransfhd-raed-dev_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-whitetransfhd-raed.bb
@@ -6222,8 +6219,8 @@ Depends: enigma2-plugin-extensions-openvisionskintools, enigma2-plugin-extension
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 94e938d52bc35a09d06477b2d12c3ff3
-Size: 3582424
+MD5Sum: 6b95c381248e90aea5953f4362a6505a
+Size: 3582426
 Filename: enigma2-plugin-skins-whitetransfhd-raed_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-whitetransfhd-raed.bb
 Description: Enigma2 Skin WhiteTransFullHD by RAED (fairbird) for Open Vision
@@ -9615,6 +9612,21 @@ OE: softcam-support
 License: GPLv2+
 Priority: optional
 
+Package: stlinux24-sh4-stmfb-firmware-stx7105
+Version: 1.20-1-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 032d70195ff183c75b42a2a99deb7c06
+Size: 2034
+Filename: stlinux24-sh4-stmfb-firmware-stx7105_1.20-1-r0_all.ipk
+Source: stlinux24-sh4-stmfb-firmware-stx7105_1.20-1.bb
+Description: stlinux24-sh4-stmfb-firmware-stx7105 version 1.20-1-r0
+ STLinux 2.4 STM Framebuffer firmware
+OE: stlinux24-sh4-stmfb-firmware-stx7105
+License: CLOSED
+Priority: optional
+
 Package: stlinux24-sh4-stmfb-firmware-stx7111
 Version: 1.20-1-r0
 Section: base
@@ -9627,6 +9639,21 @@ Source: stlinux24-sh4-stmfb-firmware-stx7111_1.20-1.bb
 Description: stlinux24-sh4-stmfb-firmware-stx7111 version 1.20-1-r0
  STLinux 2.4 STM Framebuffer firmware
 OE: stlinux24-sh4-stmfb-firmware-stx7111
+License: CLOSED
+Priority: optional
+
+Package: stlinux24-sh4-stx7105-fdma-firmware
+Version: 20150612-15-r0
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 824ec2d649d1df7eb4a685a569d84bac
+Size: 16072
+Filename: stlinux24-sh4-stx7105-fdma-firmware_20150612-15-r0_all.ipk
+Source: stlinux24-sh4-stx7105-fdma-firmware_20150612-15.bb
+Description: stlinux24-sh4-stx7105-fdma-firmware version 20150612-15-r0
+ Firmware for the STx7111 CPU Flexible DMA engine (FDMA)
+OE: stlinux24-sh4-stx7105-fdma-firmware
 License: CLOSED
 Priority: optional
 
@@ -9716,8 +9743,8 @@ Version: 0.1-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 63b72694e39b892746b5a18f0e388138
-Size: 694
+MD5Sum: 95237aae063cb86aec6fa6c238eeeb98
+Size: 698
 Filename: stslave-fw-dbg_0.1-r0_all.ipk
 Source: stslave-fw_0.1.bb
 Description: stslave-fw version 0.1-r0 - Debugging files
@@ -9733,8 +9760,8 @@ Depends: stslave-fw (= 0.1-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 04c41467a773bb5f0a9b7997b4b3bdec
-Size: 726
+MD5Sum: 4b0e7e424c8ebc9de36b85cdb371324c
+Size: 724
 Filename: stslave-fw-dev_0.1-r0_all.ipk
 Source: stslave-fw_0.1.bb
 Description: stslave-fw version 0.1-r0 - Development files
@@ -9749,8 +9776,8 @@ Version: 0.1-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a7e8c424f7c5da2e297c666fd9ffb097
-Size: 1667798
+MD5Sum: 9b0929ca2a6676dd0f9a096c4e7d7e4f
+Size: 1478486
 Filename: stslave-fw_0.1-r0_all.ipk
 Source: stslave-fw_0.1.bb
 Description: stslave-fw version 0.1-r0
