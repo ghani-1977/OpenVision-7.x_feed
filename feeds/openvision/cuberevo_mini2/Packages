@@ -144,8 +144,8 @@ Recommends: gstreamer1.0-dbg, libc6-dbg, libglib-2.0-dbg
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d43ea3eb12d2aa1d77ee4abcb9340ff4
-Size: 23024
+MD5Sum: bcd6a6ab6afdf81d8cb00dc4ca43ce7d
+Size: 23020
 Filename: bdremux-dbg_git+git9+96606cc-r0_cuberevo_mini2.ipk
 Source: bdremux_git.bb
 Description: bdremux - a blu-ray movie stream remuxer - Debugging files
@@ -162,8 +162,8 @@ Recommends: gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, libc6-dev, libglib-
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f244f74da5fb20804ac5ac978d66c126
-Size: 790
+MD5Sum: fa05dd0cc49fdc7eff604e2f902846d7
+Size: 788
 Filename: bdremux-dev_git+git9+96606cc-r0_cuberevo_mini2.ipk
 Source: bdremux_git.bb
 Description: bdremux - a blu-ray movie stream remuxer - Development files
@@ -180,8 +180,8 @@ Depends: gstreamer1.0 (>= 1.18.4), libc6 (>= 2.25), libglib-2.0-0 (>= 2.50.3)
 Section: multimedia
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a14b60f86dc42e283a755abb2ee6c7c5
-Size: 10540
+MD5Sum: 25aa13083da0b033fb23b0b9667d4d12
+Size: 10532
 Filename: bdremux_git+git9+96606cc-r0_cuberevo_mini2.ipk
 Source: bdremux_git.bb
 Description: bdremux - a blu-ray movie stream remuxer
@@ -196,7 +196,7 @@ Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b525b782e2775bc1206edb1c1dcb13dc
+MD5Sum: 51f73001fb7f40ff8c12d633b486b3a8
 Size: 63434
 Filename: bitratecalc-dbg_git10+740b342-r0_cuberevo_mini2.ipk
 Source: bitratecalc_git.bb
@@ -214,7 +214,7 @@ Recommends: enigma2-dev, libc6-dev, libgcc-s-dev, libstdc++-dev, python-dev
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8c4cf6a122ae98c60de198a39c594a32
+MD5Sum: f65dc2b2b39727182d846136b0b0d410
 Size: 822
 Filename: bitratecalc-dev_git10+740b342-r0_cuberevo_mini2.ipk
 Source: bitratecalc_git.bb
@@ -232,8 +232,8 @@ Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2b017d80773871707904e5b4c9b9bff1
-Size: 6806
+MD5Sum: bcdf2e8e64cbf4c5285c41147b7f6a25
+Size: 6812
 Filename: bitratecalc_git10+740b342-r0_cuberevo_mini2.ipk
 Source: bitratecalc_git.bb
 Description: bitratecalc version gitAUTOINC+740b342ae4-r0
@@ -345,13 +345,13 @@ License: MIT
 Priority: optional
 
 Package: enigma-module-dbg
-Version: 7.6-r315
+Version: 7.6-r319
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cc26f4ee37946b9ef22cab21dedf24f5
-Size: 732
-Filename: enigma-module-dbg_7.6-r315_cuberevo_mini2.ipk
+MD5Sum: 880c45524aa398e107db4f612b04de27
+Size: 734
+Filename: enigma-module-dbg_7.6-r319_cuberevo_mini2.ipk
 Source: enigma-module.bb
 Description: Enigma kernel module for cuberevo_mini2 - Debugging files
  Enigma kernel module for cuberevo_mini2.  This package contains ELF
@@ -362,15 +362,15 @@ License: GPLv3
 Priority: required
 
 Package: enigma-module-dev
-Version: 7.6-r315
-Depends: enigma-module (= 7.6-r315)
+Version: 7.6-r319
+Depends: enigma-module (= 7.6-r319)
 Recommends: kernel-2.6.32.81_stm24_0217-dev, kernel-module-enigma-dev
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 26921159d700d7702cb1cb7a584d70a3
-Size: 800
-Filename: enigma-module-dev_7.6-r315_cuberevo_mini2.ipk
+MD5Sum: a6b67a09d59ae39d0cbb1f0822ff1f3b
+Size: 802
+Filename: enigma-module-dev_7.6-r319_cuberevo_mini2.ipk
 Source: enigma-module.bb
 Description: Enigma kernel module for cuberevo_mini2 - Development files
  Enigma kernel module for cuberevo_mini2.  This package contains symbolic
@@ -382,14 +382,14 @@ License: GPLv3
 Priority: required
 
 Package: enigma-module
-Version: 7.6-r315
+Version: 7.6-r319
 Depends: kernel-module-enigma
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e6731eda1ed121cf4a5add0f0e9c1c1d
-Size: 782
-Filename: enigma-module_7.6-r315_cuberevo_mini2.ipk
+MD5Sum: 492e8f1562e820e0ed9bb09a188f9734
+Size: 1404
+Filename: enigma-module_7.6-r319_cuberevo_mini2.ipk
 Source: enigma-module.bb
 Description: Enigma kernel module for cuberevo_mini2
  Enigma kernel module for cuberevo_mini2.
@@ -404,8 +404,8 @@ Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg, libtirpc-dbg
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e4563c90c5136a907ce7a587e267dc92
-Size: 129572
+MD5Sum: f8700ade1c1eb91eefb4cb1b647efa35
+Size: 129588
 Filename: enigma2-c-plugins-dbg_git40+9b3898b-r0_cuberevo_mini2.ipk
 Source: enigma2-c-plugins.bb
 Description: C plugins for Open Vision - Debugging files
@@ -422,8 +422,8 @@ Recommends: enigma2-dev, gstreamer1.0-plugins-bad-fragmented-dev, hairtunes-dev,
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6cb094fcf10f41c4756367f50dfac6cf
-Size: 832
+MD5Sum: ce323724e39780a65d09165b220cd0f8
+Size: 830
 Filename: enigma2-c-plugins-dev_git40+9b3898b-r0_cuberevo_mini2.ipk
 Source: enigma2-c-plugins.bb
 Description: C plugins for Open Vision - Development files
@@ -438,8 +438,8 @@ Version: git40+9b3898b-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b052a1a84ba1bcf82e0072ad1a3ffb5e
-Size: 1360
+MD5Sum: 87dc004f9d33c2b773886410337d3d58
+Size: 1362
 Filename: enigma2-c-plugins-meta_git40+9b3898b-r0_cuberevo_mini2.ipk
 Source: enigma2-c-plugins.bb
 Description: C plugins for Open Vision
@@ -453,8 +453,8 @@ Version: git40+9b3898b-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2425ad093e15235aeb26d76f5399aa6a
-Size: 642
+MD5Sum: 7d3c0782d4dce2e6cbf1f31f9a46e378
+Size: 640
 Filename: enigma2-c-plugins_git40+9b3898b-r0_cuberevo_mini2.ipk
 Source: enigma2-c-plugins.bb
 Description: C plugins for Open Vision
@@ -464,14 +464,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-dbg
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Recommends: libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypto-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libgomp-dbg, libjpeg-dbg, libmmeimage-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libudfread-dbg, libxml2-dbg
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fdcc86a6f90a3168a6ab0505d210f950
-Size: 11410470
-Filename: enigma2-dbg_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: a5efb79eb6e75b7fc0fa1c191bd368f8
+Size: 11553188
+Filename: enigma2-dbg_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Debugging files
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -482,15 +482,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-dev
-Version: develop+git23890+c3a98a5-r0
-Depends: enigma2 (= develop+git23890+c3a98a5-r0)
+Version: develop+git23960+5a1aae8-r0
+Depends: enigma2 (= develop+git23960+5a1aae8-r0)
 Recommends: aio-grab-dev, alsa-conf-dev, alsa-utils-amixer-conf-dev, avahi-dev, cdrkit-dev, dhrystone-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma-module-dev, enigma2-data-iso-639-3-dev, enigma2-fonts-dev, enigma2-plugin-extensions-pespeedup-dev, enigma2-remotes-dev, enigma2-timezones-dev, ethtool-dev, font-valis-enigma-dev, glibc-gconv-cp1250-dev, glibc-gconv-iso8859-15-dev, gstreamer1.0-plugins-bad-mpegtsmux-dev, gstreamer1.0-plugins-bad-videoparsersbad-dev, hotplug-e2-helper-dev, jpeg-dev, kernel-module-pktcdvd-dev, kernel-module-udf-dev, libavahi-client-dev, libavahi-common-dev, libc6-dev, libcrypto-dev, libdreamdvd-dev, libdvbsi++-dev, libfreetype-dev, libfribidi-dev, libgcc-s-dev, libgif-dev, libglib-2.0-dev, libgomp-dev, libjpeg-dev, libmad-dev, libmme-host-dev, libmmeimage-dev, libpng16-dev, libpython2-dev, libsigc-2.0-dev, libssl-dev, libstdc++-dev, libtuxtxt-dev, libtuxtxt32bpp-dev, libudfread-dev, libxml2-dev, mjpegtools-dev, ntpdate-dev, ofgwrite-dev, openssl-dev, openvision-version-info-dev, python-codecs-dev, python-core-dev, python-crypt-dev, python-fcntl-dev, python-image-dev, python-imaging-dev, python-lang-dev, python-mmap-dev, python-netclient-dev, python-netifaces-dev, python-netserver-dev, python-numbers-dev, python-pickle-dev, python-process-dev, python-pyusb-dev, python-re-dev, python-sendfile-dev, python-service-identity-dev, python-shell-dev, python-six-dev, python-threading-dev, python-twisted-core-dev, python-twisted-dev, python-twisted-web-dev, python-wifi-dev, python-xml-dev, python-zlib-dev, python-zopeinterface-dev, replex-dev, streambench-dev, virtual/enigma2-mediaservice-dev, wireless-tools-dev, wpa-supplicant-dev
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 19c645b7bc977147f685c0939daf699d
-Size: 161440
-Filename: enigma2-dev_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 6852089f80fe89b42fd514dca335a93d
+Size: 160404
+Filename: enigma2-dev_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Development files
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -505,8 +505,8 @@ Version: 2020.10.17-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: de4d52bf28573a292627c179224aa190
-Size: 1077314
+MD5Sum: 50bf4808a9c86b8a3f02a37de1312058
+Size: 1077330
 Filename: enigma2-fonts_2020.10.17-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
@@ -517,14 +517,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ar
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 835e8becfda8fc836c38a481f47f83b7
-Size: 71534
-Filename: enigma2-locale-ar_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 711e8079bce81356f8382262a6da98e4
+Size: 71454
+Filename: enigma2-locale-ar_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: ar
  ar
@@ -533,14 +533,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-bg
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6e807437040ee37361f437d8cc76783b
-Size: 112744
-Filename: enigma2-locale-bg_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 7221ec958a3dd5d99eb9a7dcad57c655
+Size: 112566
+Filename: enigma2-locale-bg_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: bg
  bg
@@ -549,14 +549,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ca
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 376256eeeff5238dcd937bbc0ac78213
-Size: 106782
-Filename: enigma2-locale-ca_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: cd6f175810dde5c216b14d41b97440e2
+Size: 106582
+Filename: enigma2-locale-ca_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: ca
  ca
@@ -565,14 +565,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-cs
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a425d825cc368de63a827ae9f56781ee
-Size: 105190
-Filename: enigma2-locale-cs_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 801d0b86e463060f6a346bc6c2d627dd
+Size: 105702
+Filename: enigma2-locale-cs_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: cs
  cs
@@ -581,14 +581,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-da
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 07a61a7bea813776b4b8511a5ae03790
-Size: 70484
-Filename: enigma2-locale-da_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 87bc58f3b34871d46e4dbeb1db319074
+Size: 70428
+Filename: enigma2-locale-da_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: da
  da
@@ -597,14 +597,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-de
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6f5d4769666aaad55169a0e47af6e70e
-Size: 106028
-Filename: enigma2-locale-de_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 79f69ff17443a5ad5cab8f2887e2f1a5
+Size: 105830
+Filename: enigma2-locale-de_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: de
  de
@@ -613,14 +613,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-el
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9f5cba0a0d2982d306b2becb7c41749b
-Size: 117122
-Filename: enigma2-locale-el_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 86603cfd127b97c9ec1e582231b2cb13
+Size: 116844
+Filename: enigma2-locale-el_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: el
  el
@@ -629,14 +629,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-en
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 91bfc00e018b0f6a7d23743049b9ea07
-Size: 51536
-Filename: enigma2-locale-en_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: ab87bd5c911e6776508dfbbcbb35012c
+Size: 51504
+Filename: enigma2-locale-en_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: en
  en
@@ -645,14 +645,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-es
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4023b2b5748f565bb96e6f8b1b47c26d
-Size: 129380
-Filename: enigma2-locale-es_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 61208ee0faf79d820dc058094f1cfa72
+Size: 129658
+Filename: enigma2-locale-es_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: es
  es
@@ -661,14 +661,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-et
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 83ba47498ab77acd1f61efb1e697cf2a
-Size: 89730
-Filename: enigma2-locale-et_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 7f88ff2f5e8208ddebee4bc3607ffdb9
+Size: 89592
+Filename: enigma2-locale-et_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: et
  et
@@ -677,14 +677,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fa
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 23d1b2dd46386f8cea5631f7a2393c5a
-Size: 28840
-Filename: enigma2-locale-fa_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 5360c4075194b340870484f4a74874ae
+Size: 28770
+Filename: enigma2-locale-fa_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: fa
  fa
@@ -693,14 +693,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fi
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0d12126a8215bb9ad7a86154c57f9d24
-Size: 85262
-Filename: enigma2-locale-fi_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 03a27777b84a60770a031d62985fd23a
+Size: 85076
+Filename: enigma2-locale-fi_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: fi
  fi
@@ -709,14 +709,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fr
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b69710e51047605d8da9f07d137f47cf
-Size: 107076
-Filename: enigma2-locale-fr_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: eb714879e95b0d11d852e5b3a8c450b9
+Size: 107086
+Filename: enigma2-locale-fr_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: fr
  fr
@@ -725,14 +725,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fy
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f2b8e5e86fcf5589b865348c01d1eed0
-Size: 20012
-Filename: enigma2-locale-fy_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 216d45dd74fa12b8d3e046929dd877e3
+Size: 19988
+Filename: enigma2-locale-fy_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: fy
  fy
@@ -741,14 +741,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-gl
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4c35a510edbdd478fb3edc3d578b3f26
-Size: 103670
-Filename: enigma2-locale-gl_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 32eb01092b0b7ef7f4301ac6ee38b56d
+Size: 103566
+Filename: enigma2-locale-gl_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: gl
  gl
@@ -757,14 +757,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-he
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 571630da238daac918dcc22e13e56fcb
-Size: 21456
-Filename: enigma2-locale-he_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 6967bc82093ef2f4654e374eae472676
+Size: 21406
+Filename: enigma2-locale-he_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: he
  he
@@ -773,14 +773,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-hr
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 108e03b659a06176b8ecc66b98cc2462
-Size: 104908
-Filename: enigma2-locale-hr_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: d0abfa2b1a0119057e0037630ab4162c
+Size: 104856
+Filename: enigma2-locale-hr_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: hr
  hr
@@ -789,14 +789,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-hu
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e70e9aef17b47e14910b822fb2cebbc7
-Size: 106234
-Filename: enigma2-locale-hu_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 34dd34fc860d98285e74d2ce811a5b10
+Size: 106076
+Filename: enigma2-locale-hu_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: hu
  hu
@@ -805,14 +805,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-id
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 59036e85b537120b6acb8b394066d328
-Size: 90520
-Filename: enigma2-locale-id_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: f0872a30f547345cf3df1deb1d009261
+Size: 90390
+Filename: enigma2-locale-id_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: id
  id
@@ -821,14 +821,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-is
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 56c3683c71583660f592e43b95776e9c
-Size: 27864
-Filename: enigma2-locale-is_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 6185195448146f1b051f2fd81f011062
+Size: 27822
+Filename: enigma2-locale-is_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: is
  is
@@ -837,14 +837,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-it
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b517ae65b5ba5745dc6fc0ff18172ebc
-Size: 97950
-Filename: enigma2-locale-it_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 2814118111388419b6ae0241ea0fe4aa
+Size: 97794
+Filename: enigma2-locale-it_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: it
  it
@@ -853,14 +853,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ku
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f47c51aca2b306d9a941129bda56626a
-Size: 51132
-Filename: enigma2-locale-ku_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 6c6ee78559e8c673719d556e325e418d
+Size: 51098
+Filename: enigma2-locale-ku_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: ku
  ku
@@ -869,14 +869,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-lt
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b5db68a607e7c689ba95765472037774
-Size: 107508
-Filename: enigma2-locale-lt_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 696fe65fbef1faeaf905e3d76ca10af4
+Size: 107502
+Filename: enigma2-locale-lt_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: lt
  lt
@@ -885,14 +885,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-lv
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d5565999f137ec33721f3407fe045c59
-Size: 102750
-Filename: enigma2-locale-lv_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 921e718181582a35440e3642f855ba6e
+Size: 102672
+Filename: enigma2-locale-lv_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: lv
  lv
@@ -905,8 +905,8 @@ Version: 1.0-r0
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9cf132d20fde032b05c571a769306c88
-Size: 702
+MD5Sum: 80cab1ea5f37b8d7977b96317a290398
+Size: 704
 Filename: enigma2-locale-meta-dbg_1.0-r0_cuberevo_mini2.ipk
 Source: enigma2-locale-meta.bb
 Description: meta file for enigma2 locales - Debugging files
@@ -922,7 +922,7 @@ Depends: enigma2-locale-meta (= 1.0-r0)
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6c49f487de16d808aa234e0cfd0db478
+MD5Sum: 4840f23a7c8cdbad73c82e719f08be77
 Size: 730
 Filename: enigma2-locale-meta-dev_1.0-r0_cuberevo_mini2.ipk
 Source: enigma2-locale-meta.bb
@@ -939,7 +939,7 @@ Recommends: enigma2-locale-ar, enigma2-locale-bg, enigma2-locale-ca, enigma2-loc
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cc786aa9a72ec0a27402dea9e87aa543
+MD5Sum: dbc968bd88125546dd62416acd873770
 Size: 770
 Filename: enigma2-locale-meta_1.0-r0_cuberevo_mini2.ipk
 Source: enigma2-locale-meta.bb
@@ -950,14 +950,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-locale-mk
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 54610169f5508f0e84133a3eb3ece762
-Size: 115594
-Filename: enigma2-locale-mk_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: ed24f2cf6642629db8493f05af7db17f
+Size: 115436
+Filename: enigma2-locale-mk_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: mk
  mk
@@ -966,14 +966,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-nb
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ae335b7168095cbfe2892d17f1627cc5
-Size: 102620
-Filename: enigma2-locale-nb_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 97becf64750bbdcfc4b6c1d6f2c643b1
+Size: 102150
+Filename: enigma2-locale-nb_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: nb
  nb
@@ -982,14 +982,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-nl
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 828019c8b8c7f82b8abd2344dcb96f9b
-Size: 109870
-Filename: enigma2-locale-nl_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: a3db68d587960d49376d852a22a24e8c
+Size: 109674
+Filename: enigma2-locale-nl_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: nl
  nl
@@ -998,14 +998,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-nn
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c8d6553a2f33d2f1af2cf0d3b44702dc
-Size: 53274
-Filename: enigma2-locale-nn_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: b2dd017be0f9891144cb3f0f6165acbc
+Size: 53232
+Filename: enigma2-locale-nn_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: nn
  nn
@@ -1014,14 +1014,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pl
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e0735f2c1a30b32d84b46d34fe25bf6c
-Size: 100222
-Filename: enigma2-locale-pl_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: d4571f05a252ec527429596d1d93871f
+Size: 100046
+Filename: enigma2-locale-pl_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: pl
  pl
@@ -1030,14 +1030,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pt-br
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 69143950b4ea4f6542626b95dd994a19
-Size: 52818
-Filename: enigma2-locale-pt-br_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 0cea4e012dfee68c0f6e6cfb5297ed76
+Size: 52772
+Filename: enigma2-locale-pt-br_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: pt-br
  pt-br
@@ -1046,14 +1046,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pt
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7d89f371c3715f0491c2e717a0c43728
-Size: 50448
-Filename: enigma2-locale-pt_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 89082f89726d4d0809f676c4f53c6930
+Size: 50402
+Filename: enigma2-locale-pt_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: pt
  pt
@@ -1062,14 +1062,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ro
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 60fdf04092e8908bd1b89df3f2b92050
-Size: 21740
-Filename: enigma2-locale-ro_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: df30178ce85efae4b1149c6bcf40a8db
+Size: 21690
+Filename: enigma2-locale-ro_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: ro
  ro
@@ -1078,14 +1078,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ru
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 623fc8a00cb5a5c89a6a8ae3c01d5585
-Size: 116936
-Filename: enigma2-locale-ru_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 19a130f25fe472992084f83f3209bdc4
+Size: 116768
+Filename: enigma2-locale-ru_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: ru
  ru
@@ -1094,14 +1094,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sk
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1e8ff8c4cd7ed0cf281c046af9bbeedb
-Size: 107302
-Filename: enigma2-locale-sk_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: c4ddc5660612a6cfba69446d3cd5ce06
+Size: 107222
+Filename: enigma2-locale-sk_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: sk
  sk
@@ -1110,14 +1110,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sl
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 88cc6af23646b44d50accd1e1998eb13
-Size: 60546
-Filename: enigma2-locale-sl_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 3f06a5fdb10b1168f6adebcafccf0412
+Size: 60460
+Filename: enigma2-locale-sl_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: sl
  sl
@@ -1126,14 +1126,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sr
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ce3997c3479c37b195baf8d6f42332e6
-Size: 28044
-Filename: enigma2-locale-sr_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: a45b8ac05d6895eaaf11fb6f20b3c31a
+Size: 28014
+Filename: enigma2-locale-sr_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: sr
  sr
@@ -1142,14 +1142,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sv
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bf62d32c493530c3a3067669cd935d8f
-Size: 71542
-Filename: enigma2-locale-sv_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 98d89664aea6ebd4f9b5fa1432f1314d
+Size: 71470
+Filename: enigma2-locale-sv_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: sv
  sv
@@ -1158,14 +1158,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-th
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 488518cc6027e43eba610c18673877f8
-Size: 27134
-Filename: enigma2-locale-th_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 2259b306e532587780ebc78250be432a
+Size: 27122
+Filename: enigma2-locale-th_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: th
  th
@@ -1174,14 +1174,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-tr
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3da14bc483fbe7820b4c9f6ef25d549d
-Size: 67908
-Filename: enigma2-locale-tr_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: a89c75223f2c84e70d602e7c0d54d293
+Size: 67870
+Filename: enigma2-locale-tr_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: tr
  tr
@@ -1190,14 +1190,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-uk
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 72d8f5272ff1f16fce3b016846fcc4f2
-Size: 115620
-Filename: enigma2-locale-uk_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 5905ef874140ab169724d98396a37b6b
+Size: 115448
+Filename: enigma2-locale-uk_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: uk
  uk
@@ -1206,14 +1206,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-vi
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6d4326caf098481b4704c6813942cd89
-Size: 100672
-Filename: enigma2-locale-vi_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 222134fe481a73685e7ec589f47e5ed1
+Size: 100502
+Filename: enigma2-locale-vi_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: vi
  vi
@@ -1222,14 +1222,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-zh-cn
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a6db3367b0267e2ec7c66d8f748bfa31
-Size: 87760
-Filename: enigma2-locale-zh-cn_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 785c8ff92dccc372c318fb04fa5471bd
+Size: 87630
+Filename: enigma2-locale-zh-cn_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: zh-cn
  zh-cn
@@ -1238,14 +1238,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-zh-hk
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4e3250a57dc282b3e2ecbb4c04f7aa27
-Size: 25878
-Filename: enigma2-locale-zh-hk_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 65315051f8d9e4f36b79d58b9bc9dd70
+Size: 25852
+Filename: enigma2-locale-zh-hk_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: zh-hk
  zh-hk
@@ -1254,13 +1254,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-meta
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3e3cf4a21f150ed2954d2b79b57ab7b5
-Size: 4772
-Filename: enigma2-meta_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 3ee32542b999df6b7defcb6b51e8d8f0
+Size: 4770
+Filename: enigma2-meta_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -2120,8 +2120,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 702b38d9ed5aba293ae12586cef538d4
-Size: 4536
+MD5Sum: f25aed06752adb975698d03361d0076b
+Size: 4520
 Filename: enigma2-plugin-extensions-airplayer-po_git40+9b3898b-r0_cuberevo_mini2.ipk
 Source: enigma2-c-plugins.bb
 Description: extensions-airplayer (translations)
@@ -2136,8 +2136,8 @@ Depends: enigma2, gstreamer1.0-plugins-bad-fragmented, hairtunes, python-ctypes,
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 90288ea8c464f41f5942439f4f8d5ff7
-Size: 103014
+MD5Sum: 20d552fbe38757c16da5b9a51c46a35e
+Size: 103030
 Filename: enigma2-plugin-extensions-airplayer_git40+9b3898b-r0_cuberevo_mini2.ipk
 Source: enigma2-c-plugins.bb
 Description: extensions-airplayer
@@ -2147,14 +2147,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-cutlisteditor
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: aio-grab
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8083bd84e67240bd2ec82edf8a8e083d
-Size: 20412
-Filename: enigma2-plugin-extensions-cutlisteditor_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 566acc352d1bfaadf1fa186b1297ed24
+Size: 20416
+Filename: enigma2-plugin-extensions-cutlisteditor_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor
  extensions-cutlisteditorenables you to cut your movies.
@@ -2163,14 +2163,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdburn
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: cdrkit, dvd+rw-tools, dvdauthor, gstreamer1.0-plugins-bad-mpegtsmux, kernel-module-pktcdvd, mjpegtools, python-imaging, replex
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: eba816d72d83e108745498ad05ef3d2b
-Size: 853450
-Filename: enigma2-plugin-extensions-dvdburn_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 800ed3db4948fc63a966ecd705b1229a
+Size: 853464
+Filename: enigma2-plugin-extensions-dvdburn_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: extensions-dvdburn
  extensions-dvdburn
@@ -2179,14 +2179,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdplayer
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: gstreamer1.0-plugins-bad-videoparsersbad, kernel-module-udf
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2ae8fcec5f2a2afe75970892232c9d68
+MD5Sum: bdffddef285b78989452b89fb028e58c
 Size: 3848
-Filename: enigma2-plugin-extensions-dvdplayer_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+Filename: enigma2-plugin-extensions-dvdplayer_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: extensions-dvdplayer
  extensions-dvdplayer
@@ -2195,13 +2195,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-graphmultiepg
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ca4e1a785e418ca032d33f3de1bee847
-Size: 42866
-Filename: enigma2-plugin-extensions-graphmultiepg_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: ea78f3f23eca8761b02658e71abfe0d2
+Size: 42868
+Filename: enigma2-plugin-extensions-graphmultiepg_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: extensions-graphmultiepg
  extensions-graphmultiepgshows a graphical timeline EPG.
@@ -2214,7 +2214,7 @@ Version: git3714+d026667-r0
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 615eac0d4e702649da1e57ce884628b4
+MD5Sum: 66ce95e3ce538bde599435c781e41933
 Size: 716
 Filename: enigma2-plugin-extensions-iptvplayer-dbg_git3714+d026667-r0_cuberevo_mini2.ipk
 Source: enigma2-plugin-extensions-iptvplayer.bb
@@ -2232,7 +2232,7 @@ Recommends: cmdwrapper-dev, duktape-dev, enigma2-dev, exteplayer3-dev, f4mdump-d
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b8974a2f586f7517bde6cb56f17c0b6a
+MD5Sum: a9189e0dc817f9df8e7ef1c42e4d3df4
 Size: 898
 Filename: enigma2-plugin-extensions-iptvplayer-dev_git3714+d026667-r0_cuberevo_mini2.ipk
 Source: enigma2-plugin-extensions-iptvplayer.bb
@@ -2249,8 +2249,8 @@ Depends: enigma2-plugin-extensions-iptvplayer
 Section: multimedia
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4f8d336e85422ca63e613f91e00287ab
-Size: 441738
+MD5Sum: 2e303f2d8efdbcd561b021494fb5f958
+Size: 441116
 Filename: enigma2-plugin-extensions-iptvplayer-po_git3714+d026667-r0_cuberevo_mini2.ipk
 Source: enigma2-plugin-extensions-iptvplayer.bb
 Description: extensions-iptvplayer (translations)
@@ -2265,8 +2265,8 @@ Depends: cmdwrapper, duktape, enigma2, exteplayer3, f4mdump, ffmpeg, gst-ifdsrc,
 Section: multimedia
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 528307010d23104521a4b40ccd81ec25
-Size: 8348734
+MD5Sum: cf8cd8d4680f5308e6b859e1c7b74f01
+Size: 8346678
 Filename: enigma2-plugin-extensions-iptvplayer_git3714+d026667-r0_cuberevo_mini2.ipk
 Source: enigma2-plugin-extensions-iptvplayer.bb
 Description: extensions-iptvplayer
@@ -2276,13 +2276,13 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediaplayer
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 629f786becfe188efff3c6f4464793d0
-Size: 36090
-Filename: enigma2-plugin-extensions-mediaplayer_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: fcbb393788bf6969e0210b8e83a9e9fb
+Size: 36088
+Filename: enigma2-plugin-extensions-mediaplayer_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: extensions-mediaplayer
  extensions-mediaplayer
@@ -2291,13 +2291,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediascanner
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 35dd3259892f1abf96305b5c1d645742
-Size: 6880
-Filename: enigma2-plugin-extensions-mediascanner_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: d9544205f6af66ca77d74e6ed96adb06
+Size: 6882
+Filename: enigma2-plugin-extensions-mediascanner_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: extensions-mediascanner
  extensions-mediascanner
@@ -2311,8 +2311,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 608bd1c1fee2c579b8d9b76d0c3bb07d
-Size: 10100
+MD5Sum: 128134a207f88b8032f2233448775cc8
+Size: 10104
 Filename: enigma2-plugin-extensions-moviecut-po_git40+9b3898b-r0_cuberevo_mini2.ipk
 Source: enigma2-c-plugins.bb
 Description: extensions-moviecut (translations)
@@ -2327,8 +2327,8 @@ Depends: enigma2, libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6583bcbf15da5d514d29268c9f2e7297
-Size: 32024
+MD5Sum: 771aadc9ccf63d9cb707dafc89560790
+Size: 32014
 Filename: enigma2-plugin-extensions-moviecut_git40+9b3898b-r0_cuberevo_mini2.ipk
 Source: enigma2-c-plugins.bb
 Description: extensions-moviecut
@@ -2404,15 +2404,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-dbg
-Version: git4402+23d64b0-r0
+Version: git4442+fea7ad2-r0
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c49bcc7c491e5039ba5d6d83eab1b553
-Size: 750
-Filename: enigma2-plugin-extensions-openwebif-dbg_git4402+23d64b0-r0_cuberevo_mini2.ipk
+MD5Sum: 9b6b79502d47fe9ee327f882b138d2cc
+Size: 752
+Filename: enigma2-plugin-extensions-openwebif-dbg_git4442+fea7ad2-r0_cuberevo_mini2.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+23d64b0c3b-r0 - Debugging files
+Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+fea7ad2560-r0 - Debugging files
  Control your receiver with a browser  This package contains ELF symbols
  and related sources for debugging purposes.
 OE: enigma2-plugin-extensions-openwebif
@@ -2420,17 +2420,17 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-dev
-Version: git4402+23d64b0-r0
-Depends: enigma2-plugin-extensions-openwebif (= git4402+23d64b0-r0)
-Recommends: aio-grab-dev, enigma2-dev, openwebif-remotes-dev, python-cheetah-dev, python-compression-dev, python-core-dev, python-dev, python-ipaddress-dev, python-json-dev, python-misc-dev, python-numbers-dev, python-pyopenssl-dev, python-shell-dev, python-six-dev, python-unixadmin-dev
+Version: git4442+fea7ad2-r0
+Depends: enigma2-plugin-extensions-openwebif (= git4442+fea7ad2-r0)
+Recommends: aio-grab-dev, enigma2-dev, openwebif-remotes-dev, python-cheetah-dev, python-compression-dev, python-core-dev, python-dev, python-ipaddress-dev, python-json-dev, python-misc-dev, python-numbers-dev, python-pprint-dev, python-pyopenssl-dev, python-shell-dev, python-six-dev, python-twisted-web-dev, python-unixadmin-dev
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d118d79b4ad87bae423985dd614ca659
-Size: 882
-Filename: enigma2-plugin-extensions-openwebif-dev_git4402+23d64b0-r0_cuberevo_mini2.ipk
+MD5Sum: 3ab3088da42305f04831997c19598e53
+Size: 896
+Filename: enigma2-plugin-extensions-openwebif-dev_git4442+fea7ad2-r0_cuberevo_mini2.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+23d64b0c3b-r0 - Development files
+Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+fea7ad2560-r0 - Development files
  Control your receiver with a browser  This package contains symbolic
  links, header files, and related items necessary for software
  development.
@@ -2439,46 +2439,46 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-themes
-Version: git4402+23d64b0-r0
+Version: git4442+fea7ad2-r0
 Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a41c88762ed01aad862d43d827612887
-Size: 243964
-Filename: enigma2-plugin-extensions-openwebif-themes_git4402+23d64b0-r0_cuberevo_mini2.ipk
+MD5Sum: 953a50f7b98f8c113dbdc5a566997ee5
+Size: 243980
+Filename: enigma2-plugin-extensions-openwebif-themes_git4442+fea7ad2-r0_cuberevo_mini2.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+23d64b0c3b-r0
+Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+fea7ad2560-r0
  Control your receiver with a browser
 OE: enigma2-plugin-extensions-openwebif
 License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-vxg
-Version: git4402+23d64b0-r0
+Version: git4442+fea7ad2-r0
 Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ba35fb009b806c34a97bb70b87973c76
-Size: 1440134
-Filename: enigma2-plugin-extensions-openwebif-vxg_git4402+23d64b0-r0_cuberevo_mini2.ipk
+MD5Sum: a065266f5ebb76e7fdfc4111b84445df
+Size: 1440140
+Filename: enigma2-plugin-extensions-openwebif-vxg_git4442+fea7ad2-r0_cuberevo_mini2.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+23d64b0c3b-r0
+Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+fea7ad2560-r0
  Control your receiver with a browser
 OE: enigma2-plugin-extensions-openwebif
 License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif
-Version: git4402+23d64b0-r0
-Depends: aio-grab, enigma2, openwebif-remotes, python-cheetah, python-compression, python-core, python-ipaddress, python-json, python-misc, python-numbers, python-pyopenssl, python-shell, python-six, python-unixadmin
+Version: git4442+fea7ad2-r0
+Depends: aio-grab, enigma2, openwebif-remotes, python-cheetah, python-compression, python-core, python-ipaddress, python-json, python-misc, python-numbers, python-pprint, python-pyopenssl, python-shell, python-six, python-twisted-web, python-unixadmin
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f97d9b8c00b7b8e1ca06c57fd757e25c
-Size: 2352848
-Filename: enigma2-plugin-extensions-openwebif_git4402+23d64b0-r0_cuberevo_mini2.ipk
+MD5Sum: 3b02f5a5310978a4ccba88005091282f
+Size: 2321906
+Filename: enigma2-plugin-extensions-openwebif_git4442+fea7ad2-r0_cuberevo_mini2.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: extensions-openwebif
  extensions-openwebif
@@ -2487,13 +2487,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-pictureplayer
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d3af9df1a994d0fd9909eedd61dcbcd7
+MD5Sum: 47fdd5f6303aff59561306b04f7b179c
 Size: 21458
-Filename: enigma2-plugin-extensions-pictureplayer_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+Filename: enigma2-plugin-extensions-pictureplayer_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: extensions-pictureplayer
  extensions-pictureplayerdisplays photos on the TV.
@@ -2502,13 +2502,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi-staticdev
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 70f6d4f57b0c79852bf6afdd9b4e83db
-Size: 89990
-Filename: enigma2-plugin-extensions-socketmmi-staticdev_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 028cc3e5b131cec24026734a07e88b28
+Size: 90080
+Filename: enigma2-plugin-extensions-socketmmi-staticdev_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (static development)
  extensions-socketmmi (static development)
@@ -2517,14 +2517,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4), libudfread0 (>= 1.1.1+git107+b8ada65), libxml2 (>= 2.9.4)
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5c920277aa18f8a95f1ede6ce534f082
-Size: 14228
-Filename: enigma2-plugin-extensions-socketmmi_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: a2bc7d862b9069583b7bbbba2c332351
+Size: 14232
+Filename: enigma2-plugin-extensions-socketmmi_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi
  extensions-socketmmi
@@ -2533,13 +2533,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-fonts-wqy-microhei
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b8fcd6b179b0aa5574e19f2923cd29c4
-Size: 2331884
-Filename: enigma2-plugin-fonts-wqy-microhei_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: ebd129c7071e870f55cb717dc1fcebd5
+Size: 2331888
+Filename: enigma2-plugin-fonts-wqy-microhei_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
  wqy-microhei font supports Chinese EPG
@@ -2548,13 +2548,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-cablescan
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f9b8b769c7e3a7c8a97457655c60d0fb
-Size: 8974
-Filename: enigma2-plugin-systemplugins-cablescan_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 13858d16dc12a12b4c4b4a7979bc7450
+Size: 8978
+Filename: enigma2-plugin-systemplugins-cablescan_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-cablescan
  systemplugins-cablescan
@@ -2563,13 +2563,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-commoninterfaceassignment
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 446cd7685d20028f9d8899549ffc5975
-Size: 16362
-Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: bac5f0c456e5ca7bf9e30b788aef4cb4
+Size: 16360
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-commoninterfaceassignment
  systemplugins-commoninterfaceassignment
@@ -2583,7 +2583,7 @@ Recommends: libc6-dbg, libcurl-dbg, libxml2-dbg, libz-dbg
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c570cdb194bd2594148eb8ceabf8ac5a
+MD5Sum: 234bea73e4844724bffdfdc890c9e1d4
 Size: 846
 Filename: enigma2-plugin-systemplugins-crossepg-dbg_0.8.7+gitr534+13944d2-r0_cuberevo_mini2.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
@@ -2603,8 +2603,8 @@ Recommends: curl-dev, enigma2-dev, libc6-dev, libcurl-dev, libxml2-dev, libz-dev
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 09c7fa2a4ccbac59845a12f36b216966
-Size: 912
+MD5Sum: 5624e93599dca693b2a8dc3af9080646
+Size: 910
 Filename: enigma2-plugin-systemplugins-crossepg-dev_0.8.7+gitr534+13944d2-r0_cuberevo_mini2.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: enigma2-plugin-systemplugins-crossepg version 0.8.7+gitrAUTOINC+13944d2e2c-r0 - Development files
@@ -2622,8 +2622,8 @@ Depends: enigma2, libc6 (>= 2.25), libcurl4 (>= 7.73.0), libxml2 (>= 2.9.4), lib
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4e2a779dc741d185f10a72e8e5ca4864
-Size: 627422
+MD5Sum: dcd8a9ba8033b83acbdb72c35f0d9798
+Size: 629636
 Filename: enigma2-plugin-systemplugins-crossepg_0.8.7+gitr534+13944d2-r0_cuberevo_mini2.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: systemplugins-crossepg
@@ -2634,13 +2634,13 @@ License: LGPLv2.1
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-defaultservicesscanner
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c057090467f8b6ba82100bfb20f730bb
-Size: 4748
-Filename: enigma2-plugin-systemplugins-defaultservicesscanner_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 0eb57c701c660285f8fa2a920a4115f0
+Size: 4750
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-defaultservicesscanner
  systemplugins-defaultservicesscanner
@@ -2649,13 +2649,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-diseqctester
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a20f4cde6e4840eb96f4aad644f310b7
+MD5Sum: 8d2c4ccf3e41a0f790575804d3b8e9e8
 Size: 14822
-Filename: enigma2-plugin-systemplugins-diseqctester_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+Filename: enigma2-plugin-systemplugins-diseqctester_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-diseqctester
  systemplugins-diseqctester
@@ -2664,13 +2664,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastscan
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5e3fb8ab9124fdf55d457dea596e05ae
+MD5Sum: d9c035c7ddca658b58e500db2ad9b6c4
 Size: 12010
-Filename: enigma2-plugin-systemplugins-fastscan_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+Filename: enigma2-plugin-systemplugins-fastscan_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-fastscan
  systemplugins-fastscan
@@ -2679,13 +2679,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hdmicec
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4bdf4ac8831578b848f337ca3edc31c3
+MD5Sum: 7320269a71c4052d71c05ba2a0637b31
 Size: 6350
-Filename: enigma2-plugin-systemplugins-hdmicec_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+Filename: enigma2-plugin-systemplugins-hdmicec_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-hdmicec
  systemplugins-hdmicec
@@ -2694,14 +2694,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hotplug
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: hotplug-e2-helper
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d7a92256e31c2b773f80c9ac73f145bd
+MD5Sum: 4576ec2ba37f9128e07f2e18bd6ed804
 Size: 3902
-Filename: enigma2-plugin-systemplugins-hotplug_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+Filename: enigma2-plugin-systemplugins-hotplug_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-hotplug
  systemplugins-hotplug
@@ -2715,8 +2715,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 925e3012de0fbec10b3753833bcce312
-Size: 7540
+MD5Sum: b641b216d5dc768a7c93ab8798e9ef6b
+Size: 7526
 Filename: enigma2-plugin-systemplugins-misplslcnscan-po_git40+9b3898b-r0_cuberevo_mini2.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-misplslcnscan (translations)
@@ -2731,8 +2731,8 @@ Depends: enigma2, libc6 (>= 2.25), libtirpc3 (>= 1.0.2)
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b0e1ad1041f84b71955ade9bfa5e20b3
-Size: 41168
+MD5Sum: 373e9220e35c44409a32d67306ebde00
+Size: 41176
 Filename: enigma2-plugin-systemplugins-misplslcnscan_git40+9b3898b-r0_cuberevo_mini2.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-misplslcnscan
@@ -2747,8 +2747,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 321de2e878ce98d9a30ad37e12753b74
-Size: 36408
+MD5Sum: bdc44258a4759685818bc9e7dda6a9e2
+Size: 36388
 Filename: enigma2-plugin-systemplugins-networkbrowser-po_git40+9b3898b-r0_cuberevo_mini2.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-networkbrowser (translations)
@@ -2763,8 +2763,8 @@ Depends: enigma2, libc6 (>= 2.25), libtirpc3 (>= 1.0.2)
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a05495c48c75bd198734e913577239de
-Size: 143404
+MD5Sum: 2dcb824f88a64c315dc8d870422fb4a2
+Size: 143396
 Filename: enigma2-plugin-systemplugins-networkbrowser_git40+9b3898b-r0_cuberevo_mini2.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-networkbrowser
@@ -2774,13 +2774,13 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-networkwizard
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1641d746904941fb27213918e2e8168a
-Size: 11378
-Filename: enigma2-plugin-systemplugins-networkwizard_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 2a83b6a749355766834f858325a011f6
+Size: 11374
+Filename: enigma2-plugin-systemplugins-networkwizard_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-networkwizard
  systemplugins-networkwizardprovides easy step by step network
@@ -2790,13 +2790,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osd3dsetup
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 868cd2f7e957cf544b2b4673e1319760
-Size: 5272
-Filename: enigma2-plugin-systemplugins-osd3dsetup_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: c39fbedc8a19f5d427bf9e8966fb9422
+Size: 5278
+Filename: enigma2-plugin-systemplugins-osd3dsetup_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-osd3dsetup
  systemplugins-osd3dsetup
@@ -2805,13 +2805,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osdpositionsetup
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9519d2f9f934c635d808d0c111023036
-Size: 8100
-Filename: enigma2-plugin-systemplugins-osdpositionsetup_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 239e49c7d68dbfef7a5380080bb63469
+Size: 8104
+Filename: enigma2-plugin-systemplugins-osdpositionsetup_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-osdpositionsetup
  systemplugins-osdpositionsetup
@@ -2820,13 +2820,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-positionersetup
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3c2b3333159699b5c033d328e8aab0a7
-Size: 42978
-Filename: enigma2-plugin-systemplugins-positionersetup_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 7acc21e97597b2998f49129735976f91
+Size: 42980
+Filename: enigma2-plugin-systemplugins-positionersetup_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-positionersetup
  systemplugins-positionersetuphelps you installing a motorized dish.
@@ -2835,13 +2835,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9b14a1608d00ef0a22b25b58100f7a12
-Size: 4070
-Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 46e0df0e5a5ab92921183269829ced72
+Size: 4072
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-satelliteequipmentcontrol
  systemplugins-satelliteequipmentcontrolallows you to fine-tune DiSEqC-
@@ -2851,13 +2851,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satfinder
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 174255fb17cfb414fb70375f953c8e84
-Size: 22706
-Filename: enigma2-plugin-systemplugins-satfinder_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 439d15f8f09dd229c8326def6645c7f1
+Size: 22710
+Filename: enigma2-plugin-systemplugins-satfinder_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-satfinder
  systemplugins-satfinderhelps you to align your dish.
@@ -2872,8 +2872,8 @@ Recommends: libc6-dbg, libcrypto-dbg, libgcc-s-dbg, libssl-dbg, libstdc++-dbg, u
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 719bb75589385c3e0aecd145899f42d5
-Size: 899484
+MD5Sum: 6349137cd5f9301e06240a3ce50caae5
+Size: 899488
 Filename: enigma2-plugin-systemplugins-serviceapp-dbg_git179+a3afb0f-r0_cuberevo_mini2.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: enigma2-plugin-systemplugins-serviceapp version gitAUTOINC+a3afb0fd69-r0 - Debugging files
@@ -2890,7 +2890,7 @@ Recommends: enigma2-dev, libc6-dev, libcrypto-dev, libgcc-s-dev, libssl-dev, lib
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: da0b44b9f3ead266b197ba4ee007c044
+MD5Sum: 25a8b9b665a7d85b415a4230a5feb136
 Size: 828
 Filename: enigma2-plugin-systemplugins-serviceapp-dev_git179+a3afb0f-r0_cuberevo_mini2.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
@@ -2908,8 +2908,8 @@ Recommends: exteplayer3, gstplayer
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 160a6c531df5e0693286cf10aae27f43
-Size: 134794
+MD5Sum: 4487b90f2f50b97ae6802c666532c9dd
+Size: 134816
 Filename: enigma2-plugin-systemplugins-serviceapp_git179+a3afb0f-r0_cuberevo_mini2.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: systemplugins-serviceapp
@@ -2925,8 +2925,8 @@ Recommends: gstreamer1.0-dbg, libc6-dbg, libgcc-s-dbg, libglib-2.0-dbg, libgstau
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b7ad854f3caf9ebd669f4bfece3d18fb
-Size: 345416
+MD5Sum: 4404d7bc576db0afd551c714883dfa6f
+Size: 345418
 Filename: enigma2-plugin-systemplugins-servicemp3-dbg_git51+676cbc9-r0_cuberevo_mini2.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
 Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+676cbc90ee-r0 - Debugging files
@@ -2943,8 +2943,8 @@ Recommends: enigma2-dev, glib-networking-dev, gstreamer1.0-dev, gstreamer1.0-plu
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5981ef197c757a6586ad2f52d3b4e17d
-Size: 1164
+MD5Sum: 229451e80bb2b8b75fa55542f7e5dfab
+Size: 1166
 Filename: enigma2-plugin-systemplugins-servicemp3-dev_git51+676cbc9-r0_cuberevo_mini2.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
 Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+676cbc90ee-r0 - Development files
@@ -2961,8 +2961,8 @@ Provides: virtual/enigma2-mediaservice
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a051b3dff1a22347e57e939c6ceae6c4
-Size: 60738
+MD5Sum: 7148ac5c00dc932707c3f49c3dee6d19
+Size: 60734
 Filename: enigma2-plugin-systemplugins-servicemp3_git51+676cbc9-r0_cuberevo_mini2.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
 Description: systemplugins-servicemp3
@@ -2972,13 +2972,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-sh4boostercontrol
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 94ceb2b3d661b15d9ed0ee78c362fea8
-Size: 5344
-Filename: enigma2-plugin-systemplugins-sh4boostercontrol_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: c8f7f546249fe6604828c6f02ba809d0
+Size: 5346
+Filename: enigma2-plugin-systemplugins-sh4boostercontrol_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-sh4boostercontrol
  systemplugins-sh4boostercontrol
@@ -2987,13 +2987,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-sh4osdadjustment
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b508efd2166e4f83631df6756d589db2
-Size: 8186
-Filename: enigma2-plugin-systemplugins-sh4osdadjustment_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: cf805d57409e82de1b2e9c7767456837
+Size: 8184
+Filename: enigma2-plugin-systemplugins-sh4osdadjustment_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-sh4osdadjustment
  systemplugins-sh4osdadjustment
@@ -3002,14 +3002,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-softwaremanager
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: python-twisted-web
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b13212e9f97704262eafb073c2cea9e1
-Size: 69870
-Filename: enigma2-plugin-systemplugins-softwaremanager_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 6c80765e4e18b2b1e06dd2161d47d8b6
+Size: 69872
+Filename: enigma2-plugin-systemplugins-softwaremanager_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-softwaremanager
  systemplugins-softwaremanager
@@ -3018,13 +3018,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-systemoptions
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8b4c846b264d69c0cdc9762bc7b1fab2
-Size: 8200
-Filename: enigma2-plugin-systemplugins-systemoptions_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 01922eeaa4843365042704d590adb50f
+Size: 8202
+Filename: enigma2-plugin-systemplugins-systemoptions_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-systemoptions
  systemplugins-systemoptions
@@ -3038,8 +3038,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0bb29c933eb15ad0e5a86468fa4a74dd
-Size: 13136
+MD5Sum: 426bb279c8ec3e4288ff5ee4197e4ef7
+Size: 13116
 Filename: enigma2-plugin-systemplugins-terrestrialscan-po_git40+9b3898b-r0_cuberevo_mini2.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-terrestrialscan (translations)
@@ -3054,8 +3054,8 @@ Depends: enigma2, libc6 (>= 2.25), libtirpc3 (>= 1.0.2)
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0537c0bd3c836fa18b142d740f3df539
-Size: 60908
+MD5Sum: 8c2cbc6be7b3071f1ce8c2d95c993ee0
+Size: 60888
 Filename: enigma2-plugin-systemplugins-terrestrialscan_git40+9b3898b-r0_cuberevo_mini2.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-terrestrialscan
@@ -3066,13 +3066,13 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoclippingsetup
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 97916f1611a9683fb55ee00b0cb551c1
-Size: 4574
-Filename: enigma2-plugin-systemplugins-videoclippingsetup_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 5d4e2e89e332c5e2d8430a8604c28322
+Size: 4576
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-videoclippingsetup
  systemplugins-videoclippingsetup
@@ -3081,13 +3081,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoenhancement
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e478c411fc2125bf2cc9311d6fee922d
-Size: 14704
-Filename: enigma2-plugin-systemplugins-videoenhancement_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: fef765c2f03a284ee8386d70919c6383
+Size: 14708
+Filename: enigma2-plugin-systemplugins-videoenhancement_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-videoenhancement
  systemplugins-videoenhancement
@@ -3096,13 +3096,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videomode
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 80244eca3e85e83333faf81f21fb841e
-Size: 68888
-Filename: enigma2-plugin-systemplugins-videomode_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 25235be74f86e1b79fb4c101bfb71460
+Size: 35730
+Filename: enigma2-plugin-systemplugins-videomode_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-videomode
  systemplugins-videomodeselects advanced video modes
@@ -3111,13 +3111,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videotune
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 46cb525d16709fe870ad7e290e9aad37
+MD5Sum: 82915f225f9bad047444e82fdbf7ec0b
 Size: 69996
-Filename: enigma2-plugin-systemplugins-videotune_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+Filename: enigma2-plugin-systemplugins-videotune_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-videotune
  systemplugins-videotune
@@ -3131,7 +3131,7 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7507a2e19f7c70a7ff2a5b0e6de6956e
+MD5Sum: 5da68b97e3ff98a96fcaead900bff3ba
 Size: 14046
 Filename: enigma2-plugin-systemplugins-vps-po_git40+9b3898b-r0_cuberevo_mini2.ipk
 Source: enigma2-c-plugins.bb
@@ -3147,8 +3147,8 @@ Depends: enigma2, libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 60c7adf00ba1e0b09d3a1e8b3eae8d8e
-Size: 58658
+MD5Sum: 7e4d44d91dff594cda70e276823b5716
+Size: 58662
 Filename: enigma2-plugin-systemplugins-vps_git40+9b3898b-r0_cuberevo_mini2.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-vps
@@ -3158,14 +3158,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-wirelesslan
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: python-wifi, wireless-tools, wpa-supplicant
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fa659f32dcc6797a0fa5217066749a13
-Size: 19052
-Filename: enigma2-plugin-systemplugins-wirelesslan_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 49bc1afd6eee2b3584302bc33cb4da64
+Size: 19054
+Filename: enigma2-plugin-systemplugins-wirelesslan_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: systemplugins-wirelesslan
  systemplugins-wirelesslanhelps you configuring your wireless lan
@@ -3237,14 +3237,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-staticdev
-Version: develop+git23890+c3a98a5-r0
-Depends: enigma2-dev (= develop+git23890+c3a98a5-r0)
+Version: develop+git23960+5a1aae8-r0
+Depends: enigma2-dev (= develop+git23960+5a1aae8-r0)
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8e114d5703ae6bbca22d001bc174a589
+MD5Sum: d2d1056a0de8c08737510db344aed067
 Size: 7898
-Filename: enigma2-staticdev_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+Filename: enigma2-staticdev_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Development files (Static Libraries)
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -3254,15 +3254,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2
-Version: develop+git23890+c3a98a5-r0
-Depends: alsa-conf, alsa-utils-amixer-conf, dhrystone, enigma-module, enigma2-data-iso-639-3, enigma2-fonts, enigma2-plugin-extensions-pespeedup, enigma2-remotes, enigma2-timezones, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, hotplug-e2-helper, libavahi-client3 (>= 0.6.32), libavahi-common3 (>= 0.6.32), libc6 (>= 2.25), libcrypto1.1 (>= 1.1.1k), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.9+git130+f3c40ea), libfreetype6 (>= 2.7.1), libfribidi0 (>= 1.0.10), libgcc1 (>= 4.9.4), libgif7 (>= 5.1.4), libglib-2.0-0 (>= 2.50.3), libgomp1 (>= 4.9.4), libjpeg62 (>= 1.5.1), libmme-host0, libmmeimage0 (>= git728+64ff751), libpng16-16 (>= 1.6.37), libpython2.7-1.0 (>= 2.7.18), libsigc-2.0-0 (>= 2.10.3), libssl1.1 (>= 1.1.1k), libstdc++6 (>= 4.9.4), libtuxtxt0 (>= 2.0.1+git84+ed8d3cb), libtuxtxt32bpp0 (>= 2.0.1+git84+ed8d3cb), libudfread0 (>= 1.1.1+git107+b8ada65), libxml2 (>= 2.9.4), ntpdate, ofgwrite, openvision-version-info, python-codecs, python-core, python-crypt, python-fcntl, python-image, python-imaging, python-lang, python-mmap, python-netclient, python-netifaces, python-netserver, python-numbers, python-pickle, python-process, python-pyusb, python-re, python-sendfile, python-service-identity, python-shell, python-six, python-threading, python-twisted-core, python-twisted-web, python-xml, python-zlib, python-zopeinterface, streambench, virtual/enigma2-mediaservice
+Version: develop+git23960+5a1aae8-r0
+Depends: alsa-conf, alsa-utils-amixer-conf, dhrystone, enigma-module, enigma2-data-iso-639-3, enigma2-fonts, enigma2-plugin-extensions-pespeedup, enigma2-remotes, enigma2-timezones, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, hotplug-e2-helper, libavahi-client3 (>= 0.6.32), libavahi-common3 (>= 0.6.32), libc6 (>= 2.25), libcrypto1.1 (>= 1.1.1k), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.9+git130+f3c40ea), libfreetype6 (>= 2.7.1), libfribidi0 (>= 1.0.10), libgcc1 (>= 4.9.4), libgif7 (>= 5.1.4), libglib-2.0-0 (>= 2.50.3), libgomp1 (>= 4.9.4), libjpeg62 (>= 1.5.1), libmme-host0, libmmeimage0 (>= git726+c861493), libpng16-16 (>= 1.6.37), libpython2.7-1.0 (>= 2.7.18), libsigc-2.0-0 (>= 2.10.3), libssl1.1 (>= 1.1.1k), libstdc++6 (>= 4.9.4), libtuxtxt0 (>= 2.0.1+git84+ed8d3cb), libtuxtxt32bpp0 (>= 2.0.1+git84+ed8d3cb), libudfread0 (>= 1.1.1+git107+b8ada65), libxml2 (>= 2.9.4), ntpdate, ofgwrite, openvision-version-info, python-codecs, python-core, python-crypt, python-fcntl, python-image, python-imaging, python-lang, python-mmap, python-netclient, python-netifaces, python-netserver, python-numbers, python-pickle, python-process, python-pyusb, python-re, python-sendfile, python-service-identity, python-shell, python-six, python-threading, python-twisted-core, python-twisted-web, python-xml, python-zlib, python-zopeinterface, streambench, virtual/enigma2-mediaservice
 Recommends: libdvdcss2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f9effa3a4e759c1a3f4b02c5389104b8
-Size: 4478432
-Filename: enigma2_develop+git23890+c3a98a5-r0_cuberevo_mini2.ipk
+MD5Sum: 55d7c36de31b1fd9c3254357d9fa3b2d
+Size: 4494178
+Filename: enigma2_develop+git23960+5a1aae8-r0_cuberevo_mini2.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -3292,8 +3292,8 @@ Recommends: gstreamer1.0-dbg, libc6-dbg, libglib-2.0-dbg
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 07c3b8248163b51b291f0fdba7b3e57f
-Size: 22850
+MD5Sum: 6685368ec16cc29fb92291a3058b94cf
+Size: 22848
 Filename: gst-ifdsrc-dbg_1.0+git26+420b05d-r0_cuberevo_mini2.ipk
 Source: gst-ifdsrc_git.bb
 Description: gst-ifdsrc version 1.0+gitAUTOINC+420b05d381-r0 - Debugging files
@@ -3310,7 +3310,7 @@ Recommends: gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, libc6-dev, libglib-
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 893c3e9237f1388296cf758f837c573b
+MD5Sum: 863d495d29527d36119d449507bdf022
 Size: 816
 Filename: gst-ifdsrc-dev_1.0+git26+420b05d-r0_cuberevo_mini2.ipk
 Source: gst-ifdsrc_git.bb
@@ -3328,8 +3328,8 @@ Depends: gstreamer1.0 (>= 1.18.4), libc6 (>= 2.25), libglib-2.0-0 (>= 2.50.3)
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c508b704a073bbec7e411e860e4d2bb0
-Size: 7580
+MD5Sum: c2e2352f53fe23c21d63fc841e74e59e
+Size: 7582
 Filename: gst-ifdsrc_1.0+git26+420b05d-r0_cuberevo_mini2.ipk
 Source: gst-ifdsrc_git.bb
 Description: gst-ifdsrc version 1.0+gitAUTOINC+420b05d381-r0
@@ -3344,8 +3344,8 @@ Recommends: gstreamer1.0-dbg, libc6-dbg, libdca-dbg, libglib-2.0-dbg, libgstaudi
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7ddbf9f32b9e5f6c354b35cd0b3e6611
-Size: 121294
+MD5Sum: 9c0ac1461b1f0f5ae9eae76fb7eebb4a
+Size: 121286
 Filename: gstreamer1.0-plugin-dvbmediasink-dbg_1.0+git245+8935116-r0_cuberevo_mini2.ipk
 Source: gstreamer1.0-plugin-dvbmediasink.bb
 Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+8935116ac0-r0 - Debugging files
@@ -3362,7 +3362,7 @@ Recommends: gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, libc6-dev, libdca-d
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 185b42756d10df0c8e0d4edc96ea2212
+MD5Sum: e9dd3488414d8711254c7b489b148ddf
 Size: 810
 Filename: gstreamer1.0-plugin-dvbmediasink-dev_1.0+git245+8935116-r0_cuberevo_mini2.ipk
 Source: gstreamer1.0-plugin-dvbmediasink.bb
@@ -3379,7 +3379,7 @@ Depends: gstreamer1.0-plugin-dvbmediasink-dev (= 1.0+git245+8935116-r0)
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0c14f4247bfde2a37c4f8e39dbe99ba8
+MD5Sum: 53d55d0c5cbaea4abbfcc3c2325ccee4
 Size: 165070
 Filename: gstreamer1.0-plugin-dvbmediasink-staticdev_1.0+git245+8935116-r0_cuberevo_mini2.ipk
 Source: gstreamer1.0-plugin-dvbmediasink.bb
@@ -3399,8 +3399,8 @@ Conflicts: gst-plugin-dvbmediasink
 Section: multimedia
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 92206df0b3565d119319631df7c07a94
-Size: 35670
+MD5Sum: 7bd0b66b2c3f36775113c7f91a3a1f81
+Size: 35666
 Filename: gstreamer1.0-plugin-dvbmediasink_1.0+git245+8935116-r0_cuberevo_mini2.ipk
 Source: gstreamer1.0-plugin-dvbmediasink.bb
 Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+8935116ac0-r0
@@ -3646,15 +3646,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-avs
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-avs
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 428cfe6957dde4b91c4bdb2918564706
-Size: 28394
-Filename: kernel-module-avs_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 919d0a926bfe1e05d01a59ebb9f178e9
+Size: 28398
+Filename: kernel-module-avs_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: avs kernel module
  avs kernel module; Multiplatform A/V SCART switch driver
@@ -3697,15 +3697,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-boxtype
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-boxtype
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 568dff9e81e16229d299a219dc1b88f1
-Size: 2170
-Filename: kernel-module-boxtype_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 1e3fb2e083b80f3a7814226e604f881b
+Size: 2172
+Filename: kernel-module-boxtype_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: boxtype kernel module
  boxtype kernel module; Provides the type of an STB based on STb710x
@@ -3714,15 +3714,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-bpamem
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-bpamem
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 79611802049d139f762f944980d96956
-Size: 3964
-Filename: kernel-module-bpamem_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: acdc5f04ef439abffb8cf107dcb29f9e
+Size: 3968
+Filename: kernel-module-bpamem_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: bpamem kernel module
  bpamem kernel module; Alloc BPA2 memory from user space
@@ -3854,15 +3854,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-cpu-frequ
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-cpu-frequ
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e7193379fa199068c960f6b70aa87099
-Size: 5650
-Filename: kernel-module-cpu-frequ_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 9206d834054542599e686d8c5e38b4ea
+Size: 5652
+Filename: kernel-module-cpu-frequ_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: cpu-frequ kernel module
  cpu-frequ kernel module; Set CPU clock frequency on STb710x
@@ -3888,15 +3888,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-cuberevo-micom
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-e2-proc
 Provides: kernel-module-cuberevo-micom
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2035cf634eae0c80be3328ec36fca761
-Size: 21128
-Filename: kernel-module-cuberevo-micom_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: a8eb632855058959d7c18e398f0c9839
+Size: 20568
+Filename: kernel-module-cuberevo-micom_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: cuberevo-micom kernel module
  cuberevo-micom kernel module; MICOM frontcontroller module (CubeRevo Mini
@@ -3906,15 +3906,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-cx24116
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-lnb-pio, kernel-module-lnbh221, kernel-module-socket
 Provides: kernel-module-cx24116
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ec903dc449364f0475cad4ccecd26589
-Size: 12638
-Filename: kernel-module-cx24116_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 1b85e12f4b3e36f8800b0eef2ec8a6cc
+Size: 12744
+Filename: kernel-module-cx24116_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: cx24116 kernel module
  cx24116 kernel module; Conexant CX24116/24118 frontend driver
@@ -3974,15 +3974,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-e2-proc
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-e2-proc
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c4b881b4a77218c05d2d204117577e6a
-Size: 7554
-Filename: kernel-module-e2-proc_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 34b1d5f37234064ef83679b7dcfca17d
+Size: 7570
+Filename: kernel-module-e2-proc_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: e2-proc kernel module
  e2-proc kernel module; procfs module with enigma2 support
@@ -4008,15 +4008,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-embxmailbox
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-embxshell
 Provides: kernel-module-embxmailbox
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f7a77145f6a6122ab046b194a39ac01e
-Size: 6810
-Filename: kernel-module-embxmailbox_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 9b0f1bf32a0fa127905265cfc825f0a5
+Size: 6808
+Filename: kernel-module-embxmailbox_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: embxmailbox kernel module
  embxmailbox kernel module; EMBX Utility Library to manage the hardware
@@ -4026,15 +4026,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-embxshell
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-embxshell
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cfed5063d4889db401c23ce1665910c6
-Size: 14064
-Filename: kernel-module-embxshell_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: c918a329053b33d6d9fab3b0f39028cf
+Size: 14066
+Filename: kernel-module-embxshell_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: embxshell kernel module
  embxshell kernel module; Extended EMBX Shell
@@ -4043,15 +4043,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-embxshm
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-embxmailbox, kernel-module-embxshell
 Provides: kernel-module-embxshm
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 825e28b4f848ad7a402d7ff610b28e3a
-Size: 17718
-Filename: kernel-module-embxshm_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 9eafd89dfc3b64484182b6def06f5747
+Size: 17720
+Filename: kernel-module-embxshm_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: embxshm kernel module
  embxshm kernel module; Extended EMBX Shared Memory Transport
@@ -4060,15 +4060,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-enigma
-Version: 7.6-r315
+Version: 7.6-r319
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-enigma
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b64a123223d09e55dacc0f638762f8c3
-Size: 6238
-Filename: kernel-module-enigma_7.6-r315_cuberevo_mini2.ipk
+MD5Sum: af1eaa092ab98b9d874f9b79ca185c0f
+Size: 6828
+Filename: kernel-module-enigma_7.6-r319_cuberevo_mini2.ipk
 Source: enigma-module.bb
 Description: enigma kernel module
  enigma kernel module; Open Vision information module
@@ -4452,15 +4452,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-frontend-platform
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-frontend-platform
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 03e624df34f8fc3dd7385a5befad1807
-Size: 2646
-Filename: kernel-module-frontend-platform_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 7266fdf856a6928f5a3ed1763dd68779
+Size: 2644
+Filename: kernel-module-frontend-platform_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: frontend-platform kernel module
  frontend-platform kernel module; Frontend platform module
@@ -4707,15 +4707,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-kreplay-fdma
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-ksound
 Provides: kernel-module-kreplay-fdma
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 013356ecfe90e9191f78209e7c9ce9a2
-Size: 4958
-Filename: kernel-module-kreplay-fdma_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 6169e1f598a51d2df08a429646d9d035
+Size: 4960
+Filename: kernel-module-kreplay-fdma_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: kreplay-fdma kernel module
  kreplay-fdma kernel module
@@ -4724,15 +4724,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-kreplay
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-ksound
 Provides: kernel-module-kreplay
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5782a220eaa5d4f165a26df355dc90f8
+MD5Sum: 2f4d64834ec6bcbffae371760f9b63ea
 Size: 3734
-Filename: kernel-module-kreplay_git1531+fd68071-openvision_cuberevo_mini2.ipk
+Filename: kernel-module-kreplay_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: kreplay kernel module
  kreplay kernel module
@@ -4741,15 +4741,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-ksound
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-ksound
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 34d9173f3e977b13c7d293f9039c3271
+MD5Sum: a7df3c3249ae0cbcd057cc8846663e68
 Size: 10990
-Filename: kernel-module-ksound_git1531+fd68071-openvision_cuberevo_mini2.ipk
+Filename: kernel-module-ksound_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: ksound kernel module
  ksound kernel module
@@ -4758,15 +4758,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-ktone
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-ksound
 Provides: kernel-module-ktone
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c4a298b585c5fb78066dda9ec1e9e74e
-Size: 3632
-Filename: kernel-module-ktone_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 1c9a6a444967c1b38f6c5093cd9358c1
+Size: 3630
+Filename: kernel-module-ktone_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: ktone kernel module
  ktone kernel module
@@ -4775,15 +4775,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-lnb-a8293
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-lnb-a8293
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4b00ee0585a9378c84f188755d6b09ae
+MD5Sum: 24a66c82d63d4ee47e23cf1a99571399
 Size: 3136
-Filename: kernel-module-lnb-a8293_git1531+fd68071-openvision_cuberevo_mini2.ipk
+Filename: kernel-module-lnb-a8293_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: lnb-a8293 kernel module
  lnb-a8293 kernel module; A8293 Handling
@@ -4792,15 +4792,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-lnb-pio
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-lnb-pio
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 04e7f8c1a1d073cb8c7d9543b67d65f2
+MD5Sum: 622bc5b9bd5641646ad648fcf5e18d97
 Size: 2892
-Filename: kernel-module-lnb-pio_git1531+fd68071-openvision_cuberevo_mini2.ipk
+Filename: kernel-module-lnb-pio_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: lnb-pio kernel module
  lnb-pio kernel module; LNB PIO Handling
@@ -4809,15 +4809,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-lnbh221
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-lnbh221
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 614426a1a2b49e57d8bd0e5ce449e2fc
+MD5Sum: 63c8a536856e0cfa902e2bd3ea0bbd0a
 Size: 2950
-Filename: kernel-module-lnbh221_git1531+fd68071-openvision_cuberevo_mini2.ipk
+Filename: kernel-module-lnbh221_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: lnbh221 kernel module
  lnbh221 kernel module; LNBH221 Handling
@@ -4843,15 +4843,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-mme-host
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-embxshell
 Provides: kernel-module-mme-host
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ca2d5c42678f2be019042db603428510
-Size: 20392
-Filename: kernel-module-mme-host_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 27354514eaf6d90d5fdf17a0ea2a59b9
+Size: 20394
+Filename: kernel-module-mme-host_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: mme-host kernel module
  mme-host kernel module; MME Module
@@ -4860,15 +4860,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-mmelog
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host
 Provides: kernel-module-mmelog
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1a662a9db14e16867194a807c02e54b6
-Size: 3302
-Filename: kernel-module-mmelog_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 607b89473f99a7209254d8e853d7a528
+Size: 3306
+Filename: kernel-module-mmelog_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: mmelog kernel module
  mmelog kernel module
@@ -4894,15 +4894,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-mpeg2hw
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host
 Provides: kernel-module-mpeg2hw
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e17b4e02773492512e2162c5fde80c1b
+MD5Sum: 74add5328bfb57b15fac8665d8502a81
 Size: 5948
-Filename: kernel-module-mpeg2hw_git1531+fd68071-openvision_cuberevo_mini2.ipk
+Filename: kernel-module-mpeg2hw_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: mpeg2hw kernel module
  mpeg2hw kernel module; Host transformer driver for STB71XX MPEG2 hardware
@@ -5628,15 +5628,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-p2div64
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-p2div64
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9c9513fc8657c945390347bf9fc235e6
-Size: 2322
-Filename: kernel-module-p2div64_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 5c6e65f116da88e2789cb018cb9ae0df
+Size: 2324
+Filename: kernel-module-p2div64_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: p2div64 kernel module
  p2div64 kernel module; Player2 64Bit Divide Driver
@@ -5679,15 +5679,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-pcm-transcoder
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host
 Provides: kernel-module-pcm-transcoder
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 16e189234de3562a3f1baf6438db3ba6
-Size: 3784
-Filename: kernel-module-pcm-transcoder_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: a4e68d50507e5711caa9c5a050341fe2
+Size: 3788
+Filename: kernel-module-pcm-transcoder_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: pcm-transcoder kernel module
  pcm-transcoder kernel module; Pcm transcoding MME transformer.
@@ -5730,15 +5730,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-platform
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-platform
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 54be9d0e136465fa0251448f7edd280a
-Size: 2350
-Filename: kernel-module-platform_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 40c9c9c077be9f0b8e637fca8c9aa15a
+Size: 2352
+Filename: kernel-module-platform_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: platform kernel module
  platform kernel module; Player2 Platform Driver
@@ -5747,15 +5747,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-player2-unified
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-player2-unified
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 24df523c72cd86c6798ca5dcdc865852
-Size: 2122
-Filename: kernel-module-player2-unified_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: a647c3cdf5018f478c524a389629c55b
+Size: 2120
+Filename: kernel-module-player2-unified_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: player2-unified kernel module
  player2-unified kernel module; Player2 Unified Driver
@@ -5764,15 +5764,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-player2
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-e2-proc, kernel-module-ksound, kernel-module-mme-host, kernel-module-p2div64, kernel-module-pseudocard, kernel-module-stm-monitor, kernel-module-stmcore-display-stx7109c3, kernel-module-stmdvb, kernel-module-stmsysfs
 Provides: kernel-module-player2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ce406bb7e6ea94a72f9c5636b1755a7b
-Size: 356084
-Filename: kernel-module-player2_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: fb590da02ff0cd9fef7b731516584da5
+Size: 356088
+Filename: kernel-module-player2_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: player2 kernel module
  player2 kernel module; Player2 backend implementation for STM streaming
@@ -5919,15 +5919,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-pseudocard
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-stmcore-display-stx7109c3
 Provides: kernel-module-pseudocard
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 95032cd7779891b8b9f9f079092b638a
-Size: 12480
-Filename: kernel-module-pseudocard_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: b5419c531a69bb01c727b5887968322a
+Size: 12482
+Filename: kernel-module-pseudocard_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: pseudocard kernel module
  pseudocard kernel module; Pseudo soundcard
@@ -5936,15 +5936,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-pti
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-pti
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0345a09fce747e55a241eaac083bcec8
-Size: 23794
-Filename: kernel-module-pti_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 919d40db51f8915c938186f89d42bdbd
+Size: 23796
+Filename: kernel-module-pti_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: pti kernel module
  pti kernel module; PTI driver
@@ -6057,15 +6057,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-silencegen
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host
 Provides: kernel-module-silencegen
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c1e0665082a3c74fe783c8c565c1c02f
+MD5Sum: 35f2967ad50857e0586296da6089b6e9
 Size: 2646
-Filename: kernel-module-silencegen_git1531+fd68071-openvision_cuberevo_mini2.ipk
+Filename: kernel-module-silencegen_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: silencegen kernel module
  silencegen kernel module; Trivial silence generating MME transformer.
@@ -6074,15 +6074,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-simu-button
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-simu-button
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1d1a42a3908f552f55d6a8f4d27d8843
+MD5Sum: 37156cf0702421f283dafaab193c7ba3
 Size: 2468
-Filename: kernel-module-simu-button_git1531+fd68071-openvision_cuberevo_mini2.ipk
+Filename: kernel-module-simu-button_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: simu-button kernel module
  simu-button kernel module; SH4 RC event driver
@@ -6108,15 +6108,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-smartcard
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-smartcard
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7b7720a035effb4969f8aed525e54409
-Size: 19098
-Filename: kernel-module-smartcard_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 706c45e88ee50075ee5959fba8ef1b36
+Size: 19104
+Filename: kernel-module-smartcard_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: smartcard kernel module
  smartcard kernel module; SmartCard Interface driver
@@ -6125,15 +6125,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-socket
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-socket
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 381e7f8709fbb455c8f689bf5a228482
-Size: 3448
-Filename: kernel-module-socket_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 3342e2456743ea311fc12aed5b3fbba1
+Size: 3450
+Filename: kernel-module-socket_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: socket kernel module
  socket kernel module; Multituner Socket Handling
@@ -6142,15 +6142,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-starci
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-starci
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b1d368fc32f6645f7c87ffb97f549c0c
-Size: 4316
-Filename: kernel-module-starci_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 2385789f7a92a1983bed4ccc8d49684a
+Size: 4320
+Filename: kernel-module-starci_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: starci kernel module
  starci kernel module; CI Controller
@@ -6159,15 +6159,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-sth264pp
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-player2
 Provides: kernel-module-sth264pp
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6e675ef0505a8f0f19cb17ad2301aa04
+MD5Sum: 3aeb8fa7430078e84243b6a73eb828e1
 Size: 6446
-Filename: kernel-module-sth264pp_git1531+fd68071-openvision_cuberevo_mini2.ipk
+Filename: kernel-module-sth264pp_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: sth264pp kernel module
  sth264pp kernel module
@@ -6176,15 +6176,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stm-monitor
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host, kernel-module-p2div64
 Provides: kernel-module-stm-monitor
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ae3df1d2ca2195290478dddd889e347d
-Size: 8180
-Filename: kernel-module-stm-monitor_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 571ff0e773658379159522cedfb1e6e1
+Size: 8182
+Filename: kernel-module-stm-monitor_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: stm-monitor kernel module
  stm-monitor kernel module; STM monitor.
@@ -6193,15 +6193,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stm-v4l2
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-stm-v4l2
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6a77b9ecb1d6be88101615edbb447b6b
+MD5Sum: da3a03bbd42a2dade0ec7b0b94d11c2e
 Size: 5496
-Filename: kernel-module-stm-v4l2_git1531+fd68071-openvision_cuberevo_mini2.ipk
+Filename: kernel-module-stm-v4l2_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: stm-v4l2 kernel module
  stm-v4l2 kernel module
@@ -6210,15 +6210,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmalloc
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-player2
 Provides: kernel-module-stmalloc
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f6f2349f0dfa49d6a2bd18ba9ddd7d41
-Size: 3826
-Filename: kernel-module-stmalloc_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 1744b5b0566f8c96bc85ee670d132559
+Size: 3828
+Filename: kernel-module-stmalloc_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: stmalloc kernel module
  stmalloc kernel module
@@ -6227,15 +6227,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmcore-display-stx7109c3
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-stmcore-display-stx7109c3
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 44e15a8bf690cde0ead32a7a594a7452
-Size: 119268
-Filename: kernel-module-stmcore-display-stx7109c3_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 6e6ca2a570aaf68306f85bfd61ab2e53
+Size: 119270
+Filename: kernel-module-stmcore-display-stx7109c3_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: stmcore-display-stx7109c3 kernel module
  stmcore-display-stx7109c3 kernel module
@@ -6244,15 +6244,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmdvb
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-avs, kernel-module-e2-proc, kernel-module-pseudocard, kernel-module-pti, kernel-module-socket, kernel-module-starci, kernel-module-stm-v4l2, kernel-module-stmcore-display-stx7109c3, kernel-module-stmfb
 Provides: kernel-module-stmdvb
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2083452a48b1e11b1579133b20e8082f
-Size: 52680
-Filename: kernel-module-stmdvb_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 5db65b38231c24ab5e44395d930dee58
+Size: 52684
+Filename: kernel-module-stmdvb_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: stmdvb kernel module
  stmdvb kernel module; Linux DVB video and audio driver for STM streaming
@@ -6262,15 +6262,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmfb
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-stmfb
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 593ad2a4084b318a26b4fb490b188db9
+MD5Sum: b79c132f0a72d49445101b8750f905b6
 Size: 22014
-Filename: kernel-module-stmfb_git1531+fd68071-openvision_cuberevo_mini2.ipk
+Filename: kernel-module-stmfb_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: stmfb kernel module
  stmfb kernel module
@@ -6279,15 +6279,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmsysfs
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-stmsysfs
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 59f9c07bbe551763d58e974cd262f1ac
-Size: 6748
-Filename: kernel-module-stmsysfs_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: a8f350aca6b7323e7a68d259bd5de849
+Size: 6750
+Filename: kernel-module-stmsysfs_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: stmsysfs kernel module
  stmsysfs kernel module; Sysfs driver for accessing STM streaming
@@ -6297,15 +6297,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmvbi
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-stm-v4l2, kernel-module-stmcore-display-stx7109c3
 Provides: kernel-module-stmvbi
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f751792179ff6b591100c4be06724656
-Size: 5404
-Filename: kernel-module-stmvbi_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 7ec90eb4d3e63690b8ac0fd1fa8fc839
+Size: 5402
+Filename: kernel-module-stmvbi_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: stmvbi kernel module
  stmvbi kernel module
@@ -6314,15 +6314,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmvout
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-stm-v4l2, kernel-module-stmcore-display-stx7109c3
 Provides: kernel-module-stmvout
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1642d754a46c46186f81b96b501534ad
-Size: 21658
-Filename: kernel-module-stmvout_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: f27b73dd5f8a27f3c5e218681dcf135a
+Size: 21660
+Filename: kernel-module-stmvout_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: stmvout kernel module
  stmvout kernel module
@@ -6331,15 +6331,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stv0288
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-lnb-pio, kernel-module-lnbh221, kernel-module-socket
 Provides: kernel-module-stv0288
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b5a7007aecc20e58d40e4c0fc107c1c4
-Size: 12550
-Filename: kernel-module-stv0288_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 7239dcd1d59368b622ad6f20912cd896
+Size: 12552
+Filename: kernel-module-stv0288_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: stv0288 kernel module
  stv0288 kernel module; STV0288 demodulator driver
@@ -6365,15 +6365,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-stv090x
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-lnb-pio, kernel-module-lnbh221, kernel-module-socket
 Provides: kernel-module-stv090x
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d5c06e2414a15144c183225c56c24282
-Size: 35640
-Filename: kernel-module-stv090x_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 10dcb8fa69475dc6e2e4c3a9eb6791cb
+Size: 35642
+Filename: kernel-module-stv090x_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: stv090x kernel module
  stv090x kernel module; Tunerdriver
@@ -6382,15 +6382,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-tda10023
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-socket
 Provides: kernel-module-tda10023
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ec2cc8f0cb2ea7656c4d42fda6ad59d3
-Size: 9236
-Filename: kernel-module-tda10023_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 0656df50bc9affc6acd84d48c05ea815
+Size: 9238
+Filename: kernel-module-tda10023_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: tda10023 kernel module
  tda10023 kernel module; Tuner driver
@@ -6536,15 +6536,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-zl10353
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-dvb-pll, kernel-module-socket
 Provides: kernel-module-zl10353
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a83057f90793be72b75c929a3b411b92
-Size: 8424
-Filename: kernel-module-zl10353_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 7ed54d57989f1275e3259b9d02983438
+Size: 8420
+Filename: kernel-module-zl10353_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: zl10353 kernel module
  zl10353 kernel module; ZL10353 Demodulator driver
@@ -6553,15 +6553,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-zram
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-zram
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3fc22b07c1d747ffed4b82622ee65362
-Size: 9802
-Filename: kernel-module-zram_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 9b58dacbf48722b4f26494b0c860e100
+Size: 9808
+Filename: kernel-module-zram_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: zram kernel module
  zram kernel module; Compressed RAM Block Device
@@ -6796,7 +6796,7 @@ Version: 1.0-r0
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 644802154123e7b3a755d6330d99f16a
+MD5Sum: fb8db4e88c84884d07576e60a6e12344
 Size: 714
 Filename: meta-enigma2-dvd-dbg_1.0-r0_cuberevo_mini2.ipk
 Source: meta-enigma2-dvd.bb
@@ -6814,8 +6814,8 @@ Recommends: cdfs-dev, cdrkit-dev, cdtextinfo-dev, dvdbackup-dev, gstreamer1.0-pl
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 104eaaa4689ccd86f037a4e6ebdd55b4
-Size: 804
+MD5Sum: 9933b27e46a6c742e6a58481d7a74a90
+Size: 806
 Filename: meta-enigma2-dvd-dev_1.0-r0_cuberevo_mini2.ipk
 Source: meta-enigma2-dvd.bb
 Description: meta-enigma2-dvd version 1.0-r0 - Development files
@@ -6831,8 +6831,8 @@ Version: 1.0-r0
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 164841edd1264f402d8dd8717b1fb50a
-Size: 718
+MD5Sum: 448b1f66bb9ca7a61eb9792c9d590954
+Size: 714
 Filename: meta-enigma2-dvdburn-dbg_1.0-r0_cuberevo_mini2.ipk
 Source: meta-enigma2-dvdburn.bb
 Description: meta-enigma2-dvdburn version 1.0-r0 - Debugging files
@@ -6849,8 +6849,8 @@ Recommends: bdremux-dev, cdrkit-dev, dvd+rw-tools-dev, dvdauthor-dev, gstreamer1
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d8b580969d0a487f122778d2d38896a0
-Size: 814
+MD5Sum: 9bc55f0841de6fdee391072d3fd787ee
+Size: 810
 Filename: meta-enigma2-dvdburn-dev_1.0-r0_cuberevo_mini2.ipk
 Source: meta-enigma2-dvdburn.bb
 Description: meta-enigma2-dvdburn version 1.0-r0 - Development files
@@ -6913,16 +6913,16 @@ License: GPLv2
 Priority: optional
 
 Package: openvision-branding-dbg
-Version: 7.6-r315
+Version: 7.6-r319
 Recommends: libc6-dbg
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d7168d06365c25f7dee1a4e62d536841
-Size: 18160
-Filename: openvision-branding-dbg_7.6-r315_cuberevo_mini2.ipk
+MD5Sum: 2a7669a0adb1b7287bf990ead8dfc811
+Size: 18180
+Filename: openvision-branding-dbg_7.6-r319_cuberevo_mini2.ipk
 Source: openvision-branding.bb
-Description: openvision-branding version 7.6-r315 - Debugging files
+Description: openvision-branding version 7.6-r319 - Debugging files
  Open Vision branding lib  This package contains ELF symbols and related
  sources for debugging purposes.
 OE: openvision-branding
@@ -6930,17 +6930,17 @@ License: GPLv2+
 Priority: optional
 
 Package: openvision-branding-dev
-Version: 7.6-r315
-Depends: openvision-branding (= 7.6-r315)
+Version: 7.6-r319
+Depends: openvision-branding (= 7.6-r319)
 Recommends: libc6-dev, python-dev
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 99505e9a13db43f8d5e9db302b68775a
-Size: 754
-Filename: openvision-branding-dev_7.6-r315_cuberevo_mini2.ipk
+MD5Sum: c8124b01823bf4a3b78ef854eebb97b1
+Size: 758
+Filename: openvision-branding-dev_7.6-r319_cuberevo_mini2.ipk
 Source: openvision-branding.bb
-Description: openvision-branding version 7.6-r315 - Development files
+Description: openvision-branding version 7.6-r319 - Development files
  Open Vision branding lib  This package contains symbolic links, header
  files, and related items necessary for software development.
 OE: openvision-branding
@@ -6948,31 +6948,31 @@ License: GPLv2+
 Priority: optional
 
 Package: openvision-branding
-Version: 7.6-r315
+Version: 7.6-r319
 Depends: libc6 (>= 2.25)
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6d2bfd47df393262f46aac1ca3821a20
-Size: 8520
-Filename: openvision-branding_7.6-r315_cuberevo_mini2.ipk
+MD5Sum: 7d51bfea1e710065436e1008d0adda26
+Size: 8526
+Filename: openvision-branding_7.6-r319_cuberevo_mini2.ipk
 Source: openvision-branding.bb
-Description: openvision-branding version 7.6-r315
+Description: openvision-branding version 7.6-r319
  Open Vision branding lib
 OE: openvision-branding
 License: GPLv2+
 Priority: optional
 
 Package: openvision-version-info
-Version: 7.6-r315
+Version: 7.6-r319
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 56d9039e495493bcee94d8395aef6b8a
+MD5Sum: 74c7b4b699cb78e55051055e3cd345dc
 Size: 2272
-Filename: openvision-version-info_7.6-r315_cuberevo_mini2.ipk
+Filename: openvision-version-info_7.6-r319_cuberevo_mini2.ipk
 Source: openvision-version-info.bb
-Description: openvision-version-info version 7.6-r315
+Description: openvision-version-info version 7.6-r319
  Open Vision version info
 OE: openvision-version-info
 License: GPLv2+
@@ -6983,7 +6983,7 @@ Version: git9+1e12c70-r0
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 976e999bb206fe13da8649e27df22545
+MD5Sum: 275a8ba5833173a54b9c41e6cf2f62f4
 Size: 718
 Filename: openwebif-remotes-dbg_git9+1e12c70-r0_cuberevo_mini2.ipk
 Source: openwebif-remotes.bb
@@ -7000,8 +7000,8 @@ Depends: openwebif-remotes (= git9+1e12c70-r0)
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6c442df14e89570acf5db5008fabbd15
-Size: 752
+MD5Sum: 75f783a908298589dc8012f50fcaafd8
+Size: 750
 Filename: openwebif-remotes-dev_git9+1e12c70-r0_cuberevo_mini2.ipk
 Source: openwebif-remotes.bb
 Description: RC files and STB pictures for Open WebIF - Development files
@@ -7017,8 +7017,8 @@ Version: git9+1e12c70-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f177c5e2534983e76094c80da96bd7b7
-Size: 70072
+MD5Sum: 26cfa21aee125b5c4364a04de94b434c
+Size: 70114
 Filename: openwebif-remotes-extra_git9+1e12c70-r0_cuberevo_mini2.ipk
 Source: openwebif-remotes.bb
 Description: RC files and STB pictures for Open WebIF
@@ -7032,7 +7032,7 @@ Version: git9+1e12c70-r0
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6f3e53963af76710b80a30817ce4fbb5
+MD5Sum: 198d2b1991783dc1e3c6b1dc140634ad
 Size: 1664
 Filename: openwebif-remotes_git9+1e12c70-r0_cuberevo_mini2.ipk
 Source: openwebif-remotes.bb
@@ -7637,8 +7637,8 @@ Recommends: base-files-dbg, base-passwd-dbg, busybox-dbg, devinit-dbg, eeprom-dg
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 01e97bf7024808d14343e45057e5a7a7
-Size: 910
+MD5Sum: d217b986cae4b26cab7819529b232e45
+Size: 914
 Filename: packagegroup-core-boot-dbg_1.0-r17_cuberevo_mini2.ipk
 Source: packagegroup-core-boot.bb
 Description: Minimal boot requirements - Debugging files
@@ -7655,8 +7655,8 @@ Recommends: base-files-dev, base-passwd-dev, busybox-dev, devinit-dev, eeprom-dg
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 377f2a7b2e2322cfa44c4968ddaea333
-Size: 936
+MD5Sum: cfd7fc01ce0d7e172b32359b8fd76931
+Size: 938
 Filename: packagegroup-core-boot-dev_1.0-r17_cuberevo_mini2.ipk
 Source: packagegroup-core-boot.bb
 Description: Minimal boot requirements - Development files
@@ -7674,8 +7674,8 @@ Recommends: firmware-mt7601u, firmware-mt7650, firmware-rt2870, firmware-rt73, f
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 35939f46f29d24a03f93551c9274323b
-Size: 932
+MD5Sum: 576d98490564623aadcf0c05bb9b142d
+Size: 930
 Filename: packagegroup-core-boot_1.0-r17_cuberevo_mini2.ipk
 Source: packagegroup-core-boot.bb
 Description: Minimal boot requirements
@@ -7827,15 +7827,15 @@ License: GPLv2
 Priority: optional
 
 Package: sh4-dvb-modules-dev
-Version: git1531+fd68071-openvision
-Depends: sh4-dvb-modules (= git1531+fd68071-openvision)
+Version: git1531+1f2bf7d-openvision
+Depends: sh4-dvb-modules (= git1531+1f2bf7d-openvision)
 Recommends: kernel-2.6.32.81_stm24_0217-dev, kernel-module-avs-dev, kernel-module-boxtype-dev, kernel-module-bpamem-dev, kernel-module-cpu-frequ-dev, kernel-module-cuberevo-micom-dev, kernel-module-cx24116-dev, kernel-module-dvb-pll-dev, kernel-module-e2-proc-dev, kernel-module-embxmailbox-dev, kernel-module-embxshell-dev, kernel-module-embxshm-dev, kernel-module-frontend-platform-dev, kernel-module-kreplay-dev, kernel-module-kreplay-fdma-dev, kernel-module-ksound-dev, kernel-module-ktone-dev, kernel-module-lnb-a8293-dev, kernel-module-lnb-pio-dev, kernel-module-lnbh221-dev, kernel-module-mme-host-dev, kernel-module-mmelog-dev, kernel-module-mpeg2hw-dev, kernel-module-p2div64-dev, kernel-module-pcm-transcoder-dev, kernel-module-platform-dev, kernel-module-player2-dev, kernel-module-player2-unified-dev, kernel-module-pseudocard-dev, kernel-module-pti-dev, kernel-module-silencegen-dev, kernel-module-simu-button-dev, kernel-module-smartcard-dev, kernel-module-socket-dev, kernel-module-starci-dev, kernel-module-sth264pp-dev, kernel-module-stm-monitor-dev, kernel-module-stm-v4l2-dev, kernel-module-stmalloc-dev, kernel-module-stmcore-display-stx7109c3-dev, kernel-module-stmdvb-dev, kernel-module-stmfb-dev, kernel-module-stmsysfs-dev, kernel-module-stmvbi-dev, kernel-module-stmvout-dev, kernel-module-stv0288-dev, kernel-module-stv090x-dev, kernel-module-tda10023-dev, kernel-module-zl10353-dev, kernel-module-zram-dev
 Section: devel
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 524aa7db5b0ecc4971b007b8e72a2ccb
-Size: 15744
-Filename: sh4-dvb-modules-dev_git1531+fd68071-openvision_cuberevo_mini2.ipk
+MD5Sum: 865c3530936811a3603eba15970ee408
+Size: 15746
+Filename: sh4-dvb-modules-dev_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: SH4 driver modules - Development files
  SH4 driver modules  This package contains symbolic links, header files,
@@ -7845,7 +7845,7 @@ License: GPLv2+
 Priority: required
 
 Package: sh4-dvb-modules
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-module-avs, kernel-module-boxtype, kernel-module-bpamem, kernel-module-cpu-frequ, kernel-module-cuberevo-micom, kernel-module-cx24116, kernel-module-e2-proc, kernel-module-embxmailbox, kernel-module-embxshell, kernel-module-embxshm, kernel-module-frontend-platform, kernel-module-kreplay, kernel-module-kreplay-fdma, kernel-module-ksound, kernel-module-ktone, kernel-module-lnb-a8293, kernel-module-lnb-pio, kernel-module-lnbh221, kernel-module-mme-host, kernel-module-mmelog, kernel-module-mpeg2hw, kernel-module-p2div64, kernel-module-pcm-transcoder, kernel-module-platform, kernel-module-player2, kernel-module-player2-unified, kernel-module-pseudocard, kernel-module-pti, kernel-module-silencegen, kernel-module-simu-button, kernel-module-smartcard, kernel-module-socket, kernel-module-starci, kernel-module-sth264pp, kernel-module-stm-monitor, kernel-module-stm-v4l2, kernel-module-stmalloc, kernel-module-stmcore-display-stx7109c3, kernel-module-stmdvb, kernel-module-stmfb, kernel-module-stmsysfs, kernel-module-stmvbi, kernel-module-stmvout, kernel-module-stv0288, kernel-module-stv090x, kernel-module-tda10023, kernel-module-zl10353, kernel-module-zram
 Provides: sh4-dvb-modules
 Replaces: sh4-dvb-modules
@@ -7853,9 +7853,9 @@ Conflicts: sh4-dvb-modules
 Section: base
 Architecture: cuberevo_mini2
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: da427754be873fff1c4671a7fa6b2d6a
+MD5Sum: 1c21f0bc06b2e17fbd48b31884d69b0c
 Size: 3054
-Filename: sh4-dvb-modules_git1531+fd68071-openvision_cuberevo_mini2.ipk
+Filename: sh4-dvb-modules_git1531+1f2bf7d-openvision_cuberevo_mini2.ipk
 Source: sh4-dvb-modules.bb
 Description: SH4 driver modules
  SH4 driver modules

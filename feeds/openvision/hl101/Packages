@@ -144,8 +144,8 @@ Recommends: gstreamer1.0-dbg, libc6-dbg, libglib-2.0-dbg
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c85a257426a09d687636e7633895b96b
-Size: 22996
+MD5Sum: f350810a287b7f9f5915f9d20eff3997
+Size: 22992
 Filename: bdremux-dbg_git+git9+96606cc-r0_hl101.ipk
 Source: bdremux_git.bb
 Description: bdremux - a blu-ray movie stream remuxer - Debugging files
@@ -162,8 +162,8 @@ Recommends: gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, libc6-dev, libglib-
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cee82d2f901ba671fe45599a4bd1e15f
-Size: 784
+MD5Sum: 85f5d754f1f0f511b9393d1d6baabc83
+Size: 780
 Filename: bdremux-dev_git+git9+96606cc-r0_hl101.ipk
 Source: bdremux_git.bb
 Description: bdremux - a blu-ray movie stream remuxer - Development files
@@ -180,8 +180,8 @@ Depends: gstreamer1.0 (>= 1.18.4), libc6 (>= 2.25), libglib-2.0-0 (>= 2.50.3)
 Section: multimedia
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 46bf38807f05bfba5d93d8431e89e3c4
-Size: 10534
+MD5Sum: 539508c910d4625a1c10b01cef331b4f
+Size: 10532
 Filename: bdremux_git+git9+96606cc-r0_hl101.ipk
 Source: bdremux_git.bb
 Description: bdremux - a blu-ray movie stream remuxer
@@ -196,7 +196,7 @@ Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2cb229dfd14a159aa1a33c49a845a06f
+MD5Sum: 3a6add7c52abdeeaed2df3aa6815a195
 Size: 63464
 Filename: bitratecalc-dbg_git10+740b342-r0_hl101.ipk
 Source: bitratecalc_git.bb
@@ -214,7 +214,7 @@ Recommends: enigma2-dev, libc6-dev, libgcc-s-dev, libstdc++-dev, python-dev
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0130527c2998810afbc172c76f425a63
+MD5Sum: e2ec1256769d9e69486f2a80bd0bec94
 Size: 814
 Filename: bitratecalc-dev_git10+740b342-r0_hl101.ipk
 Source: bitratecalc_git.bb
@@ -232,8 +232,8 @@ Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d1a0b963a5efe46ca1812e3e2970f1ba
-Size: 6802
+MD5Sum: 537c7babc663040d2f700197f33a9bf5
+Size: 6800
 Filename: bitratecalc_git10+740b342-r0_hl101.ipk
 Source: bitratecalc_git.bb
 Description: bitratecalc version gitAUTOINC+740b342ae4-r0
@@ -345,13 +345,13 @@ License: MIT
 Priority: optional
 
 Package: enigma-module-dbg
-Version: 7.6-r315
+Version: 7.6-r319
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4ca8b2d951a3fa053f62de86919a29e3
-Size: 728
-Filename: enigma-module-dbg_7.6-r315_hl101.ipk
+MD5Sum: 3ba144f75089109eaa3d3a6b81f8bda3
+Size: 724
+Filename: enigma-module-dbg_7.6-r319_hl101.ipk
 Source: enigma-module.bb
 Description: Enigma kernel module for hl101 - Debugging files
  Enigma kernel module for hl101.  This package contains ELF symbols and
@@ -362,15 +362,15 @@ License: GPLv3
 Priority: required
 
 Package: enigma-module-dev
-Version: 7.6-r315
-Depends: enigma-module (= 7.6-r315)
+Version: 7.6-r319
+Depends: enigma-module (= 7.6-r319)
 Recommends: kernel-2.6.32.81_stm24_0217-dev, kernel-module-enigma-dev
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 108de50cfb39eb87f4bfe5796229804a
-Size: 796
-Filename: enigma-module-dev_7.6-r315_hl101.ipk
+MD5Sum: 454cb4a1f57e02df4704aba19c1302ef
+Size: 794
+Filename: enigma-module-dev_7.6-r319_hl101.ipk
 Source: enigma-module.bb
 Description: Enigma kernel module for hl101 - Development files
  Enigma kernel module for hl101.  This package contains symbolic links,
@@ -381,14 +381,14 @@ License: GPLv3
 Priority: required
 
 Package: enigma-module
-Version: 7.6-r315
+Version: 7.6-r319
 Depends: kernel-module-enigma
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7203b7d1aee89f7be4b52d1506aa7aa4
-Size: 772
-Filename: enigma-module_7.6-r315_hl101.ipk
+MD5Sum: 53425b5f1967940e0e05c9df7ce3c91a
+Size: 1378
+Filename: enigma-module_7.6-r319_hl101.ipk
 Source: enigma-module.bb
 Description: Enigma kernel module for hl101
  Enigma kernel module for hl101.
@@ -403,8 +403,8 @@ Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg, libtirpc-dbg
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 426e9fa4d38110a19d51135c0e53893b
-Size: 129620
+MD5Sum: 9389303843cb8486d137f52371d719cd
+Size: 129622
 Filename: enigma2-c-plugins-dbg_git40+9b3898b-r0_hl101.ipk
 Source: enigma2-c-plugins.bb
 Description: C plugins for Open Vision - Debugging files
@@ -421,8 +421,8 @@ Recommends: enigma2-dev, gstreamer1.0-plugins-bad-fragmented-dev, hairtunes-dev,
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0a875bbef7dc3eae55e40236b0b7d7d2
-Size: 828
+MD5Sum: b3d361f4dc3c963bf0a7567b9d57dac8
+Size: 824
 Filename: enigma2-c-plugins-dev_git40+9b3898b-r0_hl101.ipk
 Source: enigma2-c-plugins.bb
 Description: C plugins for Open Vision - Development files
@@ -437,8 +437,8 @@ Version: git40+9b3898b-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 21602c254c32f1c150749b658225b74e
-Size: 1354
+MD5Sum: fa61b64e3059b1571e031ecb64018532
+Size: 1352
 Filename: enigma2-c-plugins-meta_git40+9b3898b-r0_hl101.ipk
 Source: enigma2-c-plugins.bb
 Description: C plugins for Open Vision
@@ -452,7 +452,7 @@ Version: git40+9b3898b-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9d40a44494c20ce1d9fa448b3045d618
+MD5Sum: 61fc3b967af3ec10904acd97b7f89e10
 Size: 636
 Filename: enigma2-c-plugins_git40+9b3898b-r0_hl101.ipk
 Source: enigma2-c-plugins.bb
@@ -463,14 +463,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-dbg
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Recommends: libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypto-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libgomp-dbg, libjpeg-dbg, libmmeimage-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libudfread-dbg, libxml2-dbg
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 98f539049bdb3176d827847354125bf9
-Size: 11409004
-Filename: enigma2-dbg_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: d821bbf2567be61cc51e757427eea9fe
+Size: 11553496
+Filename: enigma2-dbg_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Debugging files
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -481,15 +481,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-dev
-Version: develop+git23890+c3a98a5-r0
-Depends: enigma2 (= develop+git23890+c3a98a5-r0)
+Version: develop+git23960+5a1aae8-r0
+Depends: enigma2 (= develop+git23960+5a1aae8-r0)
 Recommends: aio-grab-dev, alsa-conf-dev, alsa-utils-amixer-conf-dev, avahi-dev, cdrkit-dev, dhrystone-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma-module-dev, enigma2-data-iso-639-3-dev, enigma2-fonts-dev, enigma2-plugin-extensions-pespeedup-dev, enigma2-remotes-dev, enigma2-timezones-dev, ethtool-dev, font-valis-enigma-dev, glibc-gconv-cp1250-dev, glibc-gconv-iso8859-15-dev, gstreamer1.0-plugins-bad-mpegtsmux-dev, gstreamer1.0-plugins-bad-videoparsersbad-dev, hotplug-e2-helper-dev, jpeg-dev, kernel-module-pktcdvd-dev, kernel-module-udf-dev, libavahi-client-dev, libavahi-common-dev, libc6-dev, libcrypto-dev, libdreamdvd-dev, libdvbsi++-dev, libfreetype-dev, libfribidi-dev, libgcc-s-dev, libgif-dev, libglib-2.0-dev, libgomp-dev, libjpeg-dev, libmad-dev, libmme-host-dev, libmmeimage-dev, libpng16-dev, libpython2-dev, libsigc-2.0-dev, libssl-dev, libstdc++-dev, libtuxtxt-dev, libtuxtxt32bpp-dev, libudfread-dev, libxml2-dev, mjpegtools-dev, ntpdate-dev, ofgwrite-dev, openssl-dev, openvision-version-info-dev, python-codecs-dev, python-core-dev, python-crypt-dev, python-fcntl-dev, python-image-dev, python-imaging-dev, python-lang-dev, python-mmap-dev, python-netclient-dev, python-netifaces-dev, python-netserver-dev, python-numbers-dev, python-pickle-dev, python-process-dev, python-pyusb-dev, python-re-dev, python-sendfile-dev, python-service-identity-dev, python-shell-dev, python-six-dev, python-threading-dev, python-twisted-core-dev, python-twisted-dev, python-twisted-web-dev, python-wifi-dev, python-xml-dev, python-zlib-dev, python-zopeinterface-dev, replex-dev, streambench-dev, virtual/enigma2-mediaservice-dev, wireless-tools-dev, wpa-supplicant-dev
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 793792655374b26f61991192fa57fc2a
-Size: 161454
-Filename: enigma2-dev_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: ba12b6efd2cb3a812b8294af08d91d9b
+Size: 160400
+Filename: enigma2-dev_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Development files
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -504,8 +504,8 @@ Version: 2020.10.17-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8a7a8b054368fe1f36864bc0848739dc
-Size: 1077328
+MD5Sum: 73591796cb39165553bd94b4f9223305
+Size: 1077336
 Filename: enigma2-fonts_2020.10.17-r0_hl101.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
@@ -516,14 +516,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ar
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f327557c7370dee142418e2e5c38374c
-Size: 71524
-Filename: enigma2-locale-ar_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 09da7f243f271af1530eb3761d150b93
+Size: 71448
+Filename: enigma2-locale-ar_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: ar
  ar
@@ -532,14 +532,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-bg
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 725c25c19849d696ce81230864cec2af
-Size: 112738
-Filename: enigma2-locale-bg_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 059cdaabb84506c9b03db19f4291f0b1
+Size: 112560
+Filename: enigma2-locale-bg_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: bg
  bg
@@ -548,14 +548,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ca
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ffb161f0854759c27a8e999cd3938c1f
-Size: 106774
-Filename: enigma2-locale-ca_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: afd00d9824c31244d42bd0ca1a91051c
+Size: 106572
+Filename: enigma2-locale-ca_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: ca
  ca
@@ -564,14 +564,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-cs
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 180116949c1343c7e4eda20938fc680a
-Size: 105188
-Filename: enigma2-locale-cs_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 73542d6070662b6a5db5bb7662991e2f
+Size: 105688
+Filename: enigma2-locale-cs_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: cs
  cs
@@ -580,14 +580,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-da
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 02b9cb4ac43b81a514e3722f705f73e7
-Size: 70482
-Filename: enigma2-locale-da_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 3721a4bd73ba348232878b0a0725aafd
+Size: 70426
+Filename: enigma2-locale-da_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: da
  da
@@ -596,14 +596,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-de
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a901d96c4fae5f3d4dcb30d2445a4b7f
-Size: 106024
-Filename: enigma2-locale-de_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: f9db4b80d80b21ae64b352e70ba847e5
+Size: 105822
+Filename: enigma2-locale-de_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: de
  de
@@ -612,14 +612,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-el
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 41eda732a2b726bf7e0b487d89015ba3
-Size: 117118
-Filename: enigma2-locale-el_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 0ad28cf7d8078b3412daa3c864f40be5
+Size: 116838
+Filename: enigma2-locale-el_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: el
  el
@@ -628,14 +628,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-en
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1a66909535516b0eddcb59291e023b92
-Size: 51540
-Filename: enigma2-locale-en_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 9d7ec882072f206a28e2acab569a9058
+Size: 51494
+Filename: enigma2-locale-en_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: en
  en
@@ -644,14 +644,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-es
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 524b3a99de018b0d80a5077c83f499f3
-Size: 129380
-Filename: enigma2-locale-es_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 0e5af59b5667dbf6f41a850a5ff0f870
+Size: 129642
+Filename: enigma2-locale-es_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: es
  es
@@ -660,14 +660,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-et
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1935783c558818935ebafcd36aee6254
-Size: 89730
-Filename: enigma2-locale-et_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: d0f0a4e3c31a9543ca7c60d5ff76a301
+Size: 89582
+Filename: enigma2-locale-et_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: et
  et
@@ -676,14 +676,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fa
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 79f94150ade81093a44a0ee57c2aad0b
-Size: 28834
-Filename: enigma2-locale-fa_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: a7cdedc3492864ad161e3e948a38e39d
+Size: 28762
+Filename: enigma2-locale-fa_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: fa
  fa
@@ -692,14 +692,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fi
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7fddd229ebb0536be6d4e150bb185c7e
-Size: 85256
-Filename: enigma2-locale-fi_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 3c81edef1e31b904ddb3719141e153b7
+Size: 85070
+Filename: enigma2-locale-fi_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: fi
  fi
@@ -708,14 +708,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fr
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9784d03f318b35bd3cfe6d5680913017
-Size: 107070
-Filename: enigma2-locale-fr_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 00acdde39ad33bae332acccb00d2e63d
+Size: 107078
+Filename: enigma2-locale-fr_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: fr
  fr
@@ -724,14 +724,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fy
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bc5e6cf9c03764a85f28b0ce8a499d87
-Size: 20006
-Filename: enigma2-locale-fy_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 792cff046f795616d72da96ef495d787
+Size: 19980
+Filename: enigma2-locale-fy_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: fy
  fy
@@ -740,14 +740,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-gl
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 966adb15bde5b2c3dd4cee3d4e66c844
-Size: 103670
-Filename: enigma2-locale-gl_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 932b6b423ab945ea625db03f27101335
+Size: 103564
+Filename: enigma2-locale-gl_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: gl
  gl
@@ -756,14 +756,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-he
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7b7454f0fe55314a7b30871c8721b384
-Size: 21450
-Filename: enigma2-locale-he_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: a8bb7d28c87d092b1f7e8cbf01af60ea
+Size: 21396
+Filename: enigma2-locale-he_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: he
  he
@@ -772,14 +772,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-hr
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9c00cad570a78ad57ea3d650af65f989
-Size: 104904
-Filename: enigma2-locale-hr_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: d7c95e7f939265323020abd42b7b46ec
+Size: 104852
+Filename: enigma2-locale-hr_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: hr
  hr
@@ -788,14 +788,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-hu
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d524baa0b46788f13dfc06c3bacf8be8
-Size: 106234
-Filename: enigma2-locale-hu_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 68ae2988c436e07e921f817049026101
+Size: 106070
+Filename: enigma2-locale-hu_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: hu
  hu
@@ -804,14 +804,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-id
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6601eaf306094dd3ac6a196a0fc35c2f
-Size: 90516
-Filename: enigma2-locale-id_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 069d601c84f8a3c737dc8b60a801a0e9
+Size: 90384
+Filename: enigma2-locale-id_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: id
  id
@@ -820,14 +820,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-is
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 367bd385be7b0c5ec9c0246b4e78a4ea
-Size: 27860
-Filename: enigma2-locale-is_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 42f59d6b035a2465f573eaa10c8705fc
+Size: 27812
+Filename: enigma2-locale-is_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: is
  is
@@ -836,14 +836,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-it
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 08ed4b8f1c2cb084fa9221d378f9537f
-Size: 97948
-Filename: enigma2-locale-it_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 59724cd856c9ea0f2b6278bf8f449830
+Size: 97794
+Filename: enigma2-locale-it_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: it
  it
@@ -852,14 +852,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ku
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ff4799b5553b1c3290cfeea417b928c4
-Size: 51134
-Filename: enigma2-locale-ku_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: f06c697b68faac89922d0fb77e56af05
+Size: 51090
+Filename: enigma2-locale-ku_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: ku
  ku
@@ -868,14 +868,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-lt
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3a8285a27d7b3b737eb41e93c10af25a
-Size: 107504
-Filename: enigma2-locale-lt_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 3f7b9f3e0f0a2e8981b39b2d3f7a54d0
+Size: 107494
+Filename: enigma2-locale-lt_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: lt
  lt
@@ -884,14 +884,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-lv
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b6f1d31a9ec7ced1a0514cf54bf9f069
-Size: 102750
-Filename: enigma2-locale-lv_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 6a8eb3c6e57f827533a6296aafd513c4
+Size: 102664
+Filename: enigma2-locale-lv_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: lv
  lv
@@ -904,8 +904,8 @@ Version: 1.0-r0
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d6d6057590fe8ea34956eda18e92c0af
-Size: 692
+MD5Sum: 4ea5dc5b21966ca2992da2a8e4fe0b12
+Size: 694
 Filename: enigma2-locale-meta-dbg_1.0-r0_hl101.ipk
 Source: enigma2-locale-meta.bb
 Description: meta file for enigma2 locales - Debugging files
@@ -921,8 +921,8 @@ Depends: enigma2-locale-meta (= 1.0-r0)
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e18e22866fbb0b0e0491479645f7126d
-Size: 724
+MD5Sum: 0cd3473c21db85b10eb7896014868217
+Size: 722
 Filename: enigma2-locale-meta-dev_1.0-r0_hl101.ipk
 Source: enigma2-locale-meta.bb
 Description: meta file for enigma2 locales - Development files
@@ -938,7 +938,7 @@ Recommends: enigma2-locale-ar, enigma2-locale-bg, enigma2-locale-ca, enigma2-loc
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d081f7bc08bb23d5d31284d4faaef707
+MD5Sum: fd8c514df880edae7c4c2fff8d8c8c42
 Size: 764
 Filename: enigma2-locale-meta_1.0-r0_hl101.ipk
 Source: enigma2-locale-meta.bb
@@ -949,14 +949,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-locale-mk
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b8ed6b2a20fe9a190910389138ead8e3
-Size: 115590
-Filename: enigma2-locale-mk_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: bd5f81fcc54c0bcd7e3dae1753adb660
+Size: 115432
+Filename: enigma2-locale-mk_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: mk
  mk
@@ -965,14 +965,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-nb
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 35b0335050cddc60d54e7122fa7c401b
-Size: 102620
-Filename: enigma2-locale-nb_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 9025c8a8bade7ddfecf71fdec3465795
+Size: 102146
+Filename: enigma2-locale-nb_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: nb
  nb
@@ -981,14 +981,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-nl
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ee9305aa74fc9f0aac6d2a3c0f93dae9
-Size: 109870
-Filename: enigma2-locale-nl_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: f8adc3e5d1b197ca88c850ba1aae26b2
+Size: 109672
+Filename: enigma2-locale-nl_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: nl
  nl
@@ -997,14 +997,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-nn
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e69edb0279e0575cc4fc5f0e4a58baa6
-Size: 53276
-Filename: enigma2-locale-nn_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: fb988444562e474a2c9ac687a393caca
+Size: 53216
+Filename: enigma2-locale-nn_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: nn
  nn
@@ -1013,14 +1013,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pl
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b7f3a1ab28ab3996280ea8c230d7ebd9
-Size: 100218
-Filename: enigma2-locale-pl_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 5ca373a14d9f40b2e49ce76646d83757
+Size: 100034
+Filename: enigma2-locale-pl_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: pl
  pl
@@ -1029,14 +1029,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pt-br
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3cf236a9e013aed1fd6f4f1fb5891cd1
-Size: 52818
-Filename: enigma2-locale-pt-br_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 160251b09a606cf31bf4a4028183cd34
+Size: 52768
+Filename: enigma2-locale-pt-br_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: pt-br
  pt-br
@@ -1045,14 +1045,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pt
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d8f9ec72b59fa1785b1a5d48125f4ed5
-Size: 50442
-Filename: enigma2-locale-pt_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: d71a530d67ed5a6cdd99730c7d0d3d5c
+Size: 50390
+Filename: enigma2-locale-pt_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: pt
  pt
@@ -1061,14 +1061,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ro
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 046cb55695eecc9ba613b60eb7166272
-Size: 21738
-Filename: enigma2-locale-ro_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: de39b0b9794025ef18e6c4ab2d197a44
+Size: 21682
+Filename: enigma2-locale-ro_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: ro
  ro
@@ -1077,14 +1077,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ru
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: aa186c434b26cc6f093e44da292bb7cc
-Size: 116932
-Filename: enigma2-locale-ru_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 6ba4a74dc637d258cd3e7f2a0bb1adae
+Size: 116760
+Filename: enigma2-locale-ru_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: ru
  ru
@@ -1093,14 +1093,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sk
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d852bb07d02b347a4f3ca48448855bab
-Size: 107298
-Filename: enigma2-locale-sk_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 9323d2d2a6b8ebbfa72420f0e4d338a6
+Size: 107212
+Filename: enigma2-locale-sk_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: sk
  sk
@@ -1109,14 +1109,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sl
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6cb09daff18b021ddd5598add7921210
-Size: 60538
-Filename: enigma2-locale-sl_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 058a0dade0a909959de7168b4470fbf7
+Size: 60452
+Filename: enigma2-locale-sl_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: sl
  sl
@@ -1125,14 +1125,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sr
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: efa65a51b47f3738fc0e11d82ae81e31
-Size: 28044
-Filename: enigma2-locale-sr_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: e0d08b457144fe83210711f343da03fd
+Size: 28010
+Filename: enigma2-locale-sr_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: sr
  sr
@@ -1141,14 +1141,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sv
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 70ca59db27cf995001992f0339b6b18b
-Size: 71536
-Filename: enigma2-locale-sv_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 8a3887e01f0d639bc617d65c2a9ef92c
+Size: 71462
+Filename: enigma2-locale-sv_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: sv
  sv
@@ -1157,14 +1157,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-th
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b4a83daf3369fb56919a11bc9da64c42
-Size: 27136
-Filename: enigma2-locale-th_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: b89d06fbd300fa187a348ddcd32ec216
+Size: 27116
+Filename: enigma2-locale-th_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: th
  th
@@ -1173,14 +1173,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-tr
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d247adc3b0ac448e70ebf618313afc8b
-Size: 67910
-Filename: enigma2-locale-tr_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 3cd656c9be8f47d115f5c6529823b469
+Size: 67864
+Filename: enigma2-locale-tr_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: tr
  tr
@@ -1189,14 +1189,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-uk
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c7efd1519a2dc50cc11b59a203febc51
-Size: 115620
-Filename: enigma2-locale-uk_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 20fc01e587ed4c0e653ed8574ef05ed8
+Size: 115444
+Filename: enigma2-locale-uk_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: uk
  uk
@@ -1205,14 +1205,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-vi
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6c8c14b71b21bc1e2372446d12b810a5
-Size: 100672
-Filename: enigma2-locale-vi_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 21f854ddbc3a3a556bab40c961cdb5a2
+Size: 100498
+Filename: enigma2-locale-vi_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: vi
  vi
@@ -1221,14 +1221,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-zh-cn
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fcad64cb05ac7d16b4576667ba27da2a
-Size: 87756
-Filename: enigma2-locale-zh-cn_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: c080e6588d216582c106437f0fc7c649
+Size: 87630
+Filename: enigma2-locale-zh-cn_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: zh-cn
  zh-cn
@@ -1237,14 +1237,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-zh-hk
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6d40db7ac71d4c6dc40a8d2d187d18ad
-Size: 25880
-Filename: enigma2-locale-zh-hk_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 5b0a651dcf7cd5daf54d32fdbc2cc260
+Size: 25844
+Filename: enigma2-locale-zh-hk_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: zh-hk
  zh-hk
@@ -1253,13 +1253,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-meta
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5537034a0e425410874d1de90a55b654
-Size: 4768
-Filename: enigma2-meta_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 0d4147e269a761d8c4361804866d23ec
+Size: 4772
+Filename: enigma2-meta_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -2119,8 +2119,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c200ecaa2b7d04828b83ca314bea7665
-Size: 4510
+MD5Sum: 1515f46d35159bb75447bfef07f1cb61
+Size: 4512
 Filename: enigma2-plugin-extensions-airplayer-po_git40+9b3898b-r0_hl101.ipk
 Source: enigma2-c-plugins.bb
 Description: extensions-airplayer (translations)
@@ -2135,8 +2135,8 @@ Depends: enigma2, gstreamer1.0-plugins-bad-fragmented, hairtunes, python-ctypes,
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4fd0817320f54686f4e96539cc12605a
-Size: 103016
+MD5Sum: e255f10a35426ffb379984673098e3a7
+Size: 103008
 Filename: enigma2-plugin-extensions-airplayer_git40+9b3898b-r0_hl101.ipk
 Source: enigma2-c-plugins.bb
 Description: extensions-airplayer
@@ -2146,14 +2146,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-cutlisteditor
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: aio-grab
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 41bf946994d30cdcf8962c96b7bbe1b7
+MD5Sum: d226923fa2e3c93bb0bb7d26a46af52a
 Size: 20408
-Filename: enigma2-plugin-extensions-cutlisteditor_develop+git23890+c3a98a5-r0_hl101.ipk
+Filename: enigma2-plugin-extensions-cutlisteditor_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor
  extensions-cutlisteditorenables you to cut your movies.
@@ -2162,14 +2162,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdburn
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: cdrkit, dvd+rw-tools, dvdauthor, gstreamer1.0-plugins-bad-mpegtsmux, kernel-module-pktcdvd, mjpegtools, python-imaging, replex
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b56fec7fa01ca3d22d3c3173cf9030cf
-Size: 853466
-Filename: enigma2-plugin-extensions-dvdburn_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 9eb768a41143447a7b001c8f6a261eef
+Size: 853456
+Filename: enigma2-plugin-extensions-dvdburn_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: extensions-dvdburn
  extensions-dvdburn
@@ -2178,14 +2178,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdplayer
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: gstreamer1.0-plugins-bad-videoparsersbad, kernel-module-udf
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 45af103603ee9a4cba208154af3d9dd6
-Size: 3842
-Filename: enigma2-plugin-extensions-dvdplayer_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 4b51bcb347a7f4c680bdb170ec968c68
+Size: 3852
+Filename: enigma2-plugin-extensions-dvdplayer_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: extensions-dvdplayer
  extensions-dvdplayer
@@ -2194,13 +2194,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-graphmultiepg
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d96d9f8407a75b04c96cfed9565f5593
-Size: 42862
-Filename: enigma2-plugin-extensions-graphmultiepg_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 7cb4bdb27901b9aaa592fb9d0c492549
+Size: 42868
+Filename: enigma2-plugin-extensions-graphmultiepg_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: extensions-graphmultiepg
  extensions-graphmultiepgshows a graphical timeline EPG.
@@ -2213,7 +2213,7 @@ Version: git3714+d026667-r0
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: acf297afc9f135c6b0e9528010941125
+MD5Sum: bdbac077eed24cf5b04c77f41f405bd7
 Size: 710
 Filename: enigma2-plugin-extensions-iptvplayer-dbg_git3714+d026667-r0_hl101.ipk
 Source: enigma2-plugin-extensions-iptvplayer.bb
@@ -2231,8 +2231,8 @@ Recommends: cmdwrapper-dev, duktape-dev, enigma2-dev, exteplayer3-dev, f4mdump-d
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f5411c481f4ed942edf8afcb4d66a7ad
-Size: 894
+MD5Sum: 0530150bef47f971e24d8ce6904b0cdb
+Size: 890
 Filename: enigma2-plugin-extensions-iptvplayer-dev_git3714+d026667-r0_hl101.ipk
 Source: enigma2-plugin-extensions-iptvplayer.bb
 Description: E2i Player for E2 - Development files
@@ -2248,8 +2248,8 @@ Depends: enigma2-plugin-extensions-iptvplayer
 Section: multimedia
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3cf1b566ad2c34115ff66f7b84ad8b39
-Size: 441740
+MD5Sum: 39163f0061cc45d6c0aabbfbdec77417
+Size: 441118
 Filename: enigma2-plugin-extensions-iptvplayer-po_git3714+d026667-r0_hl101.ipk
 Source: enigma2-plugin-extensions-iptvplayer.bb
 Description: extensions-iptvplayer (translations)
@@ -2264,8 +2264,8 @@ Depends: cmdwrapper, duktape, enigma2, exteplayer3, f4mdump, ffmpeg, gst-ifdsrc,
 Section: multimedia
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4530ff73d73fa590303719fdfcc683dc
-Size: 8345826
+MD5Sum: 00220e8845913a51214d5eb8d3b1cf7c
+Size: 8342908
 Filename: enigma2-plugin-extensions-iptvplayer_git3714+d026667-r0_hl101.ipk
 Source: enigma2-plugin-extensions-iptvplayer.bb
 Description: extensions-iptvplayer
@@ -2275,13 +2275,13 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediaplayer
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0332de55009cc5306f9857e961ab6576
-Size: 36082
-Filename: enigma2-plugin-extensions-mediaplayer_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 1d5e0dc302e192568249fedf8a854f47
+Size: 36078
+Filename: enigma2-plugin-extensions-mediaplayer_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: extensions-mediaplayer
  extensions-mediaplayer
@@ -2290,13 +2290,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediascanner
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e5813f5bca5e35c9a39121a6dc915de6
-Size: 6872
-Filename: enigma2-plugin-extensions-mediascanner_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 591d3dbf2b4b982eb093e69557b36021
+Size: 6874
+Filename: enigma2-plugin-extensions-mediascanner_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: extensions-mediascanner
  extensions-mediascanner
@@ -2310,8 +2310,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 25dbe15f6195b7a8075e6e6ec98b4f69
-Size: 10100
+MD5Sum: e27e8ffe1e2cbe8797424601ff5f6fc8
+Size: 10096
 Filename: enigma2-plugin-extensions-moviecut-po_git40+9b3898b-r0_hl101.ipk
 Source: enigma2-c-plugins.bb
 Description: extensions-moviecut (translations)
@@ -2326,8 +2326,8 @@ Depends: enigma2, libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bfa1cb908b82ce3de625fdbd78c7a17d
-Size: 32014
+MD5Sum: a35685ca22a672f9634bd30c802462a0
+Size: 32010
 Filename: enigma2-plugin-extensions-moviecut_git40+9b3898b-r0_hl101.ipk
 Source: enigma2-c-plugins.bb
 Description: extensions-moviecut
@@ -2403,15 +2403,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-dbg
-Version: git4402+23d64b0-r0
+Version: git4442+fea7ad2-r0
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: adbe9e962bde22c8e24503e17102bca3
+MD5Sum: cc6e87a371cf591e93d9760c639dfb51
 Size: 744
-Filename: enigma2-plugin-extensions-openwebif-dbg_git4402+23d64b0-r0_hl101.ipk
+Filename: enigma2-plugin-extensions-openwebif-dbg_git4442+fea7ad2-r0_hl101.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+23d64b0c3b-r0 - Debugging files
+Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+fea7ad2560-r0 - Debugging files
  Control your receiver with a browser  This package contains ELF symbols
  and related sources for debugging purposes.
 OE: enigma2-plugin-extensions-openwebif
@@ -2419,17 +2419,17 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-dev
-Version: git4402+23d64b0-r0
-Depends: enigma2-plugin-extensions-openwebif (= git4402+23d64b0-r0)
-Recommends: aio-grab-dev, enigma2-dev, openwebif-remotes-dev, python-cheetah-dev, python-compression-dev, python-core-dev, python-dev, python-ipaddress-dev, python-json-dev, python-misc-dev, python-numbers-dev, python-pyopenssl-dev, python-shell-dev, python-six-dev, python-unixadmin-dev
+Version: git4442+fea7ad2-r0
+Depends: enigma2-plugin-extensions-openwebif (= git4442+fea7ad2-r0)
+Recommends: aio-grab-dev, enigma2-dev, openwebif-remotes-dev, python-cheetah-dev, python-compression-dev, python-core-dev, python-dev, python-ipaddress-dev, python-json-dev, python-misc-dev, python-numbers-dev, python-pprint-dev, python-pyopenssl-dev, python-shell-dev, python-six-dev, python-twisted-web-dev, python-unixadmin-dev
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a3555371266a8e1b62ede79b7a134bfd
-Size: 874
-Filename: enigma2-plugin-extensions-openwebif-dev_git4402+23d64b0-r0_hl101.ipk
+MD5Sum: a0ec05d992bb294dbecbb777c22fac26
+Size: 892
+Filename: enigma2-plugin-extensions-openwebif-dev_git4442+fea7ad2-r0_hl101.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+23d64b0c3b-r0 - Development files
+Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+fea7ad2560-r0 - Development files
  Control your receiver with a browser  This package contains symbolic
  links, header files, and related items necessary for software
  development.
@@ -2438,46 +2438,46 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-themes
-Version: git4402+23d64b0-r0
+Version: git4442+fea7ad2-r0
 Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6db70a83db54e951a1f27d7a4ec967f0
-Size: 243956
-Filename: enigma2-plugin-extensions-openwebif-themes_git4402+23d64b0-r0_hl101.ipk
+MD5Sum: fd5f134652222308c1ef33800bd46002
+Size: 243942
+Filename: enigma2-plugin-extensions-openwebif-themes_git4442+fea7ad2-r0_hl101.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+23d64b0c3b-r0
+Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+fea7ad2560-r0
  Control your receiver with a browser
 OE: enigma2-plugin-extensions-openwebif
 License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-vxg
-Version: git4402+23d64b0-r0
+Version: git4442+fea7ad2-r0
 Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3cd8e63a6d2bacf55b2e21219ae32e71
-Size: 1440130
-Filename: enigma2-plugin-extensions-openwebif-vxg_git4402+23d64b0-r0_hl101.ipk
+MD5Sum: 3b04a3caa461f2c6d3d92d8f4d2a0dc6
+Size: 1440122
+Filename: enigma2-plugin-extensions-openwebif-vxg_git4442+fea7ad2-r0_hl101.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+23d64b0c3b-r0
+Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+fea7ad2560-r0
  Control your receiver with a browser
 OE: enigma2-plugin-extensions-openwebif
 License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif
-Version: git4402+23d64b0-r0
-Depends: aio-grab, enigma2, openwebif-remotes, python-cheetah, python-compression, python-core, python-ipaddress, python-json, python-misc, python-numbers, python-pyopenssl, python-shell, python-six, python-unixadmin
+Version: git4442+fea7ad2-r0
+Depends: aio-grab, enigma2, openwebif-remotes, python-cheetah, python-compression, python-core, python-ipaddress, python-json, python-misc, python-numbers, python-pprint, python-pyopenssl, python-shell, python-six, python-twisted-web, python-unixadmin
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d5f83812e13792093b939c14832915d2
-Size: 2350866
-Filename: enigma2-plugin-extensions-openwebif_git4402+23d64b0-r0_hl101.ipk
+MD5Sum: 5ad74a1243e2c2fe88e57cf4db6715b5
+Size: 2321264
+Filename: enigma2-plugin-extensions-openwebif_git4442+fea7ad2-r0_hl101.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: extensions-openwebif
  extensions-openwebif
@@ -2486,13 +2486,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-pictureplayer
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1e2dde0160264aaf5a3073c05b901456
-Size: 21450
-Filename: enigma2-plugin-extensions-pictureplayer_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: e43775efb39b161227bb91fea730ea76
+Size: 21452
+Filename: enigma2-plugin-extensions-pictureplayer_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: extensions-pictureplayer
  extensions-pictureplayerdisplays photos on the TV.
@@ -2501,13 +2501,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi-staticdev
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f9842932c4a3bf667374c3bb6c7ec22a
-Size: 89994
-Filename: enigma2-plugin-extensions-socketmmi-staticdev_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 243d9dc37a5d30d2225148985e3d8248
+Size: 90086
+Filename: enigma2-plugin-extensions-socketmmi-staticdev_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (static development)
  extensions-socketmmi (static development)
@@ -2516,14 +2516,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4), libudfread0 (>= 1.1.1+git107+b8ada65), libxml2 (>= 2.9.4)
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d1c545ece8ba83f33175fbc1441bbcdd
+MD5Sum: 9e2cecf1b1df685d54d0250b40cb1510
 Size: 14230
-Filename: enigma2-plugin-extensions-socketmmi_develop+git23890+c3a98a5-r0_hl101.ipk
+Filename: enigma2-plugin-extensions-socketmmi_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi
  extensions-socketmmi
@@ -2532,13 +2532,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-fonts-wqy-microhei
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7ad145baf3f517d9fe720e685106178a
-Size: 2331880
-Filename: enigma2-plugin-fonts-wqy-microhei_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 3dc4cb908134132cc208c3857fd4b9d2
+Size: 2331886
+Filename: enigma2-plugin-fonts-wqy-microhei_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
  wqy-microhei font supports Chinese EPG
@@ -2547,13 +2547,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-cablescan
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 29905a650c6c952e8098020f157efb9d
-Size: 8966
-Filename: enigma2-plugin-systemplugins-cablescan_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: ebc700e7f1a721d7becf2bce142c71a9
+Size: 8972
+Filename: enigma2-plugin-systemplugins-cablescan_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-cablescan
  systemplugins-cablescan
@@ -2562,13 +2562,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-commoninterfaceassignment
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8d81e7b8fbf91631a2b7cfee62a29491
-Size: 16358
-Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 38453fb7342c2dad99b0dd4ea1552741
+Size: 16356
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-commoninterfaceassignment
  systemplugins-commoninterfaceassignment
@@ -2582,7 +2582,7 @@ Recommends: libc6-dbg, libcurl-dbg, libxml2-dbg, libz-dbg
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8d2df8c0615af06b613ae64b672db498
+MD5Sum: 5f4ccbd4d56071098ed81b541018bf5c
 Size: 842
 Filename: enigma2-plugin-systemplugins-crossepg-dbg_0.8.7+gitr534+13944d2-r0_hl101.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
@@ -2602,7 +2602,7 @@ Recommends: curl-dev, enigma2-dev, libc6-dev, libcurl-dev, libxml2-dev, libz-dev
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 740080352c19c6e6a8f84cf3f3c823ae
+MD5Sum: 3b3d08dbc11179fb25ee1ce64243459b
 Size: 906
 Filename: enigma2-plugin-systemplugins-crossepg-dev_0.8.7+gitr534+13944d2-r0_hl101.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
@@ -2621,8 +2621,8 @@ Depends: enigma2, libc6 (>= 2.25), libcurl4 (>= 7.73.0), libxml2 (>= 2.9.4), lib
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 430cb895d2abef534112ede730c2b032
-Size: 627300
+MD5Sum: 83effc4034b1a15c0ca2ed78638b8938
+Size: 629900
 Filename: enigma2-plugin-systemplugins-crossepg_0.8.7+gitr534+13944d2-r0_hl101.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: systemplugins-crossepg
@@ -2633,13 +2633,13 @@ License: LGPLv2.1
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-defaultservicesscanner
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2f2c600378d9398a38eb5dc17e99959d
+MD5Sum: 389c876e0b0c71242ac0f889323f88e4
 Size: 4750
-Filename: enigma2-plugin-systemplugins-defaultservicesscanner_develop+git23890+c3a98a5-r0_hl101.ipk
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-defaultservicesscanner
  systemplugins-defaultservicesscanner
@@ -2648,13 +2648,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-diseqctester
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 93f66d06ce905b99dfb302fc5919e031
+MD5Sum: 1725f855639ff919ed9fe40e34a7227b
 Size: 14816
-Filename: enigma2-plugin-systemplugins-diseqctester_develop+git23890+c3a98a5-r0_hl101.ipk
+Filename: enigma2-plugin-systemplugins-diseqctester_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-diseqctester
  systemplugins-diseqctester
@@ -2663,13 +2663,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastscan
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2bca89697a293b44144880393c2a711e
-Size: 12002
-Filename: enigma2-plugin-systemplugins-fastscan_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: c019f97bc3e41460cad25531855ae952
+Size: 12004
+Filename: enigma2-plugin-systemplugins-fastscan_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-fastscan
  systemplugins-fastscan
@@ -2678,13 +2678,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hdmicec
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ca53cd392d13dc32d4b324d8713cb381
+MD5Sum: 937fa454c59ec4b5c9d57a307f31bd8c
 Size: 6348
-Filename: enigma2-plugin-systemplugins-hdmicec_develop+git23890+c3a98a5-r0_hl101.ipk
+Filename: enigma2-plugin-systemplugins-hdmicec_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-hdmicec
  systemplugins-hdmicec
@@ -2693,14 +2693,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hotplug
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: hotplug-e2-helper
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5dcff0e6508676e0238b7b8128a54e4a
-Size: 3898
-Filename: enigma2-plugin-systemplugins-hotplug_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 561684c2e4b6bf06e98e1728c1fccabd
+Size: 3900
+Filename: enigma2-plugin-systemplugins-hotplug_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-hotplug
  systemplugins-hotplug
@@ -2714,8 +2714,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d8c100fc8ad166065d4b07bb1fada263
-Size: 7532
+MD5Sum: 8fbc045aa17308479d4fb3be6bc64322
+Size: 7510
 Filename: enigma2-plugin-systemplugins-misplslcnscan-po_git40+9b3898b-r0_hl101.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-misplslcnscan (translations)
@@ -2730,8 +2730,8 @@ Depends: enigma2, libc6 (>= 2.25), libtirpc3 (>= 1.0.2)
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5a35b1a51ae0f293dae49c3660aef987
-Size: 41158
+MD5Sum: 1b18114889341f39898e5e642ba762b9
+Size: 41144
 Filename: enigma2-plugin-systemplugins-misplslcnscan_git40+9b3898b-r0_hl101.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-misplslcnscan
@@ -2746,8 +2746,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ad8ee76a9914d2a3a78aec57dded71e6
-Size: 36394
+MD5Sum: b9045c084df9313eae7b80085a8f6f56
+Size: 36374
 Filename: enigma2-plugin-systemplugins-networkbrowser-po_git40+9b3898b-r0_hl101.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-networkbrowser (translations)
@@ -2762,8 +2762,8 @@ Depends: enigma2, libc6 (>= 2.25), libtirpc3 (>= 1.0.2)
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ebb60402153040172470d516d31bd714
-Size: 143394
+MD5Sum: dc79a2d0818d4c2e913e2211230a9f6f
+Size: 143370
 Filename: enigma2-plugin-systemplugins-networkbrowser_git40+9b3898b-r0_hl101.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-networkbrowser
@@ -2773,13 +2773,13 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-networkwizard
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 79f5e4e8ffc3fa1455b645c273132764
-Size: 11370
-Filename: enigma2-plugin-systemplugins-networkwizard_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 750895cb835257643bed7d83aa939dee
+Size: 11364
+Filename: enigma2-plugin-systemplugins-networkwizard_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-networkwizard
  systemplugins-networkwizardprovides easy step by step network
@@ -2789,13 +2789,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osd3dsetup
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 63e072bf7021d0c9fe3249e4d311c470
-Size: 5266
-Filename: enigma2-plugin-systemplugins-osd3dsetup_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: af8e9c4c284a73b26808a9b33ff704a6
+Size: 5272
+Filename: enigma2-plugin-systemplugins-osd3dsetup_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-osd3dsetup
  systemplugins-osd3dsetup
@@ -2804,13 +2804,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osdpositionsetup
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ede680251633e693122f3698f7f334e6
-Size: 8098
-Filename: enigma2-plugin-systemplugins-osdpositionsetup_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 845e688c191e16e149f6907f9ae40a8d
+Size: 8100
+Filename: enigma2-plugin-systemplugins-osdpositionsetup_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-osdpositionsetup
  systemplugins-osdpositionsetup
@@ -2819,13 +2819,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-positionersetup
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dc079e12412c2c5962fba50296892851
-Size: 42982
-Filename: enigma2-plugin-systemplugins-positionersetup_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 84870cce610b89f4e9bfef9c1c178eb3
+Size: 42974
+Filename: enigma2-plugin-systemplugins-positionersetup_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-positionersetup
  systemplugins-positionersetuphelps you installing a motorized dish.
@@ -2834,13 +2834,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f898148322f57d65c2f8558b18640ab5
-Size: 4068
-Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 7bb8db6827d2b2456420ef7d3f9c2ecb
+Size: 4070
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-satelliteequipmentcontrol
  systemplugins-satelliteequipmentcontrolallows you to fine-tune DiSEqC-
@@ -2850,13 +2850,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satfinder
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 29ff85dec61d20e13140e60a0289c589
-Size: 22706
-Filename: enigma2-plugin-systemplugins-satfinder_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 9a3632589148f991e0fbc3740c315a3b
+Size: 22704
+Filename: enigma2-plugin-systemplugins-satfinder_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-satfinder
  systemplugins-satfinderhelps you to align your dish.
@@ -2871,7 +2871,7 @@ Recommends: libc6-dbg, libcrypto-dbg, libgcc-s-dbg, libssl-dbg, libstdc++-dbg, u
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dc6b669164e27bcdd1f40e3645f60529
+MD5Sum: 9144efd01364d30eab775a066b01e3bf
 Size: 899556
 Filename: enigma2-plugin-systemplugins-serviceapp-dbg_git179+a3afb0f-r0_hl101.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
@@ -2889,7 +2889,7 @@ Recommends: enigma2-dev, libc6-dev, libcrypto-dev, libgcc-s-dev, libssl-dev, lib
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1ac6ab1afe57d792ac7a29a68ea0ad45
+MD5Sum: c94f0a04b8dd7ba21db6065819c21064
 Size: 820
 Filename: enigma2-plugin-systemplugins-serviceapp-dev_git179+a3afb0f-r0_hl101.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
@@ -2907,8 +2907,8 @@ Recommends: exteplayer3, gstplayer
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 69837003cb72a261bd8b9340a5ffe156
-Size: 134780
+MD5Sum: 04d601b098cb064cbadf9257f6265589
+Size: 134784
 Filename: enigma2-plugin-systemplugins-serviceapp_git179+a3afb0f-r0_hl101.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: systemplugins-serviceapp
@@ -2924,8 +2924,8 @@ Recommends: gstreamer1.0-dbg, libc6-dbg, libgcc-s-dbg, libglib-2.0-dbg, libgstau
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 91a2650ec6daa4b90f09db7e088757eb
-Size: 345400
+MD5Sum: 3b1c44278f0715c1351f2ae4940cc306
+Size: 345408
 Filename: enigma2-plugin-systemplugins-servicemp3-dbg_git51+676cbc9-r0_hl101.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
 Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+676cbc90ee-r0 - Debugging files
@@ -2942,8 +2942,8 @@ Recommends: enigma2-dev, glib-networking-dev, gstreamer1.0-dev, gstreamer1.0-plu
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0e7d05c9259415cf9f7f3a7d7ca8e03a
-Size: 1156
+MD5Sum: d3cddc3ba21042dbe163af5750a138fc
+Size: 1158
 Filename: enigma2-plugin-systemplugins-servicemp3-dev_git51+676cbc9-r0_hl101.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
 Description: enigma2-plugin-systemplugins-servicemp3 version gitAUTOINC+676cbc90ee-r0 - Development files
@@ -2960,8 +2960,8 @@ Provides: virtual/enigma2-mediaservice
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ac48bcd65b3938ab1e02e62d780ae12f
-Size: 60732
+MD5Sum: d45758fe2830fd22cd0e95a1de15e517
+Size: 60736
 Filename: enigma2-plugin-systemplugins-servicemp3_git51+676cbc9-r0_hl101.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
 Description: systemplugins-servicemp3
@@ -2971,13 +2971,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-sh4boostercontrol
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 87d849e75dda779588c8feff65da6bdf
+MD5Sum: bf9be7d743b9f0fe150a5850aacc77b4
 Size: 5340
-Filename: enigma2-plugin-systemplugins-sh4boostercontrol_develop+git23890+c3a98a5-r0_hl101.ipk
+Filename: enigma2-plugin-systemplugins-sh4boostercontrol_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-sh4boostercontrol
  systemplugins-sh4boostercontrol
@@ -2986,13 +2986,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-sh4osdadjustment
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b866269916a50d56c131bd0925eea03e
-Size: 8184
-Filename: enigma2-plugin-systemplugins-sh4osdadjustment_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: de50746bdcd5c21d9e919d1fd4417742
+Size: 8180
+Filename: enigma2-plugin-systemplugins-sh4osdadjustment_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-sh4osdadjustment
  systemplugins-sh4osdadjustment
@@ -3001,14 +3001,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-softwaremanager
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: python-twisted-web
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ad5acb946bf5d5fe505f0b26d3e582ef
-Size: 69862
-Filename: enigma2-plugin-systemplugins-softwaremanager_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 1a7913be0eb0075794fe85d50032e732
+Size: 69864
+Filename: enigma2-plugin-systemplugins-softwaremanager_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-softwaremanager
  systemplugins-softwaremanager
@@ -3017,13 +3017,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-systemoptions
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e44098c24a3573e813452cd5d9574143
-Size: 8198
-Filename: enigma2-plugin-systemplugins-systemoptions_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 553df980ee17ff416121b411d678011c
+Size: 8192
+Filename: enigma2-plugin-systemplugins-systemoptions_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-systemoptions
  systemplugins-systemoptions
@@ -3037,8 +3037,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ab920f5fec8b2747fe612c1912eddb54
-Size: 13104
+MD5Sum: 9eb4e3873701e89b4b48e79189b9b552
+Size: 13112
 Filename: enigma2-plugin-systemplugins-terrestrialscan-po_git40+9b3898b-r0_hl101.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-terrestrialscan (translations)
@@ -3053,8 +3053,8 @@ Depends: enigma2, libc6 (>= 2.25), libtirpc3 (>= 1.0.2)
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f75befd8648cce48e0d7aec38e7520e4
-Size: 60878
+MD5Sum: b34af36268d1df1b1a522c44b4bad1e2
+Size: 60872
 Filename: enigma2-plugin-systemplugins-terrestrialscan_git40+9b3898b-r0_hl101.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-terrestrialscan
@@ -3065,13 +3065,13 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoclippingsetup
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5160e81b531a1ce2306b4113cd4dd8b3
-Size: 4574
-Filename: enigma2-plugin-systemplugins-videoclippingsetup_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: b71e80b3c07bcd351067697022659fe2
+Size: 4570
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-videoclippingsetup
  systemplugins-videoclippingsetup
@@ -3080,13 +3080,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoenhancement
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2f199f1e3ed51c3522e308a285ed7ccb
-Size: 14708
-Filename: enigma2-plugin-systemplugins-videoenhancement_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: de368ebbc03c4bf0de773ecd41af8e62
+Size: 14710
+Filename: enigma2-plugin-systemplugins-videoenhancement_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-videoenhancement
  systemplugins-videoenhancement
@@ -3095,13 +3095,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videomode
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3bed38057e2fd57e8be773af4effdfe1
-Size: 68888
-Filename: enigma2-plugin-systemplugins-videomode_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: f67f28ba5e0ae2e840319c3b5dc5371b
+Size: 35718
+Filename: enigma2-plugin-systemplugins-videomode_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-videomode
  systemplugins-videomodeselects advanced video modes
@@ -3110,13 +3110,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videotune
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cb6c62dcd7936b024a021a3fad11e8e5
+MD5Sum: 1c8388fe22c2919861453e7a0d9a3bbd
 Size: 69992
-Filename: enigma2-plugin-systemplugins-videotune_develop+git23890+c3a98a5-r0_hl101.ipk
+Filename: enigma2-plugin-systemplugins-videotune_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-videotune
  systemplugins-videotune
@@ -3130,7 +3130,7 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a3756130a0e98c7d23c0e42bc4698447
+MD5Sum: 31e0599a98d43c307b885af8ebebea3e
 Size: 14050
 Filename: enigma2-plugin-systemplugins-vps-po_git40+9b3898b-r0_hl101.ipk
 Source: enigma2-c-plugins.bb
@@ -3146,8 +3146,8 @@ Depends: enigma2, libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5fcc97d12ac91f84d65237b8473a122c
-Size: 58656
+MD5Sum: 91420ba9255a13a2e6fe4288684f6bf1
+Size: 58658
 Filename: enigma2-plugin-systemplugins-vps_git40+9b3898b-r0_hl101.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-vps
@@ -3157,14 +3157,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-wirelesslan
-Version: develop+git23890+c3a98a5-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: python-wifi, wireless-tools, wpa-supplicant
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e40f6abc9fa0c18315f333ca337035a1
-Size: 19048
-Filename: enigma2-plugin-systemplugins-wirelesslan_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: ca8806d7aee1a661e646111aec7acb21
+Size: 19046
+Filename: enigma2-plugin-systemplugins-wirelesslan_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: systemplugins-wirelesslan
  systemplugins-wirelesslanhelps you configuring your wireless lan
@@ -3236,14 +3236,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-staticdev
-Version: develop+git23890+c3a98a5-r0
-Depends: enigma2-dev (= develop+git23890+c3a98a5-r0)
+Version: develop+git23960+5a1aae8-r0
+Depends: enigma2-dev (= develop+git23960+5a1aae8-r0)
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 08b4e76ec52235c13dd4e1433c04f866
-Size: 7868
-Filename: enigma2-staticdev_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 0179318c28f0bc6c6188f6d3c8485bd7
+Size: 7876
+Filename: enigma2-staticdev_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Development files (Static Libraries)
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -3253,15 +3253,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2
-Version: develop+git23890+c3a98a5-r0
-Depends: alsa-conf, alsa-utils-amixer-conf, dhrystone, enigma-module, enigma2-data-iso-639-3, enigma2-fonts, enigma2-plugin-extensions-pespeedup, enigma2-remotes, enigma2-timezones, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, hotplug-e2-helper, libavahi-client3 (>= 0.6.32), libavahi-common3 (>= 0.6.32), libc6 (>= 2.25), libcrypto1.1 (>= 1.1.1k), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.9+git130+f3c40ea), libfreetype6 (>= 2.7.1), libfribidi0 (>= 1.0.10), libgcc1 (>= 4.9.4), libgif7 (>= 5.1.4), libglib-2.0-0 (>= 2.50.3), libgomp1 (>= 4.9.4), libjpeg62 (>= 1.5.1), libmme-host0, libmmeimage0 (>= git728+64ff751), libpng16-16 (>= 1.6.37), libpython2.7-1.0 (>= 2.7.18), libsigc-2.0-0 (>= 2.10.3), libssl1.1 (>= 1.1.1k), libstdc++6 (>= 4.9.4), libtuxtxt0 (>= 2.0.1+git84+ed8d3cb), libtuxtxt32bpp0 (>= 2.0.1+git84+ed8d3cb), libudfread0 (>= 1.1.1+git107+b8ada65), libxml2 (>= 2.9.4), ntpdate, ofgwrite, openvision-version-info, python-codecs, python-core, python-crypt, python-fcntl, python-image, python-imaging, python-lang, python-mmap, python-netclient, python-netifaces, python-netserver, python-numbers, python-pickle, python-process, python-pyusb, python-re, python-sendfile, python-service-identity, python-shell, python-six, python-threading, python-twisted-core, python-twisted-web, python-xml, python-zlib, python-zopeinterface, streambench, virtual/enigma2-mediaservice
+Version: develop+git23960+5a1aae8-r0
+Depends: alsa-conf, alsa-utils-amixer-conf, dhrystone, enigma-module, enigma2-data-iso-639-3, enigma2-fonts, enigma2-plugin-extensions-pespeedup, enigma2-remotes, enigma2-timezones, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, hotplug-e2-helper, libavahi-client3 (>= 0.6.32), libavahi-common3 (>= 0.6.32), libc6 (>= 2.25), libcrypto1.1 (>= 1.1.1k), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.9+git130+f3c40ea), libfreetype6 (>= 2.7.1), libfribidi0 (>= 1.0.10), libgcc1 (>= 4.9.4), libgif7 (>= 5.1.4), libglib-2.0-0 (>= 2.50.3), libgomp1 (>= 4.9.4), libjpeg62 (>= 1.5.1), libmme-host0, libmmeimage0 (>= git726+c861493), libpng16-16 (>= 1.6.37), libpython2.7-1.0 (>= 2.7.18), libsigc-2.0-0 (>= 2.10.3), libssl1.1 (>= 1.1.1k), libstdc++6 (>= 4.9.4), libtuxtxt0 (>= 2.0.1+git84+ed8d3cb), libtuxtxt32bpp0 (>= 2.0.1+git84+ed8d3cb), libudfread0 (>= 1.1.1+git107+b8ada65), libxml2 (>= 2.9.4), ntpdate, ofgwrite, openvision-version-info, python-codecs, python-core, python-crypt, python-fcntl, python-image, python-imaging, python-lang, python-mmap, python-netclient, python-netifaces, python-netserver, python-numbers, python-pickle, python-process, python-pyusb, python-re, python-sendfile, python-service-identity, python-shell, python-six, python-threading, python-twisted-core, python-twisted-web, python-xml, python-zlib, python-zopeinterface, streambench, virtual/enigma2-mediaservice
 Recommends: libdvdcss2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 06b6eadec73663ef842ffaff0938b3f7
-Size: 4478592
-Filename: enigma2_develop+git23890+c3a98a5-r0_hl101.ipk
+MD5Sum: 1d742f2890dc93518cd7a75b8c9f81e2
+Size: 4494060
+Filename: enigma2_develop+git23960+5a1aae8-r0_hl101.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -3291,8 +3291,8 @@ Recommends: gstreamer1.0-dbg, libc6-dbg, libglib-2.0-dbg
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 09641f362805fe886394b27e30b0a904
-Size: 22834
+MD5Sum: 438d0d3423aef45efba7866e75ddc54a
+Size: 22836
 Filename: gst-ifdsrc-dbg_1.0+git26+420b05d-r0_hl101.ipk
 Source: gst-ifdsrc_git.bb
 Description: gst-ifdsrc version 1.0+gitAUTOINC+420b05d381-r0 - Debugging files
@@ -3309,7 +3309,7 @@ Recommends: gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, libc6-dev, libglib-
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9735290fcf8d44b78350bce422ade837
+MD5Sum: 0699897d3b6cbeb2e93056c6b8139168
 Size: 810
 Filename: gst-ifdsrc-dev_1.0+git26+420b05d-r0_hl101.ipk
 Source: gst-ifdsrc_git.bb
@@ -3327,8 +3327,8 @@ Depends: gstreamer1.0 (>= 1.18.4), libc6 (>= 2.25), libglib-2.0-0 (>= 2.50.3)
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 48ca7ef75d0f2ebff1a0919b11ab3ceb
-Size: 7576
+MD5Sum: bd3c09f0e63670e62d28b9e23f3cd11f
+Size: 7578
 Filename: gst-ifdsrc_1.0+git26+420b05d-r0_hl101.ipk
 Source: gst-ifdsrc_git.bb
 Description: gst-ifdsrc version 1.0+gitAUTOINC+420b05d381-r0
@@ -3343,8 +3343,8 @@ Recommends: gstreamer1.0-dbg, libc6-dbg, libdca-dbg, libglib-2.0-dbg, libgstaudi
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a6a48ae823bd3228cfdf0b85a2dc776f
-Size: 121208
+MD5Sum: 0d05aa3959f03f531d8ece67eeb5266c
+Size: 121206
 Filename: gstreamer1.0-plugin-dvbmediasink-dbg_1.0+git245+8935116-r0_hl101.ipk
 Source: gstreamer1.0-plugin-dvbmediasink.bb
 Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+8935116ac0-r0 - Debugging files
@@ -3361,8 +3361,8 @@ Recommends: gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, libc6-dev, libdca-d
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f5a4ba89b7692037d32078a4bbc8a03b
-Size: 802
+MD5Sum: 9475badb46062c4c5359ab213c56cb11
+Size: 800
 Filename: gstreamer1.0-plugin-dvbmediasink-dev_1.0+git245+8935116-r0_hl101.ipk
 Source: gstreamer1.0-plugin-dvbmediasink.bb
 Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+8935116ac0-r0 - Development files
@@ -3378,8 +3378,8 @@ Depends: gstreamer1.0-plugin-dvbmediasink-dev (= 1.0+git245+8935116-r0)
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c84ff979f4db1990b0f1f9bf586fd3de
-Size: 164842
+MD5Sum: 6030d6a086c575695addc3793b459b8e
+Size: 164832
 Filename: gstreamer1.0-plugin-dvbmediasink-staticdev_1.0+git245+8935116-r0_hl101.ipk
 Source: gstreamer1.0-plugin-dvbmediasink.bb
 Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+8935116ac0-r0 - Development files (Static Libraries)
@@ -3398,8 +3398,8 @@ Conflicts: gst-plugin-dvbmediasink
 Section: multimedia
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9e7dee5d8f7479aa48316b9846c836a3
-Size: 35658
+MD5Sum: 8d6546a9f770117f9bc9c8ed92aa4d6e
+Size: 35656
 Filename: gstreamer1.0-plugin-dvbmediasink_1.0+git245+8935116-r0_hl101.ipk
 Source: gstreamer1.0-plugin-dvbmediasink.bb
 Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+8935116ac0-r0
@@ -3645,15 +3645,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-avs
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-avs
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b89a5492a146476ecd0657c9a94087d9
+MD5Sum: 8cd8f605106367546b3e793f2a58981a
 Size: 28486
-Filename: kernel-module-avs_git1531+fd68071-openvision_hl101.ipk
+Filename: kernel-module-avs_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: avs kernel module
  avs kernel module; Multiplatform A/V SCART switch driver
@@ -3696,15 +3696,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-boxtype
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-boxtype
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e268bad57f8119a734da4a5e51fa60d3
-Size: 2164
-Filename: kernel-module-boxtype_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: 2a729fe8e77978efc77a2415e5ddde18
+Size: 2168
+Filename: kernel-module-boxtype_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: boxtype kernel module
  boxtype kernel module; Provides the type of an STB based on STb710x
@@ -3713,15 +3713,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-bpamem
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-bpamem
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4c8b55c50d264472008371b764298ade
-Size: 3964
-Filename: kernel-module-bpamem_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: 51d6c3e0376c23b434acea448e823dd1
+Size: 3962
+Filename: kernel-module-bpamem_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: bpamem kernel module
  bpamem kernel module; Alloc BPA2 memory from user space
@@ -3836,15 +3836,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-cimax
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-cimax
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fa77070cc839d11b21815170c2259ac4
-Size: 6418
-Filename: kernel-module-cimax_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: abb75ba8591abbd4d9e8bf084b2cb7c3
+Size: 6420
+Filename: kernel-module-cimax_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: cimax kernel module
  cimax kernel module; CI Controller
@@ -3870,15 +3870,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-cpu-frequ
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-cpu-frequ
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f1028c62182b81088b3c349cce0ead7c
-Size: 5642
-Filename: kernel-module-cpu-frequ_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: fdd448463a49e14dcd2ed63b0aa5ae4c
+Size: 5644
+Filename: kernel-module-cpu-frequ_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: cpu-frequ kernel module
  cpu-frequ kernel module; Set CPU clock frequency on STb710x
@@ -3921,15 +3921,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-e2-proc
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-e2-proc
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bfc7ee869bf61acb31bc3bbdd5b08dac
-Size: 8124
-Filename: kernel-module-e2-proc_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: b46cd9e074a1fc20be990ac67e554e9c
+Size: 8126
+Filename: kernel-module-e2-proc_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: e2-proc kernel module
  e2-proc kernel module; procfs module with enigma2 support
@@ -3955,15 +3955,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-embxmailbox
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-embxshell
 Provides: kernel-module-embxmailbox
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e26071e85520991ab973009939c507c2
+MD5Sum: 345a022fcc8a416f16a80f4b06e05e6f
 Size: 6804
-Filename: kernel-module-embxmailbox_git1531+fd68071-openvision_hl101.ipk
+Filename: kernel-module-embxmailbox_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: embxmailbox kernel module
  embxmailbox kernel module; EMBX Utility Library to manage the hardware
@@ -3973,15 +3973,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-embxshell
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-embxshell
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5adc4acaf6d0191f6c3e7298b884b09c
+MD5Sum: 26cb590fdf3294ac54ccb55c1a227786
 Size: 14058
-Filename: kernel-module-embxshell_git1531+fd68071-openvision_hl101.ipk
+Filename: kernel-module-embxshell_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: embxshell kernel module
  embxshell kernel module; Extended EMBX Shell
@@ -3990,15 +3990,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-embxshm
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-embxmailbox, kernel-module-embxshell
 Provides: kernel-module-embxshm
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dde17b1c1b354972a9441f49664e6e27
-Size: 17718
-Filename: kernel-module-embxshm_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: 1d385d1dfc7a4688ca9ab2faa63313c3
+Size: 17714
+Filename: kernel-module-embxshm_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: embxshm kernel module
  embxshm kernel module; Extended EMBX Shared Memory Transport
@@ -4007,15 +4007,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-enigma
-Version: 7.6-r315
+Version: 7.6-r319
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-enigma
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ab8be94f407b4b435a37696dfb7101bd
-Size: 6182
-Filename: kernel-module-enigma_7.6-r315_hl101.ipk
+MD5Sum: 611138a9bd688c4390ee530353bbc6ac
+Size: 6786
+Filename: kernel-module-enigma_7.6-r319_hl101.ipk
 Source: enigma-module.bb
 Description: enigma kernel module
  enigma kernel module; Open Vision information module
@@ -4399,15 +4399,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-fe-core
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-p2div64
 Provides: kernel-module-fe-core
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 203c4bd37ddb6db6180df49b9ca05e09
-Size: 50528
-Filename: kernel-module-fe-core_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: a9c8571d29fa753642216e06f8c321ae
+Size: 50526
+Filename: kernel-module-fe-core_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: fe-core kernel module
  fe-core kernel module; Tunerdriver
@@ -4654,15 +4654,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-kreplay-fdma
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-ksound
 Provides: kernel-module-kreplay-fdma
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 83e4d14aa2e1b48b305ba98e8c8b6036
+MD5Sum: 5f6f49cd17400e6313a4cf443179d33e
 Size: 4936
-Filename: kernel-module-kreplay-fdma_git1531+fd68071-openvision_hl101.ipk
+Filename: kernel-module-kreplay-fdma_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: kreplay-fdma kernel module
  kreplay-fdma kernel module
@@ -4671,15 +4671,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-kreplay
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-ksound
 Provides: kernel-module-kreplay
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5dda835ed6fe0f21110e42b716d46f28
+MD5Sum: 62e1c78075019cb516f82139f6baeb33
 Size: 3732
-Filename: kernel-module-kreplay_git1531+fd68071-openvision_hl101.ipk
+Filename: kernel-module-kreplay_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: kreplay kernel module
  kreplay kernel module
@@ -4688,15 +4688,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-ksound
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-ksound
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7e8a42c238f39022388d3a1b597c66bb
+MD5Sum: de5de44c7faecc61f1586f82b15d5f2d
 Size: 8752
-Filename: kernel-module-ksound_git1531+fd68071-openvision_hl101.ipk
+Filename: kernel-module-ksound_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: ksound kernel module
  ksound kernel module
@@ -4705,15 +4705,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-ktone
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-ksound
 Provides: kernel-module-ktone
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6746333f93cc65798bed968e3d89702d
+MD5Sum: f43fe10dce1fbc222e023afe24f33254
 Size: 3622
-Filename: kernel-module-ktone_git1531+fd68071-openvision_hl101.ipk
+Filename: kernel-module-ktone_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: ktone kernel module
  ktone kernel module
@@ -4739,15 +4739,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-mme-host
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-embxshell
 Provides: kernel-module-mme-host
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d9cca0091f379471289a18278e60d11d
-Size: 20390
-Filename: kernel-module-mme-host_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: 36319cf3c8018e29d6f725c4a407e0ec
+Size: 20388
+Filename: kernel-module-mme-host_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: mme-host kernel module
  mme-host kernel module; MME Module
@@ -4756,15 +4756,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-mmelog
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host
 Provides: kernel-module-mmelog
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2044c45f214cc71b18a7bb9649d40fc8
+MD5Sum: f4f459ceb12094a254edb451e56eb659
 Size: 3298
-Filename: kernel-module-mmelog_git1531+fd68071-openvision_hl101.ipk
+Filename: kernel-module-mmelog_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: mmelog kernel module
  mmelog kernel module
@@ -4790,15 +4790,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-mpeg2hw
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host
 Provides: kernel-module-mpeg2hw
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f59b1bfd6f4f9e566bc3938184f3a49f
-Size: 5902
-Filename: kernel-module-mpeg2hw_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: 86b382342b91971e19903bde1cae5f83
+Size: 5906
+Filename: kernel-module-mpeg2hw_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: mpeg2hw kernel module
  mpeg2hw kernel module; Host transformer driver for STB71XX MPEG2 hardware
@@ -5524,15 +5524,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-p2div64
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-p2div64
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1a2b5e742566c18546b8ed6fc99cf111
+MD5Sum: 1a0f0fd8235419638e42f49d62a5b314
 Size: 2322
-Filename: kernel-module-p2div64_git1531+fd68071-openvision_hl101.ipk
+Filename: kernel-module-p2div64_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: p2div64 kernel module
  p2div64 kernel module; Player2 64Bit Divide Driver
@@ -5575,15 +5575,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-pcm-transcoder
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host
 Provides: kernel-module-pcm-transcoder
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 425c2e1aa025afe8e4557bc3e8078db6
+MD5Sum: 0be5e640ca9ecff0df529d15c3791b79
 Size: 3776
-Filename: kernel-module-pcm-transcoder_git1531+fd68071-openvision_hl101.ipk
+Filename: kernel-module-pcm-transcoder_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: pcm-transcoder kernel module
  pcm-transcoder kernel module; Pcm transcoding MME transformer.
@@ -5626,15 +5626,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-platform
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-platform
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0b5f2e07ad1877bb66e5d019fe516b7d
-Size: 2348
-Filename: kernel-module-platform_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: 824fa49d4ad1adb69006d724dec8caa4
+Size: 2346
+Filename: kernel-module-platform_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: platform kernel module
  platform kernel module; Player2 Platform Driver
@@ -5643,15 +5643,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-player2-unified
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-player2-unified
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2d574efc252a060cb9dc8f0ad8631764
-Size: 2114
-Filename: kernel-module-player2-unified_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: fe1c4239e9b1e22e3c92eb6c119084f4
+Size: 2118
+Filename: kernel-module-player2-unified_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: player2-unified kernel module
  player2-unified kernel module; Player2 Unified Driver
@@ -5660,15 +5660,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-player2
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-e2-proc, kernel-module-ksound, kernel-module-mme-host, kernel-module-p2div64, kernel-module-pseudocard, kernel-module-stm-monitor, kernel-module-stmcore-display-stx7109c3, kernel-module-stmdvb, kernel-module-stmsysfs
 Provides: kernel-module-player2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 97412e72f3a33df3184660c8f6776df3
-Size: 355998
-Filename: kernel-module-player2_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: 4549dd8d261492aa17f4142bc0dbe1c5
+Size: 355996
+Filename: kernel-module-player2_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: player2 kernel module
  player2 kernel module; Player2 backend implementation for STM streaming
@@ -5815,15 +5815,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-proton
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-proton
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e5496438f724e76b327ef0fabfbee223
-Size: 11932
-Filename: kernel-module-proton_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: c5c6711c1e49751e2f63905e30477371
+Size: 11930
+Filename: kernel-module-proton_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: proton kernel module
  proton kernel module; VFD module for Spiderbox HL101 / Edision argus VIP
@@ -5833,15 +5833,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-pseudocard
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-stmcore-display-stx7109c3
 Provides: kernel-module-pseudocard
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 32502ebf4f63e2d82f94cbe3106ae8f4
-Size: 12470
-Filename: kernel-module-pseudocard_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: a618c4acbd84a28197a1927526c866b6
+Size: 12472
+Filename: kernel-module-pseudocard_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: pseudocard kernel module
  pseudocard kernel module; Pseudo soundcard
@@ -5850,15 +5850,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-pti
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-pti
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cf862eb26f1f6da4a3358250bf0dfdfe
+MD5Sum: 289f5adb7ebfdafd59aff42f891b6aff
 Size: 23762
-Filename: kernel-module-pti_git1531+fd68071-openvision_hl101.ipk
+Filename: kernel-module-pti_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: pti kernel module
  pti kernel module; PTI driver
@@ -5971,15 +5971,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-silencegen
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host
 Provides: kernel-module-silencegen
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9f30d120bc49fb2994e2ec3c03653dda
+MD5Sum: be51d4f0f9b9facb44d6d7d0fa5250bc
 Size: 2638
-Filename: kernel-module-silencegen_git1531+fd68071-openvision_hl101.ipk
+Filename: kernel-module-silencegen_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: silencegen kernel module
  silencegen kernel module; Trivial silence generating MME transformer.
@@ -5988,15 +5988,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-simu-button
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-simu-button
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e01a7568c90f1f9112e5c6f8b1f51494
+MD5Sum: 632936f4d948a9b0ab81dc190f877d2d
 Size: 2462
-Filename: kernel-module-simu-button_git1531+fd68071-openvision_hl101.ipk
+Filename: kernel-module-simu-button_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: simu-button kernel module
  simu-button kernel module; SH4 RC event driver
@@ -6022,15 +6022,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-smartcard
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-smartcard
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d204422b6b4007fe34bbf469105f866b
-Size: 19432
-Filename: kernel-module-smartcard_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: 1a06e08db548709e740f584aebfded6c
+Size: 19430
+Filename: kernel-module-smartcard_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: smartcard kernel module
  smartcard kernel module; SmartCard Interface driver
@@ -6039,15 +6039,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-sth264pp
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-player2
 Provides: kernel-module-sth264pp
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 694c49fec145cea723903734c759c734
-Size: 6384
-Filename: kernel-module-sth264pp_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: 7234831fb3d2dade67d4b962dee01f21
+Size: 6388
+Filename: kernel-module-sth264pp_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: sth264pp kernel module
  sth264pp kernel module
@@ -6056,15 +6056,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stm-monitor
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host, kernel-module-p2div64
 Provides: kernel-module-stm-monitor
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 019108cf83e13965fe2a6fd48df4cf33
-Size: 8268
-Filename: kernel-module-stm-monitor_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: e7eef304bb87ae555db183bf33c44366
+Size: 8270
+Filename: kernel-module-stm-monitor_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: stm-monitor kernel module
  stm-monitor kernel module; STM monitor.
@@ -6073,15 +6073,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stm-v4l2
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-stm-v4l2
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5c9dedcbc9802fb54003144d1249f35f
+MD5Sum: 428cb3c8b1c89f2216411edd714b9b26
 Size: 5488
-Filename: kernel-module-stm-v4l2_git1531+fd68071-openvision_hl101.ipk
+Filename: kernel-module-stm-v4l2_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: stm-v4l2 kernel module
  stm-v4l2 kernel module
@@ -6090,15 +6090,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmalloc
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-player2
 Provides: kernel-module-stmalloc
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d203af09289eed8b827248b874a50496
-Size: 3822
-Filename: kernel-module-stmalloc_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: 6362ca6686c96ea55f15812994415984
+Size: 3820
+Filename: kernel-module-stmalloc_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: stmalloc kernel module
  stmalloc kernel module
@@ -6107,15 +6107,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmcore-display-stx7109c3
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-stmcore-display-stx7109c3
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4f4e0fe50a2714da7a96495f4c47a502
-Size: 119218
-Filename: kernel-module-stmcore-display-stx7109c3_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: 1532ad7b4ae10b99238924f33e17d9fb
+Size: 119220
+Filename: kernel-module-stmcore-display-stx7109c3_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: stmcore-display-stx7109c3 kernel module
  stmcore-display-stx7109c3 kernel module
@@ -6124,15 +6124,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmdvb
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-avs, kernel-module-cimax, kernel-module-e2-proc, kernel-module-fe-core, kernel-module-pseudocard, kernel-module-pti, kernel-module-stm-v4l2, kernel-module-stmcore-display-stx7109c3, kernel-module-stmfb
 Provides: kernel-module-stmdvb
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0f35c61bde097e57a0498f6f109f5276
-Size: 53280
-Filename: kernel-module-stmdvb_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: 3c0219c08cb91ff84a799c331de8496a
+Size: 53286
+Filename: kernel-module-stmdvb_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: stmdvb kernel module
  stmdvb kernel module; Linux DVB video and audio driver for STM streaming
@@ -6142,15 +6142,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmfb
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-stmfb
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2fca69aa0505510a1be7e1ee50bcee62
-Size: 21988
-Filename: kernel-module-stmfb_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: 1f51d745c68f14dfa227e3374927da58
+Size: 21990
+Filename: kernel-module-stmfb_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: stmfb kernel module
  stmfb kernel module
@@ -6159,15 +6159,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmsysfs
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-stmsysfs
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4b001140ea1bfb63df7324645a1325c3
-Size: 6734
-Filename: kernel-module-stmsysfs_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: 3d16157fb88903c685813cbe01c2aa87
+Size: 6738
+Filename: kernel-module-stmsysfs_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: stmsysfs kernel module
  stmsysfs kernel module; Sysfs driver for accessing STM streaming
@@ -6177,15 +6177,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmvbi
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-stm-v4l2, kernel-module-stmcore-display-stx7109c3
 Provides: kernel-module-stmvbi
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6c169f079d36f90fdf4506c3ba2a869e
-Size: 5376
-Filename: kernel-module-stmvbi_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: b1e9ec67822a3fdc81aac85313b865ad
+Size: 5378
+Filename: kernel-module-stmvbi_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: stmvbi kernel module
  stmvbi kernel module
@@ -6194,15 +6194,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmvout
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-stm-v4l2, kernel-module-stmcore-display-stx7109c3
 Provides: kernel-module-stmvout
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7a22de04969b0054e1eec53fa89ce99d
-Size: 21644
-Filename: kernel-module-stmvout_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: cb51b03fda94fd820a01b421c0c73bd7
+Size: 21646
+Filename: kernel-module-stmvout_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: stmvout kernel module
  stmvout kernel module
@@ -6348,15 +6348,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-zram
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-zram
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 31cdc83ca08f8d189e9340ac1047731f
+MD5Sum: c1f619ea382adbd5e543c19348fea7df
 Size: 9794
-Filename: kernel-module-zram_git1531+fd68071-openvision_hl101.ipk
+Filename: kernel-module-zram_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: zram kernel module
  zram kernel module; Compressed RAM Block Device
@@ -6591,8 +6591,8 @@ Version: 1.0-r0
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8d4fadf0c0c27b5357c7519dae013c20
-Size: 706
+MD5Sum: 159cfa1eabbe7c26b917d8260466fd88
+Size: 710
 Filename: meta-enigma2-dvd-dbg_1.0-r0_hl101.ipk
 Source: meta-enigma2-dvd.bb
 Description: meta-enigma2-dvd version 1.0-r0 - Debugging files
@@ -6609,7 +6609,7 @@ Recommends: cdfs-dev, cdrkit-dev, cdtextinfo-dev, dvdbackup-dev, gstreamer1.0-pl
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5cdee263eeb872c6632338f16aecae59
+MD5Sum: b66b0a27b590c347c8d9c74d829c7504
 Size: 800
 Filename: meta-enigma2-dvd-dev_1.0-r0_hl101.ipk
 Source: meta-enigma2-dvd.bb
@@ -6626,8 +6626,8 @@ Version: 1.0-r0
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2b550fae09de4add3c709ad36fa2ac1a
-Size: 712
+MD5Sum: 385637b4d2cadcf246b0020ebf7806f1
+Size: 704
 Filename: meta-enigma2-dvdburn-dbg_1.0-r0_hl101.ipk
 Source: meta-enigma2-dvdburn.bb
 Description: meta-enigma2-dvdburn version 1.0-r0 - Debugging files
@@ -6644,8 +6644,8 @@ Recommends: bdremux-dev, cdrkit-dev, dvd+rw-tools-dev, dvdauthor-dev, gstreamer1
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4675223ceb0559672af795451a9e357d
-Size: 804
+MD5Sum: ab13b1c722ee52b49b71370b710f281a
+Size: 802
 Filename: meta-enigma2-dvdburn-dev_1.0-r0_hl101.ipk
 Source: meta-enigma2-dvdburn.bb
 Description: meta-enigma2-dvdburn version 1.0-r0 - Development files
@@ -6708,16 +6708,16 @@ License: GPLv2
 Priority: optional
 
 Package: openvision-branding-dbg
-Version: 7.6-r315
+Version: 7.6-r319
 Recommends: libc6-dbg
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 443ac10420cd56ad0235cbca84058859
-Size: 18068
-Filename: openvision-branding-dbg_7.6-r315_hl101.ipk
+MD5Sum: ebb98951bae7ed8f3359b36487688913
+Size: 18062
+Filename: openvision-branding-dbg_7.6-r319_hl101.ipk
 Source: openvision-branding.bb
-Description: openvision-branding version 7.6-r315 - Debugging files
+Description: openvision-branding version 7.6-r319 - Debugging files
  Open Vision branding lib  This package contains ELF symbols and related
  sources for debugging purposes.
 OE: openvision-branding
@@ -6725,17 +6725,17 @@ License: GPLv2+
 Priority: optional
 
 Package: openvision-branding-dev
-Version: 7.6-r315
-Depends: openvision-branding (= 7.6-r315)
+Version: 7.6-r319
+Depends: openvision-branding (= 7.6-r319)
 Recommends: libc6-dev, python-dev
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e21e2a89842e126aa11d0d5533abca09
+MD5Sum: ae085f0b621275015b88c9d928c1a135
 Size: 752
-Filename: openvision-branding-dev_7.6-r315_hl101.ipk
+Filename: openvision-branding-dev_7.6-r319_hl101.ipk
 Source: openvision-branding.bb
-Description: openvision-branding version 7.6-r315 - Development files
+Description: openvision-branding version 7.6-r319 - Development files
  Open Vision branding lib  This package contains symbolic links, header
  files, and related items necessary for software development.
 OE: openvision-branding
@@ -6743,31 +6743,31 @@ License: GPLv2+
 Priority: optional
 
 Package: openvision-branding
-Version: 7.6-r315
+Version: 7.6-r319
 Depends: libc6 (>= 2.25)
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 48f125f6d73867c64d5d17195c908701
-Size: 8436
-Filename: openvision-branding_7.6-r315_hl101.ipk
+MD5Sum: 7dfb1b2b13920d745c85fa83928245cd
+Size: 8438
+Filename: openvision-branding_7.6-r319_hl101.ipk
 Source: openvision-branding.bb
-Description: openvision-branding version 7.6-r315
+Description: openvision-branding version 7.6-r319
  Open Vision branding lib
 OE: openvision-branding
 License: GPLv2+
 Priority: optional
 
 Package: openvision-version-info
-Version: 7.6-r315
+Version: 7.6-r319
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d3c86f616d200b10cbac4c162ea29fd5
-Size: 2244
-Filename: openvision-version-info_7.6-r315_hl101.ipk
+MD5Sum: 52603c818f5ba6e307e01a1a26504baf
+Size: 2242
+Filename: openvision-version-info_7.6-r319_hl101.ipk
 Source: openvision-version-info.bb
-Description: openvision-version-info version 7.6-r315
+Description: openvision-version-info version 7.6-r319
  Open Vision version info
 OE: openvision-version-info
 License: GPLv2+
@@ -6778,8 +6778,8 @@ Version: git9+1e12c70-r0
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f0ff17b7200201002a695b2a5ba9e522
-Size: 708
+MD5Sum: 3c7d76c40c4011993c656164369e9e92
+Size: 712
 Filename: openwebif-remotes-dbg_git9+1e12c70-r0_hl101.ipk
 Source: openwebif-remotes.bb
 Description: RC files and STB pictures for Open WebIF - Debugging files
@@ -6795,8 +6795,8 @@ Depends: openwebif-remotes (= git9+1e12c70-r0)
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2235c146dc6e2fde975d18990a02f0ca
-Size: 748
+MD5Sum: bfd5da3711b9ea30caa6fb5904e3c81e
+Size: 744
 Filename: openwebif-remotes-dev_git9+1e12c70-r0_hl101.ipk
 Source: openwebif-remotes.bb
 Description: RC files and STB pictures for Open WebIF - Development files
@@ -6812,8 +6812,8 @@ Version: git9+1e12c70-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5986598a31578d68090d50e5c081f64b
-Size: 69634
+MD5Sum: 9bdb9e0e144245c68fbbc022fa50f919
+Size: 69668
 Filename: openwebif-remotes-extra_git9+1e12c70-r0_hl101.ipk
 Source: openwebif-remotes.bb
 Description: RC files and STB pictures for Open WebIF
@@ -6827,7 +6827,7 @@ Version: git9+1e12c70-r0
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0c0e5e393a507c5c6ac62275acf10460
+MD5Sum: 93519292a8547b01b107b609576e4179
 Size: 2192
 Filename: openwebif-remotes_git9+1e12c70-r0_hl101.ipk
 Source: openwebif-remotes.bb
@@ -7432,7 +7432,7 @@ Recommends: base-files-dbg, base-passwd-dbg, busybox-dbg, devinit-dbg, eudev-dbg
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2ed51a7e1d1dd87cff76faf964d4d755
+MD5Sum: 000c619750deeeb0c8a3fa1be8d44349
 Size: 900
 Filename: packagegroup-core-boot-dbg_1.0-r17_hl101.ipk
 Source: packagegroup-core-boot.bb
@@ -7450,8 +7450,8 @@ Recommends: base-files-dev, base-passwd-dev, busybox-dev, devinit-dev, eudev-dev
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0d0abdc87c7d733b888f374d450705c3
-Size: 924
+MD5Sum: b47f84d12a334dc0bd52c73b814020a8
+Size: 926
 Filename: packagegroup-core-boot-dev_1.0-r17_hl101.ipk
 Source: packagegroup-core-boot.bb
 Description: Minimal boot requirements - Development files
@@ -7469,7 +7469,7 @@ Recommends: firmware-mt7601u, firmware-mt7650, firmware-rt2870, firmware-rt73, f
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 44e351a52cc4bb209e13fc32fb7dac35
+MD5Sum: 4ed3fa7995f4e13507866c6d2cef4512
 Size: 920
 Filename: packagegroup-core-boot_1.0-r17_hl101.ipk
 Source: packagegroup-core-boot.bb
@@ -7622,15 +7622,15 @@ License: GPLv2
 Priority: optional
 
 Package: sh4-dvb-modules-dev
-Version: git1531+fd68071-openvision
-Depends: sh4-dvb-modules (= git1531+fd68071-openvision)
+Version: git1531+1f2bf7d-openvision
+Depends: sh4-dvb-modules (= git1531+1f2bf7d-openvision)
 Recommends: kernel-2.6.32.81_stm24_0217-dev, kernel-module-avs-dev, kernel-module-boxtype-dev, kernel-module-bpamem-dev, kernel-module-cimax-dev, kernel-module-cpu-frequ-dev, kernel-module-e2-proc-dev, kernel-module-embxmailbox-dev, kernel-module-embxshell-dev, kernel-module-embxshm-dev, kernel-module-fe-core-dev, kernel-module-kreplay-dev, kernel-module-kreplay-fdma-dev, kernel-module-ksound-dev, kernel-module-ktone-dev, kernel-module-mme-host-dev, kernel-module-mmelog-dev, kernel-module-mpeg2hw-dev, kernel-module-p2div64-dev, kernel-module-pcm-transcoder-dev, kernel-module-platform-dev, kernel-module-player2-dev, kernel-module-player2-unified-dev, kernel-module-proton-dev, kernel-module-pseudocard-dev, kernel-module-pti-dev, kernel-module-silencegen-dev, kernel-module-simu-button-dev, kernel-module-smartcard-dev, kernel-module-sth264pp-dev, kernel-module-stm-monitor-dev, kernel-module-stm-v4l2-dev, kernel-module-stmalloc-dev, kernel-module-stmcore-display-stx7109c3-dev, kernel-module-stmdvb-dev, kernel-module-stmfb-dev, kernel-module-stmsysfs-dev, kernel-module-stmvbi-dev, kernel-module-stmvout-dev, kernel-module-zram-dev
 Section: devel
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 057c93afc82c5a04ae2a09d36a003ed9
-Size: 15666
-Filename: sh4-dvb-modules-dev_git1531+fd68071-openvision_hl101.ipk
+MD5Sum: fbdd21bf1384fb2aefa92fc1141b17c8
+Size: 15672
+Filename: sh4-dvb-modules-dev_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: SH4 driver modules - Development files
  SH4 driver modules  This package contains symbolic links, header files,
@@ -7640,7 +7640,7 @@ License: GPLv2+
 Priority: required
 
 Package: sh4-dvb-modules
-Version: git1531+fd68071-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-module-avs, kernel-module-boxtype, kernel-module-bpamem, kernel-module-cimax, kernel-module-cpu-frequ, kernel-module-e2-proc, kernel-module-embxmailbox, kernel-module-embxshell, kernel-module-embxshm, kernel-module-fe-core, kernel-module-kreplay, kernel-module-kreplay-fdma, kernel-module-ksound, kernel-module-ktone, kernel-module-mme-host, kernel-module-mmelog, kernel-module-mpeg2hw, kernel-module-p2div64, kernel-module-pcm-transcoder, kernel-module-platform, kernel-module-player2, kernel-module-player2-unified, kernel-module-proton, kernel-module-pseudocard, kernel-module-pti, kernel-module-silencegen, kernel-module-simu-button, kernel-module-smartcard, kernel-module-sth264pp, kernel-module-stm-monitor, kernel-module-stm-v4l2, kernel-module-stmalloc, kernel-module-stmcore-display-stx7109c3, kernel-module-stmdvb, kernel-module-stmfb, kernel-module-stmsysfs, kernel-module-stmvbi, kernel-module-stmvout, kernel-module-zram
 Provides: sh4-dvb-modules
 Replaces: sh4-dvb-modules
@@ -7648,9 +7648,9 @@ Conflicts: sh4-dvb-modules
 Section: base
 Architecture: hl101
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 54eb3181f3fb4d6f586aecd28843b0f7
+MD5Sum: f4cdb9f0ed3ae68d4c03f0277b27014e
 Size: 2934
-Filename: sh4-dvb-modules_git1531+fd68071-openvision_hl101.ipk
+Filename: sh4-dvb-modules_git1531+1f2bf7d-openvision_hl101.ipk
 Source: sh4-dvb-modules.bb
 Description: SH4 driver modules
  SH4 driver modules
