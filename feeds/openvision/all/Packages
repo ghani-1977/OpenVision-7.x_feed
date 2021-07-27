@@ -5712,63 +5712,12 @@ OE: enigma2-plugin-skins-dreamplexskins
 License: GPLv2+
 Priority: optional
 
-Package: enigma2-plugin-skins-arctic-raed-dbg
-Version: git70+0c18306-r0
-Section: devel
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bca54b518c8cb7b1c4a858a6c44a120d
-Size: 742
-Filename: enigma2-plugin-skins-arctic-raed-dbg_git70+0c18306-r0_all.ipk
-Source: enigma2-plugin-skins-arctic-raed.bb
-Description: Enigma2 Skin Arctic by RAED (fairbird) for Open Vision - Debugging files
- Modified enigma2 skin for Open Vision by RAED  This package contains ELF
- symbols and related sources for debugging purposes.
-OE: enigma2-plugin-skins-arctic-raed
-License: GPLv2+
-Priority: required
-
-Package: enigma2-plugin-skins-arctic-raed-dev
-Version: git70+0c18306-r0
-Depends: enigma2-plugin-skins-arctic-raed (= git70+0c18306-r0)
-Recommends: enigma2-plugin-extensions-openvisionskintools-dev, enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-skincomponents-weathercomponent-dev, enigma2-plugin-systemplugins-weathercomponenthandler-dev
-Section: devel
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 16851591fe37e2d5485830bb2c0fc08f
-Size: 842
-Filename: enigma2-plugin-skins-arctic-raed-dev_git70+0c18306-r0_all.ipk
-Source: enigma2-plugin-skins-arctic-raed.bb
-Description: Enigma2 Skin Arctic by RAED (fairbird) for Open Vision - Development files
- Modified enigma2 skin for Open Vision by RAED  This package contains
- symbolic links, header files, and related items necessary for software
- development.
-OE: enigma2-plugin-skins-arctic-raed
-License: GPLv2+
-Priority: required
-
-Package: enigma2-plugin-skins-arctic-raed
-Version: git70+0c18306-r0
-Depends: enigma2-plugin-extensions-openvisionskintools, enigma2-plugin-extensions-weatherplugin, enigma2-plugin-skincomponents-weathercomponent, enigma2-plugin-systemplugins-weathercomponenthandler
-Section: base
-Architecture: all
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 787e0f85cdfdc257c826b8fdc843436b
-Size: 5011338
-Filename: enigma2-plugin-skins-arctic-raed_git70+0c18306-r0_all.ipk
-Source: enigma2-plugin-skins-arctic-raed.bb
-Description: Enigma2 Skin Arctic by RAED (fairbird) for Open Vision
- Modified enigma2 skin for Open Vision by RAED
-OE: enigma2-plugin-skins-arctic-raed
-License: GPLv2+
-Priority: required
-
 Package: enigma2-plugin-skins-blacktransfhd-raed-dbg
 Version: git70+0c18306-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9c528940e7933ddc2052e3ae8f95f58b
+MD5Sum: 23ea1613b8a7ba6c1c4175647cf023e8
 Size: 758
 Filename: enigma2-plugin-skins-blacktransfhd-raed-dbg_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-blacktransfhd-raed.bb
@@ -5786,8 +5735,8 @@ Recommends: enigma2-plugin-extensions-openvisionskintools-dev, enigma2-plugin-ex
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ae07340848ab7c748cbb3401ed36827a
-Size: 856
+MD5Sum: 6e1d63fdb5c1689b192b508ccbdfc195
+Size: 858
 Filename: enigma2-plugin-skins-blacktransfhd-raed-dev_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-blacktransfhd-raed.bb
 Description: Enigma2 Skin BlackTransFULLHD by RAED (fairbird) for Open Vision - Development files
@@ -5804,8 +5753,8 @@ Depends: enigma2-plugin-extensions-openvisionskintools, enigma2-plugin-extension
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a1e6cf2fcbff5156d3e760bfdb9cd42d
-Size: 3738826
+MD5Sum: c1339f38c8bf9de5cb2a2899b16138b9
+Size: 3738828
 Filename: enigma2-plugin-skins-blacktransfhd-raed_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-blacktransfhd-raed.bb
 Description: Enigma2 Skin BlackTransFULLHD by RAED (fairbird) for Open Vision
@@ -5935,8 +5884,8 @@ Version: git70+0c18306-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d9c1ebb652275dffbb99363a4a36adcc
-Size: 746
+MD5Sum: 71db3064e907605e992933dfb2683d56
+Size: 750
 Filename: enigma2-plugin-skins-mxblack-raed-dbg_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-mxblack-raed.bb
 Description: Enigma2 Skin MX_black by RAED (fairbird) for Open Vision - Debugging files
@@ -5953,8 +5902,8 @@ Recommends: enigma2-plugin-extensions-openvisionskintools-dev, enigma2-plugin-ex
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 56e9d52447dbe6ef0a83bc1e872dc55a
-Size: 846
+MD5Sum: 24c307aa471ccf8d8684d50d7d2eddc4
+Size: 848
 Filename: enigma2-plugin-skins-mxblack-raed-dev_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-mxblack-raed.bb
 Description: Enigma2 Skin MX_black by RAED (fairbird) for Open Vision - Development files
@@ -5971,8 +5920,8 @@ Depends: enigma2-plugin-extensions-openvisionskintools, enigma2-plugin-extension
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d939b77dbd22cce10e33bd7851193ded
-Size: 1475294
+MD5Sum: b744aed4011cec27c362f27b00978e0c
+Size: 1475290
 Filename: enigma2-plugin-skins-mxblack-raed_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-mxblack-raed.bb
 Description: Enigma2 Skin MX_black by RAED (fairbird) for Open Vision
@@ -5986,8 +5935,8 @@ Version: git70+0c18306-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 23d7d71b1e56f20cf19d36d5ff59855d
-Size: 752
+MD5Sum: 27477d73233ad7db9e5d15865da9e564
+Size: 754
 Filename: enigma2-plugin-skins-mxhq9b-raed-dbg_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-mxhq9b-raed.bb
 Description: Enigma2 Skin MX_HQ9B by RAED (fairbird) for Open Vision - Debugging files
@@ -6004,8 +5953,8 @@ Recommends: enigma2-plugin-extensions-openvisionskintools-dev, enigma2-plugin-ex
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dfec887daf376d962709fb1a47dc1e37
-Size: 850
+MD5Sum: 20bbeb9a7467d947516fb8afa7068769
+Size: 852
 Filename: enigma2-plugin-skins-mxhq9b-raed-dev_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-mxhq9b-raed.bb
 Description: Enigma2 Skin MX_HQ9B by RAED (fairbird) for Open Vision - Development files
@@ -6022,8 +5971,8 @@ Depends: enigma2-plugin-extensions-openvisionskintools, enigma2-plugin-extension
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e8b6a3cc623a0eca2d26fa05df4eda00
-Size: 1613532
+MD5Sum: 9f8476aff9d7324c5cf8d8f67d803c2f
+Size: 1613536
 Filename: enigma2-plugin-skins-mxhq9b-raed_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-mxhq9b-raed.bb
 Description: Enigma2 Skin MX_HQ9B by RAED (fairbird) for Open Vision
@@ -6037,8 +5986,8 @@ Version: git490+a00cca0-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7793251034e0ba4b51986f863e92ba68
-Size: 708
+MD5Sum: a5c8fa5c7ea147276a81939f7f6044dd
+Size: 710
 Filename: enigma2-plugin-skins-octetfhd-dbg_git490+a00cca0-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb
 Description: Enigma2 Skin OctEtFHD - Debugging files
@@ -6051,12 +6000,12 @@ Priority: required
 Package: enigma2-plugin-skins-octetfhd-dev
 Version: git490+a00cca0-r0
 Depends: enigma2-plugin-skins-octetfhd (= git490+a00cca0-r0)
-Recommends: enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-fonts-dejavusanscondensedbold-dev, enigma2-plugin-fonts-opensans-dev, enigma2-plugin-skincomponents-weathercomponent-dev, enigma2-plugin-systemplugins-weathercomponenthandler-dev
+Recommends: enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-extensions-xtraevent-dev, enigma2-plugin-fonts-dejavusanscondensedbold-dev, enigma2-plugin-fonts-opensans-dev, enigma2-plugin-skincomponents-weathercomponent-dev, enigma2-plugin-systemplugins-weathercomponenthandler-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 036a210c7a1a4ddc72686b2f5a460dca
-Size: 824
+MD5Sum: 55e188f0f5352434d54b0eda0b008178
+Size: 832
 Filename: enigma2-plugin-skins-octetfhd-dev_git490+a00cca0-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb
 Description: Enigma2 Skin OctEtFHD - Development files
@@ -6068,12 +6017,12 @@ Priority: required
 
 Package: enigma2-plugin-skins-octetfhd
 Version: git490+a00cca0-r0
-Depends: enigma2-plugin-extensions-weatherplugin, enigma2-plugin-fonts-dejavusanscondensedbold, enigma2-plugin-fonts-opensans, enigma2-plugin-skincomponents-weathercomponent, enigma2-plugin-systemplugins-weathercomponenthandler
+Depends: enigma2-plugin-extensions-weatherplugin, enigma2-plugin-extensions-xtraevent, enigma2-plugin-fonts-dejavusanscondensedbold, enigma2-plugin-fonts-opensans, enigma2-plugin-skincomponents-weathercomponent, enigma2-plugin-systemplugins-weathercomponenthandler
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5a8b83f8e7ec1dd97ec02336f4a368d9
-Size: 1428412
+MD5Sum: e7458fbfdbd86b04db5f06ce62534b09
+Size: 1428426
 Filename: enigma2-plugin-skins-octetfhd_git490+a00cca0-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb
 Description: Enigma2 Skin OctEtFHD
@@ -6183,7 +6132,7 @@ Version: git70+0c18306-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b80ab28497be809e2673470d5ff549ea
+MD5Sum: a6d5f2302dd25bef07afed4df60776fb
 Size: 742
 Filename: enigma2-plugin-skins-turbo-raed-dbg_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-turbo-raed.bb
@@ -6201,8 +6150,8 @@ Recommends: enigma2-plugin-extensions-openvisionskintools-dev, enigma2-plugin-ex
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ddf224421918fc82066a60d0778c43c9
-Size: 840
+MD5Sum: c682de0de7de1232d195bcdbcff8a3ed
+Size: 842
 Filename: enigma2-plugin-skins-turbo-raed-dev_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-turbo-raed.bb
 Description: Enigma2 Skin Turbo by RAED (fairbird) for Open Vision - Development files
@@ -6219,8 +6168,8 @@ Depends: enigma2-plugin-extensions-openvisionskintools, enigma2-plugin-extension
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ba49c5286d7988dbae4248c6fe7c6c4e
-Size: 1723304
+MD5Sum: c0efc01236221f9a8d929db95fc3be0c
+Size: 1723308
 Filename: enigma2-plugin-skins-turbo-raed_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-turbo-raed.bb
 Description: Enigma2 Skin Turbo by RAED (fairbird) for Open Vision
@@ -6234,8 +6183,8 @@ Version: git70+0c18306-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4aed1be247f610e313d24d4c4e397d69
-Size: 758
+MD5Sum: c4e8945c13eac6c2b161bb54e8dcc9a7
+Size: 754
 Filename: enigma2-plugin-skins-whitetransfhd-raed-dbg_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-whitetransfhd-raed.bb
 Description: Enigma2 Skin WhiteTransFullHD by RAED (fairbird) for Open Vision - Debugging files
@@ -6252,8 +6201,8 @@ Recommends: enigma2-plugin-extensions-openvisionskintools-dev, enigma2-plugin-ex
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e4e4fc0e5fc0e9de47ba2e87ee305946
-Size: 856
+MD5Sum: 20a2dad78da1299f35e4432e81320faf
+Size: 854
 Filename: enigma2-plugin-skins-whitetransfhd-raed-dev_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-whitetransfhd-raed.bb
 Description: Enigma2 Skin WhiteTransFullHD by RAED (fairbird) for Open Vision - Development files
@@ -6270,8 +6219,8 @@ Depends: enigma2-plugin-extensions-openvisionskintools, enigma2-plugin-extension
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2413c14252c86036a409bf8730de745a
-Size: 3582420
+MD5Sum: 51c602f133a9a3cee52920b08b2cfd18
+Size: 3582424
 Filename: enigma2-plugin-skins-whitetransfhd-raed_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-whitetransfhd-raed.bb
 Description: Enigma2 Skin WhiteTransFullHD by RAED (fairbird) for Open Vision
@@ -9794,7 +9743,7 @@ Version: 0.1-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 55fbbd656d4a2a4e47c9bb3742bc644f
+MD5Sum: 54f9dc863f8c93364630838f167d73f0
 Size: 698
 Filename: stslave-fw-dbg_0.1-r0_all.ipk
 Source: stslave-fw_0.1.bb
@@ -9811,8 +9760,8 @@ Depends: stslave-fw (= 0.1-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 71e735566da98b8cdc107df0557539f7
-Size: 726
+MD5Sum: 218001ee15c94a65819c0e15a6ebb5ce
+Size: 724
 Filename: stslave-fw-dev_0.1-r0_all.ipk
 Source: stslave-fw_0.1.bb
 Description: stslave-fw version 0.1-r0 - Development files
@@ -9827,8 +9776,8 @@ Version: 0.1-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cece33498c22cefc180994c39c1e78ae
-Size: 1478480
+MD5Sum: 35ab45b091d0a7ffcbdca17165797ad6
+Size: 1667808
 Filename: stslave-fw_0.1-r0_all.ipk
 Source: stslave-fw_0.1.bb
 Description: stslave-fw version 0.1-r0

@@ -196,7 +196,7 @@ Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c0632547895e2c8dc39fa80e888e3f41
+MD5Sum: 9cf0e41e8491b159612a2d47f291e378
 Size: 63454
 Filename: bitratecalc-dbg_git10+740b342-r0_octagon1008.ipk
 Source: bitratecalc_git.bb
@@ -214,7 +214,7 @@ Recommends: enigma2-dev, libc6-dev, libgcc-s-dev, libstdc++-dev, python-dev
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f66895b72872383e7132207c03f543f4
+MD5Sum: 886f705b8166174117353c13323faed3
 Size: 818
 Filename: bitratecalc-dev_git10+740b342-r0_octagon1008.ipk
 Source: bitratecalc_git.bb
@@ -232,8 +232,8 @@ Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 41e4040a04f1978b3f55202560c0cf10
-Size: 6806
+MD5Sum: 8c4b2ae656b617c230dc42aea1ac929a
+Size: 6804
 Filename: bitratecalc_git10+740b342-r0_octagon1008.ipk
 Source: bitratecalc_git.bb
 Description: bitratecalc version gitAUTOINC+740b342ae4-r0
@@ -345,13 +345,13 @@ License: MIT
 Priority: optional
 
 Package: enigma-module-dbg
-Version: 7.6-r318
+Version: 7.6-r319
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6d5762dc0cba406b3df0ce9159b330b1
-Size: 728
-Filename: enigma-module-dbg_7.6-r318_octagon1008.ipk
+MD5Sum: f38fe84e91a41ba4782f513e233e19f9
+Size: 724
+Filename: enigma-module-dbg_7.6-r319_octagon1008.ipk
 Source: enigma-module.bb
 Description: Enigma kernel module for octagon1008 - Debugging files
  Enigma kernel module for octagon1008.  This package contains ELF symbols
@@ -362,15 +362,15 @@ License: GPLv3
 Priority: required
 
 Package: enigma-module-dev
-Version: 7.6-r318
-Depends: enigma-module (= 7.6-r318)
+Version: 7.6-r319
+Depends: enigma-module (= 7.6-r319)
 Recommends: kernel-2.6.32.81_stm24_0217-dev, kernel-module-enigma-dev
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c8cee6a6f0dab2761f66d96f548cb3d1
-Size: 798
-Filename: enigma-module-dev_7.6-r318_octagon1008.ipk
+MD5Sum: 3a857986b643d56d66e3cab76a2ca776
+Size: 796
+Filename: enigma-module-dev_7.6-r319_octagon1008.ipk
 Source: enigma-module.bb
 Description: Enigma kernel module for octagon1008 - Development files
  Enigma kernel module for octagon1008.  This package contains symbolic
@@ -382,14 +382,14 @@ License: GPLv3
 Priority: required
 
 Package: enigma-module
-Version: 7.6-r318
+Version: 7.6-r319
 Depends: kernel-module-enigma
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 18e66c0a5c70a556d2fcd4547be2ea15
-Size: 1388
-Filename: enigma-module_7.6-r318_octagon1008.ipk
+MD5Sum: fce5e1f51479c869aa85d6eb196b1fb8
+Size: 1394
+Filename: enigma-module_7.6-r319_octagon1008.ipk
 Source: enigma-module.bb
 Description: Enigma kernel module for octagon1008
  Enigma kernel module for octagon1008.
@@ -404,7 +404,7 @@ Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg, libtirpc-dbg
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 596583cd5eb02e455e2e138db2425eb8
+MD5Sum: 013ad20b6692629914bbea840833ab0b
 Size: 129642
 Filename: enigma2-c-plugins-dbg_git40+9b3898b-r0_octagon1008.ipk
 Source: enigma2-c-plugins.bb
@@ -422,7 +422,7 @@ Recommends: enigma2-dev, gstreamer1.0-plugins-bad-fragmented-dev, hairtunes-dev,
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a210758b05017f6b8d7f9beccf5b7c4f
+MD5Sum: e1dc78c51ae5b8515fcb64ce3a30dae6
 Size: 828
 Filename: enigma2-c-plugins-dev_git40+9b3898b-r0_octagon1008.ipk
 Source: enigma2-c-plugins.bb
@@ -438,8 +438,8 @@ Version: git40+9b3898b-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 36c0f825e46d72b36859bbc89bab9b09
-Size: 1358
+MD5Sum: fbfaa8f0f0b8a0065771269867a8c7fc
+Size: 1360
 Filename: enigma2-c-plugins-meta_git40+9b3898b-r0_octagon1008.ipk
 Source: enigma2-c-plugins.bb
 Description: C plugins for Open Vision
@@ -453,8 +453,8 @@ Version: git40+9b3898b-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8058f5a2ff713174e8ed7587bca2b601
-Size: 640
+MD5Sum: 5348ae540f9e4018cd5d750ffd5ff698
+Size: 638
 Filename: enigma2-c-plugins_git40+9b3898b-r0_octagon1008.ipk
 Source: enigma2-c-plugins.bb
 Description: C plugins for Open Vision
@@ -464,14 +464,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-dbg
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Recommends: libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypto-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libgomp-dbg, libjpeg-dbg, libmmeimage-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libudfread-dbg, libxml2-dbg
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e65b880e7eb1d11d7e3b16935ecf3c77
-Size: 11552996
-Filename: enigma2-dbg_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 21021a4969d76e1540b75644a46418af
+Size: 11552592
+Filename: enigma2-dbg_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Debugging files
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -482,15 +482,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-dev
-Version: develop+git23955+fe0ccb7-r0
-Depends: enigma2 (= develop+git23955+fe0ccb7-r0)
+Version: develop+git23960+5a1aae8-r0
+Depends: enigma2 (= develop+git23960+5a1aae8-r0)
 Recommends: aio-grab-dev, alsa-conf-dev, alsa-utils-amixer-conf-dev, avahi-dev, cdrkit-dev, dhrystone-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma-module-dev, enigma2-data-iso-639-3-dev, enigma2-fonts-dev, enigma2-plugin-extensions-pespeedup-dev, enigma2-remotes-dev, enigma2-timezones-dev, ethtool-dev, font-valis-enigma-dev, glibc-gconv-cp1250-dev, glibc-gconv-iso8859-15-dev, gstreamer1.0-plugins-bad-mpegtsmux-dev, gstreamer1.0-plugins-bad-videoparsersbad-dev, hotplug-e2-helper-dev, jpeg-dev, kernel-module-pktcdvd-dev, kernel-module-udf-dev, libavahi-client-dev, libavahi-common-dev, libc6-dev, libcrypto-dev, libdreamdvd-dev, libdvbsi++-dev, libfreetype-dev, libfribidi-dev, libgcc-s-dev, libgif-dev, libglib-2.0-dev, libgomp-dev, libjpeg-dev, libmad-dev, libmme-host-dev, libmmeimage-dev, libpng16-dev, libpython2-dev, libsigc-2.0-dev, libssl-dev, libstdc++-dev, libtuxtxt-dev, libtuxtxt32bpp-dev, libudfread-dev, libxml2-dev, mjpegtools-dev, ntpdate-dev, ofgwrite-dev, openssl-dev, openvision-version-info-dev, python-codecs-dev, python-core-dev, python-crypt-dev, python-fcntl-dev, python-image-dev, python-imaging-dev, python-lang-dev, python-mmap-dev, python-netclient-dev, python-netifaces-dev, python-netserver-dev, python-numbers-dev, python-pickle-dev, python-process-dev, python-pyusb-dev, python-re-dev, python-sendfile-dev, python-service-identity-dev, python-shell-dev, python-six-dev, python-threading-dev, python-twisted-core-dev, python-twisted-dev, python-twisted-web-dev, python-wifi-dev, python-xml-dev, python-zlib-dev, python-zopeinterface-dev, replex-dev, streambench-dev, virtual/enigma2-mediaservice-dev, wireless-tools-dev, wpa-supplicant-dev
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d458a7c3826e99ab89d7be296ceae1ef
-Size: 160404
-Filename: enigma2-dev_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: c3cef49cf3ff539750e740fdb5529b2a
+Size: 160402
+Filename: enigma2-dev_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Development files
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -505,8 +505,8 @@ Version: 2020.10.17-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1bc58fabd7ce48ab31ce13bb9961d8e7
-Size: 1077324
+MD5Sum: fcc8f9b15314237438ef07b03e997215
+Size: 1077322
 Filename: enigma2-fonts_2020.10.17-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
@@ -517,14 +517,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ar
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1e7f2f9da9f830084519b791231e90c8
-Size: 71450
-Filename: enigma2-locale-ar_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 5a4467ca6b8027197df764075c1d5388
+Size: 71442
+Filename: enigma2-locale-ar_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: ar
  ar
@@ -533,14 +533,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-bg
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 920f9e95e7acdc253b361602bd24d6da
+MD5Sum: 87b9db8f0b34ebcea7ce0293a7c649aa
 Size: 112564
-Filename: enigma2-locale-bg_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+Filename: enigma2-locale-bg_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: bg
  bg
@@ -549,14 +549,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ca
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d9083be93d7e29ede82576ea0bfc71a6
-Size: 106574
-Filename: enigma2-locale-ca_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: e4b83d63c4824474b72198b235113c17
+Size: 106576
+Filename: enigma2-locale-ca_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: ca
  ca
@@ -565,14 +565,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-cs
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 745f7eb6b51fce5485e06927ae46fdef
+MD5Sum: 55445ae0f8f1a82a30d3fe8505807510
 Size: 105696
-Filename: enigma2-locale-cs_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+Filename: enigma2-locale-cs_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: cs
  cs
@@ -581,14 +581,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-da
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b313daed964380a33bbeda1cd341918b
-Size: 70434
-Filename: enigma2-locale-da_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: e0b9432a3c33b5ad5f87806cc0058b12
+Size: 70426
+Filename: enigma2-locale-da_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: da
  da
@@ -597,14 +597,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-de
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d619e3600941e6e8423bece7672475bf
-Size: 105832
-Filename: enigma2-locale-de_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: a922fe2b2a4ab037564b0e820bafeb8b
+Size: 105830
+Filename: enigma2-locale-de_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: de
  de
@@ -613,14 +613,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-el
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 62255e22473d40421429b2954e3634ef
-Size: 116844
-Filename: enigma2-locale-el_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 457888ae9a3b2d896b41f320b22aff1e
+Size: 116836
+Filename: enigma2-locale-el_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: el
  el
@@ -629,14 +629,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-en
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b7751d336b781bcecca7a61961b961da
-Size: 51502
-Filename: enigma2-locale-en_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: b1dc2035320e23a29f76ce72874899e2
+Size: 51492
+Filename: enigma2-locale-en_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: en
  en
@@ -645,14 +645,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-es
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 18f615bed0fe5e4ce509bc0ec04bb897
-Size: 129650
-Filename: enigma2-locale-es_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: d2952ef27ccd2abadde92a7c6a4983e6
+Size: 129648
+Filename: enigma2-locale-es_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: es
  es
@@ -661,14 +661,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-et
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2e034cf1770d34d9b1d7a4565c08236a
-Size: 89590
-Filename: enigma2-locale-et_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: f1ccdb311b9a2e82a8053cdf06578f91
+Size: 89588
+Filename: enigma2-locale-et_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: et
  et
@@ -677,14 +677,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fa
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8ddaca05bd0d2c31380b12e8331a02d4
+MD5Sum: 87fd9ade8ab47b777faa73d0c4bce16d
 Size: 28766
-Filename: enigma2-locale-fa_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+Filename: enigma2-locale-fa_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: fa
  fa
@@ -693,14 +693,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fi
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 01fc1ec00094e23153855ab3185a5197
-Size: 85078
-Filename: enigma2-locale-fi_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 83f19a6c1cca575eac95bf2f954d5a1f
+Size: 85076
+Filename: enigma2-locale-fi_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: fi
  fi
@@ -709,14 +709,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fr
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c1b360da8b5fc9c650133ddeb071cbe1
-Size: 107084
-Filename: enigma2-locale-fr_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 15eabbfea120069ccb443548de4e1228
+Size: 107080
+Filename: enigma2-locale-fr_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: fr
  fr
@@ -725,14 +725,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fy
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5368f0fe96300bee55e659acafe55d88
-Size: 19984
-Filename: enigma2-locale-fy_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 0fcd46f02c8965f254cba082e2e5408e
+Size: 19986
+Filename: enigma2-locale-fy_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: fy
  fy
@@ -741,14 +741,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-gl
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ec1cb6e2f80c674f4c69ef76f7692405
-Size: 103568
-Filename: enigma2-locale-gl_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 4d8261d5bc30f8157cb958f5d6e3fe21
+Size: 103562
+Filename: enigma2-locale-gl_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: gl
  gl
@@ -757,14 +757,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-he
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1616062b0e314ff9abd3c42cb566a86d
-Size: 21404
-Filename: enigma2-locale-he_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 427901dc98de1d90460f37860e17dc24
+Size: 21402
+Filename: enigma2-locale-he_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: he
  he
@@ -773,14 +773,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-hr
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1c861a817bf5cbdebf361049a6bfc08b
-Size: 104848
-Filename: enigma2-locale-hr_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: d02b7c74153f980253f35e1e9571089f
+Size: 104852
+Filename: enigma2-locale-hr_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: hr
  hr
@@ -789,14 +789,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-hu
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 075b080abd56606937d6e354f000ad15
-Size: 106074
-Filename: enigma2-locale-hu_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: e7d555c171e203615982fd367d757a78
+Size: 106068
+Filename: enigma2-locale-hu_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: hu
  hu
@@ -805,14 +805,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-id
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: acd1ead113cd9de266bbc2672394c353
-Size: 90388
-Filename: enigma2-locale-id_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: f595fd31d6a564166bd02503c98c74ec
+Size: 90386
+Filename: enigma2-locale-id_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: id
  id
@@ -821,14 +821,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-is
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f2c58a14e52e463584419f2c3c77b58b
-Size: 27814
-Filename: enigma2-locale-is_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 90ed0d76ad561c5d25a2ec05130d6108
+Size: 27816
+Filename: enigma2-locale-is_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: is
  is
@@ -837,14 +837,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-it
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9dddca05ffa42cfb006e77a8dfd941af
-Size: 97796
-Filename: enigma2-locale-it_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: b9348106b41d8bb4a8ef06dafe9b6e42
+Size: 97792
+Filename: enigma2-locale-it_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: it
  it
@@ -853,14 +853,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ku
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a63a04c791541ca4fe40c652cc1a901c
-Size: 51096
-Filename: enigma2-locale-ku_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 8fb0c3d19ddfdd4b86134fa659613f68
+Size: 51090
+Filename: enigma2-locale-ku_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: ku
  ku
@@ -869,14 +869,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-lt
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 08c6c10f98e62fb27dd93b7d6300023b
+MD5Sum: 3ab9d6193683b9cb6d6ac328cedf5966
 Size: 107500
-Filename: enigma2-locale-lt_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+Filename: enigma2-locale-lt_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: lt
  lt
@@ -885,14 +885,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-lv
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3ec832852d676ddae1b439f6535edae4
-Size: 102672
-Filename: enigma2-locale-lv_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 87ab392ff07dbae1753ee7f6357773a8
+Size: 102668
+Filename: enigma2-locale-lv_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: lv
  lv
@@ -905,8 +905,8 @@ Version: 1.0-r0
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 982359b717a6ad80e5745306d18b546e
-Size: 698
+MD5Sum: 4f3f2d7155dc9f7a211bf7f16331328c
+Size: 696
 Filename: enigma2-locale-meta-dbg_1.0-r0_octagon1008.ipk
 Source: enigma2-locale-meta.bb
 Description: meta file for enigma2 locales - Debugging files
@@ -922,8 +922,8 @@ Depends: enigma2-locale-meta (= 1.0-r0)
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fef31650c2eb3aa1a4b6701f9c029a47
-Size: 724
+MD5Sum: d672f45db44693ab166049532618c11a
+Size: 726
 Filename: enigma2-locale-meta-dev_1.0-r0_octagon1008.ipk
 Source: enigma2-locale-meta.bb
 Description: meta file for enigma2 locales - Development files
@@ -939,7 +939,7 @@ Recommends: enigma2-locale-ar, enigma2-locale-bg, enigma2-locale-ca, enigma2-loc
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 80644980f9ac803bf757e898632d9de3
+MD5Sum: ca7c53cc061800c9023386ce2cc052df
 Size: 766
 Filename: enigma2-locale-meta_1.0-r0_octagon1008.ipk
 Source: enigma2-locale-meta.bb
@@ -950,14 +950,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-locale-mk
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f7aee14c9d82d2599ec2ba9375f87f2e
+MD5Sum: 1fff222a6a4bb18878ee94dd2e4dda62
 Size: 115438
-Filename: enigma2-locale-mk_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+Filename: enigma2-locale-mk_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: mk
  mk
@@ -966,14 +966,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-nb
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 360b63ddccd5c0db3a8d6354c079cc5e
-Size: 102152
-Filename: enigma2-locale-nb_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: ff8833ea2aa0d8e8c85a9f66ebb4ec9b
+Size: 102154
+Filename: enigma2-locale-nb_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: nb
  nb
@@ -982,14 +982,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-nl
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 962045c35da0656df921dc4e4a4c6efc
+MD5Sum: 0edfbb6c6d6b22fc3d58ec6f5876d242
 Size: 109674
-Filename: enigma2-locale-nl_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+Filename: enigma2-locale-nl_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: nl
  nl
@@ -998,14 +998,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-nn
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 60eed4483850c0789f61e7cf071e50e6
-Size: 53222
-Filename: enigma2-locale-nn_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: ed8a17279af957d02ef3d9e02f6bf460
+Size: 53224
+Filename: enigma2-locale-nn_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: nn
  nn
@@ -1014,14 +1014,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pl
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1b0dcd65bd8c1d7ffa18245d0d4c4651
-Size: 100044
-Filename: enigma2-locale-pl_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: c25683628763b55a95b23097ee9351fc
+Size: 100040
+Filename: enigma2-locale-pl_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: pl
  pl
@@ -1030,14 +1030,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pt-br
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: de70d89700d4f9bed6441cec37bf75fb
-Size: 52772
-Filename: enigma2-locale-pt-br_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 8e56404f9b6769f9a1c9cc2f9a08bfbd
+Size: 52762
+Filename: enigma2-locale-pt-br_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: pt-br
  pt-br
@@ -1046,14 +1046,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pt
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d69359b2b1b9af198e8212fe846308cd
-Size: 50402
-Filename: enigma2-locale-pt_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: c15b38a62338a18380b9440ddfbaa191
+Size: 50398
+Filename: enigma2-locale-pt_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: pt
  pt
@@ -1062,14 +1062,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ro
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1c6c729041f92e6e96e01cbf3a7eafc4
-Size: 21684
-Filename: enigma2-locale-ro_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 019e7a8a6747290bead573be1f40b8ec
+Size: 21686
+Filename: enigma2-locale-ro_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: ro
  ro
@@ -1078,14 +1078,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ru
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b393d2f5f7327f32b87672c1d2c072f5
+MD5Sum: c2b937e40e6b1c2f1181908083313732
 Size: 116762
-Filename: enigma2-locale-ru_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+Filename: enigma2-locale-ru_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: ru
  ru
@@ -1094,14 +1094,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sk
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3f3160b570eab4a0072e5b33b30db1e9
-Size: 107218
-Filename: enigma2-locale-sk_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 51a4e006da0e977e4cb26292180da04d
+Size: 107220
+Filename: enigma2-locale-sk_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: sk
  sk
@@ -1110,14 +1110,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sl
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9c5fe0f8477314c91ed66bd48c22025f
-Size: 60456
-Filename: enigma2-locale-sl_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: ab53d19a4d385fae58de4a532d4c8a8d
+Size: 60452
+Filename: enigma2-locale-sl_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: sl
  sl
@@ -1126,14 +1126,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sr
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1ac84195b73920b0212364d8c8043821
-Size: 28014
-Filename: enigma2-locale-sr_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 5126f40acf4ca5ee17a719b4d770250b
+Size: 28012
+Filename: enigma2-locale-sr_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: sr
  sr
@@ -1142,14 +1142,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sv
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cc6f472e2dcef80832e08a3c1d18981d
-Size: 71464
-Filename: enigma2-locale-sv_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: afd24956abe0ceedbad64775850e46b6
+Size: 71466
+Filename: enigma2-locale-sv_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: sv
  sv
@@ -1158,14 +1158,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-th
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 46f49e1a546198639bb8a52b8002491d
+MD5Sum: a94a013c21c4b6fac5fb9a36e54e81fe
 Size: 27118
-Filename: enigma2-locale-th_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+Filename: enigma2-locale-th_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: th
  th
@@ -1174,14 +1174,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-tr
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 14b4000874ea93298660fe8a1ec9d5b4
-Size: 67868
-Filename: enigma2-locale-tr_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 85869fec312dfb29452571b8a0dca44e
+Size: 67864
+Filename: enigma2-locale-tr_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: tr
  tr
@@ -1190,14 +1190,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-uk
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8c9acee45cce95e95d99c50f170a1d27
-Size: 115444
-Filename: enigma2-locale-uk_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 39a9c9e72f2188e460e32dc579c8e43d
+Size: 115448
+Filename: enigma2-locale-uk_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: uk
  uk
@@ -1206,14 +1206,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-vi
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2da80ca591549d18c44466063ca62647
-Size: 100502
-Filename: enigma2-locale-vi_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 1b1be2a0308d394b4a164582270889f7
+Size: 100500
+Filename: enigma2-locale-vi_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: vi
  vi
@@ -1222,14 +1222,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-zh-cn
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d86a21ffd55973eb38c727d21f6570a5
+MD5Sum: 834ce460172c13c5e1522c59e7f5f70a
 Size: 87630
-Filename: enigma2-locale-zh-cn_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+Filename: enigma2-locale-zh-cn_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: zh-cn
  zh-cn
@@ -1238,14 +1238,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-zh-hk
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: enigma2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: eb13af19c0236737a2da00241a1ff55a
-Size: 25850
-Filename: enigma2-locale-zh-hk_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 0114ffaecacd3c4c8c16bee7ae1a7a2d
+Size: 25852
+Filename: enigma2-locale-zh-hk_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: zh-hk
  zh-hk
@@ -1254,13 +1254,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-meta
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5d773a3eecadf2acdd528984bc851646
-Size: 4772
-Filename: enigma2-meta_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 1839e27ffe2ef9e3ae0e9037aa911d8d
+Size: 4790
+Filename: enigma2-meta_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -2070,8 +2070,8 @@ Version: 1.0-r0
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 53055ae2f646b5a45434c3054c356806
-Size: 720
+MD5Sum: 41fb68fe2a8b01a1ac191ce73e4d92b9
+Size: 718
 Filename: enigma2-plugin-drivers-dvb-usb-tbs-dbg_1.0-r0_octagon1008.ipk
 Source: enigma2-plugin-drivers-dvb-usb-tbs.bb
 Description: enigma2-plugin-drivers-dvb-usb-tbs version 1.0-r0 - Debugging files
@@ -2087,7 +2087,7 @@ Depends: enigma2-plugin-drivers-dvb-usb-tbs (= 1.0-r0)
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 91e92522bffd3da9116334c6f32ae262
+MD5Sum: f4e7c171ecc953184b0ac9a565f9ba59
 Size: 750
 Filename: enigma2-plugin-drivers-dvb-usb-tbs-dev_1.0-r0_octagon1008.ipk
 Source: enigma2-plugin-drivers-dvb-usb-tbs.bb
@@ -2104,7 +2104,7 @@ Recommends: firmware-dvb-usb-tbs5925, firmware-dvb-usb-tbs5980, kernel-module-cx
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 184f7ddbb76bc6cc339621ffda795fb9
+MD5Sum: 26bb7a77e0dc7bcbf722bacf678fbe61
 Size: 740
 Filename: enigma2-plugin-drivers-dvb-usb-tbs_1.0-r0_octagon1008.ipk
 Source: enigma2-plugin-drivers-dvb-usb-tbs.bb
@@ -2120,8 +2120,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0d4f382cde9121fd33a1ba2fa78267ab
-Size: 4508
+MD5Sum: aba92ce8df11e4d2f78f8b2929c5cdc2
+Size: 4548
 Filename: enigma2-plugin-extensions-airplayer-po_git40+9b3898b-r0_octagon1008.ipk
 Source: enigma2-c-plugins.bb
 Description: extensions-airplayer (translations)
@@ -2136,8 +2136,8 @@ Depends: enigma2, gstreamer1.0-plugins-bad-fragmented, hairtunes, python-ctypes,
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bef29557db24410226bb8aa757c344f8
-Size: 103020
+MD5Sum: ae7584aa7ae91f4b00db42b5c49f6318
+Size: 103026
 Filename: enigma2-plugin-extensions-airplayer_git40+9b3898b-r0_octagon1008.ipk
 Source: enigma2-c-plugins.bb
 Description: extensions-airplayer
@@ -2147,14 +2147,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-cutlisteditor
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: aio-grab
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f59c88c86029038da323284eed059363
-Size: 20414
-Filename: enigma2-plugin-extensions-cutlisteditor_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 0843f5a311591d76dc94fb8098c45dbf
+Size: 20412
+Filename: enigma2-plugin-extensions-cutlisteditor_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor
  extensions-cutlisteditorenables you to cut your movies.
@@ -2163,14 +2163,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdburn
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: cdrkit, dvd+rw-tools, dvdauthor, gstreamer1.0-plugins-bad-mpegtsmux, kernel-module-pktcdvd, mjpegtools, python-imaging, replex
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 62cb09622c30fa50a50b098ec0cbe015
-Size: 853458
-Filename: enigma2-plugin-extensions-dvdburn_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: f8dbe31ec4330fdbd0a2972e3408f783
+Size: 853432
+Filename: enigma2-plugin-extensions-dvdburn_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: extensions-dvdburn
  extensions-dvdburn
@@ -2179,14 +2179,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdplayer
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: gstreamer1.0-plugins-bad-videoparsersbad, kernel-module-udf
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 885bd5aa05ab9c98688a2dc5e22954c9
-Size: 3852
-Filename: enigma2-plugin-extensions-dvdplayer_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: f56bd24e0a199199f4d4d334e420ad6b
+Size: 3850
+Filename: enigma2-plugin-extensions-dvdplayer_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: extensions-dvdplayer
  extensions-dvdplayer
@@ -2195,13 +2195,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-graphmultiepg
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8eabeb45784e296e10b52bb2f183904b
-Size: 42874
-Filename: enigma2-plugin-extensions-graphmultiepg_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 974508006636ac2b742de93f307efaf4
+Size: 42854
+Filename: enigma2-plugin-extensions-graphmultiepg_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: extensions-graphmultiepg
  extensions-graphmultiepgshows a graphical timeline EPG.
@@ -2276,13 +2276,13 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediaplayer
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d440a8c9d101cdb8bfca33134d04744b
+MD5Sum: 54fca06c30e8682e4a2d17af77d53d77
 Size: 36082
-Filename: enigma2-plugin-extensions-mediaplayer_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+Filename: enigma2-plugin-extensions-mediaplayer_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: extensions-mediaplayer
  extensions-mediaplayer
@@ -2291,13 +2291,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediascanner
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 349cd54b6789d02d0ac1065b614d4a33
+MD5Sum: 508da23e198c9c56ba4b691df7364d7d
 Size: 6876
-Filename: enigma2-plugin-extensions-mediascanner_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+Filename: enigma2-plugin-extensions-mediascanner_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: extensions-mediascanner
  extensions-mediascanner
@@ -2311,8 +2311,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f2d43ada5329cb4e6b84431d959a714a
-Size: 10098
+MD5Sum: 6aaa11347d81125c1d8aeb528a592170
+Size: 10110
 Filename: enigma2-plugin-extensions-moviecut-po_git40+9b3898b-r0_octagon1008.ipk
 Source: enigma2-c-plugins.bb
 Description: extensions-moviecut (translations)
@@ -2327,8 +2327,8 @@ Depends: enigma2, libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bfeb015592ac2df5b47f81b105c13947
-Size: 32016
+MD5Sum: b0178d5ae37ed66f47a414db70c15c87
+Size: 32068
 Filename: enigma2-plugin-extensions-moviecut_git40+9b3898b-r0_octagon1008.ipk
 Source: enigma2-c-plugins.bb
 Description: extensions-moviecut
@@ -2404,15 +2404,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-dbg
-Version: git4435+020dfb2-r0
+Version: git4442+fea7ad2-r0
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5b450ba69f11d2e3f18be513778c2a82
-Size: 746
-Filename: enigma2-plugin-extensions-openwebif-dbg_git4435+020dfb2-r0_octagon1008.ipk
+MD5Sum: a058b473707bf99a3a00620c41f106e5
+Size: 748
+Filename: enigma2-plugin-extensions-openwebif-dbg_git4442+fea7ad2-r0_octagon1008.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+020dfb2cc2-r0 - Debugging files
+Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+fea7ad2560-r0 - Debugging files
  Control your receiver with a browser  This package contains ELF symbols
  and related sources for debugging purposes.
 OE: enigma2-plugin-extensions-openwebif
@@ -2420,17 +2420,17 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-dev
-Version: git4435+020dfb2-r0
-Depends: enigma2-plugin-extensions-openwebif (= git4435+020dfb2-r0)
-Recommends: aio-grab-dev, enigma2-dev, openwebif-remotes-dev, python-cheetah-dev, python-compression-dev, python-core-dev, python-dev, python-ipaddress-dev, python-json-dev, python-misc-dev, python-numbers-dev, python-pyopenssl-dev, python-shell-dev, python-six-dev, python-unixadmin-dev
+Version: git4442+fea7ad2-r0
+Depends: enigma2-plugin-extensions-openwebif (= git4442+fea7ad2-r0)
+Recommends: aio-grab-dev, enigma2-dev, openwebif-remotes-dev, python-cheetah-dev, python-compression-dev, python-core-dev, python-dev, python-ipaddress-dev, python-json-dev, python-misc-dev, python-numbers-dev, python-pprint-dev, python-pyopenssl-dev, python-shell-dev, python-six-dev, python-twisted-web-dev, python-unixadmin-dev
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5defd90d9cf917813266b4c80be79b2b
-Size: 878
-Filename: enigma2-plugin-extensions-openwebif-dev_git4435+020dfb2-r0_octagon1008.ipk
+MD5Sum: a81ac990219a3d6717b7d0159392c72a
+Size: 890
+Filename: enigma2-plugin-extensions-openwebif-dev_git4442+fea7ad2-r0_octagon1008.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+020dfb2cc2-r0 - Development files
+Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+fea7ad2560-r0 - Development files
  Control your receiver with a browser  This package contains symbolic
  links, header files, and related items necessary for software
  development.
@@ -2439,46 +2439,46 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-themes
-Version: git4435+020dfb2-r0
+Version: git4442+fea7ad2-r0
 Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c7badb802da9ce2bbc2453cef0182575
-Size: 243944
-Filename: enigma2-plugin-extensions-openwebif-themes_git4435+020dfb2-r0_octagon1008.ipk
+MD5Sum: f1496cd3947b0e98612cc1fc5653d8db
+Size: 243950
+Filename: enigma2-plugin-extensions-openwebif-themes_git4442+fea7ad2-r0_octagon1008.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+020dfb2cc2-r0
+Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+fea7ad2560-r0
  Control your receiver with a browser
 OE: enigma2-plugin-extensions-openwebif
 License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-vxg
-Version: git4435+020dfb2-r0
+Version: git4442+fea7ad2-r0
 Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 713f7b1935897a97491412ca78c751f8
-Size: 1440134
-Filename: enigma2-plugin-extensions-openwebif-vxg_git4435+020dfb2-r0_octagon1008.ipk
+MD5Sum: e0892319db7d2c0c6b99707bba6559e5
+Size: 1440118
+Filename: enigma2-plugin-extensions-openwebif-vxg_git4442+fea7ad2-r0_octagon1008.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
-Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+020dfb2cc2-r0
+Description: enigma2-plugin-extensions-openwebif version gitAUTOINC+fea7ad2560-r0
  Control your receiver with a browser
 OE: enigma2-plugin-extensions-openwebif
 License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif
-Version: git4435+020dfb2-r0
-Depends: aio-grab, enigma2, openwebif-remotes, python-cheetah, python-compression, python-core, python-ipaddress, python-json, python-misc, python-numbers, python-pyopenssl, python-shell, python-six, python-unixadmin
+Version: git4442+fea7ad2-r0
+Depends: aio-grab, enigma2, openwebif-remotes, python-cheetah, python-compression, python-core, python-ipaddress, python-json, python-misc, python-numbers, python-pprint, python-pyopenssl, python-shell, python-six, python-twisted-web, python-unixadmin
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7600543b005442430df92370de0c17e8
-Size: 2322322
-Filename: enigma2-plugin-extensions-openwebif_git4435+020dfb2-r0_octagon1008.ipk
+MD5Sum: 525775d4521896e2fa8c128c990762a2
+Size: 2322278
+Filename: enigma2-plugin-extensions-openwebif_git4442+fea7ad2-r0_octagon1008.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: extensions-openwebif
  extensions-openwebif
@@ -2487,13 +2487,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-pictureplayer
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 454cfc718d0bd25cabf7cdfed9191854
-Size: 21448
-Filename: enigma2-plugin-extensions-pictureplayer_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 8b2991a5d83e24e90d54ad6d2a9641cf
+Size: 21450
+Filename: enigma2-plugin-extensions-pictureplayer_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: extensions-pictureplayer
  extensions-pictureplayerdisplays photos on the TV.
@@ -2502,13 +2502,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi-staticdev
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7ee902b5cb27a20f1f357000472c3133
-Size: 90064
-Filename: enigma2-plugin-extensions-socketmmi-staticdev_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: c272e1ec85037f820bda3c5aff82e7ee
+Size: 90068
+Filename: enigma2-plugin-extensions-socketmmi-staticdev_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (static development)
  extensions-socketmmi (static development)
@@ -2517,14 +2517,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4), libudfread0 (>= 1.1.1+git107+b8ada65), libxml2 (>= 2.9.4)
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a20042941e4bed2e37b27b771a0d3587
+MD5Sum: 2229659b1c44cb17e65a2d5d146a9405
 Size: 14230
-Filename: enigma2-plugin-extensions-socketmmi_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+Filename: enigma2-plugin-extensions-socketmmi_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi
  extensions-socketmmi
@@ -2533,13 +2533,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-fonts-wqy-microhei
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7f5e8f518457ac7488e9706fd3f226a6
-Size: 2331882
-Filename: enigma2-plugin-fonts-wqy-microhei_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 5f923e4af2e7ddf7fc6e126c422908b4
+Size: 2331878
+Filename: enigma2-plugin-fonts-wqy-microhei_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
  wqy-microhei font supports Chinese EPG
@@ -2548,13 +2548,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-cablescan
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 33858179b46d214dbc683bf1fda956fe
-Size: 8974
-Filename: enigma2-plugin-systemplugins-cablescan_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 775e3e508ae77984daf60eac850e2ff1
+Size: 8972
+Filename: enigma2-plugin-systemplugins-cablescan_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-cablescan
  systemplugins-cablescan
@@ -2563,13 +2563,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-commoninterfaceassignment
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 48f9c61a51bcfcf5a15e2d74f07fa443
-Size: 16360
-Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: c270bf4120d3a9ab5f010ff3add3b419
+Size: 16354
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-commoninterfaceassignment
  systemplugins-commoninterfaceassignment
@@ -2583,8 +2583,8 @@ Recommends: libc6-dbg, libcurl-dbg, libxml2-dbg, libz-dbg
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cd14154cef3b383a97ffd14792f29c7d
-Size: 844
+MD5Sum: 054042d547d88e0f0724680ee598c72e
+Size: 840
 Filename: enigma2-plugin-systemplugins-crossepg-dbg_0.8.7+gitr534+13944d2-r0_octagon1008.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: enigma2-plugin-systemplugins-crossepg version 0.8.7+gitrAUTOINC+13944d2e2c-r0 - Debugging files
@@ -2603,8 +2603,8 @@ Recommends: curl-dev, enigma2-dev, libc6-dev, libcurl-dev, libxml2-dev, libz-dev
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f2d352767fa5e1ef0d9551d65ded4d97
-Size: 910
+MD5Sum: eb082d163aa74bfb1ddb740842d94266
+Size: 904
 Filename: enigma2-plugin-systemplugins-crossepg-dev_0.8.7+gitr534+13944d2-r0_octagon1008.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: enigma2-plugin-systemplugins-crossepg version 0.8.7+gitrAUTOINC+13944d2e2c-r0 - Development files
@@ -2622,7 +2622,7 @@ Depends: enigma2, libc6 (>= 2.25), libcurl4 (>= 7.73.0), libxml2 (>= 2.9.4), lib
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 72e4470f4d3e37ba7490eb08c10cd265
+MD5Sum: f8418481e9502448d38a48a554aea29d
 Size: 629572
 Filename: enigma2-plugin-systemplugins-crossepg_0.8.7+gitr534+13944d2-r0_octagon1008.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
@@ -2634,13 +2634,13 @@ License: LGPLv2.1
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-defaultservicesscanner
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6e80f9bb69ca21aef9944109db9c7c6e
-Size: 4754
-Filename: enigma2-plugin-systemplugins-defaultservicesscanner_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 2e63654c31c12c25d04d1ee3a94b9c9a
+Size: 4746
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-defaultservicesscanner
  systemplugins-defaultservicesscanner
@@ -2649,13 +2649,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-diseqctester
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 22eb3c02913174a719aa3ccca39e2dd9
-Size: 14818
-Filename: enigma2-plugin-systemplugins-diseqctester_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 2c49452643f63562c0add1783c1a7d7e
+Size: 14816
+Filename: enigma2-plugin-systemplugins-diseqctester_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-diseqctester
  systemplugins-diseqctester
@@ -2664,13 +2664,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastscan
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b79f86958138e22340c424d069834907
-Size: 12006
-Filename: enigma2-plugin-systemplugins-fastscan_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 5ad8ed24cd6b15ff65c82efb0891301e
+Size: 12004
+Filename: enigma2-plugin-systemplugins-fastscan_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-fastscan
  systemplugins-fastscan
@@ -2679,13 +2679,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hdmicec
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 06f67ec4e52b3d49a5f2d287ad765522
-Size: 6344
-Filename: enigma2-plugin-systemplugins-hdmicec_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: cb64e5ad28399d5a3b797d5067236f91
+Size: 6348
+Filename: enigma2-plugin-systemplugins-hdmicec_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-hdmicec
  systemplugins-hdmicec
@@ -2694,14 +2694,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hotplug
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: hotplug-e2-helper
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fadf71648ae95a603562fa53882ca857
-Size: 3902
-Filename: enigma2-plugin-systemplugins-hotplug_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: a6843d368e8b270b58dcbf19b7205f2c
+Size: 3892
+Filename: enigma2-plugin-systemplugins-hotplug_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-hotplug
  systemplugins-hotplug
@@ -2715,7 +2715,7 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2e9963989e41ee73d71ae6607697e2b1
+MD5Sum: e29e840a36040d9b0577f4b9c318e178
 Size: 7540
 Filename: enigma2-plugin-systemplugins-misplslcnscan-po_git40+9b3898b-r0_octagon1008.ipk
 Source: enigma2-c-plugins.bb
@@ -2731,8 +2731,8 @@ Depends: enigma2, libc6 (>= 2.25), libtirpc3 (>= 1.0.2)
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 26065c5b50f4c95e37814020f0f65cff
-Size: 41166
+MD5Sum: bbdb6a5fc531bad6683603700ccbd7dc
+Size: 41202
 Filename: enigma2-plugin-systemplugins-misplslcnscan_git40+9b3898b-r0_octagon1008.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-misplslcnscan
@@ -2747,8 +2747,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4e46400a91089e246d4866e3012391a5
-Size: 36400
+MD5Sum: 290d7410686c8ae23a95d9ae0d0bd693
+Size: 36438
 Filename: enigma2-plugin-systemplugins-networkbrowser-po_git40+9b3898b-r0_octagon1008.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-networkbrowser (translations)
@@ -2763,8 +2763,8 @@ Depends: enigma2, libc6 (>= 2.25), libtirpc3 (>= 1.0.2)
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f3c2e7af3ba074f8a479577a9a5d4644
-Size: 143416
+MD5Sum: e8db3bab5cc4c3f298bd71ce07dd4f95
+Size: 143448
 Filename: enigma2-plugin-systemplugins-networkbrowser_git40+9b3898b-r0_octagon1008.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-networkbrowser
@@ -2774,13 +2774,13 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-networkwizard
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7be048b2b377b99eae78e23686d47ffc
-Size: 11370
-Filename: enigma2-plugin-systemplugins-networkwizard_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 552d7f769177714dc190bbcffad357d0
+Size: 11364
+Filename: enigma2-plugin-systemplugins-networkwizard_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-networkwizard
  systemplugins-networkwizardprovides easy step by step network
@@ -2790,13 +2790,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osd3dsetup
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 181154dda849d207056d5133aa8f5336
-Size: 5274
-Filename: enigma2-plugin-systemplugins-osd3dsetup_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 6502c88887d3018ac9d5b7f914c27c2c
+Size: 5266
+Filename: enigma2-plugin-systemplugins-osd3dsetup_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-osd3dsetup
  systemplugins-osd3dsetup
@@ -2805,13 +2805,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osdpositionsetup
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 11d5aef718555149c10a97fadf0f9af9
-Size: 8100
-Filename: enigma2-plugin-systemplugins-osdpositionsetup_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 24e29839f2826ebb3608a7b4618387bd
+Size: 8096
+Filename: enigma2-plugin-systemplugins-osdpositionsetup_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-osdpositionsetup
  systemplugins-osdpositionsetup
@@ -2820,13 +2820,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-positionersetup
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 82cefb4b621e837cc3910394e33c1a72
-Size: 42982
-Filename: enigma2-plugin-systemplugins-positionersetup_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: e15a15a34ec269b818fae934637713c9
+Size: 42976
+Filename: enigma2-plugin-systemplugins-positionersetup_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-positionersetup
  systemplugins-positionersetuphelps you installing a motorized dish.
@@ -2835,13 +2835,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8033b0329b9546b4a105fcd149b37879
-Size: 4076
-Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 6dba017f5897795f41aa1b0609813cf9
+Size: 4066
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-satelliteequipmentcontrol
  systemplugins-satelliteequipmentcontrolallows you to fine-tune DiSEqC-
@@ -2851,13 +2851,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satfinder
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 529e477fd413e5984d08ae575d2441f2
-Size: 22706
-Filename: enigma2-plugin-systemplugins-satfinder_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 6757e8961463533c121e2cd84cce969b
+Size: 22700
+Filename: enigma2-plugin-systemplugins-satfinder_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-satfinder
  systemplugins-satfinderhelps you to align your dish.
@@ -2872,8 +2872,8 @@ Recommends: libc6-dbg, libcrypto-dbg, libgcc-s-dbg, libssl-dbg, libstdc++-dbg, u
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 837053c5eb020c6eaef567dd48316140
-Size: 899478
+MD5Sum: ce79b31b4e5aa3bd054ae7e01ee7dca7
+Size: 899474
 Filename: enigma2-plugin-systemplugins-serviceapp-dbg_git179+a3afb0f-r0_octagon1008.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: enigma2-plugin-systemplugins-serviceapp version gitAUTOINC+a3afb0fd69-r0 - Debugging files
@@ -2890,7 +2890,7 @@ Recommends: enigma2-dev, libc6-dev, libcrypto-dev, libgcc-s-dev, libssl-dev, lib
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 549fe337de0343b6aec4dedaa530f8ff
+MD5Sum: ace84920b3ef8b5a7c25bbf4175b4215
 Size: 824
 Filename: enigma2-plugin-systemplugins-serviceapp-dev_git179+a3afb0f-r0_octagon1008.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
@@ -2908,8 +2908,8 @@ Recommends: exteplayer3, gstplayer
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: baa55dfe89aa14903cd45b2888fdac6c
-Size: 134790
+MD5Sum: 9e2006126c3f9aa1c5dbb4d5b5a458a5
+Size: 134788
 Filename: enigma2-plugin-systemplugins-serviceapp_git179+a3afb0f-r0_octagon1008.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: systemplugins-serviceapp
@@ -2925,7 +2925,7 @@ Recommends: gstreamer1.0-dbg, libc6-dbg, libgcc-s-dbg, libglib-2.0-dbg, libgstau
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 39ad53e2ab18d8a466a5725c57f37eac
+MD5Sum: 2080d92008cda8a33f82c6bb9ae4929a
 Size: 345396
 Filename: enigma2-plugin-systemplugins-servicemp3-dbg_git51+676cbc9-r0_octagon1008.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
@@ -2943,7 +2943,7 @@ Recommends: enigma2-dev, glib-networking-dev, gstreamer1.0-dev, gstreamer1.0-plu
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8ef89755159341f998213605793a42bc
+MD5Sum: 103f47854cc6202c5e48afe93c3cfb21
 Size: 1160
 Filename: enigma2-plugin-systemplugins-servicemp3-dev_git51+676cbc9-r0_octagon1008.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
@@ -2961,8 +2961,8 @@ Provides: virtual/enigma2-mediaservice
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a4ffa8289baa623bc61a04a3528bead4
-Size: 60738
+MD5Sum: e0cb18eb4988249cba974f2984e695e6
+Size: 60728
 Filename: enigma2-plugin-systemplugins-servicemp3_git51+676cbc9-r0_octagon1008.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
 Description: systemplugins-servicemp3
@@ -2972,13 +2972,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-sh4boostercontrol
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fe4bc90831fb9ea2dced8c936d530f7a
-Size: 5340
-Filename: enigma2-plugin-systemplugins-sh4boostercontrol_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: b90c5e3b64bc507c026bd0e356707dd7
+Size: 5334
+Filename: enigma2-plugin-systemplugins-sh4boostercontrol_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-sh4boostercontrol
  systemplugins-sh4boostercontrol
@@ -2987,13 +2987,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-sh4osdadjustment
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a7e831ab73030195ff59ac0064cc3736
-Size: 8186
-Filename: enigma2-plugin-systemplugins-sh4osdadjustment_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 500b2887955522e5d216aee2f4f55167
+Size: 8182
+Filename: enigma2-plugin-systemplugins-sh4osdadjustment_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-sh4osdadjustment
  systemplugins-sh4osdadjustment
@@ -3002,14 +3002,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-softwaremanager
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: python-twisted-web
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4febdea5575d1779a8397426102f256b
+MD5Sum: 1d20ed7a85802516cc4dadfc73693005
 Size: 69862
-Filename: enigma2-plugin-systemplugins-softwaremanager_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+Filename: enigma2-plugin-systemplugins-softwaremanager_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-softwaremanager
  systemplugins-softwaremanager
@@ -3018,13 +3018,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-systemoptions
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bf427fbff02e990e048efb629c911842
-Size: 8198
-Filename: enigma2-plugin-systemplugins-systemoptions_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 65795b30fe4c081f6deac8cc59f0b7be
+Size: 8196
+Filename: enigma2-plugin-systemplugins-systemoptions_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-systemoptions
  systemplugins-systemoptions
@@ -3038,8 +3038,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 746076faba88f5499fb0aca8e61b430a
-Size: 13122
+MD5Sum: 61f50eb0a10059d804252e38ba9f7ecc
+Size: 13174
 Filename: enigma2-plugin-systemplugins-terrestrialscan-po_git40+9b3898b-r0_octagon1008.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-terrestrialscan (translations)
@@ -3054,8 +3054,8 @@ Depends: enigma2, libc6 (>= 2.25), libtirpc3 (>= 1.0.2)
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 31ee67cf1e2cb918cae3de35e6ad68e4
-Size: 60914
+MD5Sum: 41ddd9c06bc3f475e9495136dc51c998
+Size: 60920
 Filename: enigma2-plugin-systemplugins-terrestrialscan_git40+9b3898b-r0_octagon1008.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-terrestrialscan
@@ -3066,13 +3066,13 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoclippingsetup
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 406c2f2a826351a27762382dd3d78c47
-Size: 4572
-Filename: enigma2-plugin-systemplugins-videoclippingsetup_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: c982b2211c9132da470fca82cb9c7dd4
+Size: 4570
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-videoclippingsetup
  systemplugins-videoclippingsetup
@@ -3081,13 +3081,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoenhancement
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ab83fb1730676f6eb5c728fec0bf127b
-Size: 14710
-Filename: enigma2-plugin-systemplugins-videoenhancement_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 0c016fe10d76e98b2a9b5464c2953f6a
+Size: 14704
+Filename: enigma2-plugin-systemplugins-videoenhancement_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-videoenhancement
  systemplugins-videoenhancement
@@ -3096,13 +3096,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videomode
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1f68b5a9e207e2fbb551a4b59b3fe783
-Size: 35720
-Filename: enigma2-plugin-systemplugins-videomode_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: 14d32e104cae04d5004b4f2b860230f6
+Size: 35718
+Filename: enigma2-plugin-systemplugins-videomode_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-videomode
  systemplugins-videomodeselects advanced video modes
@@ -3111,13 +3111,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videotune
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e731ac29a2376d000492beb77ba7c9bb
+MD5Sum: f1ae9a5df795a49527f079eeb08f3375
 Size: 69996
-Filename: enigma2-plugin-systemplugins-videotune_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+Filename: enigma2-plugin-systemplugins-videotune_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-videotune
  systemplugins-videotune
@@ -3131,8 +3131,8 @@ Depends: enigma2-c-plugins
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3c0e5013b30c2bc912233073fdc93811
-Size: 14060
+MD5Sum: 6ed900065d5789af8a37282defce993c
+Size: 14076
 Filename: enigma2-plugin-systemplugins-vps-po_git40+9b3898b-r0_octagon1008.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-vps (translations)
@@ -3147,8 +3147,8 @@ Depends: enigma2, libc6 (>= 2.25), libgcc1 (>= 4.9.4), libstdc++6 (>= 4.9.4)
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ee3a55fad4c551dc19a01d1d8a1b3961
-Size: 58664
+MD5Sum: c43cc9a6d6c767a1589f276830c9512d
+Size: 58684
 Filename: enigma2-plugin-systemplugins-vps_git40+9b3898b-r0_octagon1008.ipk
 Source: enigma2-c-plugins.bb
 Description: systemplugins-vps
@@ -3158,14 +3158,14 @@ License: GPLv3
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-wirelesslan
-Version: develop+git23955+fe0ccb7-r0
+Version: develop+git23960+5a1aae8-r0
 Depends: python-wifi, wireless-tools, wpa-supplicant
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f22491e04013ee03b40c9dc136bbbd12
-Size: 19050
-Filename: enigma2-plugin-systemplugins-wirelesslan_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: d8c7c8f47d03f3427139e55d634dcd47
+Size: 19040
+Filename: enigma2-plugin-systemplugins-wirelesslan_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: systemplugins-wirelesslan
  systemplugins-wirelesslanhelps you configuring your wireless lan
@@ -3237,14 +3237,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-staticdev
-Version: develop+git23955+fe0ccb7-r0
-Depends: enigma2-dev (= develop+git23955+fe0ccb7-r0)
+Version: develop+git23960+5a1aae8-r0
+Depends: enigma2-dev (= develop+git23960+5a1aae8-r0)
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 24475e918ca7992bc9ec6692131fc35f
-Size: 7872
-Filename: enigma2-staticdev_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: ac573de3eb72cb3e8c993f705b682250
+Size: 7882
+Filename: enigma2-staticdev_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Development files (Static Libraries)
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -3254,15 +3254,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2
-Version: develop+git23955+fe0ccb7-r0
-Depends: alsa-conf, alsa-utils-amixer-conf, dhrystone, enigma-module, enigma2-data-iso-639-3, enigma2-fonts, enigma2-plugin-extensions-pespeedup, enigma2-remotes, enigma2-timezones, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, hotplug-e2-helper, libavahi-client3 (>= 0.6.32), libavahi-common3 (>= 0.6.32), libc6 (>= 2.25), libcrypto1.1 (>= 1.1.1k), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.9+git130+f3c40ea), libfreetype6 (>= 2.7.1), libfribidi0 (>= 1.0.10), libgcc1 (>= 4.9.4), libgif7 (>= 5.1.4), libglib-2.0-0 (>= 2.50.3), libgomp1 (>= 4.9.4), libjpeg62 (>= 1.5.1), libmme-host0, libmmeimage0 (>= git726+b7fb0d9), libpng16-16 (>= 1.6.37), libpython2.7-1.0 (>= 2.7.18), libsigc-2.0-0 (>= 2.10.3), libssl1.1 (>= 1.1.1k), libstdc++6 (>= 4.9.4), libtuxtxt0 (>= 2.0.1+git84+ed8d3cb), libtuxtxt32bpp0 (>= 2.0.1+git84+ed8d3cb), libudfread0 (>= 1.1.1+git107+b8ada65), libxml2 (>= 2.9.4), ntpdate, ofgwrite, openvision-version-info, python-codecs, python-core, python-crypt, python-fcntl, python-image, python-imaging, python-lang, python-mmap, python-netclient, python-netifaces, python-netserver, python-numbers, python-pickle, python-process, python-pyusb, python-re, python-sendfile, python-service-identity, python-shell, python-six, python-threading, python-twisted-core, python-twisted-web, python-xml, python-zlib, python-zopeinterface, streambench, virtual/enigma2-mediaservice
+Version: develop+git23960+5a1aae8-r0
+Depends: alsa-conf, alsa-utils-amixer-conf, dhrystone, enigma-module, enigma2-data-iso-639-3, enigma2-fonts, enigma2-plugin-extensions-pespeedup, enigma2-remotes, enigma2-timezones, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, hotplug-e2-helper, libavahi-client3 (>= 0.6.32), libavahi-common3 (>= 0.6.32), libc6 (>= 2.25), libcrypto1.1 (>= 1.1.1k), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.9+git130+f3c40ea), libfreetype6 (>= 2.7.1), libfribidi0 (>= 1.0.10), libgcc1 (>= 4.9.4), libgif7 (>= 5.1.4), libglib-2.0-0 (>= 2.50.3), libgomp1 (>= 4.9.4), libjpeg62 (>= 1.5.1), libmme-host0, libmmeimage0 (>= git726+c861493), libpng16-16 (>= 1.6.37), libpython2.7-1.0 (>= 2.7.18), libsigc-2.0-0 (>= 2.10.3), libssl1.1 (>= 1.1.1k), libstdc++6 (>= 4.9.4), libtuxtxt0 (>= 2.0.1+git84+ed8d3cb), libtuxtxt32bpp0 (>= 2.0.1+git84+ed8d3cb), libudfread0 (>= 1.1.1+git107+b8ada65), libxml2 (>= 2.9.4), ntpdate, ofgwrite, openvision-version-info, python-codecs, python-core, python-crypt, python-fcntl, python-image, python-imaging, python-lang, python-mmap, python-netclient, python-netifaces, python-netserver, python-numbers, python-pickle, python-process, python-pyusb, python-re, python-sendfile, python-service-identity, python-shell, python-six, python-threading, python-twisted-core, python-twisted-web, python-xml, python-zlib, python-zopeinterface, streambench, virtual/enigma2-mediaservice
 Recommends: libdvdcss2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c9d6ab12e95e9df44d1e87143fec04ab
-Size: 4493990
-Filename: enigma2_develop+git23955+fe0ccb7-r0_octagon1008.ipk
+MD5Sum: d06564eab5fbd9886dd9cc33d37202d9
+Size: 4494078
+Filename: enigma2_develop+git23960+5a1aae8-r0_octagon1008.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
  Enigma2 is a framebuffer based frontend for DVB functions on Linux settop
@@ -3663,15 +3663,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-avl2108-platform
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-avl2108-platform
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fffdefe29381d40f30d3b90d14866aac
-Size: 2018
-Filename: kernel-module-avl2108-platform_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: 552cbb6236088a6752031e3d57c45c2f
+Size: 2020
+Filename: kernel-module-avl2108-platform_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: avl2108-platform kernel module
  avl2108-platform kernel module; Unified AVL2108 driver using platform
@@ -3681,15 +3681,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-avl2108
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-avl2108
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5650e4c7e9fa846e5677ab0ed88f26d6
+MD5Sum: 074ae13486f879b4e1f01d40114d75ab
 Size: 19032
-Filename: kernel-module-avl2108_git1531+d00ddc8-openvision_octagon1008.ipk
+Filename: kernel-module-avl2108_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: avl2108 kernel module
  avl2108 kernel module; DVB Frontend module for demod Availink AVL2108 and
@@ -3699,15 +3699,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-avs
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-avs
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5685e24677101d32e8a502b639d1f4a6
+MD5Sum: e724df34c35970c91cfb60fed441c85f
 Size: 28390
-Filename: kernel-module-avs_git1531+d00ddc8-openvision_octagon1008.ipk
+Filename: kernel-module-avs_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: avs kernel module
  avs kernel module; Multiplatform A/V SCART switch driver
@@ -3750,15 +3750,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-boxtype
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-boxtype
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9e7eb8be777f4415af6944f5cda476a9
-Size: 2164
-Filename: kernel-module-boxtype_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: 82dbd72c49e06752a043e1982b2c0a75
+Size: 2166
+Filename: kernel-module-boxtype_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: boxtype kernel module
  boxtype kernel module; Provides the type of an STB based on STb710x
@@ -3767,15 +3767,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-bpamem
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-bpamem
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3bbde5182a59523f0b3efc64e427a62d
-Size: 3962
-Filename: kernel-module-bpamem_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: 82fc6fe08e320d01c879bc87a2a70cca
+Size: 3964
+Filename: kernel-module-bpamem_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: bpamem kernel module
  bpamem kernel module; Alloc BPA2 memory from user space
@@ -3837,15 +3837,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-cimax
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-cimax
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0a9c822ea881809992147d02373ef60a
-Size: 5900
-Filename: kernel-module-cimax_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: 9e93a6beabd85667c7acdbe866af0d1f
+Size: 5902
+Filename: kernel-module-cimax_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: cimax kernel module
  cimax kernel module; CI Controller
@@ -3871,15 +3871,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-cpu-frequ
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-cpu-frequ
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5d87ada8b8f1ee030e9cbb3b79b142bd
+MD5Sum: 261445c80802f7c4b7e7a0adb0f568ed
 Size: 5646
-Filename: kernel-module-cpu-frequ_git1531+d00ddc8-openvision_octagon1008.ipk
+Filename: kernel-module-cpu-frequ_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: cpu-frequ kernel module
  cpu-frequ kernel module; Set CPU clock frequency on STb710x
@@ -3888,15 +3888,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-e2-proc
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-e2-proc
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b8c9b69687cedb5ac7c568f23e9e7d01
-Size: 7598
-Filename: kernel-module-e2-proc_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: f7522de6445bb4ccbf3fccee86c9325a
+Size: 7600
+Filename: kernel-module-e2-proc_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: e2-proc kernel module
  e2-proc kernel module; procfs module with enigma2 support
@@ -3922,15 +3922,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-embxmailbox
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-embxshell
 Provides: kernel-module-embxmailbox
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dc20facb415dc71a81b68343c991f967
-Size: 6802
-Filename: kernel-module-embxmailbox_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: c03d50076cfde599c6cf25b645efd227
+Size: 6806
+Filename: kernel-module-embxmailbox_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: embxmailbox kernel module
  embxmailbox kernel module; EMBX Utility Library to manage the hardware
@@ -3940,15 +3940,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-embxshell
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-embxshell
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 37329ce5418c0e03c1d8603f7cbe6b44
+MD5Sum: 90e31090e95e1f64069bad7dacb77b98
 Size: 14060
-Filename: kernel-module-embxshell_git1531+d00ddc8-openvision_octagon1008.ipk
+Filename: kernel-module-embxshell_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: embxshell kernel module
  embxshell kernel module; Extended EMBX Shell
@@ -3957,15 +3957,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-embxshm
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-embxmailbox, kernel-module-embxshell
 Provides: kernel-module-embxshm
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 22ff4841982bd04651f94896ffd86e5b
-Size: 17718
-Filename: kernel-module-embxshm_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: bfca406035a4e1601e0d8b5390245e81
+Size: 17716
+Filename: kernel-module-embxshm_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: embxshm kernel module
  embxshm kernel module; Extended EMBX Shared Memory Transport
@@ -3974,15 +3974,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-enigma
-Version: 7.6-r318
+Version: 7.6-r319
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-enigma
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 23e49b12bc6611c24ee92c34734aac2c
-Size: 6820
-Filename: kernel-module-enigma_7.6-r318_octagon1008.ipk
+MD5Sum: 3550dab97e8da8bb26c883dd65dd634e
+Size: 6818
+Filename: kernel-module-enigma_7.6-r319_octagon1008.ipk
 Source: enigma-module.bb
 Description: enigma kernel module
  enigma kernel module; Open Vision information module
@@ -4604,15 +4604,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-kreplay-fdma
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-ksound
 Provides: kernel-module-kreplay-fdma
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4bf07bf0617721bc1d48eefe0ecb5fc2
+MD5Sum: debc464d2095347edda1c5c48b3ba22c
 Size: 4954
-Filename: kernel-module-kreplay-fdma_git1531+d00ddc8-openvision_octagon1008.ipk
+Filename: kernel-module-kreplay-fdma_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: kreplay-fdma kernel module
  kreplay-fdma kernel module
@@ -4621,15 +4621,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-kreplay
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-ksound
 Provides: kernel-module-kreplay
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b7f1e0539d477ba28a2dc87413716734
-Size: 3734
-Filename: kernel-module-kreplay_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: 769d60290b66042d7cf89264544f1a11
+Size: 3732
+Filename: kernel-module-kreplay_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: kreplay kernel module
  kreplay kernel module
@@ -4638,15 +4638,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-ksound
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-ksound
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f08f3e9f99668b22b56e63a0cbeb2bd2
-Size: 11104
-Filename: kernel-module-ksound_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: 5c24112bde58d02f496dcbf5aaf666dc
+Size: 11108
+Filename: kernel-module-ksound_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: ksound kernel module
  ksound kernel module
@@ -4655,15 +4655,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-ktone
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-ksound
 Provides: kernel-module-ktone
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 88a103b56c3d2659990b1b5fec743e3c
-Size: 3628
-Filename: kernel-module-ktone_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: dbd4c850b8b5101c98865c1a420b4cf1
+Size: 3630
+Filename: kernel-module-ktone_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: ktone kernel module
  ktone kernel module
@@ -4689,15 +4689,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-mme-host
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-embxshell
 Provides: kernel-module-mme-host
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1082caebeaa92660668335216afb8301
+MD5Sum: b4543b59bdafe7e7cea0248df406ca8c
 Size: 20388
-Filename: kernel-module-mme-host_git1531+d00ddc8-openvision_octagon1008.ipk
+Filename: kernel-module-mme-host_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: mme-host kernel module
  mme-host kernel module; MME Module
@@ -4706,15 +4706,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-mmelog
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host
 Provides: kernel-module-mmelog
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 53a1b1f43a1d94743c2c0684f56f7218
-Size: 3300
-Filename: kernel-module-mmelog_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: bec89685efc29c70bdc66c27d5def4d3
+Size: 3302
+Filename: kernel-module-mmelog_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: mmelog kernel module
  mmelog kernel module
@@ -4740,15 +4740,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-mpeg2hw
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host
 Provides: kernel-module-mpeg2hw
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: db162468f60803b0dd7700b927e77512
-Size: 5944
-Filename: kernel-module-mpeg2hw_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: 5c103222c222ef07550d55409cf9887b
+Size: 5946
+Filename: kernel-module-mpeg2hw_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: mpeg2hw kernel module
  mpeg2hw kernel module; Host transformer driver for STB71XX MPEG2 hardware
@@ -5457,15 +5457,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-nuvoton
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-e2-proc
 Provides: kernel-module-nuvoton
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ab7392ce69516536ab9f6dfa05828e40
+MD5Sum: ecb900a753499e3de008904d00191343
 Size: 23414
-Filename: kernel-module-nuvoton_git1531+d00ddc8-openvision_octagon1008.ipk
+Filename: kernel-module-nuvoton_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: nuvoton kernel module
  nuvoton kernel module; NUVOTON frontcontroller module
@@ -5491,15 +5491,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-p2div64
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-p2div64
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 050d080d1e3d1f67eaead3092991ed31
+MD5Sum: d678cdc1706b1ac543a08a16059900f2
 Size: 2322
-Filename: kernel-module-p2div64_git1531+d00ddc8-openvision_octagon1008.ipk
+Filename: kernel-module-p2div64_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: p2div64 kernel module
  p2div64 kernel module; Player2 64Bit Divide Driver
@@ -5508,15 +5508,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-pcm-transcoder
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host
 Provides: kernel-module-pcm-transcoder
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b36b248201cbdee287c3815abd2e26fc
-Size: 3788
-Filename: kernel-module-pcm-transcoder_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: e9d096bfc3a72fe404f8815edcfb7b27
+Size: 3786
+Filename: kernel-module-pcm-transcoder_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: pcm-transcoder kernel module
  pcm-transcoder kernel module; Pcm transcoding MME transformer.
@@ -5559,15 +5559,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-platform
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-platform
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 271810f6c7fe866c27a644c4fda86f49
-Size: 2350
-Filename: kernel-module-platform_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: cc6f6c6c0c90941f1a9d3a357f1b4d40
+Size: 2348
+Filename: kernel-module-platform_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: platform kernel module
  platform kernel module; Player2 Platform Driver
@@ -5576,15 +5576,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-player2-unified
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-player2-unified
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0eca8ee9de06bbf5983c29f08f99b365
+MD5Sum: 4a67d7832788d8f51914fc3e6d917cea
 Size: 2120
-Filename: kernel-module-player2-unified_git1531+d00ddc8-openvision_octagon1008.ipk
+Filename: kernel-module-player2-unified_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: player2-unified kernel module
  player2-unified kernel module; Player2 Unified Driver
@@ -5593,15 +5593,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-player2
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-e2-proc, kernel-module-ksound, kernel-module-mme-host, kernel-module-p2div64, kernel-module-pseudocard, kernel-module-stm-monitor, kernel-module-stmcore-display-stx7109c3, kernel-module-stmdvb, kernel-module-stmsysfs
 Provides: kernel-module-player2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2e4c1f3cbaf4c3e8a7f91c0ecaf6d022
-Size: 356042
-Filename: kernel-module-player2_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: b87a3f4666c576e2ce13d1362eb53971
+Size: 356036
+Filename: kernel-module-player2_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: player2 kernel module
  player2 kernel module; Player2 backend implementation for STM streaming
@@ -5611,15 +5611,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-pseudocard
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-stmcore-display-stx7109c3
 Provides: kernel-module-pseudocard
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1fd1b9317c20a88c4307f13a15ca0a83
-Size: 12482
-Filename: kernel-module-pseudocard_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: f70fc915c92ba0be67e3881e8fb89254
+Size: 12480
+Filename: kernel-module-pseudocard_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: pseudocard kernel module
  pseudocard kernel module; Pseudo soundcard
@@ -5628,15 +5628,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-pti
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-pti
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dab3c4a72caf01f708af151dd8372c27
-Size: 23790
-Filename: kernel-module-pti_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: a54e771480889d3f6bf2d0fe145c1160
+Size: 23794
+Filename: kernel-module-pti_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: pti kernel module
  pti kernel module; PTI driver
@@ -5715,15 +5715,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-silencegen
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host
 Provides: kernel-module-silencegen
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: edbbc131e38c2bf80939ccada71c1b30
-Size: 2640
-Filename: kernel-module-silencegen_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: 2bf8da757b878051a5999d9c5f76c1bd
+Size: 2650
+Filename: kernel-module-silencegen_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: silencegen kernel module
  silencegen kernel module; Trivial silence generating MME transformer.
@@ -5732,15 +5732,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-simu-button
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-simu-button
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1fef806bf2c93cc2d87a26b6e972d1c7
+MD5Sum: 12c4340eb1148fe0135f7e7285859701
 Size: 2466
-Filename: kernel-module-simu-button_git1531+d00ddc8-openvision_octagon1008.ipk
+Filename: kernel-module-simu-button_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: simu-button kernel module
  simu-button kernel module; SH4 RC event driver
@@ -5749,15 +5749,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-smartcard
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-smartcard
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2209c818314c299a2b28e7caafe0d7ea
+MD5Sum: 8b114f6700050e8125ba7b0ec556d9f0
 Size: 19096
-Filename: kernel-module-smartcard_git1531+d00ddc8-openvision_octagon1008.ipk
+Filename: kernel-module-smartcard_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: smartcard kernel module
  smartcard kernel module; SmartCard Interface driver
@@ -5766,15 +5766,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-sth264pp
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-player2
 Provides: kernel-module-sth264pp
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4339bba5f85d42cd6d34b440f424ab60
+MD5Sum: 62d6f2a5227fa7c85f3e6f67c144a54b
 Size: 6442
-Filename: kernel-module-sth264pp_git1531+d00ddc8-openvision_octagon1008.ipk
+Filename: kernel-module-sth264pp_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: sth264pp kernel module
  sth264pp kernel module
@@ -5783,15 +5783,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stm-monitor
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-mme-host, kernel-module-p2div64
 Provides: kernel-module-stm-monitor
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 506eb0b855bf11214d5b1481016edad1
-Size: 8178
-Filename: kernel-module-stm-monitor_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: b415767cd3c93fbbb451ea9ba5dd6e1c
+Size: 8182
+Filename: kernel-module-stm-monitor_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: stm-monitor kernel module
  stm-monitor kernel module; STM monitor.
@@ -5800,15 +5800,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stm-v4l2
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-stm-v4l2
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e2e0a377d30d5f95f0c0ada5c0d345c0
+MD5Sum: f0362416dc919d98ef5711d8aeec2db7
 Size: 5492
-Filename: kernel-module-stm-v4l2_git1531+d00ddc8-openvision_octagon1008.ipk
+Filename: kernel-module-stm-v4l2_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: stm-v4l2 kernel module
  stm-v4l2 kernel module
@@ -5817,15 +5817,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmalloc
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-player2
 Provides: kernel-module-stmalloc
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0325659b6d55e00b75051a4bcaf073a9
-Size: 3826
-Filename: kernel-module-stmalloc_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: dd2c209fa8d18af658ae4c6d8fe7913d
+Size: 3824
+Filename: kernel-module-stmalloc_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: stmalloc kernel module
  stmalloc kernel module
@@ -5834,15 +5834,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmcore-display-stx7109c3
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-stmcore-display-stx7109c3
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 94e42b326f38c2a49e3298c0d86d7b53
-Size: 119270
-Filename: kernel-module-stmcore-display-stx7109c3_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: 8dd0872f2e7e99aa8426ec5c886abab5
+Size: 119272
+Filename: kernel-module-stmcore-display-stx7109c3_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: stmcore-display-stx7109c3 kernel module
  stmcore-display-stx7109c3 kernel module
@@ -5851,15 +5851,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmdvb
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-avl2108, kernel-module-avs, kernel-module-cimax, kernel-module-e2-proc, kernel-module-pseudocard, kernel-module-pti, kernel-module-stm-v4l2, kernel-module-stmcore-display-stx7109c3, kernel-module-stmfb
 Provides: kernel-module-stmdvb
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4b5fa348ebdb19c9f48c21f11762563d
-Size: 52894
-Filename: kernel-module-stmdvb_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: c01e2a2c0544b22e17a171c93b6176da
+Size: 52890
+Filename: kernel-module-stmdvb_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: stmdvb kernel module
  stmdvb kernel module; Linux DVB video and audio driver for STM streaming
@@ -5869,15 +5869,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmfb
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-stmfb
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 682d1a70a8ca91534086f82ec1f9c081
+MD5Sum: a39f1409f3ba378f83553eadcb5485e8
 Size: 22012
-Filename: kernel-module-stmfb_git1531+d00ddc8-openvision_octagon1008.ipk
+Filename: kernel-module-stmfb_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: stmfb kernel module
  stmfb kernel module
@@ -5886,15 +5886,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmsysfs
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-stmsysfs
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9853ff26096d0bd242c129c6854e0435
-Size: 6744
-Filename: kernel-module-stmsysfs_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: be67198f18b4b3597a2e7537607c371d
+Size: 6748
+Filename: kernel-module-stmsysfs_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: stmsysfs kernel module
  stmsysfs kernel module; Sysfs driver for accessing STM streaming
@@ -5904,15 +5904,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmvbi
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-stm-v4l2, kernel-module-stmcore-display-stx7109c3
 Provides: kernel-module-stmvbi
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 470f5e56cd35b349301e6410d2efb481
-Size: 5398
-Filename: kernel-module-stmvbi_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: 14a298b61f36dd394f1d79cd7c93142e
+Size: 5396
+Filename: kernel-module-stmvbi_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: stmvbi kernel module
  stmvbi kernel module
@@ -5921,15 +5921,15 @@ License: GPLv2+
 Priority: required
 
 Package: kernel-module-stmvout
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217, kernel-module-stm-v4l2, kernel-module-stmcore-display-stx7109c3
 Provides: kernel-module-stmvout
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 815b0b9a7986bd32c70793ef1f981ef7
-Size: 21654
-Filename: kernel-module-stmvout_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: 8bf2a93eadcb81fe87e529085a9b30fb
+Size: 21656
+Filename: kernel-module-stmvout_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: stmvout kernel module
  stmvout kernel module
@@ -6058,15 +6058,15 @@ License: GPLv2
 Priority: optional
 
 Package: kernel-module-zram
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-2.6.32.81_stm24_0217
 Provides: kernel-module-zram
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6abcd4791a98abaa448ea7716efce78e
-Size: 9798
-Filename: kernel-module-zram_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: b2c108d2e8c9ba1c11464bf107b448e0
+Size: 9800
+Filename: kernel-module-zram_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: zram kernel module
  zram kernel module; Compressed RAM Block Device
@@ -6418,16 +6418,16 @@ License: GPLv2
 Priority: optional
 
 Package: openvision-branding-dbg
-Version: 7.6-r318
+Version: 7.6-r319
 Recommends: libc6-dbg
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dcd54079aafdad26dcc974e52d9d7e33
-Size: 18056
-Filename: openvision-branding-dbg_7.6-r318_octagon1008.ipk
+MD5Sum: c2133f53e44efd388304e072b74e5034
+Size: 18058
+Filename: openvision-branding-dbg_7.6-r319_octagon1008.ipk
 Source: openvision-branding.bb
-Description: openvision-branding version 7.6-r318 - Debugging files
+Description: openvision-branding version 7.6-r319 - Debugging files
  Open Vision branding lib  This package contains ELF symbols and related
  sources for debugging purposes.
 OE: openvision-branding
@@ -6435,17 +6435,17 @@ License: GPLv2+
 Priority: optional
 
 Package: openvision-branding-dev
-Version: 7.6-r318
-Depends: openvision-branding (= 7.6-r318)
+Version: 7.6-r319
+Depends: openvision-branding (= 7.6-r319)
 Recommends: libc6-dev, python-dev
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cc0463cfd8e3a023397ddc4cb263a3b1
+MD5Sum: 9f4905694a5e2bfed7cfefc538b92e9f
 Size: 752
-Filename: openvision-branding-dev_7.6-r318_octagon1008.ipk
+Filename: openvision-branding-dev_7.6-r319_octagon1008.ipk
 Source: openvision-branding.bb
-Description: openvision-branding version 7.6-r318 - Development files
+Description: openvision-branding version 7.6-r319 - Development files
  Open Vision branding lib  This package contains symbolic links, header
  files, and related items necessary for software development.
 OE: openvision-branding
@@ -6453,31 +6453,31 @@ License: GPLv2+
 Priority: optional
 
 Package: openvision-branding
-Version: 7.6-r318
+Version: 7.6-r319
 Depends: libc6 (>= 2.25)
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 18a95a6382e9fc8a00d922a67577b481
+MD5Sum: cf298dc9a9df21dcaacbe9a6f76b45e4
 Size: 8472
-Filename: openvision-branding_7.6-r318_octagon1008.ipk
+Filename: openvision-branding_7.6-r319_octagon1008.ipk
 Source: openvision-branding.bb
-Description: openvision-branding version 7.6-r318
+Description: openvision-branding version 7.6-r319
  Open Vision branding lib
 OE: openvision-branding
 License: GPLv2+
 Priority: optional
 
 Package: openvision-version-info
-Version: 7.6-r318
+Version: 7.6-r319
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f2c1aeacfbe64b861887724c35e21ab2
+MD5Sum: 2a2711f9f5c3bc56c5642fbcd0f3db95
 Size: 2242
-Filename: openvision-version-info_7.6-r318_octagon1008.ipk
+Filename: openvision-version-info_7.6-r319_octagon1008.ipk
 Source: openvision-version-info.bb
-Description: openvision-version-info version 7.6-r318
+Description: openvision-version-info version 7.6-r319
  Open Vision version info
 OE: openvision-version-info
 License: GPLv2+
@@ -7142,7 +7142,7 @@ Recommends: base-files-dbg, base-passwd-dbg, busybox-dbg, devinit-dbg, eudev-dbg
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3cda477d602bc91f4b177d327136a6cd
+MD5Sum: 4015381baa4d275130617a4b3eb7b032
 Size: 916
 Filename: packagegroup-core-boot-dbg_1.0-r17_octagon1008.ipk
 Source: packagegroup-core-boot.bb
@@ -7160,8 +7160,8 @@ Recommends: base-files-dev, base-passwd-dev, busybox-dev, devinit-dev, eudev-dev
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 24707f3bd839b144c22c85e110e0eb6c
-Size: 946
+MD5Sum: 1c702a1b38e0ba806b7edca71b3f8e62
+Size: 942
 Filename: packagegroup-core-boot-dev_1.0-r17_octagon1008.ipk
 Source: packagegroup-core-boot.bb
 Description: Minimal boot requirements - Development files
@@ -7179,8 +7179,8 @@ Recommends: firmware-mt7601u, firmware-mt7650, firmware-rt2870, firmware-rt73, f
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 651a49b51bbb12186a43dd1a6254e7f0
-Size: 930
+MD5Sum: bf180faf73ac5124ae56de779fb1794c
+Size: 934
 Filename: packagegroup-core-boot_1.0-r17_octagon1008.ipk
 Source: packagegroup-core-boot.bb
 Description: Minimal boot requirements
@@ -7332,15 +7332,15 @@ License: GPLv2
 Priority: optional
 
 Package: sh4-dvb-modules-dev
-Version: git1531+d00ddc8-openvision
-Depends: sh4-dvb-modules (= git1531+d00ddc8-openvision)
+Version: git1531+1f2bf7d-openvision
+Depends: sh4-dvb-modules (= git1531+1f2bf7d-openvision)
 Recommends: kernel-2.6.32.81_stm24_0217-dev, kernel-module-avl2108-dev, kernel-module-avl2108-platform-dev, kernel-module-avs-dev, kernel-module-boxtype-dev, kernel-module-bpamem-dev, kernel-module-cimax-dev, kernel-module-cpu-frequ-dev, kernel-module-e2-proc-dev, kernel-module-embxmailbox-dev, kernel-module-embxshell-dev, kernel-module-embxshm-dev, kernel-module-kreplay-dev, kernel-module-kreplay-fdma-dev, kernel-module-ksound-dev, kernel-module-ktone-dev, kernel-module-mme-host-dev, kernel-module-mmelog-dev, kernel-module-mpeg2hw-dev, kernel-module-nuvoton-dev, kernel-module-p2div64-dev, kernel-module-pcm-transcoder-dev, kernel-module-platform-dev, kernel-module-player2-dev, kernel-module-player2-unified-dev, kernel-module-pseudocard-dev, kernel-module-pti-dev, kernel-module-silencegen-dev, kernel-module-simu-button-dev, kernel-module-smartcard-dev, kernel-module-sth264pp-dev, kernel-module-stm-monitor-dev, kernel-module-stm-v4l2-dev, kernel-module-stmalloc-dev, kernel-module-stmcore-display-stx7109c3-dev, kernel-module-stmdvb-dev, kernel-module-stmfb-dev, kernel-module-stmsysfs-dev, kernel-module-stmvbi-dev, kernel-module-stmvout-dev, kernel-module-zram-dev
 Section: devel
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7ab2770dd3d94d2efce1802ec7aab2a8
-Size: 15678
-Filename: sh4-dvb-modules-dev_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: a67350e7993acdf51a70e3582dcb0bdc
+Size: 15676
+Filename: sh4-dvb-modules-dev_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: SH4 driver modules - Development files
  SH4 driver modules  This package contains symbolic links, header files,
@@ -7350,7 +7350,7 @@ License: GPLv2+
 Priority: required
 
 Package: sh4-dvb-modules
-Version: git1531+d00ddc8-openvision
+Version: git1531+1f2bf7d-openvision
 Depends: kernel-module-avl2108, kernel-module-avl2108-platform, kernel-module-avs, kernel-module-boxtype, kernel-module-bpamem, kernel-module-cimax, kernel-module-cpu-frequ, kernel-module-e2-proc, kernel-module-embxmailbox, kernel-module-embxshell, kernel-module-embxshm, kernel-module-kreplay, kernel-module-kreplay-fdma, kernel-module-ksound, kernel-module-ktone, kernel-module-mme-host, kernel-module-mmelog, kernel-module-mpeg2hw, kernel-module-nuvoton, kernel-module-p2div64, kernel-module-pcm-transcoder, kernel-module-platform, kernel-module-player2, kernel-module-player2-unified, kernel-module-pseudocard, kernel-module-pti, kernel-module-silencegen, kernel-module-simu-button, kernel-module-smartcard, kernel-module-sth264pp, kernel-module-stm-monitor, kernel-module-stm-v4l2, kernel-module-stmalloc, kernel-module-stmcore-display-stx7109c3, kernel-module-stmdvb, kernel-module-stmfb, kernel-module-stmsysfs, kernel-module-stmvbi, kernel-module-stmvout, kernel-module-zram
 Provides: sh4-dvb-modules
 Replaces: sh4-dvb-modules
@@ -7358,9 +7358,9 @@ Conflicts: sh4-dvb-modules
 Section: base
 Architecture: octagon1008
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 60e77facd40454028bab5837f21ca00e
-Size: 2966
-Filename: sh4-dvb-modules_git1531+d00ddc8-openvision_octagon1008.ipk
+MD5Sum: f092af7481b714f037ff4c202631710d
+Size: 2962
+Filename: sh4-dvb-modules_git1531+1f2bf7d-openvision_octagon1008.ipk
 Source: sh4-dvb-modules.bb
 Description: SH4 driver modules
  SH4 driver modules
