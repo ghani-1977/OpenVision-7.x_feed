@@ -184,13 +184,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-data-iso-639-3-dbg
-Version: git228+aa44565-r0
+Version: git231+9a8a456-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8fa5690a8bcc5437c6006a4e04aff940
+MD5Sum: 4750f97823783a8689713e05b4062896
 Size: 702
-Filename: enigma2-data-iso-639-3-dbg_git228+aa44565-r0_all.ipk
+Filename: enigma2-data-iso-639-3-dbg_git231+9a8a456-r0_all.ipk
 Source: enigma2-data-iso-639-3.bb
 Description: iso-639-3.pck for enigma2 - Debugging files
  iso-639-3.pck for enigma2.  This package contains ELF symbols and related
@@ -200,14 +200,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-data-iso-639-3-dev
-Version: git228+aa44565-r0
-Depends: enigma2-data-iso-639-3 (= git228+aa44565-r0)
+Version: git231+9a8a456-r0
+Depends: enigma2-data-iso-639-3 (= git231+9a8a456-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5c41a28ea6932c3272600d22aaec7c4d
+MD5Sum: 33418c29acf995c0c523250476e29471
 Size: 732
-Filename: enigma2-data-iso-639-3-dev_git228+aa44565-r0_all.ipk
+Filename: enigma2-data-iso-639-3-dev_git231+9a8a456-r0_all.ipk
 Source: enigma2-data-iso-639-3.bb
 Description: iso-639-3.pck for enigma2 - Development files
  iso-639-3.pck for enigma2.  This package contains symbolic links, header
@@ -217,13 +217,13 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-data-iso-639-3
-Version: git228+aa44565-r0
+Version: git231+9a8a456-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ede00ee9b2f949d5a72dbbf7ac534335
-Size: 71156
-Filename: enigma2-data-iso-639-3_git228+aa44565-r0_all.ipk
+MD5Sum: 734584b5dddeb7d6bc3fd1bb2afb1308
+Size: 71160
+Filename: enigma2-data-iso-639-3_git231+9a8a456-r0_all.ipk
 Source: enigma2-data-iso-639-3.bb
 Description: iso-639-3.pck for enigma2
  iso-639-3.pck for enigma2.
@@ -2291,13 +2291,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-dual-dbg
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d3298851a5fa5022b9445b0f1fb8f1ac
-Size: 710
-Filename: enigma2-plugin-settings-gioppygio-dual-dbg_git38+51e1415-r0_all.ipk
+MD5Sum: 0bfc9bbaf8b30084a6cd8abebee37913
+Size: 706
+Filename: enigma2-plugin-settings-gioppygio-dual-dbg_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-dual.bb
 Description: GioppyGio enigma2 settings - Debugging files
  GioppyGio enigma2 settings.  This package contains ELF symbols and
@@ -2307,14 +2307,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-dual-dev
-Version: git38+51e1415-r0
-Depends: enigma2-plugin-settings-gioppygio-dual (= git38+51e1415-r0)
+Version: git39+3da750d-r0
+Depends: enigma2-plugin-settings-gioppygio-dual (= git39+3da750d-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 07ca47f082cc6fd506f31193445b7392
-Size: 742
-Filename: enigma2-plugin-settings-gioppygio-dual-dev_git38+51e1415-r0_all.ipk
+MD5Sum: 6a8f166a007650af92853f0b22a86066
+Size: 740
+Filename: enigma2-plugin-settings-gioppygio-dual-dev_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-dual.bb
 Description: GioppyGio enigma2 settings - Development files
  GioppyGio enigma2 settings.  This package contains symbolic links, header
@@ -2324,13 +2324,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-dual.13e.19e.dtt-italia-dbg
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f82c28e0301e9c919b205e686cd9614c
+MD5Sum: a8ba2de1070febcc164de5099b320e31
 Size: 724
-Filename: enigma2-plugin-settings-gioppygio-dual.13e.19e.dtt-italia-dbg_git38+51e1415-r0_all.ipk
+Filename: enigma2-plugin-settings-gioppygio-dual.13e.19e.dtt-italia-dbg_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-dual.13e.19e.dtt-italia.bb
 Description: GioppyGio enigma2 settings - Debugging files
  GioppyGio enigma2 settings.  This package contains ELF symbols and
@@ -2340,14 +2340,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-dual.13e.19e.dtt-italia-dev
-Version: git38+51e1415-r0
-Depends: enigma2-plugin-settings-gioppygio-dual.13e.19e.dtt-italia (= git38+51e1415-r0)
+Version: git39+3da750d-r0
+Depends: enigma2-plugin-settings-gioppygio-dual.13e.19e.dtt-italia (= git39+3da750d-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4d5b4e9e27a4374198e8cc31ee5be6e6
-Size: 756
-Filename: enigma2-plugin-settings-gioppygio-dual.13e.19e.dtt-italia-dev_git38+51e1415-r0_all.ipk
+MD5Sum: 0b2587c4511dc01a09ea89509c6b98b8
+Size: 754
+Filename: enigma2-plugin-settings-gioppygio-dual.13e.19e.dtt-italia-dev_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-dual.13e.19e.dtt-italia.bb
 Description: GioppyGio enigma2 settings - Development files
  GioppyGio enigma2 settings.  This package contains symbolic links, header
@@ -2357,13 +2357,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-dual.13e.19e.dtt-italia
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a9885fbae2cfcb4d8c5557e1b43ed29e
-Size: 83102
-Filename: enigma2-plugin-settings-gioppygio-dual.13e.19e.dtt-italia_git38+51e1415-r0_all.ipk
+MD5Sum: 655da90124e14ba58f4e10aa7752eea0
+Size: 83574
+Filename: enigma2-plugin-settings-gioppygio-dual.13e.19e.dtt-italia_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-dual.13e.19e.dtt-italia.bb
 Description: GioppyGio enigma2 settings
  GioppyGio enigma2 settings.
@@ -2372,13 +2372,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-dual.5w.13e-dbg
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e5c52cbc1ad14f6e40867dfbb21993de
-Size: 716
-Filename: enigma2-plugin-settings-gioppygio-dual.5w.13e-dbg_git38+51e1415-r0_all.ipk
+MD5Sum: 21e8b1a6f7d8ed7f2d80eadb99b81151
+Size: 718
+Filename: enigma2-plugin-settings-gioppygio-dual.5w.13e-dbg_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-dual.5w.13e.bb
 Description: GioppyGio enigma2 settings - Debugging files
  GioppyGio enigma2 settings.  This package contains ELF symbols and
@@ -2388,14 +2388,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-dual.5w.13e-dev
-Version: git38+51e1415-r0
-Depends: enigma2-plugin-settings-gioppygio-dual.5w.13e (= git38+51e1415-r0)
+Version: git39+3da750d-r0
+Depends: enigma2-plugin-settings-gioppygio-dual.5w.13e (= git39+3da750d-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1be9f9a91d728e7cd09dad43907e371f
-Size: 748
-Filename: enigma2-plugin-settings-gioppygio-dual.5w.13e-dev_git38+51e1415-r0_all.ipk
+MD5Sum: 0d0eb9d1db7a5445b1656425bb84f1c0
+Size: 750
+Filename: enigma2-plugin-settings-gioppygio-dual.5w.13e-dev_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-dual.5w.13e.bb
 Description: GioppyGio enigma2 settings - Development files
  GioppyGio enigma2 settings.  This package contains symbolic links, header
@@ -2405,13 +2405,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-dual.5w.13e
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 722beb604f58c8fda6d14f3290d8b11d
-Size: 59096
-Filename: enigma2-plugin-settings-gioppygio-dual.5w.13e_git38+51e1415-r0_all.ipk
+MD5Sum: fdf54dfa5af4f983d094a1c9f555934a
+Size: 59360
+Filename: enigma2-plugin-settings-gioppygio-dual.5w.13e_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-dual.5w.13e.bb
 Description: GioppyGio enigma2 settings
  GioppyGio enigma2 settings.
@@ -2420,13 +2420,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-dual.9e.13e-dbg
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: df1e87b3167a691ebfab38a23d1f2c20
+MD5Sum: fde778acdaeeb791715cfc25480fc591
 Size: 716
-Filename: enigma2-plugin-settings-gioppygio-dual.9e.13e-dbg_git38+51e1415-r0_all.ipk
+Filename: enigma2-plugin-settings-gioppygio-dual.9e.13e-dbg_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-dual.9e.13e.bb
 Description: GioppyGio enigma2 settings - Debugging files
  GioppyGio enigma2 settings.  This package contains ELF symbols and
@@ -2436,14 +2436,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-dual.9e.13e-dev
-Version: git38+51e1415-r0
-Depends: enigma2-plugin-settings-gioppygio-dual.9e.13e (= git38+51e1415-r0)
+Version: git39+3da750d-r0
+Depends: enigma2-plugin-settings-gioppygio-dual.9e.13e (= git39+3da750d-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 19cfae2b82517e6d811f9e8a537fc9bf
-Size: 746
-Filename: enigma2-plugin-settings-gioppygio-dual.9e.13e-dev_git38+51e1415-r0_all.ipk
+MD5Sum: f0645f2a2f91b1cf74d26876344d81c8
+Size: 750
+Filename: enigma2-plugin-settings-gioppygio-dual.9e.13e-dev_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-dual.9e.13e.bb
 Description: GioppyGio enigma2 settings - Development files
  GioppyGio enigma2 settings.  This package contains symbolic links, header
@@ -2453,13 +2453,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-dual.9e.13e
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: edde7d92655b34f0f130327aecf31a01
-Size: 64946
-Filename: enigma2-plugin-settings-gioppygio-dual.9e.13e_git38+51e1415-r0_all.ipk
+MD5Sum: 7e2c258d258fa3e887251aaa09f59146
+Size: 65454
+Filename: enigma2-plugin-settings-gioppygio-dual.9e.13e_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-dual.9e.13e.bb
 Description: GioppyGio enigma2 settings
  GioppyGio enigma2 settings.
@@ -2468,13 +2468,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-dual
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5a77db79c2891c0785a5999edf1ace44
-Size: 79870
-Filename: enigma2-plugin-settings-gioppygio-dual_git38+51e1415-r0_all.ipk
+MD5Sum: 1bfc7f0423ce19b879bad73defed51cc
+Size: 80412
+Filename: enigma2-plugin-settings-gioppygio-dual_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-dual.bb
 Description: GioppyGio enigma2 settings
  GioppyGio enigma2 settings.
@@ -2483,13 +2483,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-mono-dbg
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c9b307c0d904bb2f086ce758ee68ff0f
-Size: 710
-Filename: enigma2-plugin-settings-gioppygio-mono-dbg_git38+51e1415-r0_all.ipk
+MD5Sum: a1430314ac5755e0485d95a1773a62d6
+Size: 708
+Filename: enigma2-plugin-settings-gioppygio-mono-dbg_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-mono.bb
 Description: GioppyGio enigma2 settings - Debugging files
  GioppyGio enigma2 settings.  This package contains ELF symbols and
@@ -2499,14 +2499,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-mono-dev
-Version: git38+51e1415-r0
-Depends: enigma2-plugin-settings-gioppygio-mono (= git38+51e1415-r0)
+Version: git39+3da750d-r0
+Depends: enigma2-plugin-settings-gioppygio-mono (= git39+3da750d-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 82a2494dd2b721886d40a2790dfab408
+MD5Sum: ddd4bf06bc861a51eeb0ff277825b19d
 Size: 742
-Filename: enigma2-plugin-settings-gioppygio-mono-dev_git38+51e1415-r0_all.ipk
+Filename: enigma2-plugin-settings-gioppygio-mono-dev_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-mono.bb
 Description: GioppyGio enigma2 settings - Development files
  GioppyGio enigma2 settings.  This package contains symbolic links, header
@@ -2516,13 +2516,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-mono.13e.dtt-italia-dbg
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4fa408f5f40e3250e889d610abf4b8a9
-Size: 720
-Filename: enigma2-plugin-settings-gioppygio-mono.13e.dtt-italia-dbg_git38+51e1415-r0_all.ipk
+MD5Sum: f7f876102a35adcc91e78f64d8b8ea9b
+Size: 722
+Filename: enigma2-plugin-settings-gioppygio-mono.13e.dtt-italia-dbg_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-mono.13e.dtt-italia.bb
 Description: GioppyGio enigma2 settings - Debugging files
  GioppyGio enigma2 settings.  This package contains ELF symbols and
@@ -2532,14 +2532,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-mono.13e.dtt-italia-dev
-Version: git38+51e1415-r0
-Depends: enigma2-plugin-settings-gioppygio-mono.13e.dtt-italia (= git38+51e1415-r0)
+Version: git39+3da750d-r0
+Depends: enigma2-plugin-settings-gioppygio-mono.13e.dtt-italia (= git39+3da750d-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 23859a7a10c6a4301aab091d1acd2274
+MD5Sum: 57304ea88ef938ce23df296a47ef8fc4
 Size: 752
-Filename: enigma2-plugin-settings-gioppygio-mono.13e.dtt-italia-dev_git38+51e1415-r0_all.ipk
+Filename: enigma2-plugin-settings-gioppygio-mono.13e.dtt-italia-dev_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-mono.13e.dtt-italia.bb
 Description: GioppyGio enigma2 settings - Development files
  GioppyGio enigma2 settings.  This package contains symbolic links, header
@@ -2549,13 +2549,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-mono.13e.dtt-italia
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e5fa7b081dd5263d6c2e4c79cfee2da0
-Size: 50676
-Filename: enigma2-plugin-settings-gioppygio-mono.13e.dtt-italia_git38+51e1415-r0_all.ipk
+MD5Sum: a4c2558f188e55468f5807dc9a6add55
+Size: 50944
+Filename: enigma2-plugin-settings-gioppygio-mono.13e.dtt-italia_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-mono.13e.dtt-italia.bb
 Description: GioppyGio enigma2 settings
  GioppyGio enigma2 settings.
@@ -2564,13 +2564,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-mono
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 64f9d64e2f1fa9c003b5ed4ec6571f94
-Size: 47600
-Filename: enigma2-plugin-settings-gioppygio-mono_git38+51e1415-r0_all.ipk
+MD5Sum: 802b7c3ca604c1a0f43a37fb2ecc7a51
+Size: 47842
+Filename: enigma2-plugin-settings-gioppygio-mono_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-mono.bb
 Description: GioppyGio enigma2 settings
  GioppyGio enigma2 settings.
@@ -2579,13 +2579,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-motor-dbg
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1938ac1abdd6a4be7474369d8f5a2a2e
-Size: 710
-Filename: enigma2-plugin-settings-gioppygio-motor-dbg_git38+51e1415-r0_all.ipk
+MD5Sum: ac642ed2c2e4af7103c7ea577e82a2eb
+Size: 712
+Filename: enigma2-plugin-settings-gioppygio-motor-dbg_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-motor.bb
 Description: GioppyGio enigma2 settings - Debugging files
  GioppyGio enigma2 settings.  This package contains ELF symbols and
@@ -2595,14 +2595,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-motor-dev
-Version: git38+51e1415-r0
-Depends: enigma2-plugin-settings-gioppygio-motor (= git38+51e1415-r0)
+Version: git39+3da750d-r0
+Depends: enigma2-plugin-settings-gioppygio-motor (= git39+3da750d-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c4676b0447939915c479f63a852a4d8e
+MD5Sum: ae20390d5d4335a3190b8b1c25913671
 Size: 742
-Filename: enigma2-plugin-settings-gioppygio-motor-dev_git38+51e1415-r0_all.ipk
+Filename: enigma2-plugin-settings-gioppygio-motor-dev_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-motor.bb
 Description: GioppyGio enigma2 settings - Development files
  GioppyGio enigma2 settings.  This package contains symbolic links, header
@@ -2612,13 +2612,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-motor.75e.45w.dtt-italia-dbg
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 20326d5a2272d6582ec53a40a191b6f9
+MD5Sum: 23d54d08dad0e4a289a107a6f8f0e43e
 Size: 724
-Filename: enigma2-plugin-settings-gioppygio-motor.75e.45w.dtt-italia-dbg_git38+51e1415-r0_all.ipk
+Filename: enigma2-plugin-settings-gioppygio-motor.75e.45w.dtt-italia-dbg_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-motor.75e.45w.dtt-italia.bb
 Description: GioppyGio enigma2 settings - Debugging files
  GioppyGio enigma2 settings.  This package contains ELF symbols and
@@ -2628,14 +2628,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-motor.75e.45w.dtt-italia-dev
-Version: git38+51e1415-r0
-Depends: enigma2-plugin-settings-gioppygio-motor.75e.45w.dtt-italia (= git38+51e1415-r0)
+Version: git39+3da750d-r0
+Depends: enigma2-plugin-settings-gioppygio-motor.75e.45w.dtt-italia (= git39+3da750d-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 03f1edd456a9cdab18d3ea9e3e4ffd7b
+MD5Sum: 881b82d07e5b7d003e3082889cb1e968
 Size: 756
-Filename: enigma2-plugin-settings-gioppygio-motor.75e.45w.dtt-italia-dev_git38+51e1415-r0_all.ipk
+Filename: enigma2-plugin-settings-gioppygio-motor.75e.45w.dtt-italia-dev_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-motor.75e.45w.dtt-italia.bb
 Description: GioppyGio enigma2 settings - Development files
  GioppyGio enigma2 settings.  This package contains symbolic links, header
@@ -2645,13 +2645,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-motor.75e.45w.dtt-italia
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 746a7baa74e446d05de6e1ebad1f1271
-Size: 365366
-Filename: enigma2-plugin-settings-gioppygio-motor.75e.45w.dtt-italia_git38+51e1415-r0_all.ipk
+MD5Sum: 8f9a42cd65af643d446a6ec7cddf0a69
+Size: 366354
+Filename: enigma2-plugin-settings-gioppygio-motor.75e.45w.dtt-italia_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-motor.75e.45w.dtt-italia.bb
 Description: GioppyGio enigma2 settings
  GioppyGio enigma2 settings.
@@ -2660,13 +2660,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-motor
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 56b2fadb93cf7260ca0bb570849fa784
-Size: 362260
-Filename: enigma2-plugin-settings-gioppygio-motor_git38+51e1415-r0_all.ipk
+MD5Sum: 7977cf10b5fd47fcb99607e05a66e172
+Size: 363298
+Filename: enigma2-plugin-settings-gioppygio-motor_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-motor.bb
 Description: GioppyGio enigma2 settings
  GioppyGio enigma2 settings.
@@ -2675,13 +2675,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-quadri-dbg
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 647a1fd1dd5c88ef68842041b73b7c93
-Size: 714
-Filename: enigma2-plugin-settings-gioppygio-quadri-dbg_git38+51e1415-r0_all.ipk
+MD5Sum: db1532b0f05738037b5aacb901d461ac
+Size: 712
+Filename: enigma2-plugin-settings-gioppygio-quadri-dbg_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-quadri.bb
 Description: GioppyGio enigma2 settings - Debugging files
  GioppyGio enigma2 settings.  This package contains ELF symbols and
@@ -2691,14 +2691,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-quadri-dev
-Version: git38+51e1415-r0
-Depends: enigma2-plugin-settings-gioppygio-quadri (= git38+51e1415-r0)
+Version: git39+3da750d-r0
+Depends: enigma2-plugin-settings-gioppygio-quadri (= git39+3da750d-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e3c9cd90a3b26bcae7917448a1be8a87
+MD5Sum: eb935c961af41c1b5adbbcbc69d08682
 Size: 744
-Filename: enigma2-plugin-settings-gioppygio-quadri-dev_git38+51e1415-r0_all.ipk
+Filename: enigma2-plugin-settings-gioppygio-quadri-dev_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-quadri.bb
 Description: GioppyGio enigma2 settings - Development files
  GioppyGio enigma2 settings.  This package contains symbolic links, header
@@ -2708,13 +2708,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-quadri.13e.19e.9e.5w-dbg
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5adaa24b9e24c88072b6f42ce814c4cf
+MD5Sum: 5ee703c154fe3ed1015c2a3e76f0ffde
 Size: 722
-Filename: enigma2-plugin-settings-gioppygio-quadri.13e.19e.9e.5w-dbg_git38+51e1415-r0_all.ipk
+Filename: enigma2-plugin-settings-gioppygio-quadri.13e.19e.9e.5w-dbg_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-quadri.13e.19e.9e.5w.bb
 Description: GioppyGio enigma2 settings - Debugging files
  GioppyGio enigma2 settings.  This package contains ELF symbols and
@@ -2724,14 +2724,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-quadri.13e.19e.9e.5w-dev
-Version: git38+51e1415-r0
-Depends: enigma2-plugin-settings-gioppygio-quadri.13e.19e.9e.5w (= git38+51e1415-r0)
+Version: git39+3da750d-r0
+Depends: enigma2-plugin-settings-gioppygio-quadri.13e.19e.9e.5w (= git39+3da750d-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 63bf970d54ceea95b897a1c87c1b2a2a
+MD5Sum: c1f9c0cf92cbfa0c696e3107ffe2173e
 Size: 754
-Filename: enigma2-plugin-settings-gioppygio-quadri.13e.19e.9e.5w-dev_git38+51e1415-r0_all.ipk
+Filename: enigma2-plugin-settings-gioppygio-quadri.13e.19e.9e.5w-dev_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-quadri.13e.19e.9e.5w.bb
 Description: GioppyGio enigma2 settings - Development files
  GioppyGio enigma2 settings.  This package contains symbolic links, header
@@ -2741,13 +2741,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-quadri.13e.19e.9e.5w
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 24f19db9ffe2e4ae724724aec4be07e2
-Size: 108168
-Filename: enigma2-plugin-settings-gioppygio-quadri.13e.19e.9e.5w_git38+51e1415-r0_all.ipk
+MD5Sum: 6d49bb8b8cf2e73d6a6ab9713832f3e6
+Size: 108954
+Filename: enigma2-plugin-settings-gioppygio-quadri.13e.19e.9e.5w_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-quadri.13e.19e.9e.5w.bb
 Description: GioppyGio enigma2 settings
  GioppyGio enigma2 settings.
@@ -2756,13 +2756,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-quadri.9e.13e.16e.19e-dbg
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c95af3cfd977a9fedda3d814936b64a5
-Size: 724
-Filename: enigma2-plugin-settings-gioppygio-quadri.9e.13e.16e.19e-dbg_git38+51e1415-r0_all.ipk
+MD5Sum: e7ea6e7aac9300de929d65e06fa48fa1
+Size: 722
+Filename: enigma2-plugin-settings-gioppygio-quadri.9e.13e.16e.19e-dbg_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-quadri.9e.13e.16e.19e.bb
 Description: GioppyGio enigma2 settings - Debugging files
  GioppyGio enigma2 settings.  This package contains ELF symbols and
@@ -2772,14 +2772,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-quadri.9e.13e.16e.19e-dev
-Version: git38+51e1415-r0
-Depends: enigma2-plugin-settings-gioppygio-quadri.9e.13e.16e.19e (= git38+51e1415-r0)
+Version: git39+3da750d-r0
+Depends: enigma2-plugin-settings-gioppygio-quadri.9e.13e.16e.19e (= git39+3da750d-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 263592e103c3cfc79ea0a3240f818589
-Size: 754
-Filename: enigma2-plugin-settings-gioppygio-quadri.9e.13e.16e.19e-dev_git38+51e1415-r0_all.ipk
+MD5Sum: 1ee741fce3879c48ce3f6f9d669e9124
+Size: 756
+Filename: enigma2-plugin-settings-gioppygio-quadri.9e.13e.16e.19e-dev_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-quadri.9e.13e.16e.19e.bb
 Description: GioppyGio enigma2 settings - Development files
  GioppyGio enigma2 settings.  This package contains symbolic links, header
@@ -2789,13 +2789,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-quadri.9e.13e.16e.19e
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a8f093158bb6966fc4d79e734ca5200a
-Size: 116120
-Filename: enigma2-plugin-settings-gioppygio-quadri.9e.13e.16e.19e_git38+51e1415-r0_all.ipk
+MD5Sum: 52f559ea396ea5cc67fbf1bb1e15fcb8
+Size: 116940
+Filename: enigma2-plugin-settings-gioppygio-quadri.9e.13e.16e.19e_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-quadri.9e.13e.16e.19e.bb
 Description: GioppyGio enigma2 settings
  GioppyGio enigma2 settings.
@@ -2804,13 +2804,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-quadri
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 16cfe2ebc96f6e9204e81cdc90e63f70
-Size: 107698
-Filename: enigma2-plugin-settings-gioppygio-quadri_git38+51e1415-r0_all.ipk
+MD5Sum: 9edbedbbfc548436cb16e8ed71789f6e
+Size: 108210
+Filename: enigma2-plugin-settings-gioppygio-quadri_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-quadri.bb
 Description: GioppyGio enigma2 settings
  GioppyGio enigma2 settings.
@@ -2819,13 +2819,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-trial-dbg
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 55711a8546b207c5ca474d7c23e51f9f
-Size: 710
-Filename: enigma2-plugin-settings-gioppygio-trial-dbg_git38+51e1415-r0_all.ipk
+MD5Sum: 518464741fee95cfb06c553b0bd2bed4
+Size: 714
+Filename: enigma2-plugin-settings-gioppygio-trial-dbg_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-trial.bb
 Description: GioppyGio enigma2 settings - Debugging files
  GioppyGio enigma2 settings.  This package contains ELF symbols and
@@ -2835,14 +2835,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-trial-dev
-Version: git38+51e1415-r0
-Depends: enigma2-plugin-settings-gioppygio-trial (= git38+51e1415-r0)
+Version: git39+3da750d-r0
+Depends: enigma2-plugin-settings-gioppygio-trial (= git39+3da750d-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8b7b43719844ee38fe5ffa98f1348010
+MD5Sum: 2ee1c807c33898e9a7794a459a51bcd8
 Size: 742
-Filename: enigma2-plugin-settings-gioppygio-trial-dev_git38+51e1415-r0_all.ipk
+Filename: enigma2-plugin-settings-gioppygio-trial-dev_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-trial.bb
 Description: GioppyGio enigma2 settings - Development files
  GioppyGio enigma2 settings.  This package contains symbolic links, header
@@ -2852,13 +2852,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-trial.13e.19e.30w-dbg
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a2da73000e3951076913414349b10879
+MD5Sum: 6e29788e795b44db8d5539392a7f9401
 Size: 720
-Filename: enigma2-plugin-settings-gioppygio-trial.13e.19e.30w-dbg_git38+51e1415-r0_all.ipk
+Filename: enigma2-plugin-settings-gioppygio-trial.13e.19e.30w-dbg_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-trial.13e.19e.30w.bb
 Description: GioppyGio enigma2 settings - Debugging files
  GioppyGio enigma2 settings.  This package contains ELF symbols and
@@ -2868,14 +2868,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-trial.13e.19e.30w-dev
-Version: git38+51e1415-r0
-Depends: enigma2-plugin-settings-gioppygio-trial.13e.19e.30w (= git38+51e1415-r0)
+Version: git39+3da750d-r0
+Depends: enigma2-plugin-settings-gioppygio-trial.13e.19e.30w (= git39+3da750d-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 56a8a59d4dc7a50bddbdd720b84019b7
-Size: 752
-Filename: enigma2-plugin-settings-gioppygio-trial.13e.19e.30w-dev_git38+51e1415-r0_all.ipk
+MD5Sum: fdd282abfb42c093ffd4b4d465a2d31d
+Size: 754
+Filename: enigma2-plugin-settings-gioppygio-trial.13e.19e.30w-dev_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-trial.13e.19e.30w.bb
 Description: GioppyGio enigma2 settings - Development files
  GioppyGio enigma2 settings.  This package contains symbolic links, header
@@ -2885,13 +2885,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-trial.13e.19e.30w
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2fe0af999ee8b1b6c80406d0e2399c4b
-Size: 88890
-Filename: enigma2-plugin-settings-gioppygio-trial.13e.19e.30w_git38+51e1415-r0_all.ipk
+MD5Sum: e60e1de705dd4b7a9ded1cc7d3d64598
+Size: 89318
+Filename: enigma2-plugin-settings-gioppygio-trial.13e.19e.30w_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-trial.13e.19e.30w.bb
 Description: GioppyGio enigma2 settings
  GioppyGio enigma2 settings.
@@ -2900,13 +2900,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-trial.5w.13e.19e-dbg
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cded7b02895bd20e3256d67f0d9ce1ce
+MD5Sum: 0f19e32a1b56d18481d7388f3d7386f3
 Size: 720
-Filename: enigma2-plugin-settings-gioppygio-trial.5w.13e.19e-dbg_git38+51e1415-r0_all.ipk
+Filename: enigma2-plugin-settings-gioppygio-trial.5w.13e.19e-dbg_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-trial.5w.13e.19e.bb
 Description: GioppyGio enigma2 settings - Debugging files
  GioppyGio enigma2 settings.  This package contains ELF symbols and
@@ -2916,14 +2916,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-trial.5w.13e.19e-dev
-Version: git38+51e1415-r0
-Depends: enigma2-plugin-settings-gioppygio-trial.5w.13e.19e (= git38+51e1415-r0)
+Version: git39+3da750d-r0
+Depends: enigma2-plugin-settings-gioppygio-trial.5w.13e.19e (= git39+3da750d-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7b5d2a5fda667f8c84889037d9ebe61a
+MD5Sum: a9f74580897d5a8e7ec0120648fe1063
 Size: 752
-Filename: enigma2-plugin-settings-gioppygio-trial.5w.13e.19e-dev_git38+51e1415-r0_all.ipk
+Filename: enigma2-plugin-settings-gioppygio-trial.5w.13e.19e-dev_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-trial.5w.13e.19e.bb
 Description: GioppyGio enigma2 settings - Development files
  GioppyGio enigma2 settings.  This package contains symbolic links, header
@@ -2933,13 +2933,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-trial.5w.13e.19e
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1296f6e31ae862fca0412961e277634b
-Size: 91550
-Filename: enigma2-plugin-settings-gioppygio-trial.5w.13e.19e_git38+51e1415-r0_all.ipk
+MD5Sum: 3945f354cfb3e84d77803992233a99d7
+Size: 92016
+Filename: enigma2-plugin-settings-gioppygio-trial.5w.13e.19e_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-trial.5w.13e.19e.bb
 Description: GioppyGio enigma2 settings
  GioppyGio enigma2 settings.
@@ -2948,13 +2948,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-trial.9e.13e.19e-dbg
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a6d222abb3c347b129063183d049b415
-Size: 720
-Filename: enigma2-plugin-settings-gioppygio-trial.9e.13e.19e-dbg_git38+51e1415-r0_all.ipk
+MD5Sum: b529c5f891f532b84f42de22e5d9ffd7
+Size: 718
+Filename: enigma2-plugin-settings-gioppygio-trial.9e.13e.19e-dbg_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-trial.9e.13e.19e.bb
 Description: GioppyGio enigma2 settings - Debugging files
  GioppyGio enigma2 settings.  This package contains ELF symbols and
@@ -2964,14 +2964,14 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-trial.9e.13e.19e-dev
-Version: git38+51e1415-r0
-Depends: enigma2-plugin-settings-gioppygio-trial.9e.13e.19e (= git38+51e1415-r0)
+Version: git39+3da750d-r0
+Depends: enigma2-plugin-settings-gioppygio-trial.9e.13e.19e (= git39+3da750d-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: aa2b8b83c90210c714ae6c17730b9589
-Size: 752
-Filename: enigma2-plugin-settings-gioppygio-trial.9e.13e.19e-dev_git38+51e1415-r0_all.ipk
+MD5Sum: 0cb310f3cfcface807a029638fb1364f
+Size: 750
+Filename: enigma2-plugin-settings-gioppygio-trial.9e.13e.19e-dev_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-trial.9e.13e.19e.bb
 Description: GioppyGio enigma2 settings - Development files
  GioppyGio enigma2 settings.  This package contains symbolic links, header
@@ -2981,13 +2981,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-trial.9e.13e.19e
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9108ab81781d03e09c474f456df690fd
-Size: 96820
-Filename: enigma2-plugin-settings-gioppygio-trial.9e.13e.19e_git38+51e1415-r0_all.ipk
+MD5Sum: f5d66613b393acd44788c29cbe6cbd6d
+Size: 97616
+Filename: enigma2-plugin-settings-gioppygio-trial.9e.13e.19e_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-trial.9e.13e.19e.bb
 Description: GioppyGio enigma2 settings
  GioppyGio enigma2 settings.
@@ -2996,13 +2996,13 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-settings-gioppygio-trial
-Version: git38+51e1415-r0
+Version: git39+3da750d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3baf33a0f1416937945ba131d22ffb13
-Size: 99278
-Filename: enigma2-plugin-settings-gioppygio-trial_git38+51e1415-r0_all.ipk
+MD5Sum: ad5ac728b5a52f278538ac035a14f3bb
+Size: 99796
+Filename: enigma2-plugin-settings-gioppygio-trial_git39+3da750d-r0_all.ipk
 Source: enigma2-plugin-settings-gioppygio-trial.bb
 Description: GioppyGio enigma2 settings
  GioppyGio enigma2 settings.
@@ -5717,7 +5717,7 @@ Version: git70+0c18306-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 860a19658a69399ed1b50a2775c04c67
+MD5Sum: 5fccdd51a6f3a990dafc67e7e951559a
 Size: 746
 Filename: enigma2-plugin-skins-arctic-raed-dbg_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-arctic-raed.bb
@@ -5735,7 +5735,7 @@ Recommends: enigma2-plugin-extensions-openvisionskintools-dev, enigma2-plugin-ex
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cfadab97f3b051381b72f8ce3d49cf00
+MD5Sum: 5fe1cfd7503bb016896ee81f6852738e
 Size: 844
 Filename: enigma2-plugin-skins-arctic-raed-dev_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-arctic-raed.bb
@@ -5753,8 +5753,8 @@ Depends: enigma2-plugin-extensions-openvisionskintools, enigma2-plugin-extension
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b1c363d63da136be89e0431a47dbe5ae
-Size: 5011144
+MD5Sum: a5d31c244bd577d24b325146cbf50330
+Size: 5011146
 Filename: enigma2-plugin-skins-arctic-raed_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-arctic-raed.bb
 Description: Enigma2 Skin Arctic by RAED (fairbird) for Open Vision
@@ -5768,7 +5768,7 @@ Version: git70+0c18306-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8246a6ebbd4bbd7d8b903e0b82037e62
+MD5Sum: cc1db9e4f86afdd9b24433a4849d6663
 Size: 760
 Filename: enigma2-plugin-skins-blacktransfhd-raed-dbg_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-blacktransfhd-raed.bb
@@ -5786,7 +5786,7 @@ Recommends: enigma2-plugin-extensions-openvisionskintools-dev, enigma2-plugin-ex
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5f4143274f4b2609904167c27fe9aed2
+MD5Sum: 18fb6fe70d5fad6ca5725990bcf93831
 Size: 860
 Filename: enigma2-plugin-skins-blacktransfhd-raed-dev_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-blacktransfhd-raed.bb
@@ -5804,8 +5804,8 @@ Depends: enigma2-plugin-extensions-openvisionskintools, enigma2-plugin-extension
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7d615068326747f9343dfc915ed6fa9e
-Size: 3738766
+MD5Sum: e7e77c61bca2c54247fd6159035af89e
+Size: 3738768
 Filename: enigma2-plugin-skins-blacktransfhd-raed_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-blacktransfhd-raed.bb
 Description: Enigma2 Skin BlackTransFULLHD by RAED (fairbird) for Open Vision
@@ -5935,7 +5935,7 @@ Version: git70+0c18306-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cf1e3afccaaf425929b4956b19a7afc4
+MD5Sum: ef611b8e13504eec39a996e45498bbff
 Size: 752
 Filename: enigma2-plugin-skins-mxblack-raed-dbg_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-mxblack-raed.bb
@@ -5953,8 +5953,8 @@ Recommends: enigma2-plugin-extensions-openvisionskintools-dev, enigma2-plugin-ex
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b0de77e4b1a83d829c7ba228ab44afe9
-Size: 850
+MD5Sum: 1edc50e35af4dee857b5d710ec6243ce
+Size: 848
 Filename: enigma2-plugin-skins-mxblack-raed-dev_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-mxblack-raed.bb
 Description: Enigma2 Skin MX_black by RAED (fairbird) for Open Vision - Development files
@@ -5971,8 +5971,8 @@ Depends: enigma2-plugin-extensions-openvisionskintools, enigma2-plugin-extension
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: cac50ab03ac2782c984de71c83f20ae4
-Size: 1475304
+MD5Sum: da20d5ba919d91cf6e54de5a04a68e64
+Size: 1475306
 Filename: enigma2-plugin-skins-mxblack-raed_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-mxblack-raed.bb
 Description: Enigma2 Skin MX_black by RAED (fairbird) for Open Vision
@@ -5981,13 +5981,64 @@ OE: enigma2-plugin-skins-mxblack-raed
 License: GPLv2+
 Priority: required
 
+Package: enigma2-plugin-skins-mxhq9b-raed-dbg
+Version: git70+0c18306-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6df876453ab134a462cff4f42f905ab2
+Size: 754
+Filename: enigma2-plugin-skins-mxhq9b-raed-dbg_git70+0c18306-r0_all.ipk
+Source: enigma2-plugin-skins-mxhq9b-raed.bb
+Description: Enigma2 Skin MX_HQ9B by RAED (fairbird) for Open Vision - Debugging files
+ Modified enigma2 skin for Open Vision by RAED  This package contains ELF
+ symbols and related sources for debugging purposes.
+OE: enigma2-plugin-skins-mxhq9b-raed
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-skins-mxhq9b-raed-dev
+Version: git70+0c18306-r0
+Depends: enigma2-plugin-skins-mxhq9b-raed (= git70+0c18306-r0)
+Recommends: enigma2-plugin-extensions-openvisionskintools-dev, enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-skincomponents-weathercomponent-dev, enigma2-plugin-systemplugins-weathercomponenthandler-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c54a2acae68ce8b7c52e43b2f3c638f0
+Size: 854
+Filename: enigma2-plugin-skins-mxhq9b-raed-dev_git70+0c18306-r0_all.ipk
+Source: enigma2-plugin-skins-mxhq9b-raed.bb
+Description: Enigma2 Skin MX_HQ9B by RAED (fairbird) for Open Vision - Development files
+ Modified enigma2 skin for Open Vision by RAED  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+OE: enigma2-plugin-skins-mxhq9b-raed
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-skins-mxhq9b-raed
+Version: git70+0c18306-r0
+Depends: enigma2-plugin-extensions-openvisionskintools, enigma2-plugin-extensions-weatherplugin, enigma2-plugin-skincomponents-weathercomponent, enigma2-plugin-systemplugins-weathercomponenthandler
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e4eaab1bf1c9202e0493d444b20df77a
+Size: 1613662
+Filename: enigma2-plugin-skins-mxhq9b-raed_git70+0c18306-r0_all.ipk
+Source: enigma2-plugin-skins-mxhq9b-raed.bb
+Description: Enigma2 Skin MX_HQ9B by RAED (fairbird) for Open Vision
+ Modified enigma2 skin for Open Vision by RAED
+OE: enigma2-plugin-skins-mxhq9b-raed
+License: GPLv2+
+Priority: required
+
 Package: enigma2-plugin-skins-octetfhd-dbg
 Version: git507+0fcacd9-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 29c7cf899472f5d4d2d5afbc567f3cf5
-Size: 714
+MD5Sum: 04df29523be58f1580b3e391f366281b
+Size: 712
 Filename: enigma2-plugin-skins-octetfhd-dbg_git507+0fcacd9-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb
 Description: Enigma2 Skin OctEtFHD - Debugging files
@@ -6004,8 +6055,8 @@ Recommends: enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-extensio
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8d32c05bfd8eafd2981756884f2ce874
-Size: 836
+MD5Sum: 085a1b6eeb1a1c935bf5e6bdae8853a0
+Size: 834
 Filename: enigma2-plugin-skins-octetfhd-dev_git507+0fcacd9-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb
 Description: Enigma2 Skin OctEtFHD - Development files
@@ -6021,8 +6072,8 @@ Depends: enigma2-plugin-extensions-weatherplugin, enigma2-plugin-extensions-xtra
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9ab77f4e95ffce7b663901d5a10cf054
-Size: 1433868
+MD5Sum: 19b315f3bcaa51f57ab3639a04b0b632
+Size: 1433870
 Filename: enigma2-plugin-skins-octetfhd_git507+0fcacd9-r0_all.ipk
 Source: enigma2-plugin-skins-octetfhd.bb
 Description: Enigma2 Skin OctEtFHD
@@ -6030,6 +6081,39 @@ Description: Enigma2 Skin OctEtFHD
 OE: enigma2-plugin-skins-octetfhd
 License: GPLv2+
 Priority: required
+
+Package: enigma2-plugin-skins-pli-hd-dbg
+Version: 0.1+git2174+07d93f3-r0
+Section: devel
+Architecture: all
+Maintainer: littlesat
+MD5Sum: 2540c3c0ab95581ed7f4ea3e971e4ebb
+Size: 694
+Filename: enigma2-plugin-skins-pli-hd-dbg_0.1+git2174+07d93f3-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd.bb
+Description: enigma2-plugin-skins-pli-hd version 0.1+gitAUTOINC+07d93f3a73-r0 - Debugging files
+ PLi HD skin  This package contains ELF symbols and related sources for
+ debugging purposes.
+OE: enigma2-plugin-skins-pli-hd
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-pli-hd-dev
+Version: 0.1+git2174+07d93f3-r0
+Depends: enigma2-plugin-skins-pli-hd (= 0.1+git2174+07d93f3-r0)
+Section: devel
+Architecture: all
+Maintainer: littlesat
+MD5Sum: e2d88fac9499043ed42afacf391a44d4
+Size: 728
+Filename: enigma2-plugin-skins-pli-hd-dev_0.1+git2174+07d93f3-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd.bb
+Description: enigma2-plugin-skins-pli-hd version 0.1+gitAUTOINC+07d93f3a73-r0 - Development files
+ PLi HD skin  This package contains symbolic links, header files, and
+ related items necessary for software development.
+OE: enigma2-plugin-skins-pli-hd
+License: Proprietary
+Priority: optional
 
 Package: enigma2-plugin-skins-pli-hd-fullnight-dbg
 Version: 0.1+git107+3c271e8-r0
@@ -6079,13 +6163,79 @@ OE: enigma2-plugin-skins-pli-hd-fullnight
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-skins-pli-hd
+Version: 0.1+git2174+07d93f3-r0
+Section: base
+Architecture: all
+Maintainer: littlesat
+MD5Sum: 21ec074591b17ae599c80c6df13b7ead
+Size: 739502
+Filename: enigma2-plugin-skins-pli-hd_0.1+git2174+07d93f3-r0_all.ipk
+Source: enigma2-plugin-skins-pli-hd.bb
+Description: enigma2-plugin-skins-pli-hd version 0.1+gitAUTOINC+07d93f3a73-r0
+ PLi HD skin
+OE: enigma2-plugin-skins-pli-hd
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skins-turbo-raed-dbg
+Version: git70+0c18306-r0
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4888cf6cc07a9af86de560ec88973cc0
+Size: 744
+Filename: enigma2-plugin-skins-turbo-raed-dbg_git70+0c18306-r0_all.ipk
+Source: enigma2-plugin-skins-turbo-raed.bb
+Description: Enigma2 Skin Turbo by RAED (fairbird) for Open Vision - Debugging files
+ Modified enigma2 skin for Open Vision by RAED  This package contains ELF
+ symbols and related sources for debugging purposes.
+OE: enigma2-plugin-skins-turbo-raed
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-skins-turbo-raed-dev
+Version: git70+0c18306-r0
+Depends: enigma2-plugin-skins-turbo-raed (= git70+0c18306-r0)
+Recommends: enigma2-plugin-extensions-openvisionskintools-dev, enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-skincomponents-weathercomponent-dev, enigma2-plugin-systemplugins-weathercomponenthandler-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 567f35aefc3ed3f54357d1fde829f7b4
+Size: 844
+Filename: enigma2-plugin-skins-turbo-raed-dev_git70+0c18306-r0_all.ipk
+Source: enigma2-plugin-skins-turbo-raed.bb
+Description: Enigma2 Skin Turbo by RAED (fairbird) for Open Vision - Development files
+ Modified enigma2 skin for Open Vision by RAED  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+OE: enigma2-plugin-skins-turbo-raed
+License: GPLv2+
+Priority: required
+
+Package: enigma2-plugin-skins-turbo-raed
+Version: git70+0c18306-r0
+Depends: enigma2-plugin-extensions-openvisionskintools, enigma2-plugin-extensions-weatherplugin, enigma2-plugin-skincomponents-weathercomponent, enigma2-plugin-systemplugins-weathercomponenthandler
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6552ae928e2fc4197f95d16b273ba28d
+Size: 1723368
+Filename: enigma2-plugin-skins-turbo-raed_git70+0c18306-r0_all.ipk
+Source: enigma2-plugin-skins-turbo-raed.bb
+Description: Enigma2 Skin Turbo by RAED (fairbird) for Open Vision
+ Modified enigma2 skin for Open Vision by RAED
+OE: enigma2-plugin-skins-turbo-raed
+License: GPLv2+
+Priority: required
+
 Package: enigma2-plugin-skins-whitetransfhd-raed-dbg
 Version: git70+0c18306-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 16be2a8f9918636f2863e5aaa0b4025c
-Size: 760
+MD5Sum: 6996ab5c4b83335febf6ecb37af8efec
+Size: 762
 Filename: enigma2-plugin-skins-whitetransfhd-raed-dbg_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-whitetransfhd-raed.bb
 Description: Enigma2 Skin WhiteTransFullHD by RAED (fairbird) for Open Vision - Debugging files
@@ -6102,8 +6252,8 @@ Recommends: enigma2-plugin-extensions-openvisionskintools-dev, enigma2-plugin-ex
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 85db8ea4b833d560dc4ddef1902590c7
-Size: 858
+MD5Sum: f5eaddb0b4c328931b4a4e1c87deb4ef
+Size: 860
 Filename: enigma2-plugin-skins-whitetransfhd-raed-dev_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-whitetransfhd-raed.bb
 Description: Enigma2 Skin WhiteTransFullHD by RAED (fairbird) for Open Vision - Development files
@@ -6120,7 +6270,7 @@ Depends: enigma2-plugin-extensions-openvisionskintools, enigma2-plugin-extension
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fc37325cb84b139d88deb59c2fbff2ee
+MD5Sum: aff2dbfe52664a670ef190009ceb8b70
 Size: 3582422
 Filename: enigma2-plugin-skins-whitetransfhd-raed_git70+0c18306-r0_all.ipk
 Source: enigma2-plugin-skins-whitetransfhd-raed.bb
@@ -6131,13 +6281,13 @@ License: GPLv2+
 Priority: required
 
 Package: enigma2-timezones-dbg
-Version: git228+aa44565-r0
+Version: git231+9a8a456-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2567a7e2836cc379faba317266044435
-Size: 694
-Filename: enigma2-timezones-dbg_git228+aa44565-r0_all.ipk
+MD5Sum: b50fc17b95784d6a3c02c5f5788c1530
+Size: 702
+Filename: enigma2-timezones-dbg_git231+9a8a456-r0_all.ipk
 Source: enigma2-timezones.bb
 Description: timezone.xml for enigma2 - Debugging files
  timezone.xml for enigma2.  This package contains ELF symbols and related
@@ -6147,14 +6297,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-timezones-dev
-Version: git228+aa44565-r0
-Depends: enigma2-timezones (= git228+aa44565-r0)
+Version: git231+9a8a456-r0
+Depends: enigma2-timezones (= git231+9a8a456-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bd11b823fc6da6b2db357753d3f7885e
+MD5Sum: 3ae5bb76624ea5b93fed868bfb39df39
 Size: 728
-Filename: enigma2-timezones-dev_git228+aa44565-r0_all.ipk
+Filename: enigma2-timezones-dev_git231+9a8a456-r0_all.ipk
 Source: enigma2-timezones.bb
 Description: timezone.xml for enigma2 - Development files
  timezone.xml for enigma2.  This package contains symbolic links, header
@@ -6164,13 +6314,13 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-timezones
-Version: git228+aa44565-r0
+Version: git231+9a8a456-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ff8db823354f3bb8c5f3270768b90032
-Size: 7096
-Filename: enigma2-timezones_git228+aa44565-r0_all.ipk
+MD5Sum: c1ffedca41a964213da64c3d273e15ce
+Size: 7098
+Filename: enigma2-timezones_git231+9a8a456-r0_all.ipk
 Source: enigma2-timezones.bb
 Description: timezone.xml for enigma2
  timezone.xml for enigma2.
@@ -7044,13 +7194,13 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-atsc-dbg
-Version: git228+aa44565-r0
+Version: git231+9a8a456-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ad93fd4996a074afa53e3aff05d67032
-Size: 704
-Filename: frequency-xml-list-atsc-dbg_git228+aa44565-r0_all.ipk
+MD5Sum: 292de05203616bf83a245a2a2d7d8540
+Size: 706
+Filename: frequency-xml-list-atsc-dbg_git231+9a8a456-r0_all.ipk
 Source: frequency-xml-list-atsc.bb
 Description: atsc.xml for enigma2 - Debugging files
  atsc.xml for enigma2.  This package contains ELF symbols and related
@@ -7060,14 +7210,14 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-atsc-dev
-Version: git228+aa44565-r0
-Depends: frequency-xml-list-atsc (= git228+aa44565-r0)
+Version: git231+9a8a456-r0
+Depends: frequency-xml-list-atsc (= git231+9a8a456-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 834bdfdbda9325b55977fc9f5a2778a9
+MD5Sum: aa37a9e4e2e15a2d8c888551ff7fed19
 Size: 734
-Filename: frequency-xml-list-atsc-dev_git228+aa44565-r0_all.ipk
+Filename: frequency-xml-list-atsc-dev_git231+9a8a456-r0_all.ipk
 Source: frequency-xml-list-atsc.bb
 Description: atsc.xml for enigma2 - Development files
  atsc.xml for enigma2.  This package contains symbolic links, header
@@ -7077,13 +7227,13 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-atsc
-Version: git228+aa44565-r0
+Version: git231+9a8a456-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 65e79f0aad29d0623a1735e8cbe0edfb
+MD5Sum: 0bb7ad57bd00560aca4cc9e3d20c1d58
 Size: 1976
-Filename: frequency-xml-list-atsc_git228+aa44565-r0_all.ipk
+Filename: frequency-xml-list-atsc_git231+9a8a456-r0_all.ipk
 Source: frequency-xml-list-atsc.bb
 Description: atsc.xml for enigma2
  atsc.xml for enigma2.
@@ -7092,13 +7242,13 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-cables-dbg
-Version: git228+aa44565-r0
+Version: git231+9a8a456-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dad723b1975be2b0eca55f99be6c5d25
+MD5Sum: 717db1f99bd008478b2cc8521394e51e
 Size: 706
-Filename: frequency-xml-list-cables-dbg_git228+aa44565-r0_all.ipk
+Filename: frequency-xml-list-cables-dbg_git231+9a8a456-r0_all.ipk
 Source: frequency-xml-list-cables.bb
 Description: cables.xml for enigma2 - Debugging files
  cables.xml for enigma2.  This package contains ELF symbols and related
@@ -7108,14 +7258,14 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-cables-dev
-Version: git228+aa44565-r0
-Depends: frequency-xml-list-cables (= git228+aa44565-r0)
+Version: git231+9a8a456-r0
+Depends: frequency-xml-list-cables (= git231+9a8a456-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ccb03a4b83e368bde5653cd752860d87
-Size: 736
-Filename: frequency-xml-list-cables-dev_git228+aa44565-r0_all.ipk
+MD5Sum: 24c4d4b003f459913dfc01a790792c64
+Size: 738
+Filename: frequency-xml-list-cables-dev_git231+9a8a456-r0_all.ipk
 Source: frequency-xml-list-cables.bb
 Description: cables.xml for enigma2 - Development files
  cables.xml for enigma2.  This package contains symbolic links, header
@@ -7125,13 +7275,13 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-cables
-Version: git228+aa44565-r0
+Version: git231+9a8a456-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c9dd87ddcfeaac49e4fff370e0959d59
-Size: 31812
-Filename: frequency-xml-list-cables_git228+aa44565-r0_all.ipk
+MD5Sum: e7e193caa50ede0ede84d8d0b9a222aa
+Size: 31814
+Filename: frequency-xml-list-cables_git231+9a8a456-r0_all.ipk
 Source: frequency-xml-list-cables.bb
 Description: cables.xml for enigma2
  cables.xml for enigma2.
@@ -7140,13 +7290,13 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-satellites-dbg
-Version: git228+aa44565-r0
+Version: git231+9a8a456-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 302294eb5dcc47701816a006afa72157
-Size: 708
-Filename: frequency-xml-list-satellites-dbg_git228+aa44565-r0_all.ipk
+MD5Sum: 1c75eb127900a1293ecf80ddaa832fc6
+Size: 710
+Filename: frequency-xml-list-satellites-dbg_git231+9a8a456-r0_all.ipk
 Source: frequency-xml-list-satellites.bb
 Description: satellites.xml for enigma2 - Debugging files
  satellites.xml for enigma2.  This package contains ELF symbols and
@@ -7156,14 +7306,14 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-satellites-dev
-Version: git228+aa44565-r0
-Depends: frequency-xml-list-satellites (= git228+aa44565-r0)
+Version: git231+9a8a456-r0
+Depends: frequency-xml-list-satellites (= git231+9a8a456-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2c0024e741e9e4181a8468f4068ff335
-Size: 740
-Filename: frequency-xml-list-satellites-dev_git228+aa44565-r0_all.ipk
+MD5Sum: 5a0dab95d6ced59197e12da26cc33620
+Size: 738
+Filename: frequency-xml-list-satellites-dev_git231+9a8a456-r0_all.ipk
 Source: frequency-xml-list-satellites.bb
 Description: satellites.xml for enigma2 - Development files
  satellites.xml for enigma2.  This package contains symbolic links, header
@@ -7173,13 +7323,13 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-satellites
-Version: git228+aa44565-r0
+Version: git231+9a8a456-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9f1570b34168d06304df3150c813dc81
-Size: 33862
-Filename: frequency-xml-list-satellites_git228+aa44565-r0_all.ipk
+MD5Sum: d87f56e2d1497c1cec237acde45e2576
+Size: 33946
+Filename: frequency-xml-list-satellites_git231+9a8a456-r0_all.ipk
 Source: frequency-xml-list-satellites.bb
 Description: satellites.xml for enigma2
  satellites.xml for enigma2.
@@ -7188,13 +7338,13 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-terrestrial-dbg
-Version: git228+aa44565-r0
+Version: git231+9a8a456-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dc63ca47bcfb59af166ac4c440f556fe
-Size: 702
-Filename: frequency-xml-list-terrestrial-dbg_git228+aa44565-r0_all.ipk
+MD5Sum: 9cc2c97ed4c8400285268b440ad0e5d9
+Size: 708
+Filename: frequency-xml-list-terrestrial-dbg_git231+9a8a456-r0_all.ipk
 Source: frequency-xml-list-terrestrial.bb
 Description: terrestrial.xml for enigma2 - Debugging files
  terrestrial.xml for enigma2.  This package contains ELF symbols and
@@ -7204,14 +7354,14 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-terrestrial-dev
-Version: git228+aa44565-r0
-Depends: frequency-xml-list-terrestrial (= git228+aa44565-r0)
+Version: git231+9a8a456-r0
+Depends: frequency-xml-list-terrestrial (= git231+9a8a456-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4e9d1dedd3262de7cfa8923d69a87123
-Size: 736
-Filename: frequency-xml-list-terrestrial-dev_git228+aa44565-r0_all.ipk
+MD5Sum: ec73d3b4e7c7e2caa2256572d5ae4a40
+Size: 738
+Filename: frequency-xml-list-terrestrial-dev_git231+9a8a456-r0_all.ipk
 Source: frequency-xml-list-terrestrial.bb
 Description: terrestrial.xml for enigma2 - Development files
  terrestrial.xml for enigma2.  This package contains symbolic links,
@@ -7221,13 +7371,13 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-terrestrial
-Version: git228+aa44565-r0
+Version: git231+9a8a456-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c2c22f2c1f4eb253d5da3fc01b7c8617
-Size: 19286
-Filename: frequency-xml-list-terrestrial_git228+aa44565-r0_all.ipk
+MD5Sum: 28962ed48428820f6a37994a8c066c5e
+Size: 19410
+Filename: frequency-xml-list-terrestrial_git231+9a8a456-r0_all.ipk
 Source: frequency-xml-list-terrestrial.bb
 Description: terrestrial.xml for enigma2
  terrestrial.xml for enigma2.
@@ -7236,13 +7386,13 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-unicable-dbg
-Version: git228+aa44565-r0
+Version: git231+9a8a456-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6d842a20c020e93ca5e61a937bbc7da6
-Size: 704
-Filename: frequency-xml-list-unicable-dbg_git228+aa44565-r0_all.ipk
+MD5Sum: 90b79d9b9e89aac6865d28c401bb8f9b
+Size: 708
+Filename: frequency-xml-list-unicable-dbg_git231+9a8a456-r0_all.ipk
 Source: frequency-xml-list-unicable.bb
 Description: unicable.xml for enigma2 - Debugging files
  unicable.xml for enigma2.  This package contains ELF symbols and related
@@ -7252,14 +7402,14 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-unicable-dev
-Version: git228+aa44565-r0
-Depends: frequency-xml-list-unicable (= git228+aa44565-r0)
+Version: git231+9a8a456-r0
+Depends: frequency-xml-list-unicable (= git231+9a8a456-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5837de2ab86de114d5e77669d5ca878f
-Size: 734
-Filename: frequency-xml-list-unicable-dev_git228+aa44565-r0_all.ipk
+MD5Sum: dcf5d432f16f264918eae2390785f232
+Size: 740
+Filename: frequency-xml-list-unicable-dev_git231+9a8a456-r0_all.ipk
 Source: frequency-xml-list-unicable.bb
 Description: unicable.xml for enigma2 - Development files
  unicable.xml for enigma2.  This package contains symbolic links, header
@@ -7269,13 +7419,13 @@ License: GPLv2+
 Priority: optional
 
 Package: frequency-xml-list-unicable
-Version: git228+aa44565-r0
+Version: git231+9a8a456-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 33e4efbee3c15dd9cca337f89a3d8e73
-Size: 4068
-Filename: frequency-xml-list-unicable_git228+aa44565-r0_all.ipk
+MD5Sum: cf98b07239d0787c24c4021249582cdd
+Size: 4070
+Filename: frequency-xml-list-unicable_git231+9a8a456-r0_all.ipk
 Source: frequency-xml-list-unicable.bb
 Description: unicable.xml for enigma2
  unicable.xml for enigma2.
@@ -9689,8 +9839,8 @@ Version: 0.1-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 92a53041557baf73cc4faa4f5ea4024c
-Size: 698
+MD5Sum: 8e1d5462d01c05cef52d5b331a514e41
+Size: 700
 Filename: stslave-fw-dbg_0.1-r0_all.ipk
 Source: stslave-fw_0.1.bb
 Description: stslave-fw version 0.1-r0 - Debugging files
@@ -9706,8 +9856,8 @@ Depends: stslave-fw (= 0.1-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4bfb71ab2535760fbedac9505243ceef
-Size: 724
+MD5Sum: 22be249586476c36efa8908dc4fe3c26
+Size: 726
 Filename: stslave-fw-dev_0.1-r0_all.ipk
 Source: stslave-fw_0.1.bb
 Description: stslave-fw version 0.1-r0 - Development files
@@ -9722,8 +9872,8 @@ Version: 0.1-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a85932852fbb4cdfc904ca8cae165ba6
-Size: 1667806
+MD5Sum: ff7e976d19220c8d815b7cd3540ba497
+Size: 1478480
 Filename: stslave-fw_0.1-r0_all.ipk
 Source: stslave-fw_0.1.bb
 Description: stslave-fw version 0.1-r0
