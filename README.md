@@ -7,12 +7,12 @@ OpenVision 7.6 (Old) Enigma2 feeds for SH4
 
 # Support
 * Forum: https://forum.openvision.tech
-* Report for Bug: https://github.com/OpenVisionE2/openvision-oe/issues
+* Report for Bug: https://forum.openvision.tech/viewtopic.php?f=7&t=823
 
 
 # Download
 * Test Image For Sh4 Receiver:
-* https://app.mediafire.com/si1e1i2q2hwmw
+* https://www.mediafire.com/folder/si1e1i2q2hwmw/OpenVision+image+7.x+by+ghani
 
 
 # Donate
